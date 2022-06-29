@@ -1,12 +1,12 @@
 {
     "talents": [
         {
-            "name": "",
-            "effects": "",
-            "prerequisites": "",
-            "costs": "",
-            "charges": "",
-            "tags": ["", ""]
+            "name": "Apotheosis",
+            "prerequisites": "You are devoted to a god",
+            "charges": "1 charge",
+            "costs": "You lose this talent",
+            "effects": "Gain a new talent",
+            "tags": ["ascenscion", "transformation", "charge"]
         }
     ]
 }
