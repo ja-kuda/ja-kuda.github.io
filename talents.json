@@ -1,12 +1,28 @@
 {
     "talents": [
         {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": []
+        },
+        {
             "name": "Apotheosis",
             "prerequisites": "You are devoted to a god",
             "charges": "1 charge",
             "costs": "You lose this talent",
             "effects": "Gain a new talent",
             "tags": ["ascenscion", "transformation", "charge"]
+        },
+        {
+            "name": "Cleanse",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "Any number of rest dice",
+            "effects": "Spend a number of rest dice to roll insight with +1 die per rest die spent.",
+            "tags": ["ascenscion", "active", "rest dice"]
         }
     ]
 }

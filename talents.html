@@ -2,12 +2,25 @@
 <head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
-<script>
-  $.getJSON('https://ja-kuda.github.io/talents.json', function( data ) {
-    console.log('data:' + data);
-    //do what you want with data
-  });
-</script>
+
+  <body>
+    <script>
+      $.getJSON('https://ja-kuda.github.io/talents.json', function( data ) {
+        console.log(data.talents[0]);
+        console.log(data.talents.length);
+
+        data.talents.forEach(element => {
+          console.log(element.name);
+          console.log(element.prerequisites);
+          console.log(element.charges);
+          console.log(element.costs);
+          console.log(element.effects);
+          console.log(element.tags);
+        });
+      });
+    </script>
+  </body>
+
 
     
 </html>
