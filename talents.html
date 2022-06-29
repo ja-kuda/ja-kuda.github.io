@@ -1,45 +1,13 @@
 <html>
 <head>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
 <script>
-
-    $(function() {
-
-
-   var people = [];
-
-   $.getJSON('https://github.com/ja-kuda/ja-kuda.github.io/blob/main/people.json', function(data) {
-       $.each(data.person, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
-           "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
-           $(tblRow).appendTo("#userdata tbody");
-     });
-
-   });
-
-});
+  $.getJSON('https://github.com/ja-kuda/ja-kuda.github.io/blob/4b9c51b95d73e68c544f1fde140b3afe25c0c846/talents.json', function( data ) {
+    console.log(data);
+    //do what you want with data
+  });
 </script>
-</head>
 
-<body>
-
-<div class="wrapper">
-<div class="profile">
-   <table id= "userdata" border="2">
-  <thead>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email Address</th>
-            <th>City</th>
-        </thead>
-      <tbody>
-
-       </tbody>
-   </table>
-
-</div>
-</div>
-
-</body>
+    
 </html>
