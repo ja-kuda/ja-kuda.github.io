@@ -39,10 +39,15 @@ function resetfilters(){
 
 function filter(checkbox){
     allTalents.talents.forEach(element => {
+        var hasTag = true;
         element.tags.forEach(tag => {
             if(checkbox.id != tag && checkbox.checked == true){
                 //DIV mit id = name von element sichtbar machen / andere unsichtbar machen
+                hasTag = false;
             }
         });
+        if(!hasTag){
+            document.getElementById(element.name).style.visibility = 'hidden';
+        }
     });
 }
