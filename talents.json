@@ -1,12 +1,12 @@
 {
     "talents": [
         {
-            "name": "",
+            "name": "active",
             "prerequisites": "",
             "charges": "",
             "costs": "",
             "effects": "",
-            "tags": []
+            "tags": [""]
         },
         {
             "name": "Apotheosis",
@@ -17,7 +17,7 @@
             "tags": ["ascenscion", "transformation", "charge"]
         },
         {
-            "name": "Cleanse",
+            "name": "active",
             "prerequisites": "",
             "charges": "",
             "costs": "Any number of rest dice",

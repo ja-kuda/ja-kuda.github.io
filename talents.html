@@ -1,26 +1,20 @@
 <html>
-<head>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="talents.js"></script>
+  </head>
+
+  <body onload="loadFile()">
 
 
-  <body>
-    <script>
-      $.getJSON('https://ja-kuda.github.io/talents.json', function( data ) {
-        console.log(data.talents[0]);
-        console.log(data.talents.length);
+    <label id="filterLabel">test</label>
 
-        data.talents.forEach(element => {
-          console.log(element.name);
-          console.log(element.prerequisites);
-          console.log(element.charges);
-          console.log(element.costs);
-          console.log(element.effects);
-          console.log(element.tags);
-        });
-      });
-    </script>
+    <label><input id="active" type="checkbox" onclick="filter(this)" />active</label>
+
+    <div id="setter">
+      Talente gefiltert:
+    </div>
+
+
   </body>
-
-
-    
 </html>
