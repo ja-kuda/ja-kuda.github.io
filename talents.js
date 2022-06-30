@@ -15,18 +15,34 @@ function loadFile(){
         console.log(element.tags);
       });
       allTalents = data;
+      showAllTalents();
     });
+}
+
+
+function showAllTalents(){
+    allTalents.talents.forEach(element => {
+        const newDiv = document.createElement("div");
+        newDiv.setAttribute("id", element.name);
+        const newContent = document.createTextNode("Name: " + element.name);
+        newDiv.appendChild(newContent);
+        const currentDiv = document.getElementById("setter");
+        document.body.insertBefore(newDiv, currentDiv);
+    });
+}
+
+
+function resetfilters(){
+
 }
 
 
 function filter(checkbox){
     allTalents.talents.forEach(element => {
-        if(checkbox.id == element.name){
-            const newDiv = document.createElement("div");
-            const newContent = document.createTextNode(element);
-            newDiv.appendChild(newContent);
-            const currentDiv = document.getElementById("setter");
-            document.body.insertBefore(newDiv, currentDiv);
-        }
+        element.tags.forEach(tag => {
+            if(checkbox.id != tag && checkbox.checked == true){
+                //DIV mit id = name von element sichtbar machen / andere unsichtbar machen
+            }
+        });
     });
 }

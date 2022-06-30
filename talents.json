@@ -1,28 +1,36 @@
 {
     "talents": [
         {
-            "name": "active",
+            "name": "Vitality plus",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "",
-            "tags": [""]
+            "effects": "Increase your HP by +2.",
+            "tags": ["passive, general, HP"]
         },
         {
             "name": "Apotheosis",
             "prerequisites": "You are devoted to a god",
             "charges": "1 charge",
             "costs": "You lose this talent",
-            "effects": "Gain a new talent",
-            "tags": ["ascenscion", "transformation", "charge"]
+            "effects": "Choose a transformation based on your god. You gain an ability fitting that transformation and lose this talent. Talk with your GM about the specifics of your new talent.",
+            "tags": ["ascenscion", "shapeshift"]
         },
         {
-            "name": "active",
+            "name": "Alchemy",
             "prerequisites": "",
             "charges": "",
-            "costs": "Any number of rest dice",
-            "effects": "Spend a number of rest dice to roll insight with +1 die per rest die spent.",
-            "tags": ["ascenscion", "active", "rest dice"]
+            "costs": "",
+            "effects": "You can use alchemy formulas. Create alchemical ingredients by using rest dice the same way you would restore HP. (Roll any number of rest dice and gain the result as ingredients) This talent allows you to learn more specialized alchemy talents.",
+            "tags": ["crafting", "base"]
+        },
+        {
+            "name": "Backstab",
+            "prerequisites": "A light weapon",
+            "charges": "",
+            "costs": "",
+            "effects": "Deal +3 damage when attacking distracted or surprised targets.",
+            "tags": ["combat", "passive"]
         }
     ]
 }
