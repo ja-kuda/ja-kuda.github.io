@@ -52,11 +52,18 @@ function filter(checkbox){
 
     allTalents.talents.forEach(element => {
         var hasTag = false;
-        element.tags.forEach(tag => {
-            if(activeTags.includes(tag) || activeTags.length === 0){
-                hasTag = true;
-            }
-        });
+
+        if(activeTags.length === 0){
+            hasTag = true;
+        }
+        else{
+            activeTags.forEach(activeTag => {
+                if(element.tags.includes(activeTag)){
+                    hasTag = true;
+                }
+            })
+        }
+
         console.log(element.name + " - " + hasTag);
         if(hasTag){
             document.getElementById(element.name).style.display = 'block';
