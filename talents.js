@@ -57,6 +57,7 @@ function filter(checkbox){
                 hasTag = true;
             }
         });
+        console.log(element + " - " + hasTag);
         if(hasTag){
             document.getElementById(element.name).style.display = 'block';
         }
