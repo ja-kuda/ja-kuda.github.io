@@ -1,36 +1,237 @@
 {
     "talents": [
         {
+            "name": "Adrenaline rush",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "Up to 2 rest dice",
+            "effects": "Use up to two rest dice immediately.",
+            "tags": [""]
+        },
+        {
+            "name": "Fast learner",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Whenever you roll a cumulative check, add +1 to each result.",
+            "tags": [""]
+        },
+        {
+            "name": "Levitation",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You can hover above solid ground.",
+            "tags": [""]
+        },
+        {
+            "name": "Loot goblin",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "When you obtain a special item (based on GMs discretion), gain 2 dice to add to any combination of rolls. The dice correspond to the type of dice used in the respective checks.",
+            "tags": [""]
+        },
+        {
+            "name": "Pirates reputation",
+            "prerequisites": "A striking physical feature",
+            "charges": "",
+            "costs": "",
+            "effects": "Choose a striking physical feature like an eyepatch, scars or tattoos. Brandish your chosen feature to immediately gather interest and attention.",
+            "tags": [""]
+        },
+        {
+            "name": "Skill mastery",
+            "prerequisites": "A skill with +4 training, no more than 1 skill with +5 training",
+            "charges": "",
+            "costs": "",
+            "effects": "Choose a skill with +4 training, increase it to +5. You can learn this talent two times.",
+            "tags": [""]
+        },
+        {
+            "name": "Spidersense",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "The GM warns you of surprises but all details are left out.",
+            "tags": [""]
+        },
+        {
+            "name": "Thick hide",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Gain +1 armor while not wearing armor.",
+            "tags": [""]
+        },
+        {
+            "name": "Tremorsense",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You sense vibrations in the earth and do not need your eyes to see, as long as your feet touch the ground.",
+            "tags": [""]
+        },
+        {
+            "name": "Unending",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "If an effect or enemy would finish you while have the dying status, ignore the first time it happens.",
+            "tags": [""]
+        },
+        {
             "name": "Vitality plus",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Increase your HP by +2.",
-            "tags": ["passive, general, HP"]
+            "effects": "Gain +2 HP. You can learn this talent up to 5 times.",
+            "tags": [""]
         },
         {
-            "name": "Apotheosis",
-            "prerequisites": "You are devoted to a god",
-            "charges": "1 charge",
-            "costs": "You lose this talent",
-            "effects": "Choose a transformation based on your god. You gain an ability fitting that transformation and lose this talent. Talk with your GM about the specifics of your new talent.",
-            "tags": ["ascenscion", "shapeshift"]
-        },
-        {
-            "name": "Alchemy",
+            "name": "Armor shred",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can use alchemy formulas. Create alchemical ingredients by using rest dice the same way you would restore HP. (Roll any number of rest dice and gain the result as ingredients) This talent allows you to learn more specialized alchemy talents.",
-            "tags": ["crafting", "base"]
+            "effects": "When hitting an enemy with a melee attack, gain new options: $G$deal only partial damage but reduce the targets armor by 1$G$ | $Y$deal no damage but reduce the targets armor by 1$Y$.",
+            "tags": [""]
         },
         {
             "name": "Backstab",
             "prerequisites": "A light weapon",
             "charges": "",
             "costs": "",
-            "effects": "Deal +3 damage when attacking distracted or surprised targets.",
-            "tags": ["combat", "passive"]
+            "effects": "Deal +3 damage to distracted or surprised targets.",
+            "tags": [""]
+        },
+        {
+            "name": "Battle focus",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "Gain +1 to melee checks and +1 armor as long as you are in battle.",
+            "tags": [""]
+        },
+        {
+            "name": "Bloodbath",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "Bathe in blood to gain 2d6 shielded HP until your next rest.",
+            "tags": [""]
+        },
+        {
+            "name": "Brawler",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Use your full ST for melee checks when fighting unarmed.",
+            "tags": [""]
+        },
+        {
+            "name": "Bring it on",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "While you fight outnumbered, gain +1 armor.",
+            "tags": [""]
+        },
+        {
+            "name": "Bull rush",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Successful attacks knock your target to the ground. Conflicted checks offer a choice of dealing partial damage or no damage but a knockdown.",
+            "tags": [""]
+        },
+        {
+            "name": "Cannonfire",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Gain +2 to ranged combat checks with stationary firearms and cannons.",
+            "tags": [""]
+        },
+        {
+            "name": "Careless fighting",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Gain +2 on your next melee check but gain conflict regardless of the result.",
+            "tags": [""]
+        },
+        {
+            "name": "Charge with me",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "If you enter battle first and ahead of your allies, they gain +1 to all combat checks during battle.",
+            "tags": [""]
+        },
+        {
+            "name": "Constrictor",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You only need to use one hand to restrict or grapple creatures.",
+            "tags": [""]
+        },
+        {
+            "name": "Critical attacks",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "If you roll a 15 or higher on your combat checks, deal +3 damage.",
+            "tags": [""]
+        },
+        {
+            "name": "Dual wield",
+            "prerequisites": "2 light weapons",
+            "charges": "",
+            "costs": "",
+            "effects": "When attacking with two light weapons use only the higher bonus for the combat check but gain the effects of both weapons.",
+            "tags": [""]
+        },
+        {
+            "name": "Ethereal attacks",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Your attacks can hits ethereal beings, like ghosts, wraiths, etc.",
+            "tags": [""]
+        },
+        {
+            "name": "Fair fight",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "While in single combat, gain +1 die to all combat checks.",
+            "tags": [""]
+        },
+        {
+            "name": "Flexible armor",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Reduce any penalty of wearing armor by 1.",
+            "tags": [""]
+        },
+        {
+            "name": "Flying weapon",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You can throw your weapons by rolling a melee combat check.",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
         }
     ]
 }
+
