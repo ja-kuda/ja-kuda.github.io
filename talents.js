@@ -52,17 +52,16 @@ function filter(checkbox){
 
     allTalents.talents.forEach(element => {
         var hasTag = false;
-        console.log(element.tags);
         element.tags.forEach(tag => {
-            console.log(checkbox.id, tag);
-            if(checkbox.id === tag){
-                //DIV mit id = name von element sichtbar machen / andere unsichtbar machen
+            if(activeTags.includes(tag)){
                 hasTag = true;
             }
         });
-        console.log(hasTag);
         if(!hasTag){
             document.getElementById(element.name).style.visibility = 'hidden';
+        }
+        else{
+            document.getElementById(element.name).style.visibility = 'visible';
         }
     });
 }
