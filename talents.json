@@ -46,7 +46,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose a skill with +4 training, increase it to +5. You can learn this talent two times.",
-            "tags": [""]
+            "tags": ["general"]
         },
         {
             "name": "Spidersense",
@@ -62,7 +62,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain +1 armor while not wearing armor.",
-            "tags": [""]
+            "tags": ["general", "combat"]
         },
         {
             "name": "Tremorsense",
@@ -78,7 +78,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "If an effect or enemy would finish you while have the dying status, ignore the first time it happens.",
-            "tags": [""]
+            "tags": ["general", "combat"]
         },
         {
             "name": "Vitality plus",
@@ -86,7 +86,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain +2 HP. You can learn this talent up to 5 times.",
-            "tags": [""]
+            "tags": ["general"]
         },
         {
             "name": "Armor shred",
@@ -94,7 +94,7 @@
             "charges": "",
             "costs": "",
             "effects": "When hitting an enemy with a melee attack, gain new options: G{deal only partial damage but reduce the targets armor by 1} | Y{deal no damage but reduce the targets armor by 1}.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Backstab",
@@ -102,7 +102,7 @@
             "charges": "",
             "costs": "",
             "effects": "Deal +3 damage to distracted or surprised targets.",
-            "tags": [""]
+            "tags": ["combat", "weapons"]
         },
         {
             "name": "Battle focus",
@@ -110,7 +110,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Gain +1 to melee checks and +1 armor as long as you are in battle.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Bloodbath",
@@ -190,7 +190,7 @@
             "charges": "",
             "costs": "",
             "effects": "When attacking with two light weapons use only the higher bonus for the combat check but gain the effects of both weapons.",
-            "tags": [""]
+            "tags": ["combat", "weapons"]
         },
         {
             "name": "Ethereal attacks",
@@ -318,7 +318,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "When you fall to 0 HP, instead fall to 1 HP.",
-            "tags": [""]
+            "tags": ["healing"]
         },
         {
             "name": "Strongarm",
@@ -366,7 +366,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose a weapon type like light, swords, heavy, polearms etc. and gain +1 to combat checks made with the chosen type. You can learn this talent multiple times, but only up to 3 times per weapon type.",
-            "tags": [""]
+            "tags": ["combat", "weapons", "multi"]
         },
         {
             "name": "Arcane spellcasting",

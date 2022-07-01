@@ -61,6 +61,9 @@ function filter(checkbox){
                 if(element.tags.includes(activeTag)){
                     hasTag = true;
                 }
+                else{
+                    hasTag = false;
+                }
             })
         }
 
