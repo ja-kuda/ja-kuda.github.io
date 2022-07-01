@@ -6,7 +6,7 @@
             "charges": "1 charge",
             "costs": "Up to 2 rest dice",
             "effects": "Use up to two rest dice immediately.",
-            "tags": [""]
+            "tags": ["general", "rest dice", "healing"]
         },
         {
             "name": "Fast learner",
@@ -14,7 +14,7 @@
             "charges": "",
             "costs": "",
             "effects": "Whenever you roll a cumulative check, add +1 to each result.",
-            "tags": [""]
+            "tags": ["general"]
         },
         {
             "name": "Levitation",
@@ -22,7 +22,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can hover above solid ground.",
-            "tags": [""]
+            "tags": ["general"]
         },
         {
             "name": "Loot goblin",
@@ -30,7 +30,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you obtain a special item (based on GMs discretion), gain 2 dice to add to any combination of rolls. The dice correspond to the type of dice used in the respective checks.",
-            "tags": [""]
+            "tags": ["dice manipulation", "general"]
         },
         {
             "name": "Pirates reputation",
@@ -93,7 +93,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When hitting an enemy with a melee attack, gain new options: $G$deal only partial damage but reduce the targets armor by 1$G$ | $Y$deal no damage but reduce the targets armor by 1$Y$.",
+            "effects": "When hitting an enemy with a melee attack, gain new options: G{deal only partial damage but reduce the targets armor by 1} | Y{deal no damage but reduce the targets armor by 1}.",
             "tags": [""]
         },
         {
@@ -245,7 +245,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain a new option for melee combat checks: $G$deal only partial damage but instill your target with fear$G$.",
+            "effects": "Gain a new option for melee combat checks: G{deal only partial damage but instill your target with fear}.",
             "tags": [""]
         },
         {
@@ -341,8 +341,8 @@
             "prerequisites": "melee weapon in one hand, firearm in the other hand",
             "charges": "",
             "costs": "",
-            "effects": "When you make a melee combat check against an enemy: $Gdeal your firearms partial damage to any target$G$ | $Y$deal your firearms partial damage to the enemy$Y$.",
-            "tags": [""]
+            "effects": "When you make a melee combat check against an enemy: G{deal your firearms partial damage to any target} | Y{deal your firearms partial damage to the enemy}.",
+            "tags": ["combat"]
         },
         {
             "name": "Ultra heavy",
@@ -350,7 +350,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can use heavy objects like trees, anchors or boulders as heavy weapons.",
-            "tags": [""]
+            "tags": ["combat", "weapons"]
         },
         {
             "name": "Vicious backstab",
@@ -358,7 +358,7 @@
             "charges": "",
             "costs": "",
             "effects": "Increase your backstab damage to +5",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Weapons expertise",
@@ -382,7 +382,7 @@
             "charges": "",
             "costs": "",
             "effects": "Increase an arcane element you control by 1 lvl. Also gain +3 to your maximum arcane threads. You can learn this talent multiple times.",
-            "tags": [""]
+            "tags": ["arcane"]
         },
         {
             "name": "Arcane rituals",
@@ -390,7 +390,7 @@
             "charges": "",
             "costs": "",
             "effects": "You gain access to arcane rituals, allowing you to use ritualistic instructions to create powerful, but slow effects. Make cumulative spellcasting checks when casting rituals.",
-            "tags": [""]
+            "tags": ["arcane"]
         },
         {
             "name": "Elemental exploitation",
@@ -398,7 +398,7 @@
             "charges": "",
             "costs": "A source of an element matching your arcane element when casting a spell",
             "effects": "Consume an amount of an element to increase your next spells intensity by a number of d6s equal to the amount. (Based on GMs discretion)",
-            "tags": [""]
+            "tags": ["arcane"]
         },
         {
             "name": "Static spell creation",
@@ -406,7 +406,7 @@
             "charges": "1 charge per month",
             "costs": "",
             "effects": "You can create static spells with your knowledge of the arcane. Make a cumulative spellcasting check (5 checks, at least 3 successes) to manifest an effect of your choice in the world. You can then learn the static spell with 1 charge.",
-            "tags": [""]
+            "tags": ["arcane", "static"]
         },
         {
             "name": "Command",
@@ -422,7 +422,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "You may ask a person any question and they answer truthfully. After that the person asks you a question and you have to answer truthfully. If you lie, you can never use this talent on the person again.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Identity theft",
@@ -430,7 +430,7 @@
             "charges": "1 charge per week",
             "costs": "50 silver",
             "effects": "You create a copy of a persons identity, including any documents used to prove your identity. This talent does not recharge normally on a rest, but instead after a week in the same city or town.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Impostor",
@@ -438,7 +438,7 @@
             "charges": "",
             "costs": "",
             "effects": "Your disguises are so good, that whenever you disguise yourself, skip the first two checks to determine whether you fool bystanders and your targets.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "In plain sight",
