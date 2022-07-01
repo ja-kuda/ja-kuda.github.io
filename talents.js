@@ -51,17 +51,15 @@ function filter(checkbox){
     console.log(activeTags);
 
     allTalents.talents.forEach(element => {
-        var hasTag = false;
+        var hasTag = true;
 
         if(activeTags.length === 0){
             hasTag = true;
         }
         else{
             activeTags.forEach(activeTag => {
-                if(element.tags.includes(activeTag)){
-                    hasTag = true;
-                }
-                else{
+                console.log(activeTag)
+                if(!element.tags.includes(activeTag)){
                     hasTag = false;
                 }
             })
