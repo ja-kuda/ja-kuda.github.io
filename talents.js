@@ -1,5 +1,6 @@
 
 var allTalents;
+var activeTags = [];
 
 function loadFile(){
     $.getJSON('https://ja-kuda.github.io/talents.json', function( data ) {
@@ -24,7 +25,7 @@ function showAllTalents(){
     allTalents.talents.forEach(element => {
         const newDiv = document.createElement("div");
         newDiv.setAttribute("id", element.name);
-        const newContent = document.createTextNode("Name: " + element.name + " - Effects: " + element.effects);
+        const newContent = document.createTextNode(element.name + " - " + element.effects);
         newDiv.appendChild(newContent);
         const currentDiv = document.getElementById("setter");
         document.body.insertBefore(newDiv, currentDiv);
@@ -38,14 +39,17 @@ function resetfilters(){
 
 
 function filter(checkbox){
-    // alle ohne tag unsichtbar machen
     if(checkbox.checked){
-
+        activeTags.push(checkbox.id);
     }
-    // alle ohne tag wieder sichtbar machen
     else{
-        
+        var index = activeTags.indexOf(checkbox.id);
+        if (index > -1) {
+            activeTags.splice(index, 1);
+        }
     }
+    console.log(activeTags);
+
     allTalents.talents.forEach(element => {
         var hasTag = false;
         console.log(element.tags);
