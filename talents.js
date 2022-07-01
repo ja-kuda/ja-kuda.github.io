@@ -57,11 +57,11 @@ function filter(checkbox){
                 hasTag = true;
             }
         });
-        if(!hasTag){
-            document.getElementById(element.name).style.visibility = 'hidden';
+        if(hasTag){
+            document.getElementById(element.name).style.display = 'block';
         }
         else{
-            document.getElementById(element.name).style.visibility = 'visible';
+            document.getElementById(element.name).style.display = 'none';
         }
     });
 }
