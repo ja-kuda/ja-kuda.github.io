@@ -14,7 +14,7 @@
             "charges": "",
             "costs": "",
             "effects": "Whenever you roll a cumulative check, add +1 to each result.",
-            "tags": ["general"]
+            "tags": ["general", "dice manipulation"]
         },
         {
             "name": "Levitation",
@@ -30,7 +30,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you obtain a special item (based on GMs discretion), gain 2 dice to add to any combination of rolls. The dice correspond to the type of dice used in the respective checks.",
-            "tags": ["dice manipulation", "general"]
+            "tags": [ "general", "dice manipulation"]
         },
         {
             "name": "Pirates reputation",
@@ -38,7 +38,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose a striking physical feature like an eyepatch, scars or tattoos. Brandish your chosen feature to immediately gather interest and attention.",
-            "tags": [""]
+            "tags": ["pirates", "social"]
         },
         {
             "name": "Skill mastery",
@@ -54,7 +54,7 @@
             "charges": "",
             "costs": "",
             "effects": "The GM warns you of surprises but all details are left out.",
-            "tags": [""]
+            "tags": ["general", "mental"]
         },
         {
             "name": "Thick hide",
@@ -62,7 +62,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain +1 armor while not wearing armor.",
-            "tags": ["general", "combat"]
+            "tags": ["general", "combat", "physical"]
         },
         {
             "name": "Tremorsense",
@@ -70,7 +70,7 @@
             "charges": "",
             "costs": "",
             "effects": "You sense vibrations in the earth and do not need your eyes to see, as long as your feet touch the ground.",
-            "tags": [""]
+            "tags": ["general", "mental", "physical"]
         },
         {
             "name": "Unending",
@@ -78,7 +78,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "If an effect or enemy would finish you while have the dying status, ignore the first time it happens.",
-            "tags": ["general", "combat"]
+            "tags": ["general", "combat", "status effect"]
         },
         {
             "name": "Vitality plus",
@@ -102,7 +102,7 @@
             "charges": "",
             "costs": "",
             "effects": "Deal +3 damage to distracted or surprised targets.",
-            "tags": ["combat", "weapons"]
+            "tags": ["combat", "light"]
         },
         {
             "name": "Battle focus",
@@ -118,7 +118,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Bathe in blood to gain 2d6 shielded HP until your next rest.",
-            "tags": [""]
+            "tags": ["healing"]
         },
         {
             "name": "Brawler",
@@ -126,7 +126,7 @@
             "charges": "",
             "costs": "",
             "effects": "Use your full ST for melee checks when fighting unarmed.",
-            "tags": [""]
+            "tags": ["combat", "unarmed"]
         },
         {
             "name": "Bring it on",
@@ -134,7 +134,7 @@
             "charges": "",
             "costs": "",
             "effects": "While you fight outnumbered, gain +1 armor.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Bull rush",
@@ -142,7 +142,7 @@
             "charges": "",
             "costs": "",
             "effects": "Successful attacks knock your target to the ground. Conflicted checks offer a choice of dealing partial damage or no damage but a knockdown.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Cannonfire",
@@ -150,7 +150,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain +2 to ranged combat checks with stationary firearms and cannons.",
-            "tags": [""]
+            "tags": ["firearms", "pirates"]
         },
         {
             "name": "Careless fighting",
@@ -158,7 +158,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain +2 on your next melee check but gain conflict regardless of the result.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Charge with me",
@@ -166,7 +166,7 @@
             "charges": "",
             "costs": "",
             "effects": "If you enter battle first and ahead of your allies, they gain +1 to all combat checks during battle.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Constrictor",
@@ -174,7 +174,7 @@
             "charges": "",
             "costs": "",
             "effects": "You only need to use one hand to restrict or grapple creatures.",
-            "tags": [""]
+            "tags": ["unarmed"]
         },
         {
             "name": "Critical attacks",
@@ -182,7 +182,7 @@
             "charges": "",
             "costs": "",
             "effects": "If you roll a 15 or higher on your combat checks, deal +3 damage.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Dual wield",
@@ -190,7 +190,7 @@
             "charges": "",
             "costs": "",
             "effects": "When attacking with two light weapons use only the higher bonus for the combat check but gain the effects of both weapons.",
-            "tags": ["combat", "weapons"]
+            "tags": ["combat", "weapons", "light"]
         },
         {
             "name": "Ethereal attacks",
@@ -198,7 +198,7 @@
             "charges": "",
             "costs": "",
             "effects": "Your attacks can hits ethereal beings, like ghosts, wraiths, etc.",
-            "tags": [""]
+            "tags": ["combat", "weapons"]
         },
         {
             "name": "Fair fight",
@@ -206,7 +206,7 @@
             "charges": "",
             "costs": "",
             "effects": "While in single combat, gain +1 die to all combat checks.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Flexible armor",
@@ -214,7 +214,7 @@
             "charges": "",
             "costs": "",
             "effects": "Reduce any penalty of wearing armor by 1.",
-            "tags": [""]
+            "tags": ["general"]
         },
         {
             "name": "Flying weapon",
@@ -222,7 +222,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can throw your weapons by rolling a melee combat check.",
-            "tags": [""]
+            "tags": ["combat", "weapons"]
         },
         {
             "name": "From the shadows",
@@ -230,7 +230,7 @@
             "charges": "",
             "costs": "",
             "effects": "Attacking out of hiding does not reveal your position.",
-            "tags": [""]
+            "tags": ["combat", "trickery"]
         },
         {
             "name": "Get down",
@@ -238,7 +238,7 @@
             "charges": "",
             "costs": "",
             "effects": "When an ally in short range of you takes damage, you can take it instead.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Instill fear",
@@ -246,7 +246,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain a new option for melee combat checks: G{deal only partial damage but instill your target with fear}.",
-            "tags": [""]
+            "tags": ["combat", "social"]
         },
         {
             "name": "Lust for revenge",
@@ -254,7 +254,7 @@
             "charges": "",
             "costs": "",
             "effects": "After you take damage, the next time you deal damage to its source, deal +2 damage.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Mark for death",
@@ -262,7 +262,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "After you deal damage to an enemy you can mark them. An ally or yourself can consume the mark to double their damage when they attack the enemy.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Martial arts",
@@ -270,7 +270,7 @@
             "charges": "",
             "costs": "",
             "effects": "Use your full DE instead of ST when fighting unarmed.",
-            "tags": [""]
+            "tags": ["combat", "unarmed"]
         },
         {
             "name": "Parting attack",
@@ -278,7 +278,7 @@
             "charges": "",
             "costs": "",
             "effects": "Taking an action to evade lets you deal 1 damage to your nearest enemy.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Power through",
@@ -286,7 +286,7 @@
             "charges": "3 charges",
             "costs": "",
             "effects": "When you take at least 3 damage, you can instead choose to take 1 damage every time you act until you are treated by a successful medicine check.",
-            "tags": [""]
+            "tags": ["physical"]
         },
         {
             "name": "Reactionary resistance",
@@ -302,7 +302,7 @@
             "charges": "5 charges",
             "costs": "",
             "effects": "When you use a piece of ammunition you can spend a charge of this talent instead of losing ammo and reloading.",
-            "tags": [""]
+            "tags": ["ranged", "firearms"]
         },
         {
             "name": "Revel in pain",
@@ -310,7 +310,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you kill an enemy, gain another action instantly.",
-            "tags": [""]
+            "tags": ["combat"]
         },
         {
             "name": "Still standing",
@@ -326,7 +326,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can wield heavy weapons with only one hand.",
-            "tags": [""]
+            "tags": ["weapons", "heavy"]
         },
         {
             "name": "Suave fighting",
@@ -334,7 +334,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can choose to use your convincing skill instead of a weapons bonus for your combat checks.",
-            "tags": [""]
+            "tags": ["combat", "social", "convincing"]
         },
         {
             "name": "Sword and powder",
@@ -342,7 +342,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you make a melee combat check against an enemy: G{deal your firearms partial damage to any target} | Y{deal your firearms partial damage to the enemy}.",
-            "tags": ["combat"]
+            "tags": ["combat", "weapons", "medium", "firearms", "pirates"]
         },
         {
             "name": "Ultra heavy",
@@ -350,7 +350,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can use heavy objects like trees, anchors or boulders as heavy weapons.",
-            "tags": ["combat", "weapons"]
+            "tags": ["combat", "weapons", "heavy"]
         },
         {
             "name": "Vicious backstab",
@@ -358,7 +358,7 @@
             "charges": "",
             "costs": "",
             "effects": "Increase your backstab damage to +5",
-            "tags": ["combat"]
+            "tags": ["combat", "weapons", "light"]
         },
         {
             "name": "Weapons expertise",
@@ -374,7 +374,7 @@
             "charges": "",
             "costs": "",
             "effects": "You gain the ability to create arcane effects and cast spells. (See the magic chapter for details) You gain a maximum of 5 arcane threads and can choose 1 of the arcane elements at lvl 1.",
-            "tags": [""]
+            "tags": ["magic", "arcane"]
         },
         {
             "name": "Increase element",
@@ -382,7 +382,7 @@
             "charges": "",
             "costs": "",
             "effects": "Increase an arcane element you control by 1 lvl. Also gain +3 to your maximum arcane threads. You can learn this talent multiple times.",
-            "tags": ["arcane"]
+            "tags": ["magic", "arcane"]
         },
         {
             "name": "Arcane rituals",
@@ -390,7 +390,7 @@
             "charges": "",
             "costs": "",
             "effects": "You gain access to arcane rituals, allowing you to use ritualistic instructions to create powerful, but slow effects. Make cumulative spellcasting checks when casting rituals.",
-            "tags": ["arcane"]
+            "tags": ["magic", "arcane"]
         },
         {
             "name": "Elemental exploitation",
@@ -398,7 +398,7 @@
             "charges": "",
             "costs": "A source of an element matching your arcane element when casting a spell",
             "effects": "Consume an amount of an element to increase your next spells intensity by a number of d6s equal to the amount. (Based on GMs discretion)",
-            "tags": ["arcane"]
+            "tags": ["magic", "arcane"]
         },
         {
             "name": "Static spell creation",
@@ -406,7 +406,7 @@
             "charges": "1 charge per month",
             "costs": "",
             "effects": "You can create static spells with your knowledge of the arcane. Make a cumulative spellcasting check (5 checks, at least 3 successes) to manifest an effect of your choice in the world. You can then learn the static spell with 1 charge.",
-            "tags": ["arcane", "static"]
+            "tags": ["magic", "arcane", "static"]
         },
         {
             "name": "Command",
@@ -414,7 +414,7 @@
             "charges": "5 charges",
             "costs": "",
             "effects": "Give an ally a command. If the ally tries to follow it with their next action, they gain +1 die for the associated check.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Honest exchange",
@@ -462,7 +462,7 @@
             "charges": "",
             "costs": "any number of rest dice",
             "effects": "You inspire and motivate your allies. Roll any number of rest dice and give yourself and your allies shielded HP equal to the result.",
-            "tags": [""]
+            "tags": ["healing", "rest dice", "social"]
         },
         {
             "name": "Parley",
@@ -550,7 +550,7 @@
             "charges": "",
             "costs": "",
             "effects": "When rolling checks to intimidate, you may use ST instead of CH.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Network",
@@ -558,7 +558,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Roll a convincing check to set up a secret meeting with a contact: The contact will be  G: trustworthy | Y: dubious | R: fraudulent.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Upsell",
@@ -566,7 +566,7 @@
             "charges": "1 charge per merchant and day",
             "costs": "",
             "effects": "Sell an item for double the price.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Yarnspinning",
@@ -574,7 +574,7 @@
             "charges": "",
             "costs": "",
             "effects": "Roll a convincing check to captivate an audience with tall tales of your exploits: G: The audience believes you | Y: The audience listens to you.",
-            "tags": [""]
+            "tags": ["social", "convincing", "pirates"]
         },
         {
             "name": "Arcane affinity",
@@ -582,7 +582,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can roll an insight check to check your surroundings for traces of arcane magic: G: You gain the location and numbers of arcane sources in the vicinity | Y: You learn if there are arcane sources in the vicinity.",
-            "tags": [""]
+            "tags": ["arcane", "mental", "insight"]
         },
         {
             "name": "Emotional insight",
@@ -590,7 +590,7 @@
             "charges": "",
             "costs": "",
             "effects": "When successfully trying to determine lies you also gain a single word as to why the person you are talking to might lie, such as love, revenge, family, etc..",
-            "tags": [""]
+            "tags": ["social", "insight"]
         },
         {
             "name": "Spot weakness",
@@ -598,7 +598,7 @@
             "charges": "",
             "costs": "",
             "effects": "Roll an insight check to reveal a characters weakness: G: You also learn how to best exploit it.",
-            "tags": [""]
+            "tags": ["social", "insight", "combat"]
         },
         {
             "name": "Torturer",
@@ -606,7 +606,7 @@
             "charges": "1 charge per target",
             "costs": "",
             "effects": "When questioning a prisoner, choose a number between 1 and 10 and roll 1d10 for the prisoner. The higher the number, the more information you will gain, but if the roll is lower than your number, the prisoner falls unconscious, takes lasting damage or dies.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Copycat",
@@ -614,7 +614,7 @@
             "charges": "",
             "costs": "",
             "effects": "Roll a performance check to mimic any sound you heard before: the sound is  G: indistinguishable | Y: suspicious | R: noticable.",
-            "tags": [""]
+            "tags": ["social", "performance"]
         },
         {
             "name": "Impressive",
@@ -622,7 +622,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you succeed on a performance check, choose one witness to impress and gain +1 die for any check that targets the witness until you leave the area.",
-            "tags": [""]
+            "tags": ["social", "performance"]
         },
         {
             "name": "Infectious laughter",
@@ -630,7 +630,7 @@
             "charges": "3 charges",
             "costs": "",
             "effects": "Roll a performance check to make your audience laugh G: so hard, they fall to the ground laughing",
-            "tags": [""]
+            "tags": ["social", "performance"]
         },
         {
             "name": "Detective",
@@ -638,7 +638,7 @@
             "charges": "",
             "costs": "",
             "effects": "Whenever you enter a room you have not been in yet, you gain information about one unusual thing that stands out, if there are any.",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "False thoughts",
@@ -646,7 +646,7 @@
             "charges": "",
             "costs": "",
             "effects": "You are immune to your mind being read, you even can present fake thoughts if your mind is being read.",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "Iron will",
@@ -654,7 +654,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you are the target of mind effects you can instead take 2 (weak effect) or 4 (strong effect) damage and ignore the effect.",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "Living compass",
@@ -662,7 +662,7 @@
             "charges": "",
             "costs": "",
             "effects": "You always know the cardinal directions and the way you have been traveled.",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "Telepath",
@@ -670,7 +670,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can telepathically communicate with creatures in your medium vicinity.",
-            "tags": [""]
+            "tags": ["mental", "social"]
         },
         {
             "name": "Unerring eyes",
@@ -678,7 +678,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain +1 die on any check to see through illusions. On a success you also G: get to ask a question about the nature of the illusion.",
-            "tags": [""]
+            "tags": ["mental", "magic"]
         },
         {
             "name": "Universal translator",
@@ -686,7 +686,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can understand every language but do not speak or write it.",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "Eye for loot",
@@ -694,7 +694,7 @@
             "charges": "",
             "costs": "",
             "effects": "When inspecting an item, roll a lore check to ask the GM G: 2 | Y: 1 questions about the item directly.",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "Size up foes",
@@ -702,7 +702,7 @@
             "charges": "3 charges",
             "costs": "",
             "effects": "Analyze a creature and gain information about one of the following things: strength, wealth, intelligence, relationship to you",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "Battle medic",
@@ -710,7 +710,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can use any medicine and healer talents while in combat or during stressful situations with -1 die on potential checks.",
-            "tags": [""]
+            "tags": ["mental", "medicine"]
         },
         {
             "name": "Feldsher",
@@ -718,7 +718,7 @@
             "charges": "",
             "costs": "Charge of a healers kit",
             "effects": "Roll a medicine check to patch up allies: G: Heal 3 HP | Y: Heal 1 HP.",
-            "tags": [""]
+            "tags": ["mental", "medicine", "healing"]
         },
         {
             "name": "Fortifying treatment",
@@ -726,7 +726,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Choose an ally during rest, they gain double healing from using their rest dice.",
-            "tags": [""]
+            "tags": ["mental", "medicine", "healing", "rest"]
         },
         {
             "name": "Surgeon",
@@ -734,7 +734,7 @@
             "charges": "",
             "costs": "",
             "effects": "Roll a medicine check with -1 die to heal the severely wounded: G: You may reattach or repair a body part | Y: You close wounds and mend bodyparts | R: You deal 3 damage.",
-            "tags": [""]
+            "tags": ["mental", "medicine", "healing"]
         },
         {
             "name": "Treat wounds",
@@ -742,7 +742,7 @@
             "charges": "",
             "costs": "1 rest die",
             "effects": "Roll a medicine check to take your time to heal an ally for G: 2d6 | Y: 2d4 | R: 1 HP.\\",
-            "tags": [""]
+            "tags": ["mental", "medicine", "healing"]
         },
         {
             "name": "Looking for rarities",
@@ -750,7 +750,7 @@
             "charges": "1 charge per week per market",
             "costs": "",
             "effects": "Roll a vigilance check to search the market for a specific item: You find G{an exact version} | Y{a lesser version} of the item.",
-            "tags": [""]
+            "tags": ["mental", "vigilance"]
         },
         {
             "name": "Sharp senses",
@@ -1166,6 +1166,70 @@
             "charges": "",
             "costs": "1+ rest dice",
             "effects": "You can make cumulative checks to weave a fantastical tale. Spend a rest die to make one check. There is no limit to the number of checks you can make, but if you gain 3 failures, your progress is reset. The more successes you accumulate, the more real your story becomes.",
+            "tags": [""]
+        },
+        {
+            "name": "Antibodies",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Reduce damage from poisons by 2 and gain +1 die on checks made to withstand or shrug off poisons.",
+            "tags": [""]
+        },
+        {
+            "name": "Connoisseur",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "When ingesting food, drink, potions and poisons, roll 1d4: On a 1 receive no effect from it, on a 4 double the effects.",
+            "tags": [""]
+        },
+        {
+            "name": "Early bird",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "You ignore an instance of fatigue.",
+            "tags": [""]
+        },
+        {
+            "name": "Poison immunity",
+            "prerequisites": "Antibodies",
+            "charges": "",
+            "costs": "",
+            "effects": "You become immune to all poisons.",
+            "tags": [""]
+        },
+        {
+            "name": "Hard noggin",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You are immune to the effects of being drunk.",
+            "tags": [""]
+        },
+        {
+            "name": "Drunkards armor",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "While you are drunk, gain +1 armor against normal damage.",
+            "tags": [""]
+        },
+        {
+            "name": "Shrug it off",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "When you gain a status effect you can choose to attack the nearest target with amelee combat check: G{End the effect} | Y{Suspend the effect until after your next action}.",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
             "tags": [""]
         }
     ]
