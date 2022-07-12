@@ -1225,6 +1225,126 @@
             "tags": [""]
         },
         {
+            "name": "Animal companion",
+            "prerequisites": "At least +3 in either survival or convincing",
+            "charges": "",
+            "costs": "",
+            "effects": "Gain a small or medium creature as your companion. The creature has 3 HP and is an animal.",
+            "tags": [""]
+        },
+        {
+            "name": "Beastmaster",
+            "prerequisites": "Animal companion",
+            "charges": "",
+            "costs": "",
+            "effects": "You are able to control stronger companions. Your companion gains stats of their own: Distribute 1, 2, 3 for the following attributes: ST, DE, WI. The companions HP are 2x ST.",
+            "tags": [""]
+        },
+        {
+            "name": "Special training",
+            "prerequisites": "Beastmaster",
+            "charges": "",
+            "costs": "",
+            "effects": "You can train your companion in more complex moves and abilities. Choose up to 4 moves from the companion moves list to train your companion in.",
+            "tags": [""]
+        },
+        {
+            "name": "Animal speech",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You gain the ability to talk to animals.",
+            "tags": [""]
+        },
+        {
+            "name": "Shared consciousness",
+            "prerequisites": "Animal companion",
+            "charges": "",
+            "costs": "",
+            "effects": "You can take control of your companion and see, feel and hear thorugh them while your body enters a trance like state of vulnerability.",
+            "tags": [""]
+        },
+        {
+            "name": "Magical conduit",
+            "prerequisites": "Animal companion, any talent that allows the casting of spells",
+            "charges": "",
+            "costs": "",
+            "effects": "You can use your companion as origin of your spell effects.",
+            "tags": [""]
+        },
+        {
+            "name": "Hmaster cheeks",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You can store up to 4 small items in your mouth.",
+            "tags": [""]
+        },
+        {
+            "name": "Copy cat",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You can change your looks to that of another person, excluding their clothes.",
+            "tags": [""]
+        },
+        {
+            "name": "Shapeshift",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "You can shapeshift into small creatures of a chosen type: animal, plant, dragon, anomaly, elemental, fey, demon. Gain +1 to either ST or DE. While in this form you have 5 HP.",
+            "tags": [""]
+        },
+        {
+            "name": "Shapeshift 2",
+            "prerequisites": "Shapeshift",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "You can shapeshift into medium or large creatures of your chosen type. Distribute +3 to either ST or DE. Your HP become 15 while in this form.",
+            "tags": [""]
+        },
+        {
+            "name": "Shapeshift 3",
+            "prerequisites": "Shapeshift 2",
+            "charges": "2 charges",
+            "costs": "1 rest die",
+            "effects": "You can shapeshift into huge creatures of your chosen type. Distribute +5 to either ST or DE. Your HP become 25 while in this form.",
+            "tags": [""]
+        },
+        {
+            "name": "Electrical conduit",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "While you are wet, you attract lightning and electricity.",
+            "tags": [""]
+        },
+        {
+            "name": "Running hot",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "While you are burning, you move with incredible speed, doubling the distance you can run in a given timeframe.",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
             "name": "",
             "prerequisites": "",
             "charges": "",

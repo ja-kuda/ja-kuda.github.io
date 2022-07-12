@@ -3,7 +3,7 @@ var allTalents;
 var activeTags = [];
 
 function loadFile(){
-    $.getJSON('https://ja-kuda.github.io/talents.json', function( data ) {
+    $.getJSON('talents.json', function( data ) {
       console.log(data.talents[0]);
       console.log(data.talents.length);
 
@@ -64,8 +64,6 @@ function filter(checkbox){
                 }
             })
         }
-
-        console.log(element.name + " - " + hasTag);
         if(hasTag){
             document.getElementById(element.name).style.display = 'block';
         }
