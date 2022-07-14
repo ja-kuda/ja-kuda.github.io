@@ -446,7 +446,7 @@
             "charges": "",
             "costs": "",
             "effects": "You become so unobtrusive and nondescript, that only those who specifically search for you, can find you. Any person that witnesses you, will forget you after a short while unless you interact directly with them for a longer period of time.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Lasting impression",
@@ -454,7 +454,7 @@
             "charges": "",
             "costs": "",
             "effects": "After interacting with a person for a short time, gain +1 to all checks relating to that person from now on. This effect is only active on the last person you interacted with.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Motivational speaker",
@@ -470,7 +470,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "You force a creature to parley with you, even if they are hostile or otherwise would not talk to you.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Silver tongue",
@@ -478,7 +478,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "When haggling, roll 1d20 and use the result in place of silver coins.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Ventriloquist",
@@ -486,7 +486,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can create sounds without moving your lips and make it seem like they originate from any point in medium range around you.",
-            "tags": [""]
+            "tags": ["social"]
         },
         {
             "name": "Breaking affront",
@@ -494,15 +494,15 @@
             "charges": "3 charges",
             "costs": "",
             "effects": "Roll a convincing check against a target to confuse it and $G$gain +1 die for your next check against them$G$ | $G$break their concentration and make them lose their next action$G$ | $Y$gain +1 to your next check against them$Y$.",
-            "tags": [""]
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Challenge",
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll a convincing check to challenge all enemies around you: $G$All enemies will focus you$G$ | $Y$weak and foolish enemies will focus you$Y$ | $Y$all enemies will focus you but deal +1 damage each when they attack$Y$.",
-            "tags": [""]
+            "effects": "Roll a convincing check to challenge enemies around you: G{All enemies will focus you} | Y{One enemy will focus you} | Y{All enemies will focus you but deal +1 damage each when they attack}.",
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Compulsive liar",
@@ -510,7 +510,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you roll a successful convincing check to lie you gain a stacking +1. The bonus is lost when you use a convincing check to tell the truth.",
-            "tags": [""]
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Creative threats",
@@ -518,7 +518,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you roll convincing checks to intimidate someone, you may add a second skill, based on your threats and intimidation tactics to the check.",
-            "tags": [""]
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Death glare",
@@ -526,7 +526,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "Roll a convincing check against a single target to stare them down: G:The target falls unconscious | Y:The target tries to escape from you | Y: The target takes 1 damage | R: The target attacks you in rage.",
-            "tags": [""]
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Deja vu",
@@ -534,7 +534,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "Roll a convincing check to force a creature to repeat their last move G: exactly the same, regardless of the circumstances | Y: roughly the same, based on the current situation.",
-            "tags": [""]
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Foulmouth",
@@ -542,7 +542,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "Roll a convincing check in front of a crowd, the audience is disgusted by your words and stops what they were doing G: until you leave | Y: momentarily",
-            "tags": [""]
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Intimidating presence",
@@ -558,7 +558,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Roll a convincing check to set up a secret meeting with a contact: The contact will be  G: trustworthy | Y: dubious | R: fraudulent.",
-            "tags": ["social"]
+            "tags": ["social", "convincing"]
         },
         {
             "name": "Upsell",
@@ -758,7 +758,7 @@
             "charges": "",
             "costs": "",
             "effects": "Checks that rely on smelling and hearing are made with +1 die.",
-            "tags": [""]
+            "tags": ["mental"]
         },
         {
             "name": "Chosen prey",
@@ -766,7 +766,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Choose a creature type or specific creature during rest. You gain +1 for all checks relating to or against that creature.",
-            "tags": [""]
+            "tags": ["physical", "mental"]
         },
         {
             "name": "Handy pocket",
@@ -774,7 +774,7 @@
             "charges": "",
             "costs": "",
             "effects": "As long as you have a free hand, you can keep a small item in it at all times unseen.",
-            "tags": [""]
+            "tags": ["physical", "trickery"]
         },
         {
             "name": "Pack mule",
@@ -782,7 +782,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can carry a lot more weight, without being weighed down.",
-            "tags": [""]
+            "tags": ["physical"]
         },
         {
             "name": "Sticky feet",
@@ -790,7 +790,7 @@
             "charges": "",
             "costs": "",
             "effects": "You stick to walls and ceilings.",
-            "tags": [""]
+            "tags": ["physical"]
         },
         {
             "name": "Swashbuckle",
@@ -798,7 +798,7 @@
             "charges": "",
             "costs": "",
             "effects": "You gain +1 to all actions that are acrobatic and daring.",
-            "tags": [""]
+            "tags": ["physical", "pirates"]
         },
         {
             "name": "Gotta go fast",
@@ -806,7 +806,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain -1 die on an agility check to be unbelievably fast and gain another action instantly.",
-            "tags": [""]
+            "tags": ["physical", "agility"]
         },
         {
             "name": "Parkour",
@@ -814,7 +814,7 @@
             "charges": "",
             "costs": "",
             "effects": "You do not need to roll checks to climb or run along walls and other obstacles. Climbing checks can also be ignored if the distance you want to cover is short enough.",
-            "tags": [""]
+            "tags": ["physical", "agility"]
         },
         {
             "name": "Armor damper",
@@ -822,7 +822,7 @@
             "charges": "",
             "costs": "",
             "effects": "Your trickery checks ignore any potential negatives from wearing armor.",
-            "tags": [""]
+            "tags": ["general"]
         },
         {
             "name": "Group stealth",
@@ -830,7 +830,7 @@
             "charges": "",
             "costs": "",
             "effects": "Your allies can choose to use your trickery rolls for stealth and hiding when you move as a group.",
-            "tags": [""]
+            "tags": ["physical", "trickery"]
         },
         {
             "name": "Lockpicking savant",
@@ -838,7 +838,7 @@
             "charges": "",
             "costs": "1 lockpick",
             "effects": "Roll a trickery check to pick a lock: G{open the lock} | G{open the lock quickly but lose the lockpick} | Y{open the lock, but lose the lockpick} | Y{open the lock, but leave marks} | Y{open the lock slowly} | R{jam the lock}.",
-            "tags": [""]
+            "tags": ["physical", "trickery"]
         },
         {
             "name": "Must be the wind",
@@ -846,7 +846,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your original check result. If the result would be successful now, remain hidden.",
-            "tags": [""]
+            "tags": ["physical", "trickery"]
         },
         {
             "name": "Shadow stalker",
@@ -854,7 +854,7 @@
             "charges": "",
             "costs": "",
             "effects": "Standing in the shadows adds +1 die to all trickery checks.",
-            "tags": [""]
+            "tags": ["physical", "trickery"]
         },
         {
             "name": "Camouflage",
@@ -862,15 +862,15 @@
             "charges": "",
             "costs": "",
             "effects": "You may use survival instead of trickery for hiding. If you take a medium time, you can create a hideout that lets you skip the checks altogether.",
-            "tags": [""]
+            "tags": ["physical", "trickery", "survival"]
         },
         {
             "name": "Expert tracker",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you successfully roll survival to track a creature, also G{gain knowledge of the specific creature from the GM}.",
-            "tags": [""]
+            "effects": "When you roll survival checks to track a creatur: G{gain knowledge of the specific creature from the GM}.",
+            "tags": ["physical", "survival"]
         },
         {
             "name": "Tracking mark",
@@ -878,7 +878,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Roll a survival check to mark a creature: G{until you mark another creature} | Y{for a medium duraion}. You can follow a thin trail to the marked creature at all times.",
-            "tags": [""]
+            "tags": ["physical", "survival"]
         },
         {
             "name": "Trapper",
@@ -886,7 +886,7 @@
             "charges": "",
             "costs": "",
             "effects": "Setting up traps takes you only a short time and most animals will not be able to find your traps.",
-            "tags": [""]
+            "tags": ["physical", "survival"]
         },
         {
             "name": "Alchemy",
@@ -894,7 +894,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can use alchemy formulas. Create alchemical ingredients by using rest dice the same way you would restore HP. (Roll any number of rest dice and gain the result as ingredients) This talent allows you to learn more specialized alchemy talents.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Bomber",
@@ -902,7 +902,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Gain +1 die when creating explosives and bombs. Once per rest you can create a basic bomb without spending ingredients.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Purest form",
@@ -910,7 +910,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose an alchemy formula. You learn the chosen formula by heart and can craft it once per rest without rolling a check or spending ingredients.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Quick alchemy",
@@ -918,7 +918,7 @@
             "charges": "",
             "costs": "",
             "effects": "Instead of taking your time, you can create alchemy formulas as an action and during stressful situations.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Brewer",
@@ -926,7 +926,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can use brewing recipes. Gather brewing ingredients by spending half a day and roll a survival check to gather the result as ingredients. This talent allows you to learn more specialized brewer talents.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Infusion",
@@ -934,7 +934,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose a brewer recipe to infuse your body with. You become immune to the effects and your body produces small amounts of it over time.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Moonshiner",
@@ -942,7 +942,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Gain +1 die when creating alcohol and drugs. Once per rest you can create a jug of strong alchohol without spending ingredients.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Overload",
@@ -950,7 +950,7 @@
             "charges": "",
             "costs": "",
             "effects": "When crafting potions and other brewer recipes, you can combine 2 recipes into one potion or poison.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Spell absorption",
@@ -958,7 +958,7 @@
             "charges": "2 charges",
             "costs": "5 natural ingredients",
             "effects": "When you are hit by a spell or an arcane effect, you can spend 5 ingredients to bottle a copy of the effect as a potion. When using the potion, roll a crafting check: R:{It explodes with the bottled effect.}",
-            "tags": [""]
+            "tags": ["crafting", "magic", "arcane"]
         },
         {
             "name": "Splash potions",
@@ -966,7 +966,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you create a brewing recipe, you can spend 1 more ingredient to make the potion or poison throwable, working its effect wherever it lands.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Mutationist",
@@ -974,7 +974,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can use mutation genecasts. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse and gain 1/2/3/4/5 special ingredients based on its size.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Stable concoctions",
@@ -982,7 +982,7 @@
             "charges": "",
             "costs": "",
             "effects": "You stabilize your mutations to inject them into others.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Stitched together",
@@ -990,7 +990,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can activate up to 3 mutations at the same time in the same body.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Swift extraction",
@@ -998,7 +998,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you deal damage to a creature you can make a crafting check with your weapons bonus G{to harvest 1 special ingredient}.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Craftology",
@@ -1006,7 +1006,7 @@
             "charges": "1 charge",
             "costs": "any 3 ingredients",
             "effects": "Roll a crafting check. You can use it in place of any other check until your next rest.",
-            "tags": [""]
+            "tags": ["crafting", "dice manipulation"]
         },
         {
             "name": "Honed nose",
@@ -1014,7 +1014,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can roll a crafting check to identify food and drink: You gain information about G{poisons, drugs etc.} | Y{tampering}.",
-            "tags": [""]
+            "tags": ["crafting"]
         },
         {
             "name": "Heavy sleeper",
@@ -1022,7 +1022,7 @@
             "charges": "",
             "costs": "",
             "effects": "Automatically remove either fatigue or stress during each rest.",
-            "tags": [""]
+            "tags": ["rest", "status effect"]
         },
         {
             "name": "Night owl",
@@ -1030,7 +1030,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain +1 rest die each rest.",
-            "tags": [""]
+            "tags": ["rest dice", "rest"]
         },
         {
             "name": "Apotheosis",
@@ -1038,7 +1038,7 @@
             "charges": "1 charge, does not recharge",
             "costs": "You lose this talent",
             "effects": "Gain a permanent feature based on your chosen god and a talent fitting for that feature. Talk with your GM to work out the details.",
-            "tags": [""]
+            "tags": ["ascenscion"]
         },
         {
             "name": "Cleanse",
@@ -1046,7 +1046,7 @@
             "charges": "",
             "costs": "Any number of rest dice",
             "effects": "Spend a number of rest dice to clear an influence from a target. Roll an insight check with additional dice equal to the number of rest dice spent: G{You clear the influence} | Y{You stop the influence temporarily} | G{You transfer the influence to you}.",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice", "healing"]
         },
         {
             "name": "Play with fate",
@@ -1054,7 +1054,7 @@
             "charges": "3 charges",
             "costs": "",
             "effects": "Reroll any check and choose which result to use. However, fate will catch up to you, the GM can add conflict to any check you make until your next rest.",
-            "tags": [""]
+            "tags": ["ascenscion", "dice manipulation"]
         },
         {
             "name": "Dreamer",
@@ -1062,7 +1062,7 @@
             "charges": "",
             "costs": "1 rest die",
             "effects": "You can enter a sleeping creatures dreams and interact with them or even try to manipulate them.",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice", "mental"]
         },
         {
             "name": "Enter mind",
@@ -1070,7 +1070,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "You open up your mind to enter a creatures thoughts. Roll an insight check with -1 for each creature near your target: G{You read your targets thoughts} | Y{You read unclear and distorted thoughts} | R{You alert the target}.",
-            "tags": [""]
+            "tags": ["ascenscion", "mental", "insight", "social"]
         },
         {
             "name": "Firespeaker",
@@ -1078,7 +1078,7 @@
             "charges": "",
             "costs": "1 rest die",
             "effects": "Look into a fire and receive a foretelling of the future.",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice"]
         },
         {
             "name": "Intervention",
@@ -1086,7 +1086,7 @@
             "charges": "1 charge, does not recharge",
             "costs": "",
             "effects": "Roll 1d20 to ask your god for direct help: G{They will help you directly} | Y{They will help you indirectly}. To recharge this talent, you have to prove yourself to your god.",
-            "tags": [""]
+            "tags": ["ascenscion"]
         },
         {
             "name": "Lay on hands",
@@ -1094,7 +1094,7 @@
             "charges": "",
             "costs": "any number of rest dice",
             "effects": "Spend a number of rest dice to use them on other creatures. Alternatively you can remove a sickness or disease per rest die spent.",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice", "healing"]
         },
         {
             "name": "Lucky roll",
@@ -1102,7 +1102,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Reroll 1 check, you must use the new result.",
-            "tags": [""]
+            "tags": ["ascenscion", "dice manipulation"]
         },
         {
             "name": "Delay fate",
@@ -1110,7 +1110,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Ignore the conflict of any check. The next time you gain conflict, it is stronger.",
-            "tags": [""]
+            "tags": ["ascenscion", "dice manipulation"]
         },
         {
             "name": "Offer for guidance",
@@ -1118,7 +1118,7 @@
             "charges": "",
             "costs": "An offering",
             "effects": "Based on your offering roll between 1d6 and 5d6. You receive G{a clear and precise vision of what to do} | Y{a shrouded and vague vision}.",
-            "tags": [""]
+            "tags": ["ascenscion"]
         },
         {
             "name": "Bargain fate",
@@ -1126,7 +1126,7 @@
             "charges": "2 charges",
             "costs": "",
             "effects": "You can choose to roll a check with 1d20 instead of the normal dice.",
-            "tags": [""]
+            "tags": ["ascenscion", "dice manipulation"]
         },
         {
             "name": "Quick prayer",
@@ -1134,7 +1134,7 @@
             "charges": "3 charges",
             "costs": "",
             "effects": "Gain +1 to your next check that is made with an attribute associated with your god.",
-            "tags": [""]
+            "tags": ["ascenscion"]
         },
         {
             "name": "Reflection",
@@ -1142,7 +1142,7 @@
             "charges": "1 charge",
             "costs": "You gain no rest dice during your next rest.",
             "effects": "Roll an insight check and ask any G{2} | Y{1} questions about things you experienced during the last day.",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice", "insight"]
         },
         {
             "name": "Scrying",
@@ -1150,7 +1150,7 @@
             "charges": "",
             "costs": "1 rest die, an anchor",
             "effects": "Consume an anchor, a piece from or an object of a creature and roll an insight check: You may do the following: G{Ask 2 questions about the target} | G{Watch the target from afar} | Y{Ask 1 question about the target} | R{The target notices you}",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice", "insight"]
         },
         {
             "name": "Spirit communion",
@@ -1158,7 +1158,7 @@
             "charges": "",
             "costs": "1 rest die",
             "effects": "Roll an insight check to speak with a spirit or ghost: You G{speak with a cooperative spirit} | Y{speak with an uncooperative spirit} | R{anger the spirit}",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice", "insight"]
         },
         {
             "name": "Weave reality",
@@ -1166,7 +1166,7 @@
             "charges": "",
             "costs": "1+ rest dice",
             "effects": "You can make cumulative checks to weave a fantastical tale. Spend a rest die to make one check. There is no limit to the number of checks you can make, but if you gain 3 failures, your progress is reset. The more successes you accumulate, the more real your story becomes.",
-            "tags": [""]
+            "tags": ["ascenscion", "rest dice"]
         },
         {
             "name": "Antibodies",
@@ -1174,7 +1174,7 @@
             "charges": "",
             "costs": "",
             "effects": "Reduce damage from poisons by 2 and gain +1 die on checks made to withstand or shrug off poisons.",
-            "tags": [""]
+            "tags": ["status effect"]
         },
         {
             "name": "Connoisseur",
@@ -1182,7 +1182,7 @@
             "charges": "",
             "costs": "",
             "effects": "When ingesting food, drink, potions and poisons, roll 1d4: On a 1 receive no effect from it, on a 4 double the effects.",
-            "tags": [""]
+            "tags": ["general"]
         },
         {
             "name": "Early bird",
@@ -1190,7 +1190,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "You ignore an instance of fatigue.",
-            "tags": [""]
+            "tags": ["rest", "status effect"]
         },
         {
             "name": "Poison immunity",
@@ -1198,7 +1198,7 @@
             "charges": "",
             "costs": "",
             "effects": "You become immune to all poisons.",
-            "tags": [""]
+            "tags": ["status effect"]
         },
         {
             "name": "Hard noggin",
@@ -1206,7 +1206,7 @@
             "charges": "",
             "costs": "",
             "effects": "You are immune to the effects of being drunk.",
-            "tags": [""]
+            "tags": ["status effect"]
         },
         {
             "name": "Drunkards armor",
@@ -1214,15 +1214,15 @@
             "charges": "",
             "costs": "",
             "effects": "While you are drunk, gain +1 armor against normal damage.",
-            "tags": [""]
+            "tags": ["status effect"]
         },
         {
             "name": "Shrug it off",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you gain a status effect you can choose to attack the nearest target with amelee combat check: G{End the effect} | Y{Suspend the effect until after your next action}.",
-            "tags": [""]
+            "effects": "When you gain a status effect you can choose to attack the nearest target with a melee combat check: G{End the effect} | Y{Suspend the effect until after your next action}.",
+            "tags": ["status effect"]
         },
         {
             "name": "Animal companion",
@@ -1326,30 +1326,6 @@
             "charges": "",
             "costs": "",
             "effects": "While you are burning, you move with incredible speed, doubling the distance you can run in a given timeframe.",
-            "tags": [""]
-        },
-        {
-            "name": "",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "",
-            "tags": [""]
-        },
-        {
-            "name": "",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "",
-            "tags": [""]
-        },
-        {
-            "name": "",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "",
             "tags": [""]
         }
     ]

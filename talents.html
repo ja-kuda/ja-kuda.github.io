@@ -2,53 +2,25 @@
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="talents.js"></script>
+    <link rel="stylesheet" href="talents.css">
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
   </head>
 
   <body onload="loadFile()">
 
-
-    <label id="filterLabel">FILTER: </label>
-    <br>
-    <label><input id="general" type="checkbox" onclick="filter(this)" />general</label>
-    <label><input id="multi" type="checkbox" onclick="filter(this)" />multi</label>
-    <label><input id="combat" type="checkbox" onclick="filter(this)" />combat</label>
-    <label><input id="weapons" type="checkbox" onclick="filter(this)" />weapons</label>
-    <label><input id="light" type="checkbox" onclick="filter(this)" />light</label>
-    <label><input id="medium" type="checkbox" onclick="filter(this)" />medium</label>
-    <label><input id="heavy" type="checkbox" onclick="filter(this)" />heavy</label>
-    <label><input id="unarmed" type="checkbox" onclick="filter(this)" />unarmed</label>
-    <label><input id="long" type="checkbox" onclick="filter(this)" />long</label>
-    <label><input id="ranged" type="checkbox" onclick="filter(this)" />ranged</label>
-    <label><input id="firearms" type="checkbox" onclick="filter(this)" />firearms</label>
-    <label><input id="healing" type="checkbox" onclick="filter(this)" />healing</label>
-    <label><input id="rest" type="checkbox" onclick="filter(this)" />rest</label>
-    <label><input id="rest dice" type="checkbox" onclick="filter(this)" />rest dice</label>
-    <label><input id="magic" type="checkbox" onclick="filter(this)" />magic</label>
-    <label><input id="arcane" type="checkbox" onclick="filter(this)" />arcane</label>
-    <label><input id="static" type="checkbox" onclick="filter(this)" />static</label>
-    <label><input id="nekromancy" type="checkbox" onclick="filter(this)" />nekromancy</label>
-    <label><input id="social" type="checkbox" onclick="filter(this)" />social</label>
-    <label><input id="mental" type="checkbox" onclick="filter(this)" />mental</label>
-    <label><input id="physical" type="checkbox" onclick="filter(this)" />physical</label>
-    <label><input id="insight" type="checkbox" onclick="filter(this)" />insight</label>
-    <label><input id="convincing" type="checkbox" onclick="filter(this)" />convincing</label>
-    <label><input id="performance" type="checkbox" onclick="filter(this)" />performance</label>
-    <label><input id="survival" type="checkbox" onclick="filter(this)" />survival</label>
-    <label><input id="agility" type="checkbox" onclick="filter(this)" />agility</label>
-    <label><input id="trickery" type="checkbox" onclick="filter(this)" />trickery</label>
-    <label><input id="lore" type="checkbox" onclick="filter(this)" />lore</label>
-    <label><input id="medicine" type="checkbox" onclick="filter(this)" />medicine</label>
-    <label><input id="vigilance" type="checkbox" onclick="filter(this)" />vigilance</label>
-    <label><input id="crafting" type="checkbox" onclick="filter(this)" />crafting</label>
-    <label><input id="multi" type="checkbox" onclick="filter(this)" />multi</label>
-    <label><input id="status effect" type="checkbox" onclick="filter(this)" />status effect</label>
-    <label><input id="dice manipulation" type="checkbox" onclick="filter(this)" />dice manipulation</label>
-    <label><input id="pirates" type="checkbox" onclick="filter(this)" />pirates</label>
-    <br><br>
-    <div>TALENTS</div>
-    <br>
-    <div id="setter"></div>
-
-
+    <div class="container">
+      <div class="left">
+        <label id="filterLabel">FILTER: </label>
+        <br><br>
+        <div id="numberSetter"></div>
+      </div>
+      <div class="right">
+        <label id="talentLabel">TALENTS: </label>
+        <br>
+        <div id="setter"></div>
+      </div>
+    </div>
+    
   </body>
 </html>
