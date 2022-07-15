@@ -98,7 +98,7 @@
         },
         {
             "name": "Backstab",
-            "prerequisites": "A light weapon",
+            "prerequisites": "Weapons training talent (light)",
             "charges": "",
             "costs": "",
             "effects": "Deal +3 damage to distracted or surprised targets.",
@@ -109,7 +109,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain +1 to melee checks and +1 armor as long as you are in battle.",
+            "effects": "Gain +1 to combat checks and +1 armor as long as you are in battle.",
             "tags": ["combat"]
         },
         {
@@ -118,14 +118,14 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Bathe in blood to gain 2d6 shielded HP until your next rest.",
-            "tags": ["healing"]
+            "tags": ["combat", "healing"]
         },
         {
             "name": "Brawler",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Use your full ST for melee checks when fighting unarmed.",
+            "effects": "Use your ST for damage when fighting unarmed.",
             "tags": ["combat", "unarmed"]
         },
         {
@@ -149,7 +149,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain +2 to ranged combat checks with stationary firearms and cannons.",
+            "effects": "Gain +2 to combat checks with stationary firearms and cannons.",
             "tags": ["firearms", "pirates"]
         },
         {
@@ -157,7 +157,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain +2 on your next melee check but gain conflict regardless of the result.",
+            "effects": "Gain +2 on your next combat check but gain conflict regardless of the result.",
             "tags": ["combat"]
         },
         {
@@ -181,15 +181,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "If you roll a 15 or higher on your combat checks, deal +3 damage.",
+            "effects": "If one or more dice explode on your combat checks, deal +3 damage.",
             "tags": ["combat"]
         },
         {
             "name": "Dual wield",
-            "prerequisites": "2 light weapons",
+            "prerequisites": "Weapons training talent (light or medium)",
             "charges": "",
             "costs": "",
-            "effects": "When attacking with two light weapons use only the higher bonus for the combat check but gain the effects of both weapons.",
+            "effects": "You can use two weapons at the same time, making only one combat check",
             "tags": ["combat", "weapons", "light"]
         },
         {
@@ -217,14 +217,6 @@
             "tags": ["general"]
         },
         {
-            "name": "Flying weapon",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "You can throw your weapons by rolling a melee combat check.",
-            "tags": ["combat", "weapons"]
-        },
-        {
             "name": "From the shadows",
             "prerequisites": "",
             "charges": "",
@@ -245,7 +237,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain a new option for melee combat checks: G{deal only partial damage but instill your target with fear}.",
+            "effects": "Gain a new option for combat checks: G{deal only partial damage but instill your target with fear}.",
             "tags": ["combat", "social"]
         },
         {
@@ -269,7 +261,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Use your full DE instead of ST when fighting unarmed.",
+            "effects": "Use DE for damage when making unarmed combat checks.",
             "tags": ["combat", "unarmed"]
         },
         {
@@ -361,11 +353,19 @@
             "tags": ["combat", "weapons", "light"]
         },
         {
-            "name": "Weapons expertise",
+            "name": "Weapons training",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a weapon type like light, swords, heavy, polearms etc. and gain +1 to combat checks made with the chosen type. You can learn this talent multiple times, but only up to 3 times per weapon type.",
+            "effects": "Choose a weapon type (light, medium, heavy, long, ranged, firearms or unarmed). Combat checks made with this weapon are made with the usual 2 dice instead of 1. You can choose to learn this talent multiple times, once per weapon type.",
+            "tags": ["combat", "weapons", "multi"]
+        },
+        {
+            "name": "Weapons expertise",
+            "prerequisites": "Weapons training talent",
+            "charges": "",
+            "costs": "",
+            "effects": "Choose a weapon type you are trained in and gain +1 to combat checks made with the chosen type. You can learn this talent multiple times, but only up to 3 times per weapon type.",
             "tags": ["combat", "weapons", "multi"]
         },
         {
@@ -1222,7 +1222,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you gain a status effect you can choose to attack the nearest target with a melee combat check: G{End the effect} | Y{Suspend the effect until after your next action}.",
-            "tags": ["status effect"]
+            "tags": ["status effect", "combat"]
         },
         {
             "name": "Animal companion",
@@ -1254,7 +1254,7 @@
             "charges": "",
             "costs": "",
             "effects": "You gain the ability to talk to animals.",
-            "tags": [""]
+            "tags": ["senses"]
         },
         {
             "name": "Shared consciousness",
@@ -1262,7 +1262,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can take control of your companion and see, feel and hear thorugh them while your body enters a trance like state of vulnerability.",
-            "tags": [""]
+            "tags": ["senses"]
         },
         {
             "name": "Magical conduit",
@@ -1270,10 +1270,10 @@
             "charges": "",
             "costs": "",
             "effects": "You can use your companion as origin of your spell effects.",
-            "tags": [""]
+            "tags": ["magic"]
         },
         {
-            "name": "Hmaster cheeks",
+            "name": "Hamster cheeks",
             "prerequisites": "",
             "charges": "",
             "costs": "",
@@ -1286,7 +1286,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can change your looks to that of another person, excluding their clothes.",
-            "tags": [""]
+            "tags": ["static"]
         },
         {
             "name": "Shapeshift",
@@ -1310,15 +1310,15 @@
             "charges": "2 charges",
             "costs": "1 rest die",
             "effects": "You can shapeshift into huge creatures of your chosen type. Distribute +5 to either ST or DE. Your HP become 25 while in this form.",
-            "tags": [""]
+            "tags": ["rest dice"]
         },
         {
             "name": "Electrical conduit",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are wet, you attract lightning and electricity.",
-            "tags": [""]
+            "effects": "You can choose to attract lightning and electricity in the vicinity and direct it to yourself.",
+            "tags": ["status effect"]
         },
         {
             "name": "Running hot",
@@ -1326,7 +1326,239 @@
             "charges": "",
             "costs": "",
             "effects": "While you are burning, you move with incredible speed, doubling the distance you can run in a given timeframe.",
-            "tags": [""]
+            "tags": ["status effect", "physical"]
+        },
+        {
+            "name": "Ward of protection",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "A trinket",
+            "effects": "When you learn this talent, choose a trinket or small item to imbue. When you are in danger, you can activate the trinket to skip a check. This does not count as success, conflict or failure, the action simply never happens.",
+            "tags": ["static", "dice manipulation"]
+        },
+        {
+            "name": "Bound item",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "An item",
+            "effects": "When you learn this talent choose an item in your posession: You can telepathically move and materialise/dematerialise it. You can perform a ritual to bind another item, releasing the first.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Spellslinger",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Choose an attribute. When you use a talent, that requires a check and has the static tag, you can use your magic skill instead of the stated skill for the talent.",
+            "tags": ["static", "magic"]
+        },
+        {
+            "name": "Lullaby",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "1 rest die",
+            "effects": "Roll a performance check to sing a lullaby: G{Everyone that hears you falls asleep} | Y{Everyone that hears you becomes tired and sleepy} | R{You fall asleep}",
+            "tags": ["static", "performance", "rest dice"]
+        },
+        {
+            "name": "WHAT?",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You can choose to ignore any sound or sonic effects and filter only those you want to hear.",
+            "tags": ["senses"]
+        },
+        {
+            "name": "Illusory double",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "You can create an illusory double that copies your movement and lasts a medium duration.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Illusory clone",
+            "prerequisites": "Illusory double talent",
+            "charges": "",
+            "costs": "",
+            "effects": "Your double can follow commands and act independently from you.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Arcane armor",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "Any number of rest dice",
+            "effects": "Spend a number of rest dice to reduce incoming damage by 1d6 per rest die spent.",
+            "tags": ["static", "rest dice"]
+        },
+        {
+            "name": "Spectral hand",
+            "prerequisites": "",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "Summon a magical hand for a medium duration.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Permanent spectral hand",
+            "prerequisites": "Spectral hand talent",
+            "charges": "",
+            "costs": "",
+            "effects": "Your spectral hand becomes permanent. You can use charges from your spectral hand talent to summon additional hands for a medium duration.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Invisibility",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "You and all that is on you when you use this talent turns invisible for a short duration.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Fog control",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "You can create and manipulate a fog cloud.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Flashback",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "1 rest die",
+            "effects": "You travel back a short distance in time.",
+            "tags": ["static", "rest dice"]
+        },
+        {
+            "name": "Blink",
+            "prerequisites": "",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "You teleport to a visible location in medium range. Alternatively you can spend 2 charges to teleport to a location you know, but can not see. Does not work while restricted or grappled.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Unshackled",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You are slippery and can not be easily bound. Actions that require you to not be restricted or grappled, can still be executed by rolling a successful agility check.",
+            "tags": ["status effect"]
+        },
+        {
+            "name": "Sign of the maiden",
+            "prerequisites": "",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "Roll 1d4 and target a creature. They gain the result as shielded HP.",
+            "tags": ["static", "healing"]
+        },
+        {
+            "name": "Sign of balance",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "2 rest dice",
+            "effects": "Target a creature and roll a survival check: Equalize your and the targets HP percentage G{indefinitely} | Y{for a short duration}.",
+            "tags": ["static", "rest dice", "healing"] 
+        },
+        {
+            "name": "Sign of the archer",
+            "prerequisites": "",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "Roll a combat check as if you are trained in ranged weapons to shoot G{6} | Y{3} | R{1} arrows that deal 1 damage each.",
+            "tags": ["static", "combat", "ranged"]
+        },
+        {
+            "name": "Sign of the betrayer",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "Touch a creature an roll a trickery check to inflict them with a poison: G{until it is treated} | Y{that is weaker} | Y{for a medium duration}. The poison will slowly eat away at the creatures strength, making them weaker until they fall unconscious.",
+            "tags": ["static", "status effect", "trickery"]
+        },
+        {
+            "name": "Sign of the king",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "1 rest die",
+            "effects": "Roll a performance check to inspire your allies: They gain G{+2 dice on their next 2 checks} | Y{+1 die on their next check}.",
+            "tags": ["static", "performance"]
+        },
+        {
+            "name": "Sign of the claw",
+            "prerequisites": "",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "Roll an agility check to grapple or restrict a medium or smaller creature within medium range of you: G{Until you release it} | Y{For as long as you actively hold the effect} | Y{For a short time}",
+            "tags": ["static", "agility"]
+        },
+        {
+            "name": "Sign of the clone",
+            "prerequisites": "",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "Roll a trickery check to create a small illusion quickly: G{The illusion will fool everyone at least once} | Y{The illusion will fool stupid creatures}.",
+            "tags": ["static", "trickery"]
+        },
+        {
+            "name": "Sign of the bull",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "Gain +1 die to all ST checks for a short duration.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Sign of the ram",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "Roll 1d4 and deal that much damage to and knock back a target based on the result.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Shimmering sphere",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "1 rest die",
+            "effects": "Create a small sphere around you. Everyone inside of the sphere is camouflaged and while standing absolutely still, invisible even.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Sign of the sea",
+            "prerequisites": "",
+            "charges": "2 charges",
+            "costs": "",
+            "effects": "Roll a survival check to allow G{3} | Y{1} creatures to breath underwater for a medium duration.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Sign of sleep",
+            "prerequisites": "",
+            "charges": "1 charge",
+            "costs": "You gain no rest dice during your next rest.",
+            "effects": "Roll a vigilance check to distribute G{4} | Y{2} rest dice between your allies. These can exceed their rest dice maximum.",
+            "tags": ["static", "rest dice"]
+        },
+        {
+            "name": "Sign of the goat",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "1 rest die",
+            "effects": "Summon a small goat with 3 HP.",
+            "tags": ["static"]
+        },
+        {
+            "name": "Heatvision",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You gain the ability to see heat emanating from living creatures.",
+            "tags": ["senses"]
         }
     ]
 }
