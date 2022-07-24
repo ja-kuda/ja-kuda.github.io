@@ -63,7 +63,7 @@ function showAllTalents(){
 
 
 function countTalents(activeNumber){
-    document.getElementById("numberSetter").innerHTML = activeNumber + " / " + allTalents.talents.length;
+    document.getElementById("numberSetter").innerHTML = "<br>" + activeNumber + " / " + allTalents.talents.length;
 }
 
 
@@ -103,4 +103,38 @@ function filter(checkbox){
         }
     });
     countTalents(activeNumber);
+}
+
+
+function rollDice(){
+    var numberOfDice = 6;
+    var valueOfDice = 10;
+    var tries = 1000000;
+    var result = 0;
+
+    for(let i = 0; i < tries; i++){
+        var roundMax = 0;
+        for(let j = 0; j < numberOfDice; j++){
+            var tmp = 1 + Math.floor(Math.random() * valueOfDice);
+            tmp = checkMax(tmp, valueOfDice);
+            if(tmp >= roundMax){
+                roundMax = tmp;
+            }
+        }
+        result += roundMax;
+    }
+    //console.log(result);
+    console.log(result / tries);
+}
+
+function checkMax(value, diceValue){
+    var returnValue = value;
+    if((returnValue % diceValue) == 0){
+        returnValue += 1 + Math.floor(Math.random() * diceValue);
+        checkMax(returnValue, diceValue);
+    }
+    else{
+        return returnValue;
+    }
+    return returnValue;
 }

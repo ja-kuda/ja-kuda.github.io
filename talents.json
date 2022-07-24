@@ -4,9 +4,9 @@
             "name": "Adrenaline rush",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "Up to 2 rest dice",
-            "effects": "Use up to two rest dice immediately.",
-            "tags": ["general", "rest dice", "healing"]
+            "costs": "Up to 2 resolve",
+            "effects": "Use up to 2 resolve immediately to heal 1d6 HP per resolve spent.",
+            "tags": ["general", "resolve", "healing"]
         },
         {
             "name": "Fast learner",
@@ -109,7 +109,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain +1 to combat checks and +1 armor as long as you are in battle.",
+            "effects": "Gain +1 to combat checks and +1 resolve that can only be used against damage as long as you are in battle.",
             "tags": ["combat"]
         },
         {
@@ -460,9 +460,9 @@
             "name": "Motivational speaker",
             "prerequisites": "",
             "charges": "",
-            "costs": "any number of rest dice",
-            "effects": "You inspire and motivate your allies. Roll any number of rest dice and give yourself and your allies shielded HP equal to the result.",
-            "tags": ["healing", "rest dice", "social"]
+            "costs": "any number of resolve",
+            "effects": "You inspire and motivate your allies. Roll 1d6 per resolve spent and give yourself and your allies shielded HP equal to the result.",
+            "tags": ["healing", "resolve", "social"]
         },
         {
             "name": "Parley",
@@ -740,7 +740,7 @@
             "name": "Treat wounds",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "Roll a medicine check to take your time to heal an ally for G: 2d6 | Y: 2d4 | R: 1 HP.\\",
             "tags": ["mental", "medicine", "healing"]
         },
@@ -1029,8 +1029,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain +1 rest die each rest.",
-            "tags": ["rest dice", "rest"]
+            "effects": "Gain +1 resolve each rest.",
+            "tags": ["resolve", "rest"]
         },
         {
             "name": "Apotheosis",
@@ -1044,9 +1044,9 @@
             "name": "Cleanse",
             "prerequisites": "",
             "charges": "",
-            "costs": "Any number of rest dice",
-            "effects": "Spend a number of rest dice to clear an influence from a target. Roll an insight check with additional dice equal to the number of rest dice spent: G{You clear the influence} | Y{You stop the influence temporarily} | G{You transfer the influence to you}.",
-            "tags": ["ascenscion", "rest dice", "healing"]
+            "costs": "Any number of resolve",
+            "effects": "Spend a number of resolve to clear an influence from a target. Roll an insight check with additional dice equal to the number of resolve spent: G{You clear the influence} | Y{You stop the influence temporarily} | G{You transfer the influence to you}.",
+            "tags": ["ascenscion", "resolve", "healing"]
         },
         {
             "name": "Play with fate",
@@ -1060,9 +1060,9 @@
             "name": "Dreamer",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "You can enter a sleeping creatures dreams and interact with them or even try to manipulate them.",
-            "tags": ["ascenscion", "rest dice", "mental"]
+            "tags": ["ascenscion", "resolve", "mental"]
         },
         {
             "name": "Enter mind",
@@ -1076,9 +1076,9 @@
             "name": "Firespeaker",
             "prerequisites": "You follow Inferna",
             "charges": "",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "Look into a fire and receive a foretelling of the future.",
-            "tags": ["ascenscion", "rest dice"]
+            "tags": ["ascenscion", "resolve"]
         },
         {
             "name": "Intervention",
@@ -1092,9 +1092,9 @@
             "name": "Lay on hands",
             "prerequisites": "",
             "charges": "",
-            "costs": "any number of rest dice",
-            "effects": "Spend a number of rest dice to use them on other creatures. Alternatively you can remove a sickness or disease per rest die spent.",
-            "tags": ["ascenscion", "rest dice", "healing"]
+            "costs": "any number of resolve",
+            "effects": "Spend a number of resolve to use them on other creatures. Roll 1d6 per resolve spent to heal that much HP on your target. Alternatively you can remove a sickness or disease per resolve spent.",
+            "tags": ["ascenscion", "resolve", "healing"]
         },
         {
             "name": "Lucky roll",
@@ -1140,33 +1140,33 @@
             "name": "Reflection",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "You gain no rest dice during your next rest.",
+            "costs": "You gain no resolve during your next rest.",
             "effects": "Roll an insight check and ask any G{2} | Y{1} questions about things you experienced during the last day.",
-            "tags": ["ascenscion", "rest dice", "insight"]
+            "tags": ["ascenscion", "resolve", "insight"]
         },
         {
             "name": "Scrying",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 rest die, an anchor",
+            "costs": "1 resolve, an anchor",
             "effects": "Consume an anchor, a piece from or an object of a creature and roll an insight check: You may do the following: G{Ask 2 questions about the target} | G{Watch the target from afar} | Y{Ask 1 question about the target} | R{The target notices you}",
-            "tags": ["ascenscion", "rest dice", "insight"]
+            "tags": ["ascenscion", "resolve", "insight"]
         },
         {
             "name": "Spirit communion",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "Roll an insight check to speak with a spirit or ghost: You G{speak with a cooperative spirit} | Y{speak with an uncooperative spirit} | R{anger the spirit}",
-            "tags": ["ascenscion", "rest dice", "insight"]
+            "tags": ["ascenscion", "resolve", "insight"]
         },
         {
             "name": "Weave reality",
             "prerequisites": "",
             "charges": "",
-            "costs": "1+ rest dice",
-            "effects": "You can make cumulative checks to weave a fantastical tale. Spend a rest die to make one check. There is no limit to the number of checks you can make, but if you gain 3 failures, your progress is reset. The more successes you accumulate, the more real your story becomes.",
-            "tags": ["ascenscion", "rest dice"]
+            "costs": "1+ resolve",
+            "effects": "You can make cumulative checks to weave a fantastical tale. Spend 1 resolve to make one check. There is no limit to the number of checks you can make, but if you gain 3 failures, your progress is reset. The more successes you accumulate, the more real your story becomes.",
+            "tags": ["ascenscion", "resolve"]
         },
         {
             "name": "Antibodies",
@@ -1308,9 +1308,9 @@
             "name": "Shapeshift 3",
             "prerequisites": "Shapeshift 2",
             "charges": "2 charges",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "You can shapeshift into huge creatures of your chosen type. Distribute +5 to either ST or DE. Your HP become 25 while in this form.",
-            "tags": ["rest dice"]
+            "tags": ["resolve"]
         },
         {
             "name": "Electrical conduit",
@@ -1355,10 +1355,10 @@
         {
             "name": "Lullaby",
             "prerequisites": "",
-            "charges": "2 charges",
-            "costs": "1 rest die",
+            "charges": "",
+            "costs": "1 resolve",
             "effects": "Roll a performance check to sing a lullaby: G{Everyone that hears you falls asleep} | Y{Everyone that hears you becomes tired and sleepy} | R{You fall asleep}",
-            "tags": ["static", "performance", "rest dice"]
+            "tags": ["static", "performance", "resolve"]
         },
         {
             "name": "WHAT?",
@@ -1388,9 +1388,9 @@
             "name": "Arcane armor",
             "prerequisites": "",
             "charges": "",
-            "costs": "Any number of rest dice",
-            "effects": "Spend a number of rest dice to reduce incoming damage by 1d6 per rest die spent.",
-            "tags": ["static", "rest dice"]
+            "costs": "Any number of resolve",
+            "effects": "Spend a number of resolve to reduce incoming damage by 1d6 per resolve spent.",
+            "tags": ["static", "resolve"]
         },
         {
             "name": "Spectral hand",
@@ -1427,10 +1427,10 @@
         {
             "name": "Flashback",
             "prerequisites": "",
-            "charges": "1 charge",
-            "costs": "1 rest die",
+            "charges": "",
+            "costs": "1 resolve",
             "effects": "You travel back a short distance in time.",
-            "tags": ["static", "rest dice"]
+            "tags": ["static", "resolve"]
         },
         {
             "name": "Blink",
@@ -1460,9 +1460,9 @@
             "name": "Sign of balance",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "2 rest dice",
+            "costs": "2 resolve",
             "effects": "Target a creature and roll a survival check: Equalize your and the targets HP percentage G{indefinitely} | Y{for a short duration}.",
-            "tags": ["static", "rest dice", "healing"] 
+            "tags": ["static", "resolve", "healing"] 
         },
         {
             "name": "Sign of the archer",
@@ -1484,7 +1484,7 @@
             "name": "Sign of the king",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "Roll a performance check to inspire your allies: They gain G{+2 dice on their next 2 checks} | Y{+1 die on their next check}.",
             "tags": ["static", "performance"]
         },
@@ -1524,7 +1524,7 @@
             "name": "Shimmering sphere",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "Create a small sphere around you. Everyone inside of the sphere is camouflaged and while standing absolutely still, invisible even.",
             "tags": ["static"]
         },
@@ -1540,15 +1540,15 @@
             "name": "Sign of sleep",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "You gain no rest dice during your next rest.",
+            "costs": "You gain no resolve during your next rest.",
             "effects": "Roll a vigilance check to distribute G{4} | Y{2} rest dice between your allies. These can exceed their rest dice maximum.",
-            "tags": ["static", "rest dice"]
+            "tags": ["static", "resolve"]
         },
         {
             "name": "Sign of the goat",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 rest die",
+            "costs": "1 resolve",
             "effects": "Summon a small goat with 3 HP.",
             "tags": ["static"]
         },
@@ -1559,6 +1559,46 @@
             "costs": "",
             "effects": "You gain the ability to see heat emanating from living creatures.",
             "tags": ["senses"]
+        },
+        {
+            "name": "Nekromancy",
+            "prerequisites": "Control over arcane element: life",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": [""]
         }
     ]
 }
