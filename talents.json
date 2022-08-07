@@ -5,7 +5,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "Up to 2 resolve",
-            "effects": "Use up to 2 resolve immediately to heal 1d6 HP per resolve spent.",
+            "effects": "Use up to 2 resolve immediately to remove 1 wound lvl per resolve spent.",
             "tags": ["general", "resolve", "healing"]
         },
         {
@@ -59,9 +59,9 @@
         {
             "name": "Thick hide",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
-            "effects": "Gain +1 armor while not wearing armor.",
+            "effects": "Gain 1 armor each rest.",
             "tags": ["general", "combat", "physical"]
         },
         {
@@ -77,7 +77,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "If an effect or enemy would finish you while have the dying status, ignore the first time it happens.",
+            "effects": "If you would die, instead spend a charge of this talent.",
             "tags": ["general", "combat", "status effect"]
         },
         {
@@ -85,7 +85,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain +2 HP. You can learn this talent up to 5 times.",
+            "effects": "You gain another empty lvl 1 wound permanently.",
             "tags": ["general"]
         },
         {
@@ -93,7 +93,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When hitting an enemy with a melee attack, gain new options: G{deal only partial damage but reduce the targets armor by 1} | Y{deal no damage but reduce the targets armor by 1}.",
+            "effects": "Your attacks destroy your targets armor.",
             "tags": ["combat"]
         },
         {
@@ -101,7 +101,7 @@
             "prerequisites": "Weapons training talent (light)",
             "charges": "",
             "costs": "",
-            "effects": "Deal +3 damage to distracted or surprised targets.",
+            "effects": "You are especially deadly when your enemy does not see you coming. Treat combat checks that target unsuspecting opponents as one stage better.",
             "tags": ["combat", "light"]
         },
         {
@@ -117,7 +117,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Bathe in blood to gain 2d6 shielded HP until your next rest.",
+            "effects": "Bathe in blood to gain 1 temporary empty lvl 1 wound until your next rest.",
             "tags": ["combat", "healing"]
         },
         {
@@ -125,7 +125,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Use your ST for damage when fighting unarmed.",
+            "effects": "You can roll 2 dice when fighting unarmed.",
             "tags": ["combat", "unarmed"]
         },
         {
@@ -133,15 +133,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you fight outnumbered, gain +1 armor.",
+            "effects": "When you are outnumbered, TODO",
             "tags": ["combat"]
         },
         {
-            "name": "Bull rush",
+            "name": "Mighty blows",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Successful attacks knock your target to the ground. Conflicted checks offer a choice of dealing partial damage or no damage but a knockdown.",
+            "effects": "Even when your attacks do not kill your target, you still knock them to the ground.",
             "tags": ["combat"]
         },
         {
@@ -157,7 +157,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain +2 on your next combat check but gain conflict regardless of the result.",
+            "effects": "Gain +2 on your next combat check, but gain conflict after.",
             "tags": ["combat"]
         },
         {
@@ -181,7 +181,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "If one or more dice explode on your combat checks, deal +3 damage.",
+            "effects": "If you exceed the target of a combat check by +7, lethally wound your opponent, regardless of the result.",
             "tags": ["combat"]
         },
         {
@@ -189,7 +189,7 @@
             "prerequisites": "Weapons training talent (light or medium)",
             "charges": "",
             "costs": "",
-            "effects": "You can use two weapons at the same time, making only one combat check",
+            "effects": "You can use two weapons at the same time, gaining both of their effects.",
             "tags": ["combat", "weapons", "light"]
         },
         {
@@ -237,7 +237,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain a new option for combat checks: G{deal only partial damage but instill your target with fear}.",
+            "effects": "When you kill an enemy, instill others with fear.",
             "tags": ["combat", "social"]
         },
         {
@@ -245,7 +245,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "After you take damage, the next time you deal damage to its source, deal +2 damage.",
+            "effects": "After you take damage, you can kill the source to remove the wound.",
             "tags": ["combat"]
         },
         {
@@ -253,23 +253,15 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "After you deal damage to an enemy you can mark them. An ally or yourself can consume the mark to double their damage when they attack the enemy.",
+            "effects": "After you deal damage to an enemy you can mark them. An ally or yourself can consume the mark to regain 1 resolve when killing them.",
             "tags": ["combat"]
-        },
-        {
-            "name": "Martial arts",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Use DE for damage when making unarmed combat checks.",
-            "tags": ["combat", "unarmed"]
         },
         {
             "name": "Parting attack",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Taking an action to evade lets you deal 1 damage to your nearest enemy.",
+            "effects": "Taking an action to evade lets you deal minor damage to an enemy within your reach.",
             "tags": ["combat"]
         },
         {
@@ -277,7 +269,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "When you take at least 3 damage, you can instead choose to take 1 damage every time you act until you are treated by a successful medicine check.",
+            "effects": "When you take any wound, you can ignore it. You instead take a wound that is a lvl higher than the one you ignored after a medium duration.",
             "tags": ["physical"]
         },
         {
@@ -285,7 +277,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you are hit by a special type of damage, you gain +1 armor against that type until you are damaged by another special type of damage.",
+            "effects": "When you are hit by a special type of damage, you gain 1 armor against that type until you are damaged by another special type of damage.",
             "tags": [""]
         },
         {
@@ -303,14 +295,6 @@
             "costs": "",
             "effects": "When you kill an enemy, gain another action instantly.",
             "tags": ["combat"]
-        },
-        {
-            "name": "Still standing",
-            "prerequisites": "",
-            "charges": "1 charge",
-            "costs": "",
-            "effects": "When you fall to 0 HP, instead fall to 1 HP.",
-            "tags": ["healing"]
         },
         {
             "name": "Strongarm",
@@ -333,7 +317,7 @@
             "prerequisites": "melee weapon in one hand, firearm in the other hand",
             "charges": "",
             "costs": "",
-            "effects": "When you make a melee combat check against an enemy: G{deal your firearms partial damage to any target} | Y{deal your firearms partial damage to the enemy}.",
+            "effects": "When you make a combat check against an enemy: G{Also shoot your pistol at any opponent} | Y{Shoot your pistol at your target}.",
             "tags": ["combat", "weapons", "medium", "firearms", "pirates"]
         },
         {
@@ -343,14 +327,6 @@
             "costs": "",
             "effects": "You can use heavy objects like trees, anchors or boulders as heavy weapons.",
             "tags": ["combat", "weapons", "heavy"]
-        },
-        {
-            "name": "Vicious backstab",
-            "prerequisites": "Backstab talent",
-            "charges": "",
-            "costs": "",
-            "effects": "Increase your backstab damage to +5",
-            "tags": ["combat", "weapons", "light"]
         },
         {
             "name": "Weapons training",
@@ -461,7 +437,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "any number of resolve",
-            "effects": "You inspire and motivate your allies. Roll 1d6 per resolve spent and give yourself and your allies shielded HP equal to the result.",
+            "effects": "You inspire and motivate your allies. Give your allies 1 resolve per resolve spent.",
             "tags": ["healing", "resolve", "social"]
         },
         {
@@ -477,7 +453,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "When haggling, roll 1d20 and use the result in place of silver coins.",
+            "effects": "When haggling, roll 2d12 and use the result in place of silver coins.",
             "tags": ["social"]
         },
         {
@@ -493,7 +469,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Roll a convincing check against a target to confuse it and $G$gain +1 die for your next check against them$G$ | $G$break their concentration and make them lose their next action$G$ | $Y$gain +1 to your next check against them$Y$.",
+            "effects": "Roll a convincing check against a target to confuse it and G{gain +1 die for your next check against them} | G{break their concentration and make them lose their next action} | Y{gain +1 to your next check against them}.",
             "tags": ["social", "convincing"]
         },
         {
@@ -525,7 +501,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll a convincing check against a single target to stare them down: G:The target falls unconscious | Y:The target tries to escape from you | Y: The target takes 1 damage | R: The target attacks you in rage.",
+            "effects": "Roll a convincing check against a single target to stare them down: G{The target falls unconscious} | Y{The target tries to escape from you} | R{The target attacks you in rage}.",
             "tags": ["social", "convincing"]
         },
         {
@@ -533,7 +509,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll a convincing check to force a creature to repeat their last move G: exactly the same, regardless of the circumstances | Y: roughly the same, based on the current situation.",
+            "effects": "Roll a convincing check to force a creature to repeat their last move G{exactly the same, regardless of the circumstances} | Y{roughly the same, based on the current situation}.",
             "tags": ["social", "convincing"]
         },
         {
@@ -541,23 +517,15 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll a convincing check in front of a crowd, the audience is disgusted by your words and stops what they were doing G: until you leave | Y: momentarily",
+            "effects": "Roll a convincing check in front of a crowd, the audience is disgusted by your words and stops what they were doing G{until you leave} | Y{momentarily}",
             "tags": ["social", "convincing"]
-        },
-        {
-            "name": "Intimidating presence",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "When rolling checks to intimidate, you may use ST instead of CH.",
-            "tags": ["social"]
         },
         {
             "name": "Network",
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Roll a convincing check to set up a secret meeting with a contact: The contact will be  G: trustworthy | Y: dubious | R: fraudulent.",
+            "effects": "Roll a convincing check to set up a secret meeting with a contact: The contact will be  G{trustworthy} | Y{dubious} | R{fraudulent}.",
             "tags": ["social", "convincing"]
         },
         {
@@ -709,15 +677,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can use any medicine and healer talents while in combat or during stressful situations with -1 die on potential checks.",
+            "effects": "TODO",
             "tags": ["mental", "medicine"]
         },
         {
             "name": "Feldsher",
             "prerequisites": "",
             "charges": "",
-            "costs": "Charge of a healers kit",
-            "effects": "Roll a medicine check to patch up allies: G: Heal 3 HP | Y: Heal 1 HP.",
+            "costs": "",
+            "effects": "Roll a medicine check to TODO",
             "tags": ["mental", "medicine", "healing"]
         },
         {
@@ -725,15 +693,15 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Choose an ally during rest, they gain double healing from using their rest dice.",
+            "effects": "Choose an ally during rest, TODO",
             "tags": ["mental", "medicine", "healing", "rest"]
         },
         {
             "name": "Surgeon",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
-            "effects": "Roll a medicine check with -1 die to heal the severely wounded: G: You may reattach or repair a body part | Y: You close wounds and mend bodyparts | R: You deal 3 damage.",
+            "effects": "Roll a medicine check with -1 die to heal the severely wounded: G{Heal a lvl 2 or lower wound} | R{Inflict a lvl 1 wound}",
             "tags": ["mental", "medicine", "healing"]
         },
         {
@@ -741,7 +709,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 resolve",
-            "effects": "Roll a medicine check to take your time to heal an ally for G: 2d6 | Y: 2d4 | R: 1 HP.\\",
+            "effects": "Roll a medicine check to take your time to remove an allies G{lvl 1 wound}",
             "tags": ["mental", "medicine", "healing"]
         },
         {
@@ -869,7 +837,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you roll survival checks to track a creatur: G{gain knowledge of the specific creature from the GM}.",
+            "effects": "When you roll survival checks to track a creature: G{gain knowledge of the specific creature from the GM}.",
             "tags": ["physical", "survival"]
         },
         {
@@ -893,7 +861,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can use alchemy formulas. Create alchemical ingredients by using rest dice the same way you would restore HP. (Roll any number of rest dice and gain the result as ingredients) This talent allows you to learn more specialized alchemy talents.",
+            "effects": "You can use alchemy formulas. Create alchemical ingredients by spending 1 resolve to create 5 ingredients. This talent allows you to learn more specialized alchemy talents.",
             "tags": ["crafting"]
         },
         {
@@ -997,7 +965,7 @@
             "prerequisites": "Mutationist talent",
             "charges": "",
             "costs": "",
-            "effects": "When you deal damage to a creature you can make a crafting check with your weapons bonus G{to harvest 1 special ingredient}.",
+            "effects": "When you damage a creature you can make a crafting check G{to harvest 1 special ingredient}.",
             "tags": ["crafting"]
         },
         {
@@ -1093,7 +1061,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "any number of resolve",
-            "effects": "Spend a number of resolve to use them on other creatures. Roll 1d6 per resolve spent to heal that much HP on your target. Alternatively you can remove a sickness or disease per resolve spent.",
+            "effects": "Spend a number of resolve to use them on other creatures. They gain the number of resolve. Alternatively you can remove a sickness or disease per resolve spent.",
             "tags": ["ascenscion", "resolve", "healing"]
         },
         {
@@ -1173,7 +1141,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Reduce damage from poisons by 2 and gain +1 die on checks made to withstand or shrug off poisons.",
+            "effects": "Reduce the effects of poisons and gain +1 die on checks made to withstand or shrug off poisons.",
             "tags": ["status effect"]
         },
         {
@@ -1213,7 +1181,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are drunk, gain +1 armor against normal damage.",
+            "effects": "Whenever you become drunk, gain 2 armor that lasts until you sober up.",
             "tags": ["status effect"]
         },
         {
@@ -1221,7 +1189,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you gain a status effect you can choose to attack the nearest target with a melee combat check: G{End the effect} | Y{Suspend the effect until after your next action}.",
+            "effects": "When you gain a status effect you can choose to attack the nearest target with a combat check: G{End the effect} | Y{Suspend the effect until after your next action}.",
             "tags": ["status effect", "combat"]
         },
         {
@@ -1229,7 +1197,7 @@
             "prerequisites": "At least +3 in either survival or convincing",
             "charges": "",
             "costs": "",
-            "effects": "Gain a small or medium creature as your companion. The creature has 3 HP and is an animal.",
+            "effects": "Gain a small or medium creature as your companion. The creature can suffer a lvl 1 wound before dying.",
             "tags": [""]
         },
         {
@@ -1237,7 +1205,7 @@
             "prerequisites": "Animal companion",
             "charges": "",
             "costs": "",
-            "effects": "You are able to control stronger companions. Your companion gains stats of their own: Distribute 1, 2, 3 for the following attributes: ST, DE, WI. The companions HP are 2x ST.",
+            "effects": "You are able to control stronger companions. Your companion gains stats of their own: Distribute 1, 2, 3 for the following attributes: ST, DE, WI. The companions HEALTH is: TODO",
             "tags": [""]
         },
         {
@@ -1293,7 +1261,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You can shapeshift into small creatures of a chosen type: animal, plant, dragon, anomaly, elemental, fey, demon. Gain +1 to either ST or DE. While in this form you have 5 HP.",
+            "effects": "You can shapeshift into small creatures of a chosen type: animal, plant, dragon, anomaly, elemental, fey, demon. Gain +1 to either ST or DE. While in this form you have HEALTH",
             "tags": [""]
         },
         {
@@ -1301,7 +1269,7 @@
             "prerequisites": "Shapeshift",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You can shapeshift into medium or large creatures of your chosen type. Distribute +3 to either ST or DE. Your HP become 15 while in this form.",
+            "effects": "You can shapeshift into medium or large creatures of your chosen type. Distribute +3 to either ST or DE. Your HEALTH is while in this form.",
             "tags": [""]
         },
         {
@@ -1309,7 +1277,7 @@
             "prerequisites": "Shapeshift 2",
             "charges": "2 charges",
             "costs": "1 resolve",
-            "effects": "You can shapeshift into huge creatures of your chosen type. Distribute +5 to either ST or DE. Your HP become 25 while in this form.",
+            "effects": "You can shapeshift into huge creatures of your chosen type. Distribute +5 to either ST or DE. Your HEALTH is while in this form.",
             "tags": ["resolve"]
         },
         {
@@ -1388,8 +1356,8 @@
             "name": "Arcane armor",
             "prerequisites": "",
             "charges": "",
-            "costs": "Any number of resolve",
-            "effects": "Spend a number of resolve to reduce incoming damage by 1d6 per resolve spent.",
+            "costs": "",
+            "effects": "When you spend resolve to reduce conflict of arcane nature, reduce it again, as if you would spend another resolve.",
             "tags": ["static", "resolve"]
         },
         {
@@ -1452,8 +1420,8 @@
             "name": "Sign of the maiden",
             "prerequisites": "",
             "charges": "3 charges",
-            "costs": "",
-            "effects": "Roll 1d4 and target a creature. They gain the result as shielded HP.",
+            "costs": "1 resolve",
+            "effects": "Touch a creature to remove a lvl 1 wound from it.",
             "tags": ["static", "healing"]
         },
         {
@@ -1509,7 +1477,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Gain +1 die to all ST checks for a short duration.",
+            "effects": "Gain +1 die to all checks that use ST for a short duration.",
             "tags": ["static"]
         },
         {
@@ -1541,7 +1509,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "You gain no resolve during your next rest.",
-            "effects": "Roll a vigilance check to distribute G{4} | Y{2} rest dice between your allies. These can exceed their rest dice maximum.",
+            "effects": "Roll a vigilance check to distribute G{4} | Y{2} resolve between your allies. These can exceed their resolve maximum.",
             "tags": ["static", "resolve"]
         },
         {
@@ -1565,7 +1533,7 @@
             "prerequisites": "Control over arcane element: life",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "Combine your arcane threads into your HP. When casting an arcane spell of the life element, spend HP in the place of threads.",
             "tags": [""]
         },
         {
