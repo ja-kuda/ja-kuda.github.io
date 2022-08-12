@@ -115,7 +115,7 @@
         {
             "name": "Bloodbath",
             "prerequisites": "",
-            "charges": "1 charge",
+            "charges": "2 charges",
             "costs": "",
             "effects": "Bathe in blood to gain 1 temporary empty lvl 1 wound until your next rest.",
             "tags": ["combat", "healing"]
@@ -125,7 +125,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can roll 2 dice when fighting unarmed.",
+            "effects": "Your unarmed attacks are just as deadly as if you were fighting with a weapon.",
             "tags": ["combat", "unarmed"]
         },
         {
@@ -213,7 +213,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Reduce any penalty of wearing armor by 1.",
+            "effects": "Restrictions from wearing armor are reduced by 1.",
             "tags": ["general"]
         },
         {
@@ -245,7 +245,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "After you take damage, you can kill the source to remove the wound.",
+            "effects": "After you take damage, you can kill the source to remove the resulting wound.",
             "tags": ["combat"]
         },
         {
@@ -253,7 +253,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "After you deal damage to an enemy you can mark them. An ally or yourself can consume the mark to regain 1 resolve when killing them.",
+            "effects": "After you deal damage to an enemy you can mark them. An ally or yourself can consume the mark to recover 1 resolve when killing them.",
             "tags": ["combat"]
         },
         {
@@ -333,7 +333,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a weapon type (light, medium, heavy, long, ranged, firearms or unarmed). Combat checks made with this weapon are made with the usual 2 dice instead of 1. You can choose to learn this talent multiple times, once per weapon type.",
+            "effects": "Choose a weapon type (light, medium, heavy, long, ranged, firearms or unarmed). Add +1 die to skirmish checks made with weapons of that type. You can learn this talent multiple times and choose different weapon types each time.",
             "tags": ["combat", "weapons", "multi"]
         },
         {
@@ -341,7 +341,7 @@
             "prerequisites": "Weapons training talent",
             "charges": "",
             "costs": "",
-            "effects": "Choose a weapon type you are trained in and gain +1 to combat checks made with the chosen type. You can learn this talent multiple times, but only up to 3 times per weapon type.",
+            "effects": "Choose a specific weapon type and gain +1 to combat checks made with the chosen type. You can learn this talent multiple times and choose different weapon types each time.",
             "tags": ["combat", "weapons", "multi"]
         },
         {
@@ -357,7 +357,7 @@
             "prerequisites": "Arcane spellcasting talent",
             "charges": "",
             "costs": "",
-            "effects": "Increase an arcane element you control by 1 lvl. Also gain +3 to your maximum arcane threads. You can learn this talent multiple times.",
+            "effects": "Increase an arcane element you control by 1 lvl. Also gain +5 to your maximum arcane threads. You can learn this talent multiple times.",
             "tags": ["magic", "arcane"]
         },
         {
@@ -675,17 +675,17 @@
         {
             "name": "Battle medic",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
-            "effects": "TODO",
+            "effects": "Roll a medicine check to reduce a creatures newest wound by G{2 lvls} | Y{1 lvl}.",
             "tags": ["mental", "medicine"]
         },
         {
             "name": "Feldsher",
             "prerequisites": "",
-            "charges": "",
+            "charges": "2 charges",
             "costs": "",
-            "effects": "Roll a medicine check to TODO",
+            "effects": "Roll a medicine check to remove 1 G{lvl 2 wound} | Y{lvl 1 wound}. This takes at least an hour of time.",
             "tags": ["mental", "medicine", "healing"]
         },
         {
@@ -693,7 +693,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Choose an ally during rest, TODO",
+            "effects": "Choose an ally during rest, they can remove an additional lvl 1 wound.",
             "tags": ["mental", "medicine", "healing", "rest"]
         },
         {
@@ -701,15 +701,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Roll a medicine check with -1 die to heal the severely wounded: G{Heal a lvl 2 or lower wound} | R{Inflict a lvl 1 wound}",
-            "tags": ["mental", "medicine", "healing"]
-        },
-        {
-            "name": "Treat wounds",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "1 resolve",
-            "effects": "Roll a medicine check to take your time to remove an allies G{lvl 1 wound}",
+            "effects": "Roll a medicine check with -1 die to heal the severely wounded: G{Heal a wound of any lvl} | R{Inflict a lvl 1 wound}",
             "tags": ["mental", "medicine", "healing"]
         },
         {
@@ -1427,17 +1419,17 @@
         {
             "name": "Sign of balance",
             "prerequisites": "",
-            "charges": "1 charge",
-            "costs": "2 resolve",
-            "effects": "Target a creature and roll a survival check: Equalize your and the targets HP percentage G{indefinitely} | Y{for a short duration}.",
-            "tags": ["static", "resolve", "healing"] 
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["static"] 
         },
         {
             "name": "Sign of the archer",
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Roll a combat check as if you are trained in ranged weapons to shoot G{6} | Y{3} | R{1} arrows that deal 1 damage each.",
+            "effects": "Roll a combat check as if you are trained in ranged weapons to shoot G{4} | Y{2} | R{1} arrows.",
             "tags": ["static", "combat", "ranged"]
         },
         {
@@ -1485,7 +1477,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll 1d4 and deal that much damage to and knock back a target based on the result.",
+            "effects": "Roll 1d6 and knock back a target a number of meters based on the results.",
             "tags": ["static"]
         },
         {
@@ -1515,9 +1507,9 @@
         {
             "name": "Sign of the goat",
             "prerequisites": "",
-            "charges": "",
-            "costs": "1 resolve",
-            "effects": "Summon a small goat with 3 HP.",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "Summon a small, otherworldly goat. It disappears after you rest.",
             "tags": ["static"]
         },
         {
@@ -1533,16 +1525,16 @@
             "prerequisites": "Control over arcane element: life",
             "charges": "",
             "costs": "",
-            "effects": "Combine your arcane threads into your HP. When casting an arcane spell of the life element, spend HP in the place of threads.",
-            "tags": [""]
+            "effects": "You may inflict a lvl 1 wound on yourself to instantly recover 5 arcane threads.",
+            "tags": ["magic", "arcane"]
         },
         {
-            "name": "",
+            "name": "Life drain",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "",
-            "tags": [""]
+            "effects": "Whenever you inflict pain or damage on another creature, you may roll 1d4 and recover that many arcane threads instantly.",
+            "tags": ["magic", "arcane"]
         },
         {
             "name": "",
