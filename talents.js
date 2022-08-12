@@ -34,8 +34,19 @@ function createCheckboxes(){
     });
 }
 
+function compare( a, b ) {
+    if ( a.name < b.name ){
+      return -1;
+    }
+    if ( a.name > b.name ){
+      return 1;
+    }
+    return 0;
+  }
 
 function showAllTalents(){
+    //allTalents.talents.sort(compare);
+
     allTalents.talents.forEach(element => {
         const newDiv = document.createElement("div");
         newDiv.setAttribute("id", element.name);
