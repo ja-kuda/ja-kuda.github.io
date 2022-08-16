@@ -13,7 +13,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Whenever you roll a cumulative check, reduce the number of successful checks by 1.",
+            "effects": "When resolving cumulative checks add 1 full success to the final tally of results.",
             "tags": ["general"]
         },
         {
@@ -1197,7 +1197,7 @@
             "prerequisites": "Animal companion",
             "charges": "",
             "costs": "",
-            "effects": "You are able to control stronger companions. Your companion gains stats of their own: Distribute 1, 2, 3 for the following attributes: ST, DE, WI. The companions HEALTH is: TODO",
+            "effects": "You are able to control stronger companions and functions as a separate character. They gain the following attributes: ST, DE and WE. Distribute 6 points between them. They also gain the following skills: agility, trickery, endurance, vigilance, performance, skirmish. Distribute 6 points between them like you would when creating a character. They gain 2 - 2 - 1 wounds.",
             "tags": ["companion"]
         },
         {
@@ -1553,11 +1553,19 @@
             "tags": ["status effect"]
         },
         {
-            "name": "",
+            "name": "Reanimation",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
+            "costs": "2 resolve",
+            "effects": "Contact a soul in Limbo and start a resurrection ritual. The character you want to revive can not be dead for longer than an hour.",
+            "tags": [""]
+        },
+        {
+            "name": "Resurrection",
+            "prerequisites": "",
+            "charges": "1 charge per month",
             "costs": "",
-            "effects": "",
+            "effects": "Contact a soul in Limbo and start a resurrection ritual.",
             "tags": [""]
         }
     ]

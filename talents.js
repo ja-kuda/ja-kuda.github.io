@@ -13,6 +13,7 @@ function loadFile(){
     // read all talents
     $.getJSON('talents.json', function( data ) {
       allTalents = data;
+      allTalents.talents = allTalents.talents.sort(compare);
       showAllTalents();
     });
 }
@@ -24,7 +25,9 @@ function createCheckboxes(){
         cb.setAttribute("type", "checkbox");
         cb.setAttribute("onClick", "filter(this)")
         cb.setAttribute("id", element);
+        //cb.setAttribute("class", "mdc-checkbox");
         const newlabel = document.createElement("Label");
+        //newlabel.setAttribute("class", "mdc-floating-label");
         newlabel.innerHTML = element;
         const br = document.createElement("br");
         const setter = document.getElementById("numberSetter");
