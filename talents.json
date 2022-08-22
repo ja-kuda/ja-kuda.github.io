@@ -42,7 +42,7 @@
         },
         {
             "name": "Skill mastery",
-            "prerequisites": "A skill with +4 training, no more than 1 skill with +5 training",
+            "prerequisites": "+4 in a skill",
             "charges": "",
             "costs": "",
             "effects": "Choose a skill with +4 training, increase it to +5. You can learn this talent two times.",
@@ -98,7 +98,7 @@
         },
         {
             "name": "Backstab",
-            "prerequisites": "Weapons training talent (light)",
+            "prerequisites": "light weapons boon",
             "charges": "",
             "costs": "",
             "effects": "You are especially deadly when your enemy does not see you coming. Treat skirmish checks that target unsuspecting opponents as one stage better.",
@@ -119,14 +119,6 @@
             "costs": "",
             "effects": "Bathe in blood to gain 1 temporary empty lvl 1 wound until your next rest.",
             "tags": ["skirmish", "healing"]
-        },
-        {
-            "name": "Brawler",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Your unarmed attacks are just as deadly as if you were fighting with a weapon.",
-            "tags": ["skirmish", "weapons"]
         },
         {
             "name": "Bring it on",
@@ -186,7 +178,7 @@
         },
         {
             "name": "Dual wield",
-            "prerequisites": "Weapons training talent (light or medium)",
+            "prerequisites": "light or medium weapons boon",
             "charges": "",
             "costs": "",
             "effects": "You can use two weapons at the same time, gaining both of their effects.",
@@ -197,7 +189,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Your attacks can hits ethereal beings, like ghosts, wraiths, etc.",
+            "effects": "Your attacks can hit ethereal beings, like ghosts, wraiths, etc.",
             "tags": ["skirmish", "weapons"]
         },
         {
@@ -298,7 +290,7 @@
         },
         {
             "name": "Strongarm",
-            "prerequisites": "",
+            "prerequisites": "heavy weapons boon",
             "charges": "",
             "costs": "",
             "effects": "You can wield heavy weapons with only one hand.",
@@ -314,15 +306,15 @@
         },
         {
             "name": "Sword and powder",
-            "prerequisites": "melee weapon in one hand, firearm in the other hand",
+            "prerequisites": "any melee weapon boon, firearm boon",
             "charges": "",
             "costs": "",
-            "effects": "When you make a combat check against an enemy: G{Also shoot your pistol at any opponent} | Y{Shoot your pistol at your target}.",
+            "effects": "When you make a skirmish check against an enemy: G{Also shoot your pistol at any opponent} | Y{Shoot your pistol at your target}.",
             "tags": ["skirmish", "weapons"]
         },
         {
             "name": "Ultra heavy",
-            "prerequisites": "4 ST",
+            "prerequisites": "4 ST, heavy weapons boon",
             "charges": "",
             "costs": "",
             "effects": "You can use heavy objects like trees, anchors or boulders as heavy weapons.",
@@ -333,7 +325,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a weapon type (light, medium, heavy, long, ranged, firearms or unarmed). Add +1 die to skirmish checks made with weapons of that type. You can learn this talent multiple times and choose different weapon types each time.",
+            "effects": "Choose a weapon type (light, medium, heavy, long, ranged, firearms or unarmed). Gain a boon of that weapons type.",
             "tags": ["weapons"]
         },
         {
@@ -341,7 +333,7 @@
             "prerequisites": "Weapons training talent",
             "charges": "",
             "costs": "",
-            "effects": "Choose a specific weapon type and gain +1 to combat checks made with the chosen type. You can learn this talent multiple times and choose different weapon types each time.",
+            "effects": "Choose a specific weapon type and gain a boon of that specific weapons type.",
             "tags": ["weapons"]
         },
         {
@@ -977,19 +969,11 @@
             "tags": ["crafting"]
         },
         {
-            "name": "Heavy sleeper",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Automatically remove either fatigue or stress during each rest.",
-            "tags": ["resting", "status effect"]
-        },
-        {
             "name": "Night owl",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain +1 resolve each rest.",
+            "effects": "You can choose to gain +1 resolve during a rest. If you do, you do not remove stress and fatigue automatically.",
             "tags": ["resolve", "resting"]
         },
         {
@@ -1566,6 +1550,166 @@
             "charges": "1 charge per month",
             "costs": "",
             "effects": "Contact a soul in Limbo and start a resurrection ritual.",
+            "tags": [""]
+        },
+        {
+            "name": "Aspect of the flame",
+            "prerequisites": "An ambition for fire, emotion or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "Looking into a flame allows you to see brief visions of the past from the flames point of view.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of the storm",
+            "prerequisites": "An ambition for power, strength, air or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You are able to sense and feel storms approaching and gain information about their duration and strength.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of stone",
+            "prerequisites": "An ambition for creation, stability or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "Touch a stone surface and gain information about ore veins, mineshafts, waterways etc. in the vicinity.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of the moon",
+            "prerequisites": "An ambition for night, serenity, quiet or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You can wake up at will and your sleep can not be interrupted by others unless you wish so.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of limbo",
+            "prerequisites": "An ambition for balance, life, death or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You can sense the veil between life and death, feeling locations where limbo is especially near.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of the sun",
+            "prerequisites": "An ambition for light, hope or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You are immune to fatigue while in direct sunlight.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of harvest",
+            "prerequisites": "An ambition for community, food or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "Food in your possession rots much slower. When gathering or farming, gain double the amount.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of the wilds",
+            "prerequisites": "An ambition for freedom, serenity or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "Wildlife does not perceive you as a threat until you take provoking actions.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of learning",
+            "prerequisites": "An ambition for enlightenment, knowledge or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You can read extremely fast and still recall all that you read.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of skins",
+            "prerequisites": "An ambition for change, beauty, deception or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You can change your skintone and texture at will, allowing for different colours, fur, feathers or scales.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of unwavering",
+            "prerequisites": "An ambition for honor, strength, justice or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You are immune to effects from fear.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of investigation",
+            "prerequisites": "An ambition for justice, honor, truth or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "Looking at a person reveals their most recent crime.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of flowers",
+            "prerequisites": "An ambition for beauty, serenity, nature or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You always smell faintly of flowers without it being overpowering.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of the crow",
+            "prerequisites": "An ambition for corruption, nature, power or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You can communicate simple ideas and requests with crows in your vicinity.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of blood",
+            "prerequisites": "An ambition for healing, grief or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "Taste a drop of blood to learn of the creature it came from.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of the lie",
+            "prerequisites": "An ambition for deception, corruption, power or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "When you successfully lie to another person, also gain insight into their insecurities and fears.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of the killer",
+            "prerequisites": "An ambition for war, strength, power or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "After killing an enemy, gain 1d4 to add to any checks result. You can only have one of these d4 at a time.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Aspect of remembrance",
+            "prerequisites": "An ambition for memory, history, enlightenment or similar",
+            "charges": "",
+            "costs": "",
+            "effects": "You have a photographic memory and can recall all that has happened in the last month in detail.",
+            "tags": ["aspect"]
+        },
+        {
+            "name": "Wound redistribution",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "When you would fill a wound of a higher level, you can instead fill wounds of a lower level equal to its lvl.",
+            "tags": [""]
+        },
+        {
+            "name": "TEST",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "",
             "tags": [""]
         }
     ]
