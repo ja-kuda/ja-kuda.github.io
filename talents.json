@@ -837,7 +837,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can use alchemy formulas. Create alchemical ingredients by spending 1 resolve to create 5 ingredients. This talent allows you to learn more specialized alchemy talents.",
+            "effects": "You can learn and create alchemy formulas. You can create alchemical ingredients by spending 1 resolve during rest to create 5 crafting ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -845,7 +845,7 @@
             "prerequisites": "Alchemy talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain the following boon: explosives. Once per rest you can create a basic bomb without spending ingredients.",
+            "effects": "Gain the following boon: explosives. You learn the following alchemy formula: basic bomb. Once per rest you can create a basic bomb without spending ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -867,9 +867,9 @@
         {
             "name": "Brewer",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
-            "effects": "You can use brewing recipes. Gather brewing ingredients by spending half a day and roll a survival check to gather the result as ingredients. This talent allows you to learn more specialized brewer talents.",
+            "effects": "You can learn and create brewing recipes. You can gather ingredients by spending half a day and rolling 1d8. You gain the number rolled as ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -900,7 +900,7 @@
             "name": "Spell absorption",
             "prerequisites": "Brewer talent",
             "charges": "2 charges",
-            "costs": "5 natural ingredients",
+            "costs": "5 ingredients",
             "effects": "When you are hit by a spell or an arcane effect, you can spend 5 ingredients to bottle a copy of the effect as a potion. When using the potion, roll a crafting check: R:{It explodes with the bottled effect.}",
             "tags": ["crafting", "arcane"]
         },
@@ -917,7 +917,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can use mutation genecasts. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse and gain 1/2/3/4/5 special ingredients based on its size.",
+            "effects": "You can learn and create mutation genecasts. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse and gain 1/2/3/4/5 special ingredients based on its size.",
             "tags": ["crafting"]
         },
         {
@@ -941,7 +941,7 @@
             "prerequisites": "Mutationist talent",
             "charges": "",
             "costs": "",
-            "effects": "When you damage a creature you can make a crafting check G{to harvest 1 special ingredient}.",
+            "effects": "When you damage a creature you can make a crafting check to G{harvest 1 special ingredient} | Y{harvest 1 special ingredient but gain additional conflict}.",
             "tags": ["crafting"]
         },
         {
@@ -1162,10 +1162,18 @@
         },
         {
             "name": "Animal companion",
-            "prerequisites": "At least +3 in either survival or convincing",
+            "prerequisites": "At least +3 in either endurance or influence",
             "charges": "",
             "costs": "",
-            "effects": "Gain a small or medium creature as your companion. The creature can suffer a lvl 1 wound before dying.",
+            "effects": "Gain a small or medium animal as your companion. Your companion can move and act independently from you and has 2 - 0 - 0 health.",
+            "tags": ["companion"]
+        },
+        {
+            "name": "Monster companion",
+            "prerequisites": "Animal companion talent",
+            "charges": "",
+            "costs": "",
+            "effects": "Your companion can be any creature.",
             "tags": ["companion"]
         },
         {
@@ -1697,11 +1705,11 @@
             "tags": [""]
         },
         {
-            "name": "TEST",
-            "prerequisites": "",
-            "charges": "",
+            "name": "Satür",
+            "prerequisites": "Satyr ancestry, tearhopping talent",
+            "charges": "1 charge per week",
             "costs": "",
-            "effects": "",
+            "effects": "You can choose to make the tear you create with your tearhopping talent accessible for others as well.",
             "tags": [""]
         }
     ]
