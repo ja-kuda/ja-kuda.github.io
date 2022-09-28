@@ -9,13 +9,25 @@
 
   <body onload="loadFile()">
 
+    
+
+    <br>
+
     <div class="container">
       <div class="left">
         <label id="filterLabel">FILTER: </label>
-        <br><br>
+        <br>
+        <br>
+        <div class="search">
+          <input type="search" id="searchField" placeholder="Suche...">
+          <button type="button" id="searchButton" onclick="search()">Search talents</button>
+        </div>
+        <br>
         
         <!--<button type="button" onclick="rollDice()">TEST</button> -->
         <div id="numberSetter"></div>
+        <br>
+        <button type="button" id="clearButton" onclick="clearFilters()">Clear all filters</button>
       </div>
       <div class="right">
         <label id="talentLabel">TALENTS: </label>

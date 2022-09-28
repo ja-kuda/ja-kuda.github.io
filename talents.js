@@ -25,6 +25,7 @@ function createCheckboxes(){
         cb.setAttribute("type", "checkbox");
         cb.setAttribute("onClick", "filter(this)")
         cb.setAttribute("id", element);
+        cb.setAttribute("class", "check");
         //cb.setAttribute("class", "mdc-checkbox");
         const newlabel = document.createElement("Label");
         //newlabel.setAttribute("class", "mdc-floating-label");
@@ -48,7 +49,7 @@ function compare( a, b ) {
   }
 
 function showAllTalents(){
-    //allTalents.talents.sort(compare);
+    allTalents.talents.sort(compare);
 
     allTalents.talents.forEach(element => {
         const newDiv = document.createElement("div");
@@ -109,7 +110,7 @@ function filter(checkbox){
             })
         }
         if(hasTag){
-            document.getElementById(element.name).style.display = 'block';
+            document.getElementById(element.name).style.display = 'inline-block';
             activeNumber++;
         }
         else{
@@ -118,6 +119,35 @@ function filter(checkbox){
     });
     countTalents(activeNumber);
 }
+
+function search(){
+    var searchTerm = document.getElementById("searchField").value.toUpperCase();
+    var activeNumber = 0;
+    allTalents.talents.forEach(element => {
+        if(element.effects.toUpperCase().includes(searchTerm) || element.name.toUpperCase().includes(searchTerm)){
+            document.getElementById(element.name).style.display = 'inline-block';
+            activeNumber++;
+        }
+        else{
+            document.getElementById(element.name).style.display = 'none';
+        }
+    });
+    countTalents(activeNumber);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 function rollDice(){

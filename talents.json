@@ -5,7 +5,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 resolve",
-            "effects": "Use 1 resolve immediately to remove up to 2 lvl 1 wounds.",
+            "effects": "Use 1 resolve immediately to heal up to 2 lvl 1 wounds.",
             "tags": ["resolve", "healing"]
         },
         {
@@ -13,7 +13,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When resolving cumulative checks add 1 full success to the final tally of results.",
+            "effects": "When resolving cumulative checks to learn or gain information, add 1 full success to the final tally of results.",
             "tags": ["general"]
         },
         {
@@ -29,7 +29,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you obtain a special or rare item, gain 2 dice to add to any combination of rolls. The dice correspond to the type of dice used in the respective checks.",
+            "effects": "When you obtain a special or rare item, gain 2 temporary boons: everything. Using these boons removes them after the additional dice are added to the check.",
             "tags": [ "general"]
         },
         {
@@ -37,7 +37,7 @@
             "prerequisites": "A striking physical feature",
             "charges": "",
             "costs": "",
-            "effects": "Choose a striking physical feature like an eyepatch, scars or tattoos. Brandish your chosen feature to immediately gather interest and attention.",
+            "effects": "Choose a striking physical feature like an eyepatch, scars or tattoos. Brandish your chosen feature to immediately gather interest and attention, putting all eyes on you.",
             "tags": ["influence"]
         },
         {
@@ -45,7 +45,7 @@
             "prerequisites": "+4 in a skill",
             "charges": "",
             "costs": "",
-            "effects": "Choose a skill with +4 training, increase it to +5. You can learn this talent two times.",
+            "effects": "Choose a skill with +4 training, increase it to +5. You can have up to two skills with this bonus by learning this talent multiple times.",
             "tags": ["general"]
         },
         {
@@ -53,15 +53,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "The GM warns you of surprises but all details are left out.",
+            "effects": "You gain a sense of danger. The GM warns you of impending danger but leaves out details.",
             "tags": ["general", "vigilance"]
         },
         {
             "name": "Thick hide",
             "prerequisites": "",
-            "charges": "1 charge",
+            "charges": "",
             "costs": "",
-            "effects": "Gain 1 armor after each rest.",
+            "effects": "Gain 2 armor that regenerates during a rest.",
             "tags": ["resting"]
         },
         {
@@ -85,7 +85,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You gain another empty lvl 1 wound permanently.",
+            "effects": "You gain another lvl 1 wound permanently.",
             "tags": ["general", "healing"]
         },
         {
@@ -109,7 +109,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain +1 to skirmish checks and +1 resolve that can only be used in combat, as long as you are in battle.",
+            "effects": "Gain a temporary boon: fighting. Also gain +1 resolve that can only be used as long as you are in battle.",
             "tags": ["skirmish"]
         },
         {
@@ -129,14 +129,6 @@
             "tags": ["skirmish"]
         },
         {
-            "name": "Cannonfire",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Gain +2 to all checks with stationary firearms and cannons.",
-            "tags": ["skirmish", "weapons"]
-        },
-        {
             "name": "Careless fighting",
             "prerequisites": "",
             "charges": "",
@@ -149,7 +141,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "If you enter battle first and ahead of your allies, they gain +1 to all skirmish checks during the battle.",
+            "effects": "If you enter battle first and ahead of your allies, they gain a temporary boon during battle: fighting.",
             "tags": ["skirmish"]
         },
         {
@@ -157,7 +149,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You only need to use one hand to restrict or grapple creatures.",
+            "effects": "Treat checks made to grapple and restrict others as one stage better. This allows for critical successes.",
             "tags": ["agility"]
         },
         {
@@ -187,7 +179,7 @@
         {
             "name": "Fair fight",
             "prerequisites": "",
-            "charges": "2 charges",
+            "charges": "1 charge",
             "costs": "",
             "effects": "Choose a single enemy. You both enter a duel to the death and nobody else can disrupt you.",
             "tags": ["skirmish"]
@@ -197,7 +189,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Restrictions from wearing armor are reduced by 1.",
+            "effects": "Flaws gained from wearing armor do not affect your dexterity, agility and trickery.",
             "tags": ["general"]
         },
         {
@@ -205,7 +197,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Attacking out of hiding does not reveal your position.",
+            "effects": "Attacking someone out of the shadows does not reveal you. Works only once per target in a given situation.",
             "tags": ["skirmish", "trickery"]
         },
         {
@@ -213,7 +205,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When an ally besides you takes damage, you can take it instead.",
+            "effects": "When an ally besides you takes damage roll an endurance check to take G{all} | Y{1} of the damage instead.",
             "tags": ["general", "skirmish"]
         },
         {
@@ -221,7 +213,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you kill an enemy, roll an influence check: Remaining enemies G{will be terrified} | Y{lose morale}.",
+            "effects": "When you kill or harm an enemy, roll an influence check: Remaining enemies G{will be terrified} | Y{lose morale}. The more damage you inflicted, the lower the tagret for the check will be.",
             "tags": ["skirmish", "influence"]
         },
         {
@@ -245,7 +237,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "When you take any wound, you can ignore it. You instead take a wound that is a lvl higher than the one you ignored after an hour.",
+            "effects": "When you take any wound, you can ignore it. Instead gain a temporary flaw that fits the injury. You can remove it during a rest.",
             "tags": ["general", "healing", "endurance"]
         },
         {
@@ -301,7 +293,7 @@
             "prerequisites": "4 ST, heavy weapons boon",
             "charges": "",
             "costs": "",
-            "effects": "You can use heavy objects like trees, anchors or boulders as heavy weapons.",
+            "effects": "You can use heavy objects like trees, anchors or boulders as heavy weapons. Boons do not apply when using them.",
             "tags": ["weapons"]
         },
         {
@@ -313,8 +305,8 @@
             "tags": ["weapons"]
         },
         {
-            "name": "Weapons expertise",
-            "prerequisites": "Weapons training talent",
+            "name": "Weapons specialist",
+            "prerequisites": "",
             "charges": "",
             "costs": "",
             "effects": "Choose a specific weapon type and gain a boon of that specific weapons type.",
@@ -365,7 +357,7 @@
             "prerequisites": "",
             "charges": "5 charges",
             "costs": "",
-            "effects": "Give an ally a command. If the ally tries to follow it with their next action, they gain +1 to the associated check.",
+            "effects": "Give an ally a command. They gain a temporary boon for that command. The boon lasts until used in a check or until a minute has passed.",
             "tags": ["influence"]
         },
         {
@@ -405,7 +397,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "After interacting with a person for a short time, gain +1 to all checks relating to that person from now on. This effect is only active on the last person you interacted with.",
+            "effects": "After interacting with a person for a short time, gain a boon for that person. You can only have one of these boons active at once.",
             "tags": ["influence"]
         },
         {
@@ -445,7 +437,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Roll an influence check against a target to confuse it and G{gain +1 die for your next check against them} | G{break their concentration and make them lose their next action} | Y{gain +1 to your next check against them}.",
+            "effects": "Roll an influence check against a target to confuse it and G{gain a temporary boon against them that lasts an hour} | G{break their concentration and stun them} | Y{gain a temporary boon against them that lasts a minute}.",
             "tags": ["influence"]
         },
         {
@@ -461,7 +453,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you roll a successful influence check to lie you gain a stacking +1 bonus. The bonus is lost when you use an influence check to tell the truth.",
+            "effects": "When you roll a successful influence check to lie you gain a stacking boon: lying. The boon is lost when you use an influence check to tell the truth.",
             "tags": ["influence"]
         },
         {
@@ -653,7 +645,7 @@
             "prerequisites": "Feldsher talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Remove a creatures newest wound. Roll a medicine check: Remove up to G{2 wound levels} | Y{1 wound level} | R{instead inflict a lvl 1 wound}.",
+            "effects": "Heal a creatures newest wound.",
             "tags": ["medicine", "healing"]
         },
         {
@@ -677,7 +669,7 @@
             "prerequisites": "Feldsher talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Roll a medicine check to heal the severely wounded: G{Heal a wound of any lvl} | R{Inflict a lvl 1 wound}",
+            "effects": "Roll a crafting check to heal the severely wounded: G{Remove a wound of any lvl} | R{Inflict a lvl 1 wound}",
             "tags": ["medicine", "healing"]
         },
         {
@@ -1525,7 +1517,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are cursed, ",
+            "effects": "While you are cursed, gain +1 resolve each rest.",
             "tags": ["status effect"]
         },
         {
@@ -1673,7 +1665,7 @@
             "tags": ["aspect"]
         },
         {
-            "name": "Aspect of the lie",
+            "name": "Aspect of lies",
             "prerequisites": "An ambition for deception, corruption, power or similar",
             "charges": "",
             "costs": "",
@@ -1710,6 +1702,38 @@
             "charges": "1 charge per week",
             "costs": "",
             "effects": "You can choose to make the tear you create with your tearhopping talent accessible for others as well.",
+            "tags": [""]
+        },
+        {
+            "name": "Sticky tongue",
+            "prerequisites": "Gob ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "You can extend your tongue up to 2 meters and hold items and creatures in it.",
+            "tags": [""]
+        },
+        {
+            "name": "Goldfinger",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You have a sense for gold and only gold. You can see and feel every presence of gold in an area of 20 meters around you.",
+            "tags": [""]
+        },
+        {
+            "name": "Elemental resistance",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "Choose an element when learning this talent. Gain the following boon: resistance against chosen element",
+            "tags": [""]
+        },
+        {
+            "name": "Arcane combination",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "Additional arcane threads",
+            "effects": "You can combine two or more talents that fit for a given spell effect. Doing so costs a number of arcane threads equal to the added element level and allows you to add its bonus to the check.",
             "tags": [""]
         }
     ]

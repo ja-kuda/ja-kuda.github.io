@@ -1,3 +1,7 @@
+body{
+    background-color: olive;
+}
+
 .container {
     display: flex;
     flex-basis: 0;
@@ -14,9 +18,13 @@
 }
 
 .talentBox{
+    display: inline-block;
+    vertical-align: top;
+    width: 43%;
     margin: 1rem;
     padding: 1rem;
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
+    background-color: bisque;
 }
