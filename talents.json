@@ -13,7 +13,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When resolving cumulative checks to learn or gain information, add 1 full success to the final tally of results.",
+            "effects": "When resolving cumulative checks to learn or gain information, add 1 success to the final tally of results.",
             "tags": ["general"]
         },
         {
@@ -29,7 +29,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you obtain a special or rare item, gain 2 temporary boons: everything. Using these boons removes them after the additional dice are added to the check.",
+            "effects": "When you obtain a special or rare item, gain 2 temporary boons: everything. They last until they are used.",
             "tags": [ "general"]
         },
         {
@@ -42,10 +42,10 @@
         },
         {
             "name": "Skill mastery",
-            "prerequisites": "+4 in a skill",
+            "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a skill with +4 training, increase it to +5. You can have up to two skills with this bonus by learning this talent multiple times.",
+            "effects": "",
             "tags": ["general"]
         },
         {
@@ -133,7 +133,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain +2 on your next skirmish check, but gain conflict after.",
+            "effects": "Gain a temporary boon for your next attack. In addition to any possible conflict, an enemy strikes you with an attack.",
             "tags": ["skirmish"]
         },
         {
@@ -157,7 +157,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "If you exceed the target of a skirmish check by +7, lethally wound your opponent, regardless of the result.",
+            "effects": "Gaining a critical success on a skirmish check will instantly kill any normal target.",
             "tags": ["skirmish"]
         },
         {
@@ -189,7 +189,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Flaws gained from wearing armor do not affect your dexterity, agility and trickery.",
+            "effects": "Flaws gained from wearing armor do not affect your agility and trickery.",
             "tags": ["general"]
         },
         {
@@ -213,7 +213,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you kill or harm an enemy, roll an influence check: Remaining enemies G{will be terrified} | Y{lose morale}. The more damage you inflicted, the lower the tagret for the check will be.",
+            "effects": "When you kill or harm an enemy, roll an influence check: Remaining enemies G{will be terrified} | Y{lose morale}.",
             "tags": ["skirmish", "influence"]
         },
         {
@@ -221,7 +221,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "After you take damage, you can kill the source to remove the wound.",
+            "effects": "After you take damage, if you manage to kill the source to remove the wound.",
             "tags": ["skirmish"]
         },
         {
@@ -237,7 +237,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "When you take any wound, you can ignore it. Instead gain a temporary flaw that fits the injury. You can remove it during a rest.",
+            "effects": "When you take any wound, you can ignore it. Instead gain a temporary flaw that fits the injury. You can remove it during a rest instead of healing a wound.",
             "tags": ["general", "healing", "endurance"]
         },
         {
@@ -313,19 +313,123 @@
             "tags": ["weapons"]
         },
         {
-            "name": "Arcane spellcasting",
+            "name": "Arcane bond",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You gain the ability to create arcane effects and cast spells. (See the magic chapter for details) You gain a maximum of 5 arcane threads and can choose 1 of the arcane elements at lvl 1.",
+            "effects": "You gain the ability to create arcane effects. Choose an element talent and a form talent when you learn this talent and learn them as well.",
             "tags": ["arcane"]
         },
         {
-            "name": "Increase element",
+            "name": "Arcane element: fire",
             "prerequisites": "Arcane spellcasting talent",
             "charges": "",
             "costs": "",
-            "effects": "Increase an arcane element you control by 1 lvl. Also gain +5 to your maximum arcane threads. You can learn this talent multiple times.",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: water",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: air",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: earth",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: essence",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: light",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: mind",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: time",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: space",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane element: life",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane form: creation",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane form: destruction",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane form: exploration",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane form: manipulation",
+            "prerequisites": "Arcane spellcasting talent",
+            "charges": "",
+            "costs": "",
+            "effects": "",
             "tags": ["arcane"]
         },
         {
@@ -973,7 +1077,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "Any number of resolve",
-            "effects": "Spend a number of resolve to clear an influence from a target. Roll an insight check with additional dice equal to the number of resolve spent: G{You clear the influence} | Y{You stop the influence temporarily} | G{You transfer the influence to you}.",
+            "effects": "Spend a number of resolve to clear an influence from a target. Roll an insight check with boons equal to the number of resolve spent: G{You clear the influence} | Y{You stop the influence temporarily} | G{You transfer the influence to you}.",
             "tags": ["resolve", "healing"]
         },
         {
@@ -997,7 +1101,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You open up your mind to enter a creatures thoughts. Roll an insight check with -1 for each creature near your target: G{You read your targets thoughts} | Y{You read unclear and distorted thoughts} | R{You alert the target}.",
+            "effects": "You open up your mind to enter a creatures thoughts. Roll an insight check with a flaw for each creature near your target: G{You read your targets thoughts} | Y{You read unclear and distorted thoughts} | R{You alert the target}.",
             "tags": ["insight"]
         },
         {
@@ -1013,7 +1117,7 @@
             "prerequisites": "",
             "charges": "1 charge, does not recharge",
             "costs": "",
-            "effects": "Roll 1d20 to ask for direct help: G{They will help you directly} | Y{They will help you indirectly}. To recharge this talent, you have to prove yourself to your god.",
+            "effects": "Roll 1d12 to ask for direct help: G{They will help you directly} | Y{They will help you indirectly}. To recharge this talent, you have to prove yourself to your god.",
             "tags": ["ambition"]
         },
         {
@@ -1053,7 +1157,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You can choose to roll a check with 1d20 instead of the normal dice.",
+            "effects": "You can choose to roll a check with 1d12 instead of the normal dice.",
             "tags": ["general", "ambition"]
         },
         {
@@ -1101,7 +1205,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Reduce the effects of poisons and gain +1 die on checks made to withstand or shrug off poisons.",
+            "effects": "Reduce the effects of poisons and gain the following boon: withstanding poisons.",
             "tags": ["status effect"]
         },
         {
@@ -1213,7 +1317,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can store up to 4 small items in your mouth.",
+            "effects": "You can store up to 5 small items in your mouth.",
             "tags": ["shapeshift"]
         },
         {
@@ -1285,7 +1389,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose an attribute. When you use a talent, that requires a check and has the static tag, you can use your arcane skill instead of the stated skill for the talent.",
+            "effects": "",
             "tags": ["static", "arcane"]
         },
         {
@@ -1405,7 +1509,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Roll a skirmish check (with 2 dice) to shoot G{4} | Y{2} | R{1} arrows.",
+            "effects": "Roll a skirmish check to shoot G{4} | Y{2} | R{1} arrows.",
             "tags": ["static", "skirmish"]
         },
         {
@@ -1421,7 +1525,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 resolve",
-            "effects": "Roll a performance check to inspire your allies: They gain G{+2 dice on their next 2 checks} | Y{+1 die on their next check}.",
+            "effects": "Roll a performance check to inspire your allies: They gain G{boons x2 on their next 2 checks} | Y{a boon on their next check}.",
             "tags": ["static", "performance"]
         },
         {
@@ -1445,7 +1549,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Gain +1 to all checks that use ST for a medium duration.",
+            "effects": "",
             "tags": ["static"]
         },
         {

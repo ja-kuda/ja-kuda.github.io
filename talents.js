@@ -18,6 +18,17 @@ function loadFile(){
     });
 }
 
+new Vue({
+    el: '#app',
+    computed: {
+    test(){
+        return "hallo"
+    }//,
+      //talents() {
+      //  return window.allTalents.talents
+     // }
+    }
+  })
 
 function createCheckboxes(){
     checkBoxes.tags.forEach(element => {
@@ -49,7 +60,7 @@ function compare( a, b ) {
   }
 
 function showAllTalents(){
-    allTalents.talents.sort(compare);
+    //allTalents.talents.sort(compare);
 
     allTalents.talents.forEach(element => {
         const newDiv = document.createElement("div");
@@ -134,10 +145,6 @@ function search(){
     });
     countTalents(activeNumber);
 }
-
-
-
-
 
 
 

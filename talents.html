@@ -1,7 +1,7 @@
 <html>
   <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script type="text/javascript" src="talents.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.js"></script>
     <link rel="stylesheet" href="talents.css">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
@@ -9,9 +9,13 @@
 
   <body onload="loadFile()">
 
-    
-
     <br>
+
+
+  <div id="app">
+    <div v-text="test">x</div>
+      <div v-for="data in talents">{{data.name}}</div>
+  </div>
 
     <div class="container">
       <div class="left">
@@ -19,7 +23,7 @@
         <br>
         <br>
         <div class="search">
-          <input type="search" id="searchField" placeholder="Suche...">
+          <input type="search" id="searchField" onkeyup="search()" placeholder="Suche...">
           <button type="button" id="searchButton" onclick="search()">Search talents</button>
         </div>
         <br>
@@ -38,3 +42,6 @@
     
   </body>
 </html>
+
+
+<script type="text/javascript" src="talents.js"></script>
