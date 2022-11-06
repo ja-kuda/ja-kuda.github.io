@@ -322,7 +322,7 @@
         },
         {
             "name": "Arcane element: fire",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -330,7 +330,7 @@
         },
         {
             "name": "Arcane element: water",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -338,7 +338,7 @@
         },
         {
             "name": "Arcane element: air",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -346,7 +346,7 @@
         },
         {
             "name": "Arcane element: earth",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -354,7 +354,7 @@
         },
         {
             "name": "Arcane element: essence",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -362,7 +362,7 @@
         },
         {
             "name": "Arcane element: light",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -370,7 +370,7 @@
         },
         {
             "name": "Arcane element: mind",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -378,7 +378,7 @@
         },
         {
             "name": "Arcane element: time",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -386,7 +386,7 @@
         },
         {
             "name": "Arcane element: space",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -394,7 +394,7 @@
         },
         {
             "name": "Arcane element: life",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -402,7 +402,7 @@
         },
         {
             "name": "Arcane form: creation",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -410,7 +410,7 @@
         },
         {
             "name": "Arcane form: destruction",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -418,7 +418,7 @@
         },
         {
             "name": "Arcane form: exploration",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -426,7 +426,7 @@
         },
         {
             "name": "Arcane form: manipulation",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
             "effects": "",
@@ -434,27 +434,11 @@
         },
         {
             "name": "Arcane rituals",
-            "prerequisites": "Arcane spellcasting talent",
+            "prerequisites": "Arcane bond talent",
             "charges": "",
-            "costs": "",
-            "effects": "You gain access to arcane rituals, allowing you to use ritualistic instructions to create powerful, but slow effects. Make cumulative spellcasting checks when casting rituals.",
+            "costs": "Resources for a ritual",
+            "effects": "Instead of spontaneous effects, you can perform rituals to create your arcane effects. This takes time and resources but you do not need to spend arcane threads and you can skip the arcane check to control the spell.",
             "tags": ["arcane"]
-        },
-        {
-            "name": "Elemental exploitation",
-            "prerequisites": "Arcane spellcasting talent",
-            "charges": "3 charges",
-            "costs": "A source of an element matching your arcane element when casting a spell",
-            "effects": "Consume an amount of an element to recover some arcane threads used when casting a spell of the matching element.",
-            "tags": ["arcane"]
-        },
-        {
-            "name": "Static spell creation",
-            "prerequisites": "Arcane spellcasting talent",
-            "charges": "1 charge per month",
-            "costs": "",
-            "effects": "You can create static spells with your knowledge of the arcane. Make a cumulative spellcasting check (5 checks, at least 3 successes) to manifest an effect of your choice in the world. You can then learn the static spell with 1 charge.",
-            "tags": ["arcane", "static"]
         },
         {
             "name": "Command",
