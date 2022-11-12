@@ -11,15 +11,9 @@
 
     <br>
 
-
-  <div id="app">
-    <div v-text="test">x</div>
-      <div v-for="data in talents">{{data.name}}</div>
-  </div>
-
     <div class="container">
       <div class="left">
-        <label id="filterLabel">FILTER: </label>
+        <div class="categoryBox">Filter</div>
         <br>
         <br>
         <div class="search">
@@ -34,7 +28,7 @@
         <button type="button" id="clearButton" onclick="clearFilters()">Clear all filters</button>
       </div>
       <div class="right">
-        <label id="talentLabel">TALENTS: </label>
+        <div class="categoryBox"><label id="talentLabel">Talents</label></div>
         <br>
         <div id="setter"></div>
       </div>

@@ -325,7 +325,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: fire.",
             "tags": ["arcane"]
         },
         {
@@ -333,7 +333,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: water.",
             "tags": ["arcane"]
         },
         {
@@ -341,7 +341,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: air.",
             "tags": ["arcane"]
         },
         {
@@ -349,7 +349,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: earth.",
             "tags": ["arcane"]
         },
         {
@@ -357,7 +357,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: essence.",
             "tags": ["arcane"]
         },
         {
@@ -365,7 +365,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: light.",
             "tags": ["arcane"]
         },
         {
@@ -373,7 +373,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: mind.",
             "tags": ["arcane"]
         },
         {
@@ -381,7 +381,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: time.",
             "tags": ["arcane"]
         },
         {
@@ -389,7 +389,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: space.",
             "tags": ["arcane"]
         },
         {
@@ -397,7 +397,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain control over the arcane element: life.",
             "tags": ["arcane"]
         },
         {
@@ -405,7 +405,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain access over the arcane form: creation.",
             "tags": ["arcane"]
         },
         {
@@ -413,7 +413,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain access over the arcane form: destruction.",
             "tags": ["arcane"]
         },
         {
@@ -421,15 +421,23 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain access over the arcane form: exploration.",
             "tags": ["arcane"]
         },
         {
-            "name": "Arcane form: manipulation",
+            "name": "Arcane form: mutation",
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "You gain access over the arcane form: mutation.",
+            "tags": ["arcane"]
+        },
+        {
+            "name": "Arcane form: control",
+            "prerequisites": "Arcane bond talent",
+            "charges": "",
+            "costs": "",
+            "effects": "You gain access over the arcane form: control.",
             "tags": ["arcane"]
         },
         {

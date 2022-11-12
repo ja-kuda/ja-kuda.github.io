@@ -18,7 +18,7 @@ function loadFile(){
     });
 }
 
-new Vue({
+/*new Vue({
     el: '#app',
     computed: {
     test(){
@@ -28,24 +28,35 @@ new Vue({
       //  return window.allTalents.talents
      // }
     }
-  })
+  })*/
 
 function createCheckboxes(){
+    var inCheck = false;
     checkBoxes.tags.forEach(element => {
+        const newDiv = document.createElement("div");
+        newDiv.setAttribute("id", element + "Box");
+
+        if(inCheck){
+            newDiv.setAttribute("class", "filterBox1");
+        }
+        else{
+            newDiv.setAttribute("class", "filterBox2");
+        }
+        inCheck = !inCheck;
+
         const cb = document.createElement("input");
         cb.setAttribute("type", "checkbox");
         cb.setAttribute("onClick", "filter(this)")
         cb.setAttribute("id", element);
         cb.setAttribute("class", "check");
-        //cb.setAttribute("class", "mdc-checkbox");
+        newDiv.appendChild(cb);
         const newlabel = document.createElement("Label");
-        //newlabel.setAttribute("class", "mdc-floating-label");
+        newlabel.setAttribute("for", element);
         newlabel.innerHTML = element;
+        newDiv.appendChild(newlabel);
         const br = document.createElement("br");
         const setter = document.getElementById("numberSetter");
-        setter.parentNode.insertBefore(cb, setter);
-        setter.parentNode.insertBefore(newlabel, setter);
-        setter.parentNode.insertBefore(br, setter);
+        setter.parentNode.insertBefore(newDiv, setter);
     });
 }
 
@@ -61,11 +72,19 @@ function compare( a, b ) {
 
 function showAllTalents(){
     //allTalents.talents.sort(compare);
-
+    var inCheck = false;
     allTalents.talents.forEach(element => {
         const newDiv = document.createElement("div");
         newDiv.setAttribute("id", element.name);
-        newDiv.setAttribute("class", "talentBox");
+
+        if(inCheck){
+            newDiv.setAttribute("class", "talentBox1");
+        }
+        else{
+            newDiv.setAttribute("class", "talentBox2");
+        }
+        inCheck = !inCheck;
+        
         const br = document.createElement("br");
         const name = document.createTextNode("Name: " + element.name);
         newDiv.appendChild(name);
@@ -96,9 +115,11 @@ function countTalents(activeNumber){
 function filter(checkbox){
     var activeNumber = 0;
     if(checkbox.checked){
+        document.getElementById(checkbox.id + "Box").classList.add("filterChecked");
         activeTags.push(checkbox.id);
     }
     else{
+        document.getElementById(checkbox.id + "Box").classList.remove("filterChecked");
         var index = activeTags.indexOf(checkbox.id);
         if (index > -1) {
             activeTags.splice(index, 1);
@@ -121,7 +142,7 @@ function filter(checkbox){
             })
         }
         if(hasTag){
-            document.getElementById(element.name).style.display = 'inline-block';
+            document.getElementById(element.name).style.display = 'flex';
             activeNumber++;
         }
         else{
@@ -136,7 +157,7 @@ function search(){
     var activeNumber = 0;
     allTalents.talents.forEach(element => {
         if(element.effects.toUpperCase().includes(searchTerm) || element.name.toUpperCase().includes(searchTerm)){
-            document.getElementById(element.name).style.display = 'inline-block';
+            document.getElementById(element.name).style.display = 'flex';
             activeNumber++;
         }
         else{
