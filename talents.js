@@ -18,18 +18,6 @@ function loadFile(){
     });
 }
 
-/*new Vue({
-    el: '#app',
-    computed: {
-    test(){
-        return "hallo"
-    }//,
-      //talents() {
-      //  return window.allTalents.talents
-     // }
-    }
-  })*/
-
 function createCheckboxes(){
     var inCheck = false;
     checkBoxes.tags.forEach(element => {
@@ -55,7 +43,7 @@ function createCheckboxes(){
         newlabel.innerHTML = element;
         newDiv.appendChild(newlabel);
         const br = document.createElement("br");
-        const setter = document.getElementById("numberSetter");
+        const setter = document.getElementById("filterSetter");
         setter.parentNode.insertBefore(newDiv, setter);
     });
 }
@@ -108,7 +96,7 @@ function showAllTalents(){
 
 
 function countTalents(activeNumber){
-    document.getElementById("numberSetter").innerHTML = "<br>" + activeNumber + " / " + allTalents.talents.length;
+    document.getElementById("numberSetter").innerHTML = activeNumber + " / " + allTalents.talents.length;
 }
 
 

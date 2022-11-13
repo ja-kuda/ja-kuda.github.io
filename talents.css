@@ -17,15 +17,23 @@ body{
     padding: 1rem;
 }
 
-.search{
+.divLeft{
     background-color: #8c3c57;
     padding: 1rem;
+    margin-right: 2rem;
+}
+
+.divRight{
+    background-color: #c6a2ae;
+    padding: 1rem;
+    margin-left: 2rem;
 }
 
 .left{
     font-size: large;
     flex-basis: 20%;
     position: fixed;
+    padding-left: 2rem;
 }
 
 .right{

@@ -29,7 +29,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you obtain a special or rare item, gain 2 temporary boons: everything. They last until they are used.",
+            "effects": "When you obtain a special or rare item, gain 3 temporary boons. They last until they are used and can be used in any combination.",
             "tags": [ "general"]
         },
         {
@@ -45,7 +45,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "Choose a skill. You gain +1 to all checks made with that skill.",
             "tags": ["general"]
         },
         {
@@ -53,7 +53,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You gain a sense of danger. The GM warns you of impending danger but leaves out details.",
+            "effects": "You gain a sense of danger. When you use this talent, the GM will tell you about potential incoming danger, but not of its nature.",
             "tags": ["general", "vigilance"]
         },
         {
@@ -61,7 +61,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain 2 armor that regenerates during a rest.",
+            "effects": "Gain 1 armor that regenerates during a rest.",
             "tags": ["resting"]
         },
         {
@@ -77,7 +77,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "If you would die, instead spend a charge of this talent.",
+            "effects": "If you would die, don't.",
             "tags": ["general"]
         },
         {
@@ -93,12 +93,12 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Your attacks destroy your targets armor. You can harm and kill armored targets.",
+            "effects": "Successful attacks G{destroy your targets armor}.",
             "tags": ["skirmish"]
         },
         {
             "name": "Backstab",
-            "prerequisites": "light weapons boon",
+            "prerequisites": "light weapons boon or similar",
             "charges": "",
             "costs": "",
             "effects": "You are especially deadly when your enemy does not see you coming. Treat skirmish checks that target unsuspecting opponents as one stage better. This enables you to critically succeed on checks.",
@@ -109,7 +109,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain a temporary boon: fighting. Also gain +1 resolve that can only be used as long as you are in battle.",
+            "effects": "While you are in battle gain a temporary boon: skirmish. Also gain +1 resolve that can only be used as long as you are in battle.",
             "tags": ["skirmish"]
         },
         {
@@ -125,7 +125,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you are outnumbered, TODO",
+            "effects": "While you are outnumbered, gain a temporary boon: skirmish.",
             "tags": ["skirmish"]
         },
         {
@@ -133,7 +133,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain a temporary boon for your next attack. In addition to any possible conflict, an enemy strikes you with an attack.",
+            "effects": "Gain a temporary boon x2 for your next skirmish check but gain a lvl 1 wound from an enemies attack.",
             "tags": ["skirmish"]
         },
         {
@@ -141,7 +141,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "If you enter battle first and ahead of your allies, they gain a temporary boon during battle: fighting.",
+            "effects": "If you enter battle first and ahead of your allies, they gain a temporary boon during battle: skirmish.",
             "tags": ["skirmish"]
         },
         {
@@ -162,7 +162,7 @@
         },
         {
             "name": "Dual wield",
-            "prerequisites": "light or medium weapons boon",
+            "prerequisites": "light or medium weapons boon or similar",
             "charges": "",
             "costs": "",
             "effects": "You can use two weapons at the same time, gaining both of their effects.",
@@ -1325,7 +1325,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You can shapeshift into small creatures of a chosen type: animal, plant, dragon, anomaly, elemental, fey, demon. Gain +1 to either ST or DE.",
+            "effects": "You can shapeshift into small creatures of a chosen type: animal, plant, dragon, anomaly, elemental, fey, demon.",
             "tags": ["shapeshift"]
         },
         {
@@ -1333,7 +1333,7 @@
             "prerequisites": "Shapeshift",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You can shapeshift into medium or large creatures of your chosen type. Distribute +3 to either ST or DE. You gain +1 - +1 - +0 empty wounds.",
+            "effects": "You can shapeshift into medium or large creatures of your chosen type. ",
             "tags": ["shapeshift"]
         },
         {
@@ -1341,7 +1341,7 @@
             "prerequisites": "Shapeshift 2",
             "charges": "2 charges",
             "costs": "1 resolve",
-            "effects": "You can shapeshift into huge creatures of your chosen type. Distribute +5 to either ST or DE. You gain +2 - +2 - +1 empty wounds.",
+            "effects": "You can shapeshift into huge creatures of your chosen type.",
             "tags": ["resolve", "shapeshift"]
         },
         {
@@ -1357,7 +1357,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are burning, you move with incredible speed and strength, increasing your DE and GE by +1.",
+            "effects": "While you are burning, you move with incredible speed and strength. Gain a temporary boon: agility x3.",
             "tags": ["status effect", "agility"]
         },
         {
@@ -1532,8 +1532,8 @@
             "name": "Sign of the clone",
             "prerequisites": "",
             "charges": "3 charges",
-            "costs": "",
-            "effects": "Roll a trickery check to create a small illusion quickly: G{The illusion will fool everyone at least once} | Y{The illusion will fool stupid creatures}.",
+            "costs": "1 arcane thread",
+            "effects": "Roll a trickery check to create a small illusion: G{The illusion will fool everyone at least once} | Y{The illusion will fool stupid creatures}.",
             "tags": ["static", "trickery"]
         },
         {
@@ -1564,7 +1564,7 @@
             "name": "Sign of the sea",
             "prerequisites": "",
             "charges": "2 charges",
-            "costs": "",
+            "costs": "1 arcane thread",
             "effects": "Roll an endurance check to allow G{3} | Y{1} creatures to breath underwater for a medium duration.",
             "tags": ["static", "endurance"]
         },
@@ -1572,7 +1572,7 @@
             "name": "Sign of sleep",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "You gain no resolve during your next rest.",
+            "costs": "You gain no resolve during your next 2 rests.",
             "effects": "Roll a vigilance check to distribute G{4} | Y{2} resolve between your allies. These can exceed their resolve maximum.",
             "tags": ["static", "resolve", "vigilance"]
         },
@@ -1580,7 +1580,7 @@
             "name": "Sign of the goat",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "",
+            "costs": "1 arcane thread",
             "effects": "Summon a small, otherworldly goat. It disappears after you rest.",
             "tags": ["static", "companion"]
         },
@@ -1597,7 +1597,7 @@
             "prerequisites": "Control over arcane element: life",
             "charges": "",
             "costs": "",
-            "effects": "You may inflict a lvl 1 wound on yourself to instantly recover 5 arcane threads.",
+            "effects": "You may inflict a lvl 1 wound on yourself to instantly recover arcane threads equal to your arcane skill.",
             "tags": ["arcane"]
         },
         {
@@ -1613,30 +1613,30 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are cursed, gain +1 resolve each rest.",
+            "effects": "While you are cursed or wretched, gain +1 resolve each rest.",
             "tags": ["status effect"]
         },
         {
             "name": "Voodoo",
             "prerequisites": "",
             "charges": "",
-            "costs": "",
+            "costs": "3 arcane threads, a voodoo puppet, a piece of a creature",
             "effects": "You gain the ability to curse creatures by building small puppets made from materials of their body. You can use these puppets to indirectly control and manipulate the targets.",
             "tags": ["status effect"]
         },
         {
             "name": "Reanimation",
-            "prerequisites": "",
+            "prerequisites": "Life element, creation form, exploration form",
             "charges": "1 charge",
-            "costs": "2 resolve",
+            "costs": "1 resolve OR 5 arcane threads",
             "effects": "Contact a soul in Limbo and start a resurrection ritual. The character you want to revive can not be dead for longer than an hour.",
             "tags": [""]
         },
         {
             "name": "Resurrection",
-            "prerequisites": "",
+            "prerequisites": "Life element, creation form, exploration form",
             "charges": "1 charge per month",
-            "costs": "",
+            "costs": "3 resolve OR 10 arcane threads, anchor",
             "effects": "Contact a soul in Limbo and start a resurrection ritual.",
             "tags": [""]
         },
@@ -1795,17 +1795,9 @@
         {
             "name": "Satür",
             "prerequisites": "Satyr ancestry, tearhopping talent",
-            "charges": "1 charge per week",
-            "costs": "",
-            "effects": "You can choose to make the tear you create with your tearhopping talent accessible for others as well.",
-            "tags": [""]
-        },
-        {
-            "name": "Sticky tongue",
-            "prerequisites": "Gob ancestry",
             "charges": "",
             "costs": "",
-            "effects": "You can extend your tongue up to 2 meters and hold items and creatures in it.",
+            "effects": "You can choose to make the tear you create with your tearhopping talent accessible for others as well.",
             "tags": [""]
         },
         {
@@ -1813,7 +1805,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You have a sense for gold and only gold. You can see and feel every presence of gold in an area of 20 meters around you.",
+            "effects": "You have a sense for gold, gold and only gold. You can see and feel every presence of gold in an area of 20 meters around you, but your sight becomes clouded. Gain a flaw: vigilance.",
             "tags": [""]
         },
         {
@@ -1830,6 +1822,222 @@
             "charges": "",
             "costs": "Additional arcane threads",
             "effects": "You can combine two or more talents that fit for a given spell effect. Doing so costs a number of arcane threads equal to the added element level and allows you to add its bonus to the check.",
+            "tags": [""]
+        },
+        {
+            "name": "Versatility",
+            "prerequisites": "Human ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Choose any talent (that you fulfill the prerequisites for) to learn.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Rapid adaptability",
+            "prerequisites": "Human ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Whenever you rest, you may increase a skill by 1 and decrease another skill by 1.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Unwavering mind",
+            "prerequisites": "Half elf ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Ignore the first time you would gain stress after each rest.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Sleepless",
+            "prerequisites": "Half elf ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "You are unable to sleep and immune against negative effects gained from not sleeping or being exhausted. You still recover as normal at sunrise.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Darkvision",
+            "prerequisites": "Durag ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "You are able to see even in complete darkness, but only in grayscale.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Rock eater",
+            "prerequisites": "Durag ancestry",
+            "charges": "1 charge",
+            "costs": "A portion of rock",
+            "effects": "You are able to eat rocks, crystals and other minerals. Gain an effect based on the type of mineral: magnetic, extra heavy, jagged, camouflaged, luminous.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Image of Orvos",
+            "prerequisites": "Orvosa ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "You resemble the image of a fallen god, instilling a primal reaction in all those that see you. The first time you interact meaningfully with a creature, roll 1d6. On 4-6 gain a boon on them, as they trust you more, on a 1-3 gain a flaw instead, as they mistrust and maybe fear you.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Share emotions",
+            "prerequisites": "Orvosa ancestry",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "You can share emotions. Target a creature and choose which emotion to impart on them.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Small frame",
+            "prerequisites": "Hinan ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Your body is small and nimble, gain the following boons: sneaking, hiding, dodging",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Hinans luck",
+            "prerequisites": "Hinan ancestry",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "Using resolve allows you to also use it on full successes, increasing them to critical successes.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Resilience",
+            "prerequisites": "Korna ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Gain 1 permanent armor against blunt and frost damage.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Fighting spirit",
+            "prerequisites": "Korna ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Whenever you enter willingly into a fight, you gain 1 resolve that can only be used during that fight.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Limit breaker",
+            "prerequisites": "Half giant ancestry",
+            "charges": "3 charges",
+            "costs": "",
+            "effects": "You can push yourself to your limits. Gain +1d6 on any physical check and a temporary flaw: exhausted until you rest.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Regeneration",
+            "prerequisites": "Half giant ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Heal an additional lvl 1 wound per rest.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Gob's body",
+            "prerequisites": "Gob ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Gain a trait from the list: Frog: Your long and sticky tongue works as a weak third arm. Toad: Your skin secrets a numbing poison that paralyzes after 10 seconds of contact. Salamander: When healing wounds you can roll and endurance check to regrow a lost limb. Alligator: Gain the following boon: biting x2",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Gob's nature",
+            "prerequisites": "Gob ancestry",
+            "charges": "7 charges",
+            "costs": "",
+            "effects": "You are bound by a genetic oath to your liege. Summon this oath to gain a boon x3 on any check. This talents charges do not recharge during a rest. Instead, once you used up all of them, your liege will call on you to fullfill a quest in their name. After successfully finishing the quest, all charges are restored.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Hive bonding",
+            "prerequisites": "Quabut ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "You can only communicate telepathically with other creatures that you can see. You can also read the thoughts of other Quabut, but they can do the same to you.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Watery body",
+            "prerequisites": "Quabut ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Water is running through your veins instead of water. You can store up to a weeks worth of it at a time and breathe water. As long as you are full of water, your touch deals electric damage.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Biological immunity",
+            "prerequisites": "Elf ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "You are immune to illness and disease and can only be infected by a wretch if you choose to do so.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Immortal soul",
+            "prerequisites": "Elf ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "TODO",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Decaying body",
+            "prerequisites": "Undead ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Your body is dead and not affected by minor wounds. Ignore any lvl 1 wounds you would gain from damage. However your body is not as resilient against destruction anymore. You die by gaining a lvl 3 wound.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Born of the veil",
+            "prerequisites": "Undead ancestry",
+            "charges": "1 charge per week",
+            "costs": "Materials for a resurrection ritual",
+            "effects": "You were created by nekromantic magic and can be easily revived by the same means. Once per week you can be revived by your allies with a simple ritual.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Thoughts for food",
+            "prerequisites": "Undead ancestry",
+            "charges": "Once per corpse",
+            "costs": "A recently deceased corpse",
+            "effects": "Consume a recently deceased creature to gain insight into their memories. Roll a lore check to gain memories G{dating back a few days} | Y{of just before death}.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Unionized",
+            "prerequisites": "Satyr ancestry",
+            "charges": "2",
+            "costs": "",
+            "effects": "Ignore any dangerous or harmful conflict",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Tearhopping",
+            "prerequisites": "Satyr ancestry",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "You rip open a small tear in reality, but not into the void. Instead you create a portal to the FEYWILD, that only you can enter once. While in the FEYWILD, you can enter the portal again to return to reality. The portal closes after 5 seconds (or a day in the FEYWILD).",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Light bending",
+            "prerequisites": "Karzion ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "You can turn your body invisible at will, however, everything you wear or carry will still be visible.",
+            "tags": ["ancestry"]
+        },
+        {
+            "name": "Glass splinters",
+            "prerequisites": "Karzion ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "Fill a lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be removed in any other way.",
             "tags": [""]
         }
     ]
