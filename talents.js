@@ -1,52 +1,106 @@
 
 var allTalents;
-var checkBoxes;
+var activeTalents = [];
 var activeTags = [];
 
 function loadFile(){
     // build tag checkboxes
     $.getJSON('tags.json', function( data ) {
-        checkBoxes = data;
-        createCheckboxes();
+        createCheckboxes(data);
     });
 
     // read all talents
     $.getJSON('talents.json', function( data ) {
       allTalents = data;
-      allTalents.talents = allTalents.talents.sort(compare);
-      showAllTalents();
+      showActiveTalents(allTalents.talents);
     });
 }
 
-function createCheckboxes(){
-    var inCheck = false;
+function createCheckboxes(checkBoxes){
+    var inCheck = 0;
+    var sideCheck = false;
+
     checkBoxes.tags.forEach(element => {
         const newDiv = document.createElement("div");
-        newDiv.setAttribute("id", element + "Box");
+        newDiv.setAttribute("id", element);
 
-        if(inCheck){
+        if(inCheck <= 1){
             newDiv.setAttribute("class", "filterBox1");
         }
-        else{
+        if(inCheck >= 2){
             newDiv.setAttribute("class", "filterBox2");
         }
-        inCheck = !inCheck;
 
-        const cb = document.createElement("input");
-        cb.setAttribute("type", "checkbox");
-        cb.setAttribute("onClick", "filter(this)")
-        cb.setAttribute("id", element);
-        cb.setAttribute("class", "check");
-        newDiv.appendChild(cb);
+        newDiv.setAttribute("onClick", "filter(this)");
+
         const newlabel = document.createElement("Label");
         newlabel.setAttribute("for", element);
         newlabel.innerHTML = element;
         newDiv.appendChild(newlabel);
         const br = document.createElement("br");
-        const setter = document.getElementById("filterSetter");
-        setter.parentNode.insertBefore(newDiv, setter);
+
+        if(sideCheck){
+            const setter = document.getElementById("filterSetterRight");
+            setter.parentNode.insertBefore(newDiv, setter);
+        }
+        else{
+            const setter = document.getElementById("filterSetterLeft");
+            setter.parentNode.insertBefore(newDiv, setter);
+        }
+        
+        sideCheck = !sideCheck;
+        inCheck++;
+        if(inCheck == 4){
+            inCheck = 0;
+        }
     });
 }
+
+
+function filter(checkBox){
+
+    if(checkBox.classList.contains("filterBox1")){
+        checkBox.classList.replace("filterBox1", "filterBox1Clicked");
+        activeTags.push(checkBox.id);
+    }
+    else if(checkBox.classList.contains("filterBox1Clicked")){
+        checkBox.classList.replace("filterBox1Clicked", "filterBox1");
+        var index = activeTags.indexOf(checkBox.id);
+        if (index > -1) {
+            activeTags.splice(index, 1);
+        }
+    }
+    if(checkBox.classList.contains("filterBox2")){
+        checkBox.classList.replace("filterBox2", "filterBox2Clicked");
+        activeTags.push(checkBox.id);
+    }
+    else if(checkBox.classList.contains("filterBox2Clicked")){
+        checkBox.classList.replace("filterBox2Clicked", "filterBox2");
+        var index = activeTags.indexOf(checkBox.id);
+        if (index > -1) {
+            activeTags.splice(index, 1);
+        }
+    }
+    activeTalents = [];
+
+    allTalents.talents.forEach(element => {
+        var elementHasAllTags = true;
+        activeTags.forEach(tag => {
+            if(!element.tags.includes(tag)){
+                elementHasAllTags = false;
+            }
+        });
+        if(elementHasAllTags){
+            activeTalents.push(element);
+        }
+        if(document.getElementById(element.name) != null){
+            document.getElementById(element.name).remove();
+        }
+        
+    });
+    showActiveTalents(activeTalents);
+}
+
 
 function compare( a, b ) {
     if ( a.name < b.name ){
@@ -58,10 +112,11 @@ function compare( a, b ) {
     return 0;
   }
 
-function showAllTalents(){
-    //allTalents.talents.sort(compare);
+  function showActiveTalents(activeTalents){
+    activeTalents.sort(compare);
     var inCheck = false;
-    allTalents.talents.forEach(element => {
+
+    activeTalents.forEach(element => {
         const newDiv = document.createElement("div");
         newDiv.setAttribute("id", element.name);
 
@@ -91,68 +146,34 @@ function showAllTalents(){
         const currentDiv = document.getElementById("setter");
         currentDiv.parentNode.insertBefore(newDiv, currentDiv);
     });
-    countTalents(allTalents.talents.length);
+    countTalents(activeTalents.length);
 }
-
 
 function countTalents(activeNumber){
     document.getElementById("numberSetter").innerHTML = activeNumber + " / " + allTalents.talents.length;
 }
 
-
-function filter(checkbox){
-    var activeNumber = 0;
-    if(checkbox.checked){
-        document.getElementById(checkbox.id + "Box").classList.add("filterChecked");
-        activeTags.push(checkbox.id);
-    }
-    else{
-        document.getElementById(checkbox.id + "Box").classList.remove("filterChecked");
-        var index = activeTags.indexOf(checkbox.id);
-        if (index > -1) {
-            activeTags.splice(index, 1);
-        }
-    }
-    console.log(activeTags);
-
-    allTalents.talents.forEach(element => {
-        var hasTag = true;
-
-        if(activeTags.length === 0){
-            hasTag = true;
-        }
-        else{
-            activeTags.forEach(activeTag => {
-                console.log(activeTag)
-                if(!element.tags.includes(activeTag)){
-                    hasTag = false;
-                }
-            })
-        }
-        if(hasTag){
-            document.getElementById(element.name).style.display = 'flex';
-            activeNumber++;
-        }
-        else{
-            document.getElementById(element.name).style.display = 'none';
-        }
-    });
-    countTalents(activeNumber);
-}
-
 function search(){
     var searchTerm = document.getElementById("searchField").value.toUpperCase();
-    var activeNumber = 0;
+
+
+    activeTalents = [];
+
     allTalents.talents.forEach(element => {
-        if(element.effects.toUpperCase().includes(searchTerm) || element.name.toUpperCase().includes(searchTerm)){
-            document.getElementById(element.name).style.display = 'flex';
-            activeNumber++;
+        var elementHasAllTags = true;
+        activeTags.forEach(tag => {
+            if(!element.tags.includes(tag)){
+                elementHasAllTags = false;
+            }
+        });
+        if(elementHasAllTags && (element.effects.toUpperCase().includes(searchTerm) || element.name.toUpperCase().includes(searchTerm) || element.prerequisites.toUpperCase().includes(searchTerm))){
+            activeTalents.push(element);
         }
-        else{
-            document.getElementById(element.name).style.display = 'none';
+        if(document.getElementById(element.name) != null){
+            document.getElementById(element.name).remove();
         }
     });
-    countTalents(activeNumber);
+    showActiveTalents(activeTalents);
 }
 
 

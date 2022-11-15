@@ -1,5 +1,7 @@
 <html>
   <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.js"></script>
     <link rel="stylesheet" href="talents.css">
@@ -11,28 +13,49 @@
   </head>
 
   <body onload="loadFile()">
-
-
-    <div class="container">
-      <div class="left">
-        <div class="categoryBox">Filter</div>
-        <br>
-        <div class="divLeft">
-          <input type="search" id="searchField" onkeyup="search()" placeholder="Suche...">
-          <button type="button" id="searchButton" onclick="search()">Search talents</button>
+    <div class="row sticky-top header">
+      <div class="col-md-2">
+        <div class="logo">
+            <a href="index.html"><img src="images/android-chrome-192x192.png"></a>
         </div>
-        <div id="numberSetter" class="divRight"></div>
-        <div class="divLeft"><button type="button" id="clearButton" onclick="clearFilters()">Clear all filters</button></div>
-        <br>
-        <div id="filterSetter"></div>
       </div>
-      <div class="right">
-        <div class="categoryBox"><label id="talentLabel">Talents</label></div>
-        <br>
-        <div id="setter"></div>
+      <div class="col-md-8">
+          <div class="banner">
+              The world of Ambition
+          </div>
       </div>
     </div>
-    
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="left">
+          <div class="divLeft">
+            <input type="search" id="searchField" onkeyup="search()" placeholder="Suche...">
+            <button type="button" id="searchButton" onclick="search()">Search talents</button>
+          </div>
+          <div id="numberSetter" class="divRight"></div>
+          <div class="divLeft"><button type="button" id="clearButton" onclick="clearFilters()">Clear all filters</button></div>
+          <br>
+          <div class="category">
+            Filters
+          </div>
+          <div class="row noScrollBar">
+            <div class="col-md-6">
+              <div id="filterSetterLeft"></div>
+            </div>
+            <div class="col-md-6">
+              <div id="filterSetterRight"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="right">
+          <div id="setter"></div>
+        </div>
+      </div>
+    </div>
+
   </body>
 </html>
 

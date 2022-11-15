@@ -1,5 +1,16 @@
 body{
     background-color: #736770;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.category{
+    font-size: large;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #461326;
+    background-color: #dddddd;
+    padding: 1rem;
 }
 
 .container{
@@ -8,37 +19,25 @@ body{
     height: 100%;
 }
 
-.categoryBox{
-    font-size: xx-large;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #461326;
-    background-color: #dddddd;
-    padding: 1rem;
-}
-
 .divLeft{
     background-color: #8c3c57;
-    padding: 1rem;
     margin-right: 2rem;
 }
 
 .divRight{
     background-color: #c6a2ae;
-    padding: 1rem;
     margin-left: 2rem;
 }
 
 .left{
-    font-size: large;
-    flex-basis: 20%;
-    position: fixed;
     padding-left: 2rem;
+    position: fixed;
+    overflow: auto;
 }
 
 .right{
-    flex-basis: 60%;
-    margin-left: 25%;
+    font-size: medium;
+    padding-left: 2rem;
 }
 
 .talentBox1{
@@ -71,6 +70,16 @@ body{
     border-width: 2px;
     border-color: #8c3c57;
     background-color: #dddddd;
+    font-size: small;
+}
+
+.filterBox1Clicked{
+    margin-right: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #461326;
+    background-color: #8c3c57;
+    font-size: small;
 }
 
 .filterBox2{
@@ -79,8 +88,19 @@ body{
     border-width: 2px;
     border-color: #c6a2ae;
     background-color: #aeadae;
+    font-size: small;
 }
 
-.filterChecked{
+.filterBox2Clicked{
+    margin-left: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #461326;
     background-color: #8c3c57;
+    font-size: small;
+}
+
+.noScrollBar{
+    max-width: 100%;
+    overflow-x: hidden;
 }
