@@ -22,7 +22,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can hover above solid ground.",
-            "tags": ["general"]
+            "tags": ["general", "movement"]
         },
         {
             "name": "Loot goblin",
@@ -30,7 +30,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you obtain a special or rare item, gain 3 temporary boons. They last until they are used and can be used in any combination.",
-            "tags": [ "general"]
+            "tags": [ "general", "boon"]
         },
         {
             "name": "Pirates reputation",
@@ -38,7 +38,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose a striking physical feature like an eyepatch, scars or tattoos. Brandish your chosen feature to immediately gather interest and attention, putting all eyes on you.",
-            "tags": ["influence"]
+            "tags": ["influence", "pirates"]
         },
         {
             "name": "Skill mastery",
@@ -62,7 +62,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain 1 armor that regenerates during a rest.",
-            "tags": ["resting"]
+            "tags": ["resting", "healing"]
         },
         {
             "name": "Tremorsense",
@@ -110,7 +110,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "While you are in battle gain a temporary boon: skirmish. Also gain +1 resolve that can only be used as long as you are in battle.",
-            "tags": ["skirmish"]
+            "tags": ["skirmish", "boon", "resolve"]
         },
         {
             "name": "Bloodbath",
@@ -126,7 +126,7 @@
             "charges": "",
             "costs": "",
             "effects": "While you are outnumbered, gain a temporary boon: skirmish.",
-            "tags": ["skirmish"]
+            "tags": ["skirmish", "boon"]
         },
         {
             "name": "Careless fighting",
@@ -134,7 +134,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain a temporary boon x2 for your next skirmish check but gain a lvl 1 wound from an enemies attack.",
-            "tags": ["skirmish"]
+            "tags": ["skirmish", "boon"]
         },
         {
             "name": "Charge with me",
@@ -142,7 +142,7 @@
             "charges": "",
             "costs": "",
             "effects": "If you enter battle first and ahead of your allies, they gain a temporary boon during battle: skirmish.",
-            "tags": ["skirmish"]
+            "tags": ["skirmish", "boon"]
         },
         {
             "name": "Constrictor",
@@ -190,7 +190,7 @@
             "charges": "",
             "costs": "",
             "effects": "Flaws gained from wearing armor do not affect your agility and trickery.",
-            "tags": ["general"]
+            "tags": ["general", "agility", "trickery"]
         },
         {
             "name": "From the shadows",
@@ -206,7 +206,7 @@
             "charges": "",
             "costs": "",
             "effects": "When an ally besides you takes damage roll an endurance check to take G{all} | Y{1} of the damage instead.",
-            "tags": ["general", "skirmish"]
+            "tags": ["general", "skirmish", "endurance"]
         },
         {
             "name": "Instill fear",
@@ -222,7 +222,7 @@
             "charges": "",
             "costs": "",
             "effects": "After you take damage, if you manage to kill the source to remove the wound.",
-            "tags": ["skirmish"]
+            "tags": ["skirmish", "healing"]
         },
         {
             "name": "Mark for death",
@@ -246,7 +246,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you are hit by a special type of damage, you gain 1 armor against that type until you are damaged by another special type of damage.",
-            "tags": ["general", "endurance"]
+            "tags": ["general", "endurance", "healing"]
         },
         {
             "name": "Recovery",
@@ -302,7 +302,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose a weapon type (light, medium, heavy, long, ranged, firearms or unarmed). Gain a boon of that weapons type.",
-            "tags": ["weapons"]
+            "tags": ["weapons", "boon"]
         },
         {
             "name": "Weapons specialist",
@@ -310,7 +310,7 @@
             "charges": "",
             "costs": "",
             "effects": "Choose a specific weapon type and gain a boon of that specific weapons type.",
-            "tags": ["weapons"]
+            "tags": ["weapons", "boon"]
         },
         {
             "name": "Arcane bond",
@@ -454,7 +454,7 @@
             "charges": "5 charges",
             "costs": "",
             "effects": "Give an ally a command. They gain a temporary boon for that command. The boon lasts until used in a check or until a minute has passed.",
-            "tags": ["influence"]
+            "tags": ["influence", "boon"]
         },
         {
             "name": "Honest exchange",
@@ -502,7 +502,7 @@
             "charges": "",
             "costs": "any number of resolve",
             "effects": "You inspire and motivate your allies. Give your allies 1 resolve per resolve spent.",
-            "tags": ["resolve"]
+            "tags": ["general", "resolve"]
         },
         {
             "name": "Parley",
@@ -510,7 +510,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "You force a creature to parley with you, even if they are hostile or otherwise would not talk to you.",
-            "tags": ["influence"]
+            "tags": ["influence", "pirates"]
         },
         {
             "name": "Silver tongue",
@@ -557,7 +557,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you roll influence checks to intimidate someone, you may add a second skill, based on your threats and intimidation tactics to the check.",
+            "effects": "When you roll influence checks to intimidate someone, you may make a second check, using a skill based on your threats and intimidation tactics and use either result.",
             "tags": ["influence"]
         },
         {
@@ -597,8 +597,8 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Roll a trickery check to try and sell an item for a higher price: G{You double the price} | Y{You increase the price by half}. After you used this talent, increase the target for subsequent checks at that merchant by 1/2.",
-            "tags": ["influence"]
+            "effects": "Roll a trickery or influence check to try and sell an item for a higher price: G{You double the price} | Y{You increase the price by half}. After you used this talent, increase the target for subsequent checks at that merchant by 1/2.",
+            "tags": ["trickery", "influence"]
         },
         {
             "name": "Yarnspinning",
@@ -606,7 +606,7 @@
             "charges": "",
             "costs": "",
             "effects": "Roll a influence check to captivate an audience with tall tales of your exploits: G{The audience believes you} | Y{The audience listens to you}.",
-            "tags": ["influence"]
+            "tags": ["influence", "pirates"]
         },
         {
             "name": "Arcane affinity",
@@ -1790,7 +1790,7 @@
             "charges": "",
             "costs": "",
             "effects": "When you would fill a wound of a higher level, you can instead fill wounds of a lower level equal to its lvl.",
-            "tags": [""]
+            "tags": ["healing"]
         },
         {
             "name": "Satür",
@@ -1798,7 +1798,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can choose to make the tear you create with your tearhopping talent accessible for others as well.",
-            "tags": [""]
+            "tags": ["ancestry", "movement", "arcane"]
         },
         {
             "name": "Goldfinger",
@@ -1806,7 +1806,7 @@
             "charges": "",
             "costs": "",
             "effects": "You have a sense for gold, gold and only gold. You can see and feel every presence of gold in an area of 20 meters around you, but your sight becomes clouded. Gain a flaw: vigilance.",
-            "tags": [""]
+            "tags": ["vigilance"]
         },
         {
             "name": "Elemental resistance",
@@ -1814,15 +1814,15 @@
             "charges": "",
             "costs": "",
             "effects": "Choose an element when learning this talent. Gain the following boon: resistance against chosen element",
-            "tags": [""]
+            "tags": ["arcane", "boon"]
         },
         {
             "name": "Arcane combination",
             "prerequisites": "Arcane spellcasting talent",
             "charges": "",
             "costs": "Additional arcane threads",
-            "effects": "You can combine two or more talents that fit for a given spell effect. Doing so costs a number of arcane threads equal to the added element level and allows you to add its bonus to the check.",
-            "tags": [""]
+            "effects": "You can combine two or more talents that fit for a given spell effect. Doing so costs arcane threads for each element seperately.",
+            "tags": ["arcane"]
         },
         {
             "name": "Versatility",
@@ -1870,7 +1870,7 @@
             "charges": "1 charge",
             "costs": "A portion of rock",
             "effects": "You are able to eat rocks, crystals and other minerals. Gain an effect based on the type of mineral: magnetic, extra heavy, jagged, camouflaged, luminous.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "status effect"]
         },
         {
             "name": "Image of Orvos",
@@ -1894,7 +1894,7 @@
             "charges": "",
             "costs": "",
             "effects": "Your body is small and nimble, gain the following boons: sneaking, hiding, dodging",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "boon"]
         },
         {
             "name": "Hinans luck",
@@ -1902,7 +1902,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "Using resolve allows you to also use it on full successes, increasing them to critical successes.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "resolve"]
         },
         {
             "name": "Resilience",
@@ -1910,7 +1910,7 @@
             "charges": "",
             "costs": "",
             "effects": "Gain 1 permanent armor against blunt and frost damage.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "healing"]
         },
         {
             "name": "Fighting spirit",
@@ -1918,14 +1918,14 @@
             "charges": "",
             "costs": "",
             "effects": "Whenever you enter willingly into a fight, you gain 1 resolve that can only be used during that fight.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "skirmish", "resolve"]
         },
         {
             "name": "Limit breaker",
             "prerequisites": "Half giant ancestry",
             "charges": "3 charges",
             "costs": "",
-            "effects": "You can push yourself to your limits. Gain +1d6 on any physical check and a temporary flaw: exhausted until you rest.",
+            "effects": "You can push yourself to your limits. Gain +1 die on any physical check and a temporary flaw: exhausted until you rest.",
             "tags": ["ancestry"]
         },
         {
@@ -1934,7 +1934,7 @@
             "charges": "",
             "costs": "",
             "effects": "Heal an additional lvl 1 wound per rest.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "resting", "healing"]
         },
         {
             "name": "Gob's body",
@@ -1950,7 +1950,7 @@
             "charges": "7 charges",
             "costs": "",
             "effects": "You are bound by a genetic oath to your liege. Summon this oath to gain a boon x3 on any check. This talents charges do not recharge during a rest. Instead, once you used up all of them, your liege will call on you to fullfill a quest in their name. After successfully finishing the quest, all charges are restored.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "boon"]
         },
         {
             "name": "Hive bonding",
@@ -1958,7 +1958,7 @@
             "charges": "",
             "costs": "",
             "effects": "You can only communicate telepathically with other creatures that you can see. You can also read the thoughts of other Quabut, but they can do the same to you.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "insight"]
         },
         {
             "name": "Watery body",
@@ -1966,7 +1966,7 @@
             "charges": "",
             "costs": "",
             "effects": "Water is running through your veins instead of water. You can store up to a weeks worth of it at a time and breathe water. As long as you are full of water, your touch deals electric damage.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "status effect"]
         },
         {
             "name": "Biological immunity",
@@ -1990,7 +1990,7 @@
             "charges": "",
             "costs": "",
             "effects": "Your body is dead and not affected by minor wounds. Ignore any lvl 1 wounds you would gain from damage. However your body is not as resilient against destruction anymore. You die by gaining a lvl 3 wound.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "healing"]
         },
         {
             "name": "Born of the veil",
@@ -1998,20 +1998,20 @@
             "charges": "1 charge per week",
             "costs": "Materials for a resurrection ritual",
             "effects": "You were created by nekromantic magic and can be easily revived by the same means. Once per week you can be revived by your allies with a simple ritual.",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "healing"]
         },
         {
             "name": "Thoughts for food",
             "prerequisites": "Undead ancestry",
             "charges": "Once per corpse",
             "costs": "A recently deceased corpse",
-            "effects": "Consume a recently deceased creature to gain insight into their memories. Roll a lore check to gain memories G{dating back a few days} | Y{of just before death}.",
-            "tags": ["ancestry"]
+            "effects": "Consume a recently deceased creature to gain insight into their memories. Roll an insight check to gain memories G{dating back a few days} | Y{of just before death}.",
+            "tags": ["ancestry", "insight"]
         },
         {
             "name": "Unionized",
             "prerequisites": "Satyr ancestry",
-            "charges": "2",
+            "charges": "2 charges",
             "costs": "",
             "effects": "Ignore any dangerous or harmful conflict",
             "tags": ["ancestry"]
@@ -2022,7 +2022,7 @@
             "charges": "1 charge",
             "costs": "",
             "effects": "You rip open a small tear in reality, but not into the void. Instead you create a portal to the FEYWILD, that only you can enter once. While in the FEYWILD, you can enter the portal again to return to reality. The portal closes after 5 seconds (or a day in the FEYWILD).",
-            "tags": ["ancestry"]
+            "tags": ["ancestry", "movement", "arcane"]
         },
         {
             "name": "Light bending",
@@ -2038,7 +2038,7 @@
             "charges": "",
             "costs": "",
             "effects": "Fill a lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be removed in any other way.",
-            "tags": [""]
+            "tags": ["ancestry", "healing", "companion"]
         }
     ]
 }

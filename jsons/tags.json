@@ -22,6 +22,9 @@
         "skirmish",
         "weapons",
         "companion",
-        "shapeshift"
+        "shapeshift",
+        "movement",
+        "boon",
+        "pirates"
     ]
 }

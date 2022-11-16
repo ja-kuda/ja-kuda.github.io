@@ -4,15 +4,15 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.js"></script>
-    <link rel="stylesheet" href="talents.css">
+    <link rel="stylesheet" href="system.css">
     <link rel="stylesheet" href="common.css">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
-    <title>Ambition - Talents</title>
+    <title>Ambition - Rules</title>
   </head>
 
-  <body onload="loadFile()">
+  <body>
     <div class="row sticky-top header">
       <div class="col-md-3">
         <div class="logo">
@@ -21,37 +21,41 @@
       </div>
       <div class="col-md-8">
           <div class="banner">
-              Character Talents
+              The rules of Ambition
           </div>
       </div>
     </div>
 
     <div class="row">
       <div class="col-md-3">
-        <div class="left">
+        <div class="menu">
           <div class="divLeft">
             <input type="search" id="searchField" onkeyup="search()" placeholder="Suche...">
-            <button type="button" id="searchButton" onclick="search()">Search talents</button>
+            <button type="button" id="searchButton" onclick="search()">Search</button>
           </div>
-          <div id="numberSetter" class="divRight"></div>
-          <div class="divLeft"><button type="button" id="clearButton" onclick="clearFilters()">Clear all filters</button></div>
           <br>
           <div class="category">
-            Filters
+            Chapters
           </div>
-          <div class="row noScrollBar">
-            <div class="col-md-6">
-              <div id="filterSetterLeft"></div>
+          <div class="chapter">
+            <div class="chapterLeft">
+                Introduction
             </div>
-            <div class="col-md-6">
-              <div id="filterSetterRight"></div>
+            <div class="chapterRight">
+                The basics
+            </div>
+            <div class="chapterLeft">
+                Characters
+            </div>
+            <div class="chapterRight">
+                Playing the game
             </div>
           </div>
         </div>
       </div>
       <div class="col-md-8">
-        <div class="right">
-          <div id="setter"></div>
+        <div class="content">
+
         </div>
       </div>
     </div>
@@ -60,4 +64,4 @@
 </html>
 
 
-<script type="text/javascript" src="talents.js"></script>
+<script type="text/javascript" src="system.js"></script>

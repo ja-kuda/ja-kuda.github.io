@@ -71,6 +71,8 @@ body{
     border-color: #8c3c57;
     background-color: #dddddd;
     font-size: small;
+    cursor: pointer;
+    text-align: center;
 }
 
 .filterBox1Clicked{
@@ -80,6 +82,8 @@ body{
     border-color: #461326;
     background-color: #8c3c57;
     font-size: small;
+    cursor: pointer;
+    text-align: center;
 }
 
 .filterBox2{
@@ -89,6 +93,8 @@ body{
     border-color: #c6a2ae;
     background-color: #aeadae;
     font-size: small;
+    cursor: pointer;
+    text-align: center;
 }
 
 .filterBox2Clicked{
@@ -98,6 +104,8 @@ body{
     border-color: #461326;
     background-color: #8c3c57;
     font-size: small;
+    cursor: pointer;
+    text-align: center;
 }
 
 .noScrollBar{

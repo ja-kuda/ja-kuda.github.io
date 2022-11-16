@@ -1,16 +1,17 @@
 
 var allTalents;
 var activeTalents = [];
+var searchTerm = "";
 var activeTags = [];
 
 function loadFile(){
     // build tag checkboxes
-    $.getJSON('tags.json', function( data ) {
+    $.getJSON('jsons/tags.json', function( data ) {
         createCheckboxes(data);
     });
 
     // read all talents
-    $.getJSON('talents.json', function( data ) {
+    $.getJSON('jsons/talents.json', function( data ) {
       allTalents = data;
       showActiveTalents(allTalents.talents);
     });
@@ -30,10 +31,9 @@ function createCheckboxes(checkBoxes){
         if(inCheck >= 2){
             newDiv.setAttribute("class", "filterBox2");
         }
-
         newDiv.setAttribute("onClick", "filter(this)");
-
         const newlabel = document.createElement("Label");
+        newlabel.setAttribute("style", "cursor: pointer");
         newlabel.setAttribute("for", element);
         newlabel.innerHTML = element;
         newDiv.appendChild(newlabel);
@@ -90,7 +90,7 @@ function filter(checkBox){
                 elementHasAllTags = false;
             }
         });
-        if(elementHasAllTags){
+        if(elementHasAllTags && (element.effects.toUpperCase().includes(searchTerm) || element.name.toUpperCase().includes(searchTerm) || element.prerequisites.toUpperCase().includes(searchTerm))){
             activeTalents.push(element);
         }
         if(document.getElementById(element.name) != null){
@@ -154,8 +154,7 @@ function countTalents(activeNumber){
 }
 
 function search(){
-    var searchTerm = document.getElementById("searchField").value.toUpperCase();
-
+    searchTerm = document.getElementById("searchField").value.toUpperCase();
 
     activeTalents = [];
 

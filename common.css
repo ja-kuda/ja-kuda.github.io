@@ -5,14 +5,14 @@
     border-color: #461326;
     background-color: #dddddd;
     padding: 1rem;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     text-align: center;
     max-width: 100%;
 }
 
 .logo{
     margin: 1rem;
-    margin-left: 25%;
 }
 
 .header{
