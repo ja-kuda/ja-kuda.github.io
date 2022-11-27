@@ -13,37 +13,32 @@ body{
     padding: 1rem;
 }
 
-.container{
-    display: flex;
-    flex-basis: 0;
-    height: 100%;
+.searchField{
+    width: 100%;
 }
 
-.divLeft{
-    background-color: #8c3c57;
-    margin-right: 2rem;
-}
-
-.divRight{
-    background-color: #c6a2ae;
-    margin-left: 2rem;
+.searchField:focus {
+    outline: none !important;
+    border:2px solid #8c3c57;
+    box-shadow: 0 0 10px #8c3c57;
 }
 
 .left{
     padding-left: 2rem;
-    position: fixed;
     overflow: auto;
+    
 }
 
 .right{
     font-size: medium;
     padding-left: 2rem;
+    overflow: auto;
+    max-height: calc(100vh - 12rem);
 }
 
 .talentBox1{
     font-size: large;
     display: flex;
-    vertical-align: top;
     margin-right: 5rem;
     padding: 1rem;
     border-style: solid;
@@ -55,7 +50,6 @@ body{
 .talentBox2{
     font-size: large;
     display: flex;
-    vertical-align: top;
     margin-left: 5rem;
     padding: 1rem;
     border-style: solid;
@@ -72,7 +66,6 @@ body{
     background-color: #dddddd;
     font-size: small;
     cursor: pointer;
-    text-align: center;
 }
 
 .filterBox1Clicked{
@@ -83,7 +76,6 @@ body{
     background-color: #8c3c57;
     font-size: small;
     cursor: pointer;
-    text-align: center;
 }
 
 .filterBox2{
@@ -94,7 +86,6 @@ body{
     background-color: #aeadae;
     font-size: small;
     cursor: pointer;
-    text-align: center;
 }
 
 .filterBox2Clicked{
@@ -105,7 +96,11 @@ body{
     background-color: #8c3c57;
     font-size: small;
     cursor: pointer;
-    text-align: center;
+}
+
+.label{
+    margin: 0.2rem;
+    margin-left: 1rem;;
 }
 
 .noScrollBar{

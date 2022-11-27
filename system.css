@@ -13,19 +13,14 @@ body{
     padding: 1rem;
 }
 
-.container{
-    display: flex;
-    flex-basis: 0;
-    height: 100%;
+.searchField{
+    width: 100%;
 }
 
-.divLeft{
-    background-color: #8c3c57;
-}
-
-.divRight{
-    background-color: #c6a2ae;
-    margin-left: 2rem;
+.searchField:focus {
+    outline: none !important;
+    border:2px solid #8c3c57;
+    box-shadow: 0 0 10px #8c3c57;
 }
 
 .menu{
@@ -49,6 +44,7 @@ body{
     border-color: #8c3c57;
     background-color: #dddddd;
     font-size: small;
+    padding: 0.2rem;
 }
 
 .chapterRight{
@@ -58,6 +54,7 @@ body{
     border-color: #c6a2ae;
     background-color: #aeadae;
     font-size: small;
+    padding: 0.2rem;
 }
 
 .sub{

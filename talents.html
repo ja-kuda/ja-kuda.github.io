@@ -30,10 +30,8 @@
       <div class="col-md-3">
         <div class="left">
           <div class="divLeft">
-            <input type="search" id="searchField" onkeyup="search()" placeholder="Suche...">
-            <button type="button" id="searchButton" onclick="search()">Search talents</button>
+            <input type="search" id="searchField" class="searchField" oninput="search()" placeholder="Suche...">
           </div>
-          <div id="numberSetter" class="divRight"></div>
           <div class="divLeft"><button type="button" id="clearButton" onclick="clearFilters()">Clear all filters</button></div>
           <br>
           <div class="category">
@@ -47,6 +45,7 @@
               <div id="filterSetterRight"></div>
             </div>
           </div>
+          <div id="numberSetter" class="divRight"></div>
         </div>
       </div>
       <div class="col-md-8">

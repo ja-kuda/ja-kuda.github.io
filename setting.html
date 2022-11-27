@@ -4,12 +4,12 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.js"></script>
-    <link rel="stylesheet" href="system.css">
+    <link rel="stylesheet" href="setting.css">
     <link rel="stylesheet" href="common.css">
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
-    <title>Ambition - Rules</title>
+    <title>Ambition - Setting</title>
   </head>
 
   <body>
@@ -21,7 +21,7 @@
       </div>
       <div class="col-md-8">
           <div class="banner">
-              The rules of Ambition
+              The setting of Ambition
           </div>
       </div>
     </div>
@@ -29,25 +29,49 @@
     <div class="row">
       <div class="col-md-3">
         <div class="menu">
-          <div class="divLeft">
-            <input type="search" id="searchField" onkeyup="search()" placeholder="Suche...">
-            <button type="button" id="searchButton" onclick="search()">Search</button>
-          </div>
+          <input type="search" id="searchField" class="searchField" onkeyup="search()" placeholder="Suche...">
+          <br>
           <br>
           <div class="category">
             Chapters
           </div>
-          <div class="chapter">
-            <div class="chapterLeft">
+          <div class="chapters">
+            <div class="chapter left" onclick="openSub(this)">
                 Introduction
             </div>
-            <div class="chapterRight">
+              <div class="chapter subRight" onclick="openSub(this)">
+                Sub1
+              </div>
+              <div class="chapter subLeft" onclick="openSub(this)">
+                Sub2
+              </div>
+              <div class="chapter subRight" onclick="openSub(this)">
+                Sub1
+              </div>
+              <div class="chapter subLeft" onclick="openSub(this)">
+                Sub2
+              </div>
+
+            <div class="chapter right">
                 The basics
             </div>
-            <div class="chapterLeft">
+              <div class="chapter subRight" onclick="openSub(this)">
+                Sub1
+              </div>
+              <div class="chapter subLeft" onclick="openSub(this)">
+                Sub2
+              </div>
+              <div class="chapter subRight" onclick="openSub(this)">
+                Sub1
+              </div>
+              <div class="chapter subLeft" onclick="openSub(this)">
+                Sub2
+              </div>
+              
+            <div class="chapter left">
                 Characters
             </div>
-            <div class="chapterRight">
+            <div class="chapter right">
                 Playing the game
             </div>
           </div>
@@ -55,7 +79,7 @@
       </div>
       <div class="col-md-8">
         <div class="content">
-
+          bla bla bla
         </div>
       </div>
     </div>
