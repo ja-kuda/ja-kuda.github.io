@@ -1,0 +1,80 @@
+
+.headerNoBackground{
+    position: fixed;
+    width: 90%;
+}
+
+.mapBanner{
+    left: 5%;
+}
+
+.controls{
+    position: fixed;
+    top: 20%;
+}
+
+.buttonLeft_notactive{
+    margin-right: 1rem;
+    margin-left: 5rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #8c3c57;
+    background-color: #dddddd;
+    font-size: small;
+    cursor: pointer;
+    width: 15rem;
+    padding: 0.5rem;
+}
+
+.buttonRight_notactive{
+    margin-left: 6rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #c6a2ae;
+    background-color: #aeadae;
+    font-size: small;
+    cursor: pointer;
+    width: 15rem;
+    padding: 0.5rem;
+}
+
+.button_active{
+    margin-right: 1rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #461326;
+    background-color: #8c3c57;
+    font-size: small;
+    cursor: pointer;
+}
+
+.contentBackdrop{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.contentWindow{
+    position: fixed;
+    top: 20%;
+    left: 27%;
+    max-height: 40rem;
+    width: 70rem;
+    overflow-y: auto;
+}
+
+.content{
+    font-size: medium;
+    padding: 2rem;
+    background-color: #c6a2ae;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #461326;
+}

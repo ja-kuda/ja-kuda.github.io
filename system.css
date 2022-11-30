@@ -4,12 +4,21 @@ body{
     overflow-x: hidden;
 }
 
-.category{
+.chapter{
     font-size: large;
     border-style: solid;
     border-width: 4px;
     border-color: #461326;
     background-color: #dddddd;
+    padding: 1rem;
+}
+
+.chapterClicked{
+    font-size: large;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #461326;
+    background-color: #8c3c57;
     padding: 1rem;
 }
 
