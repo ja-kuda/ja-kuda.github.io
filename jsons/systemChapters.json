@@ -1,0 +1,76 @@
+{
+    "chapters": [
+        {
+            "id": "Introduction",
+            "path": "system/1introduction/index.html"
+        },
+        {
+            "id": "The players",
+            "path": "system/1introduction/1players/index.html"
+        },
+        {
+            "id": "The dice",
+            "path": "system/1introduction/3dice/index.html"
+        },
+        {
+            "id": "The basics",
+            "path": "system/2basics/index.html"
+        },
+        {
+            "id": "How to play",
+            "path": "system/2basics/1howToPlay/index.html"
+        },
+        {
+            "id": "Checks",
+            "path": "system/2basics/2checks/index.html"
+        },
+        {
+            "id": "Ambition",
+            "path": "system/2basics/3ambition/index.html"
+        },
+        {
+            "id": "Conflict",
+            "path": "system/2basics/4conflict/index.html"
+        },
+        {
+            "id": "Resolve",
+            "path": "system/2basics/5resolve/index.html"
+        },
+        {
+            "id": "Characters",
+            "path": "system/3characters/index.html"
+        },
+        {
+            "id": "Skills",
+            "path": "system/3characters/1skills/index.html"
+        },
+        {
+            "id": "Health",
+            "path": "system/3characters/2health/index.html"
+        },
+        {
+            "id": "Boons and Flaws",
+            "path": "system/3characters/3boonsFlaws/index.html"
+        },
+        {
+            "id": "Talents",
+            "path": "system/3characters/4talents/index.html"
+        },
+        {
+            "id": "Arcs",
+            "path": "system/3characters/5arcs/index.html"
+        },
+        {
+            "id": "Ancestries",
+            "path": "system/3characters/6ancestry/index.html"
+        },
+        {
+            "id": "Creating a character",
+            "path": "system/3characters/7creation/index.html"
+        },
+        {
+            "id": "Progression",
+            "path": "system/3characters/8progression/index.html"
+        }
+    ]
+}

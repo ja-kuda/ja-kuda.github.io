@@ -2,6 +2,7 @@ body{
     background-color: #736770;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y:scroll;
 }
 
 .chapter{
@@ -39,11 +40,12 @@ body{
 
 .content{
     font-size: medium;
-    padding-left: 2rem;
+    padding: 2rem;
     background-color: #c6a2ae;
     border-style: solid;
     border-width: 4px;
     border-color: #461326;
+    overflow: auto;
 }
 
 .chapterLeft{
@@ -66,6 +68,10 @@ body{
     padding: 0.2rem;
 }
 
+.subClicked{
+    background-color: #8c3c57;
+}
+
 .sub{
     margin-left: 2rem;
 }
@@ -77,4 +83,9 @@ body{
 .noScrollBar{
     max-width: 100%;
     overflow-x: hidden;
+}
+
+.label{
+    margin: 0.2rem;
+    margin-left: 1rem;;
 }

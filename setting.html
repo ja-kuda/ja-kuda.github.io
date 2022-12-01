@@ -12,7 +12,7 @@
     <title>Ambition - Setting</title>
   </head>
 
-  <body>
+  <body onload="loadFiles()">
     <div class="row sticky-top header">
       <div class="col-md-3">
         <div class="logo">
@@ -29,57 +29,17 @@
     <div class="row">
       <div class="col-md-3">
         <div class="menu">
-          <input type="search" id="searchField" class="searchField" onkeyup="search()" placeholder="Suche...">
-          <br>
-          <br>
-          <div class="category">
-            Chapters
+          <div class="divLeft">
+            <input type="search" id="searchField" class="searchField" onkeyup="search()" placeholder="Suche...">
           </div>
-          <div class="chapters">
-            <div class="chapter left" onclick="openSub(this)">
-                Introduction
-            </div>
-              <div class="chapter subRight" onclick="openSub(this)">
-                Sub1
-              </div>
-              <div class="chapter subLeft" onclick="openSub(this)">
-                Sub2
-              </div>
-              <div class="chapter subRight" onclick="openSub(this)">
-                Sub1
-              </div>
-              <div class="chapter subLeft" onclick="openSub(this)">
-                Sub2
-              </div>
+          <br>
 
-            <div class="chapter right">
-                The basics
-            </div>
-              <div class="chapter subRight" onclick="openSub(this)">
-                Sub1
-              </div>
-              <div class="chapter subLeft" onclick="openSub(this)">
-                Sub2
-              </div>
-              <div class="chapter subRight" onclick="openSub(this)">
-                Sub1
-              </div>
-              <div class="chapter subLeft" onclick="openSub(this)">
-                Sub2
-              </div>
-              
-            <div class="chapter left">
-                Characters
-            </div>
-            <div class="chapter right">
-                Playing the game
-            </div>
-          </div>
+          <div id="setter"></div>
         </div>
       </div>
       <div class="col-md-8">
-        <div class="content">
-          bla bla bla
+        <div id="content" class="content">
+
         </div>
       </div>
     </div>
@@ -88,4 +48,4 @@
 </html>
 
 
-<script type="text/javascript" src="system.js"></script>
+<script type="text/javascript" src="setting.js"></script>

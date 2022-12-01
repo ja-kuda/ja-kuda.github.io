@@ -35,7 +35,7 @@ function createCheckboxes(checkBoxes){
         const newlabel = document.createElement("Label");
         newlabel.setAttribute("style", "cursor: pointer");
         newlabel.setAttribute("for", element);
-        newlabel.setAttribute("class", "label")
+        newlabel.setAttribute("class", "label");
         newlabel.innerHTML = element;
         newDiv.appendChild(newlabel);
         const br = document.createElement("br");

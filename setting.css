@@ -2,14 +2,24 @@ body{
     background-color: #736770;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 
-.category{
+.chapter{
     font-size: large;
     border-style: solid;
     border-width: 4px;
     border-color: #461326;
     background-color: #dddddd;
+    padding: 1rem;
+}
+
+.chapterClicked{
+    font-size: large;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #461326;
+    background-color: #8c3c57;
     padding: 1rem;
 }
 
@@ -30,60 +40,52 @@ body{
 
 .content{
     font-size: medium;
-    padding-left: 2rem;
+    padding: 2rem;
     background-color: #c6a2ae;
     border-style: solid;
     border-width: 4px;
     border-color: #461326;
+    overflow: auto;
 }
 
-.left{
+.chapterLeft{
     margin-right: 1rem;
+    border-style: solid;
+    border-width: 2px;
     border-color: #8c3c57;
     background-color: #dddddd;
     font-size: small;
-    padding: 1rem;
-    border-style: solid;
-    border-width: 2px;
+    padding: 0.2rem;
 }
 
-.right{
+.chapterRight{
     margin-left: 1rem;
+    border-style: solid;
+    border-width: 2px;
     border-color: #c6a2ae;
     background-color: #aeadae;
     font-size: small;
-    padding: 1rem;
-    border-style: solid;
-    border-width: 2px;
+    padding: 0.2rem;
 }
 
-.subLeft{
-    margin-right: 3rem;
+.subClicked{
+    background-color: #8c3c57;
+}
+
+.sub{
     margin-left: 2rem;
-    border-color: #8c3c57;
-    background-color: #dddddd;
-    font-size: small;
-    padding: 0.5rem;
-    border-style: solid;
-    border-width: 2px;
-}
-
-.subRight{
-    margin-left: 3rem;
-    margin-right: 2rem;
-    border-color: #c6a2ae;
-    background-color: #aeadae;
-    font-size: small;
-    padding: 0.5rem;
-    border-style: solid;
-    border-width: 2px;
 }
 
 .subsub{
-    margin-left: 6rem;
+    margin-left: 4rem;
 }
 
 .noScrollBar{
     max-width: 100%;
     overflow-x: hidden;
+}
+
+.label{
+    margin: 0.2rem;
+    margin-left: 1rem;;
 }

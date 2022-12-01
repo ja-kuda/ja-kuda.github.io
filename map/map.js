@@ -49,6 +49,7 @@ function unzoom() {
     doc.getElementById("GeoGerman").style.display = "none";
 
     doc.getElementById("Orte").addEventListener("click", elementClicked);
+    doc.getElementById("Regionen").addEventListener("click", regionClicked);
 
     Array.from(doc.getElementById("Regionen").children).forEach(element => {
       element.addEventListener("mouseenter", elementHovered);
@@ -125,11 +126,20 @@ function unzoom() {
 
   function elementClicked(event){
     console.log(event.target);
-    var text = "";
     $.get('../system/2basics/2checks/index.html', function(data){
       document.getElementById("content").innerHTML = data;
     });
-    console.log(text);
+    
+    document.getElementById("contentBackdrop").style.display = "block";
+  }
+
+  function regionClicked(event){
+    console.log(event.target);
+    var region = event.target.id;
+    console.log(region);
+    $.get('map_locations/regions/' + region + '.html', function(data){
+      document.getElementById("content").innerHTML = data;
+    });
     
     document.getElementById("contentBackdrop").style.display = "block";
   }

@@ -1,0 +1,28 @@
+{
+    "chapters": [
+        {
+            "id": "Overview",
+            "path": "setting/1overview/index.html"
+        },
+        {
+            "id": "Ambition",
+            "path": "setting/2world/1ambition/index.html"
+        },
+        {
+            "id": "The Arcane",
+            "path": "setting/1introduction/3dice/index.html"
+        },
+        {
+            "id": "History",
+            "path": "setting/3history/index.html"
+        },
+        {
+            "id": "Geography",
+            "path": "setting/4geography/index.html"
+        },
+        {
+            "id": "Factions",
+            "path": "setting/5factions/index.html"
+        }
+    ]
+}
