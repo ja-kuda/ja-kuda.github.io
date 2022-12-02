@@ -26,7 +26,6 @@ body{
 .left{
     padding-left: 2rem;
     overflow: auto;
-    
 }
 
 .right{
@@ -76,6 +75,7 @@ body{
     background-color: #8c3c57;
     font-size: small;
     cursor: pointer;
+    color: white;
 }
 
 .filterBox2{
@@ -96,6 +96,7 @@ body{
     background-color: #8c3c57;
     font-size: small;
     cursor: pointer;
+    color: white;
 }
 
 .label{

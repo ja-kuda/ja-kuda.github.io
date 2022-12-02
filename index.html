@@ -8,44 +8,51 @@
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
 
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
     <title>Ambition - Home</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
   </head>
 
-  <body>
+  <body style="background-image: url('images/background.png');">
     <div class="row">
         <div class="col-md-3">
             <div class="logo">
                 <a href="index.html"><img src="images/icon_full_150.png"></a>
             </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-7">
             <div class="banner">
                 Ambition
             </div>
         </div>
         <div class="col-md-2">
+            <div class="logo">
+                <a href="index.html"><img src="images/icon_half_2.png"></a>
+            </div>
         </div>
     </div>
     <div class="home">
         <div class="row">
             <div class="col-md-4">
-                <div class="contentBoxDark" onmouseover="showText(this)" onclick="location.href='system.html'" style="cursor: pointer;">
-                    <img class="tileImg" src="images/system.png">
+                <div class="contentBoxDark"  onclick="location.href='system.html'" style="cursor: pointer;">
+                    <img class="tileImg" src="images/system_icon_grey.png">
                     <div class="overlay"></div>
                     <div class="text">System</div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="contentBoxLight" onclick="location.href='map\/map.html'" style="cursor: pointer;">
-                    <img class="tileImg" src="images/world.PNG">
+                    <img class="tileImg" src="images/map_icon_grey.PNG">
                     <div class="overlay"></div>
                     <div class="text">Map</div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="contentBoxDark" onclick="location.href='setting.html'" style="cursor: pointer;">
-                    <img class="tileImg" src="images/zentral-tralien.PNG">
+                    <img class="tileImg" src="images/setting_icon_grey.png">
                     <div class="overlay"></div>
                     <div class="text">Setting</div>
                 </div>
@@ -55,14 +62,14 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="contentBoxLight" onclick="location.href='talents.html'" style="cursor: pointer;">
-                    <img class="tileImg" src="images/talents.PNG">
+                    <img class="tileImg" src="images/character_icon_grey.png">
                     <div class="overlay"></div>
                     <div class="text">Talents</div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="contentBoxDark" onclick="location.href='downloads.html'" style="cursor: pointer;">
-                    Downloads
+                    <img class="tileImg" src="images/downloads_icon_grey.png">
                     <div class="overlay"></div>
                     <div class="text">Downloads</div>
                 </div>
@@ -70,11 +77,11 @@
             <div class="col-md-4">
                 <div class="contentBoxLight" onclick="location.href=''" style="cursor: pointer;">
                     
+                    <div class="overlay"></div>
+                    <div class="text">TEST</div>
                 </div>
             </div>
         </div>
-    </div>
-    
 
   </body>
 </html>

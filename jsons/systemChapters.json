@@ -10,7 +10,11 @@
         },
         {
             "id": "The dice",
-            "path": "system/1introduction/3dice/index.html"
+            "path": "system/1introduction/2dice/index.html"
+        },
+        {
+            "id": "The setting",
+            "path": "system/1introduction/3setting/index.html"
         },
         {
             "id": "The basics",
@@ -71,6 +75,38 @@
         {
             "id": "Progression",
             "path": "system/3characters/8progression/index.html"
+        },
+        {
+            "id": "Playing the game",
+            "path": "system/4playing/index.html"
+        },
+        {
+            "id": "Creating the story",
+            "path": "system/4playing/1starting/index.html"
+        },
+        {
+            "id": "Damage",
+            "path": "system/4playing/2damage/index.html"
+        },
+        {
+            "id": "Death",
+            "path": "system/4playing/3death/index.html"
+        },
+        {
+            "id": "Resting",
+            "path": "system/4playing/4rest/index.html"
+        },
+        {
+            "id": "Magic",
+            "path": "system/4playing/5magic/index.html"
+        },
+        {
+            "id": "Equipment",
+            "path": "system/4playing/6equipment/index.html"
+        },
+        {
+            "id": "Crafting",
+            "path": "system/4playing/7crafting/index.html"
         }
     ]
 }

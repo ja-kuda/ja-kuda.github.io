@@ -2,7 +2,6 @@ body{
     background-color: #736770;
     max-width: 100%;
     overflow-x: hidden;
-    overflow-y:scroll;
 }
 
 .chapter{
@@ -11,15 +10,6 @@ body{
     border-width: 4px;
     border-color: #461326;
     background-color: #dddddd;
-    padding: 1rem;
-}
-
-.chapterClicked{
-    font-size: large;
-    border-style: solid;
-    border-width: 4px;
-    border-color: #461326;
-    background-color: #8c3c57;
     padding: 1rem;
 }
 
@@ -68,8 +58,10 @@ body{
     padding: 0.2rem;
 }
 
-.subClicked{
+.chapterClicked{
     background-color: #8c3c57;
+    border-color: #461326;
+    color: white;
 }
 
 .sub{
@@ -88,4 +80,11 @@ body{
 .label{
     margin: 0.2rem;
     margin-left: 1rem;;
+}
+
+.content{
+    font-size: medium;
+    padding-left: 2rem;
+    overflow: auto;
+    max-height: calc(100vh - 12rem);
 }

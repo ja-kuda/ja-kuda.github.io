@@ -6,7 +6,7 @@ body{
 }
 
 .contentBoxDark{
-    background-color: #8c3c57;
+    /*background-color: #8c3c57;*/
     margin: 2rem;
     padding: 1rem;
     transition: all .2s ease-in-out;
@@ -28,7 +28,7 @@ body{
 }
 
 .contentBoxLight{
-    background-color: #c6a2ae;
+    /*background-color: #c6a2ae;*/
     margin: 2rem;
     padding: 1rem;
     transition: all .2s ease-in-out;
