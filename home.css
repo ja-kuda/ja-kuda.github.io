@@ -2,6 +2,7 @@
 body{
     max-width: 100%;
     overflow-x: hidden;
+    overflow: hidden;
     background-color: #736770;
 }
 
@@ -89,4 +90,28 @@ body{
     max-height: 100%;
     display: block;
     margin: auto;
+}
+
+.bigBanner{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5rem;
+}
+
+.contentBanner{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    overflow: auto;
+    height: 100vh;
+    overflow-x: hidden;
 }
