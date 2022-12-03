@@ -5,20 +5,68 @@
             "path": "setting/1overview/index.html"
         },
         {
+            "id": "The world of Akudia",
+            "path": "setting/2world/index.html"
+        },
+        {
             "id": "Ambition",
             "path": "setting/2world/1ambition/index.html"
         },
         {
             "id": "The Arcane",
-            "path": "setting/1introduction/3dice/index.html"
+            "path": "setting/2world/2magic/index.html"
+        },
+        {
+            "id": "Ascension",
+            "path": "setting/2world/3ascension/index.html"
+        },
+        {
+            "id": "Inhabitants of the World",
+            "path": "setting/2world/4inhabitants/index.html"
         },
         {
             "id": "History",
             "path": "setting/3history/index.html"
         },
         {
+            "id": "Age of Ascension",
+            "path": "setting/3history/1ascension/index.html"
+        },
+        {
+            "id": "Age of Flight",
+            "path": "setting/3history/2flight/index.html"
+        },
+        {
+            "id": "The Demise of the Elves",
+            "path": "setting/3history/3elves/index.html"
+        },
+        {
+            "id": "Rogamons Reign",
+            "path": "setting/3history/4rogamon/index.html"
+        },
+        {
+            "id": "The Time of Rifts",
+            "path": "setting/3history/5rifts/index.html"
+        },
+        {
             "id": "Geography",
             "path": "setting/4geography/index.html"
+        },
+        {
+            "id": "Kontralos",
+            "path": "setting/4geography/1kontralos/index.html"
+        },
+        {
+            "id": "The Splinter Islands",
+            "path": "setting/4geography/2splinterIslands/index.html"
+        },
+        {
+            "id": "Ankhalat",
+            "path": "setting/4geography/3ankhalat/index.html"
+        },
+        {
+            "id": "Taurora",
+            "path": "setting/4geography/taurora/index.html"
         },
         {
             "id": "Factions",
