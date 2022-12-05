@@ -101,10 +101,11 @@ body{
 
 .label{
     margin: 0.2rem;
-    margin-left: 1rem;;
+    margin-left: 1rem;
 }
 
 .noScrollBar{
     max-width: 100%;
     overflow-x: hidden;
 }
+

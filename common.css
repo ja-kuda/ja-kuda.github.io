@@ -18,3 +18,14 @@
 .header{
     /*background-color: #736770;*/
 }
+
+.inner{
+    overflow: auto;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.logoImg{
+    width: 100%;
+}
+

@@ -108,10 +108,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 2rem;
 }
 
-.inner{
-    overflow: auto;
-    height: 100vh;
-    overflow-x: hidden;
+.footer{
+    height: 10vh;
+    background-color: #331a30;
+    color:white;
+    text-align: center;
+    padding: 2.5rem;
 }

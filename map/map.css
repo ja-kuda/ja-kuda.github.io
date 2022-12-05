@@ -1,11 +1,11 @@
 
 .headerNoBackground{
     position: fixed;
-    width: 90%;
+    width: 100%;
 }
 
 .mapBanner{
-    left: 5%;
+    
 }
 
 .controls{
