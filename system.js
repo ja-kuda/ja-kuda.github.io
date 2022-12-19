@@ -47,8 +47,8 @@ function createChapters(chapters){
         const setter = document.getElementById("setter");
         setter.parentNode.insertBefore(newDiv, setter);
     });
-    
     hideSubs();
+    document.getElementById('Introduction').click();
 }
 
 function showContent(element){

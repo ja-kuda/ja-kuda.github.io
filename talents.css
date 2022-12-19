@@ -32,7 +32,7 @@ body{
     font-size: medium;
     padding-left: 2rem;
     overflow: auto;
-    max-height: calc(100vh - 12rem);
+    max-height: calc(100vh - 14.5rem);
 }
 
 .talentBox1{

@@ -5,7 +5,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 resolve",
-            "effects": "Use 1 resolve immediately to heal up to 2 lvl 1 wounds.",
+            "effects": "Immediately heal up to 2 lvl 1 wounds.",
             "tags": ["resolve", "healing"]
         },
         {
@@ -93,7 +93,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Successful attacks G{destroy your targets armor}.",
+            "effects": "Skirmish checks against armored targets are more effective G{and destroy your targets armor}.",
             "tags": ["skirmish"]
         },
         {
@@ -101,7 +101,7 @@
             "prerequisites": "light weapons boon or similar",
             "charges": "",
             "costs": "",
-            "effects": "You are especially deadly when your enemy does not see you coming. Treat skirmish checks that target unsuspecting opponents as one stage better. This enables you to critically succeed on checks.",
+            "effects": "You are especially deadly when your enemy does not see you coming. Treat skirmish checks that target unsuspecting opponents as one stage better.",
             "tags": ["skirmish", "weapons"]
         },
         {
@@ -109,7 +109,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "While you are in battle gain a temporary boon: skirmish. Also gain +1 resolve that can only be used as long as you are in battle.",
+            "effects": "While you are in battle gain a temporary boon: skirmish. Also gain +1 resolve that can only be used as long as you are in that fight.",
             "tags": ["skirmish", "boon", "resolve"]
         },
         {
@@ -149,7 +149,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Treat checks made to grapple and restrict others as one stage better. This allows for critical successes.",
+            "effects": "Treat checks made to grapple and restrict others as one stage better.",
             "tags": ["agility"]
         },
         {
@@ -157,7 +157,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gaining a critical success on a skirmish check will instantly kill any normal target.",
+            "effects": "Your skirmish checks critically succeed on a 13 or higher instead of 16.",
             "tags": ["skirmish"]
         },
         {
@@ -165,7 +165,7 @@
             "prerequisites": "light or medium weapons boon or similar",
             "charges": "",
             "costs": "",
-            "effects": "You can use two weapons at the same time, gaining both of their effects.",
+            "effects": "You can use two weapons at the same time, gaining both of their effects with one check.",
             "tags": ["skirmish", "weapons"]
         },
         {
@@ -181,7 +181,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Choose a single enemy. You both enter a duel to the death and nobody else can disrupt you.",
+            "effects": "Choose a single enemy. You both enter a duel that can not be interrupted until one of you dies or surrenders.",
             "tags": ["skirmish"]
         },
         {
@@ -205,7 +205,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When an ally besides you takes damage roll an endurance check to take G{all} | Y{1} of the damage instead.",
+            "effects": "When an ally besides you gains a wound, roll an endurance check to take G{a wound of a lvl lower} | Y{the wound} | R{take a wound of a higher lvl} instead.",
             "tags": ["general", "skirmish", "endurance"]
         },
         {
@@ -213,7 +213,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you kill or harm an enemy, roll an influence check: Remaining enemies G{will be terrified} | Y{lose morale}.",
+            "effects": "When you kill or harm an enemy, roll an influence check: Remaining enemies will G{try to flee} | Y{be terrified of you} | R{lose morale}.",
             "tags": ["skirmish", "influence"]
         },
         {
@@ -237,7 +237,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "When you take any wound, you can ignore it. Instead gain a temporary flaw that fits the injury. You can remove it during a rest instead of healing a wound.",
+            "effects": "When you take any wound, you can ignore it. Instead only gain the flaws of the injury. You can remove them during a rest instead of treating wounds.",
             "tags": ["general", "healing", "endurance"]
         },
         {
@@ -245,7 +245,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you are hit by a special type of damage, you gain 1 armor against that type until you are damaged by another special type of damage.",
+            "effects": "When you gain a wound inflicted by a certain type of damage, you gain 1 armor against that type of damage.",
             "tags": ["general", "endurance", "healing"]
         },
         {
@@ -285,23 +285,23 @@
             "prerequisites": "any melee weapon boon, firearm boon",
             "charges": "",
             "costs": "",
-            "effects": "When you make a skirmish check against an enemy: G{Also shoot your pistol at any opponent} | Y{Shoot your pistol at your target}.",
+            "effects": "When you make a skirmish check to attack with your melee weapon, you can also attack a target with your firearm.",
             "tags": ["skirmish", "weapons"]
         },
         {
             "name": "Ultra heavy",
-            "prerequisites": "4 ST, heavy weapons boon",
+            "prerequisites": "heavy weapons boon",
             "charges": "",
             "costs": "",
             "effects": "You can use heavy objects like trees, anchors or boulders as heavy weapons. Boons do not apply when using them.",
             "tags": ["weapons"]
         },
         {
-            "name": "Weapons training",
+            "name": "General training",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a weapon type (light, medium, heavy, long, ranged, firearms or unarmed). Gain a boon of that weapons type.",
+            "effects": "Choose a general tag (light, medium, heavy, long, ranged, firearms or unarmed). Gain a boon of that tag.",
             "tags": ["weapons", "boon"]
         },
         {
@@ -309,7 +309,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a specific weapon type and gain a boon of that specific weapons type.",
+            "effects": "Choose a specialized tag and gain a boon of that tag.",
             "tags": ["weapons", "boon"]
         },
         {
@@ -451,9 +451,9 @@
         {
             "name": "Command",
             "prerequisites": "",
-            "charges": "5 charges",
+            "charges": "",
             "costs": "",
-            "effects": "Give an ally a command. They gain a temporary boon for that command. The boon lasts until used in a check or until a minute has passed.",
+            "effects": "Give an ally a command. They gain a boon to follow that command. The boon lasts until used in a check or until a minute has passed.",
             "tags": ["influence", "boon"]
         },
         {
@@ -533,7 +533,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Roll an influence check against a target to confuse it and G{gain a temporary boon against them that lasts an hour} | G{break their concentration and stun them} | Y{gain a temporary boon against them that lasts a minute}.",
+            "effects": "Roll an influence check against a target to confuse it and G{gain a temporary boon x3 against them that lasts an hour} | G{break their concentration and stun them} | Y{gain a temporary boon x2 against them that lasts a minute} | R{gain a temporary boon against them that lasts a few seconds}.",
             "tags": ["influence"]
         },
         {
@@ -541,7 +541,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll an influence check to challenge enemies around you: G{All enemies will focus you} | Y{One enemy will focus you} | Y{You instantly get attacked by an enemy}.",
+            "effects": "Roll an influence check to challenge enemies around you: G{You are focused and gain +1 resolve} | Y{You are focused} | R{You are focused, but take a lvl 1 wound}.",
             "tags": ["skirmish", "influence"]
         },
         {
@@ -573,7 +573,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll an influence check to force a creature to repeat their last move G{exactly the same, regardless of the circumstances} | Y{roughly the same, based on the current situation}.",
+            "effects": "Roll an influence check to force a creature to repeat their last move G{exactly the same, regardless of the circumstances} | Y{roughly the same, based on the current situation} | R{roughly the same, but at any time}.",
             "tags": ["static", "influence"]
         },
         {
@@ -581,7 +581,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll an influence or performance check in front of a crowd, the audience is disgusted by your words and stops what they were doing G{until you leave} | Y{momentarily}",
+            "effects": "Roll an influence or performance check in front of a crowd, the audience is disgusted by your words and stops what they were doing G{until you leave} | Y{for a few moments} | R{momentarily}",
             "tags": ["influence", "performance"]
         },
         {
@@ -605,7 +605,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Roll a influence check to captivate an audience with tall tales of your exploits: G{The audience believes you} | Y{The audience listens to you}.",
+            "effects": "Roll a influence check to captivate an audience with tall tales of your exploits: G{The audience believes you and will tell others about you} | Y{The audience believes you} | R{The audience listens to you but is not fully convinced}.",
             "tags": ["influence", "pirates"]
         },
         {
@@ -613,7 +613,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll an insight check to check your surroundings for traces of arcane magic: G{You gain the location and numbers of arcane sources in the vicinity} | Y: You learn if there are arcane sources in the vicinity.",
+            "effects": "Roll an insight check to check your surroundings for traces of arcane magic: G{You learn details of the magic around you, such as numbers, elements, locations, etc.} Y{You learn of the location of magic in the area} | R{You learn if there are arcane sources in the vicinity}.",
             "tags": ["arcane", "insight"]
         },
         {
@@ -621,7 +621,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When successfully trying to determine lies you also gain a single word as to why the person you are talking to might lie, such as love, revenge, family, etc..",
+            "effects": "When trying to determine lies you also gain a single word as to why the person you are talking to might lie, such as love, revenge, family, etc..",
             "tags": ["insight"]
         },
         {
@@ -645,7 +645,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Roll a performance check to mimic any sound you heard before: the sound is  G: indistinguishable | Y: suspicious | R: noticable.",
+            "effects": "Roll a performance check to mimic any sound you heard before: the sound is  G{indistinguishable} | Y{hard to distinguish} | R{suspicious but convincing}",
             "tags": ["performance"]
         },
         {
@@ -685,7 +685,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you are the target of mind effects you can instead take 1 damage and ignore the effect.",
+            "effects": "When you are the target of mind effects you can instead take a lvl 1 wound and ignore the effect.",
             "tags": ["vigilance"]
         },
         {
@@ -693,7 +693,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You always know the cardinal directions and the way you have been traveled.",
+            "effects": "You always know the cardinal directions and the way you have traveled.",
             "tags": ["lore", "vigilance"]
         },
         {
@@ -709,7 +709,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boon: illusions. On successful checks against illusions: G{ask the GM a question about the nature of the illusion}.",
+            "effects": "Gain the following boon: illusions. On checks against illusions: G{ask the GM a question about the nature of the illusion}.",
             "tags": ["vigilance", "arcane"]
         },
         {
@@ -725,7 +725,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When inspecting an item, roll a lore check to ask the GM G{2} | Y{1} questions about the item.",
+            "effects": "When inspecting an item, roll a lore check to ask the GM G{3} | Y{2} | R{1} questions about the item.",
             "tags": ["lore"]
         },
         {
@@ -749,7 +749,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Remove a lvl 1 wound. This takes at least an hour of time.",
+            "effects": "Heal a lvl 1 wound. This takes some time.",
             "tags": ["medicine", "healing"]
         },
         {
@@ -757,7 +757,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Choose an ally during rest, they gain 1 armor for the next day.",
+            "effects": "Choose an ally during a rest, they gain +1 armor for the next day.",
             "tags": ["medicine", "healing", "resting"]
         },
         {
@@ -765,7 +765,7 @@
             "prerequisites": "Feldsher talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Roll a crafting check to heal the severely wounded: G{Remove a wound of any lvl} | R{Inflict a lvl 1 wound}",
+            "effects": "Roll a crafting check to heal the severely wounded: G{Remove a wound of any lvl} | Y{Heal a lvl 1 wound} | R{Inflict a lvl 1 wound}",
             "tags": ["medicine", "healing"]
         },
         {
@@ -837,7 +837,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can skip checks relating to climbing unless they are especially dangerous or hard..",
+            "effects": "You can skip checks relating to climbing unless they are especially dangerous or hard.",
             "tags": ["agility"]
         },
         {
@@ -845,7 +845,7 @@
             "prerequisites": "Flexible armor talent",
             "charges": "",
             "costs": "",
-            "effects": "You ignore any potential negatives from wearing armor.",
+            "effects": "You ignore any flaws from wearing armor.",
             "tags": ["general", "trickery"]
         },
         {
@@ -853,7 +853,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Your allies can choose to use your trickery rolls for stealth and hiding when you move as a group.",
+            "effects": "Your allies can choose to use the result of your trickery checks for stealth and hiding when you move as a group.",
             "tags": ["trickery"]
         },
         {
@@ -861,7 +861,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 lockpick",
-            "effects": "Roll a trickery check to pick a lock: G{open the lock} | G{open the lock quickly but lose the lockpick} | Y{open the lock, but lose the lockpick} | Y{open the lock, but leave marks} | Y{open the lock slowly} | R{jam the lock}.",
+            "effects": "Roll a trickery check to pick a lock: G{open the lock} | G{open the lock quickly but lose the lockpick} | Y{open the lock, but lose the lockpick} | R{open the lock, but leave marks} | R{open the lock slowly}.",
             "tags": ["trickery"]
         },
         {
@@ -869,7 +869,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your original check result. If the result would be successful now, remain hidden.",
+            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your original check result.",
             "tags": ["trickery"]
         },
         {
@@ -877,7 +877,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boon: shadows.",
+            "effects": "Gain the following boon: shadows x2.",
             "tags": ["trickery"]
         },
         {
@@ -885,7 +885,7 @@
             "prerequisites": "Shadow stalker talent",
             "charges": "",
             "costs": "",
-            "effects": "You can treat any trickery check made from within shadows as successful.",
+            "effects": "You can treat any trickery check made from within shadows as green.",
             "tags": ["trickery"]
         },
         {
@@ -1029,7 +1029,7 @@
             "prerequisites": "Mutationist talent",
             "charges": "",
             "costs": "",
-            "effects": "When you damage a creature you can make a crafting check to G{harvest 1 special ingredient} | Y{harvest 1 special ingredient but gain additional conflict}.",
+            "effects": "When you damage a creature you can make a crafting check to G{harvest 2 special ingredients} | Y{harvest 1 special ingredient}.",
             "tags": ["crafting"]
         },
         {
@@ -1053,7 +1053,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can choose to gain +1 resolve during a rest. If you do, you do not remove stress and fatigue automatically.",
+            "effects": "You can choose to gain +1 resolve during a rest. If you do, you do not remove stress and fatigue.",
             "tags": ["resolve", "resting"]
         },
         {
@@ -1069,7 +1069,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "Any number of resolve",
-            "effects": "Spend a number of resolve to clear an influence from a target. Roll an insight check with boons equal to the number of resolve spent: G{You clear the influence} | Y{You stop the influence temporarily} | G{You transfer the influence to you}.",
+            "effects": "Spend a number of resolve to clear an influence from a target. Roll an insight check with boons equal to the number of resolve spent: G{You clear the influence} | Y{You stop the influence temporarily} | R{You transfer the influence to you}.",
             "tags": ["resolve", "healing"]
         },
         {
@@ -1083,24 +1083,24 @@
         {
             "name": "Dreamer",
             "prerequisites": "",
-            "charges": "1 charge",
-            "costs": "",
+            "charges": "",
+            "costs": "2 arcane threads",
             "effects": "You can enter a sleeping creatures dreams and interact with them or even try to manipulate them.",
             "tags": ["insight"]
         },
         {
             "name": "Enter mind",
             "prerequisites": "",
-            "charges": "2 charges",
-            "costs": "",
-            "effects": "You open up your mind to enter a creatures thoughts. Roll an insight check with a flaw for each creature near your target: G{You read your targets thoughts} | Y{You read unclear and distorted thoughts} | R{You alert the target}.",
+            "charges": "",
+            "costs": "2 arcane threads",
+            "effects": "You open up your mind to enter a creatures thoughts. Roll an insight check with a flaw for each creature near your target: You read G{thoughts clearly} | Y{unclear and distorted thoughts} | R{thoughts but alert the target}.",
             "tags": ["insight"]
         },
         {
             "name": "Firespeaker",
             "prerequisites": "An Ambition relating to emotions or fire",
             "charges": "",
-            "costs": "1 resolve",
+            "costs": "1 arcane thread",
             "effects": "Look into a fire and receive a foretelling of the future.",
             "tags": ["ambition", "resolve", "insight"]
         },
@@ -1109,7 +1109,7 @@
             "prerequisites": "",
             "charges": "1 charge, does not recharge",
             "costs": "",
-            "effects": "Roll 1d12 to ask for direct help: G{They will help you directly} | Y{They will help you indirectly}. To recharge this talent, you have to prove yourself to your god.",
+            "effects": "Ask your god for help. They will help you, but you have to roll 1d20 to regain use of this talent with G{an easy task} | Y{a moderate mission} | R{a difficult quest}.",
             "tags": ["ambition"]
         },
         {
@@ -1123,7 +1123,7 @@
         {
             "name": "Lucky roll",
             "prerequisites": "",
-            "charges": "1 charge",
+            "charges": "2 charges",
             "costs": "",
             "effects": "Reroll 1 check, you must use the new result.",
             "tags": ["general"]
@@ -1131,7 +1131,7 @@
         {
             "name": "Delay fate",
             "prerequisites": "",
-            "charges": "1 charge",
+            "charges": "2 charges",
             "costs": "",
             "effects": "Ignore the conflict of any check. The next time you gain conflict, it is stronger.",
             "tags": ["ambition", "general"]
@@ -1141,7 +1141,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "An offering",
-            "effects": "Based on your offering roll between 1d6 and 5d6. You receive G{a clear and precise vision of what to do} | Y{a shrouded and vague vision}.",
+            "effects": "Based on your offering roll between 1d6 and 5d6. You receive G{a clear vision of your next steps} | Y{a vague vision of an event} | R{a shrouded vision of a calamity}.",
             "tags": ["ambition"]
         },
         {
@@ -1149,15 +1149,15 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You can choose to roll a check with 1d12 instead of the normal dice.",
+            "effects": "You can choose to roll a check with 1d20 instead of the normal dice. Boons and flaws do not apply.",
             "tags": ["general", "ambition"]
         },
         {
             "name": "Quick prayer",
             "prerequisites": "",
-            "charges": "3 charges",
-            "costs": "",
-            "effects": "Gain +1 to your next check that is made with the attribute most associated with your ambition.",
+            "charges": "",
+            "costs": "1 arcane thread",
+            "effects": "Gain +1 to your next check that is made with the attribute most associated with your ambition or god.",
             "tags": ["ambition"]
         },
         {

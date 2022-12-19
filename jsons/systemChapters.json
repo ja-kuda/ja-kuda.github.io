@@ -29,52 +29,52 @@
             "path": "system/2basics/2checks/index.html"
         },
         {
-            "id": "Ambition",
-            "path": "system/2basics/3ambition/index.html"
-        },
-        {
             "id": "Conflict",
-            "path": "system/2basics/4conflict/index.html"
+            "path": "system/2basics/3conflict/index.html"
         },
         {
             "id": "Resolve",
-            "path": "system/2basics/5resolve/index.html"
+            "path": "system/2basics/4resolve/index.html"
         },
         {
             "id": "Characters",
             "path": "system/3characters/index.html"
         },
         {
+            "id": "Ambition",
+            "path": "system/3characters/1ambition/index.html"
+        },
+        {
             "id": "Skills",
-            "path": "system/3characters/1skills/index.html"
+            "path": "system/3characters/2skills/index.html"
         },
         {
             "id": "Health",
-            "path": "system/3characters/2health/index.html"
+            "path": "system/3characters/3health/index.html"
         },
         {
             "id": "Boons and Flaws",
-            "path": "system/3characters/3boonsFlaws/index.html"
+            "path": "system/3characters/4boonsFlaws/index.html"
         },
         {
             "id": "Talents",
-            "path": "system/3characters/4talents/index.html"
+            "path": "system/3characters/5talents/index.html"
         },
         {
             "id": "Arcs",
-            "path": "system/3characters/5arcs/index.html"
+            "path": "system/3characters/6arcs/index.html"
         },
         {
             "id": "Ancestries",
-            "path": "system/3characters/6ancestry/index.html"
+            "path": "system/3characters/7ancestry/index.html"
         },
         {
             "id": "Creating a character",
-            "path": "system/3characters/7creation/index.html"
+            "path": "system/3characters/8creation/index.html"
         },
         {
             "id": "Progression",
-            "path": "system/3characters/8progression/index.html"
+            "path": "system/3characters/9progression/index.html"
         },
         {
             "id": "Playing the game",
@@ -85,7 +85,7 @@
             "path": "system/4playing/1starting/index.html"
         },
         {
-            "id": "Damage",
+            "id": "Wounds and Injuries",
             "path": "system/4playing/2damage/index.html"
         },
         {
@@ -97,7 +97,7 @@
             "path": "system/4playing/4rest/index.html"
         },
         {
-            "id": "Magic",
+            "id": "The Arcane",
             "path": "system/4playing/5magic/index.html"
         },
         {

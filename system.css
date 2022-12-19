@@ -2,6 +2,7 @@ body{
     background-color: #736770;
     max-width: 100%;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .chapter{
@@ -31,11 +32,17 @@ body{
 .content{
     font-size: medium;
     padding: 2rem;
-    background-color: #c6a2ae;
+    background-color: #2c2a42;
     border-style: solid;
     border-width: 4px;
     border-color: #461326;
     overflow: auto;
+    scrollbar-width: none;
+    font-size: medium;
+    padding-left: 2rem;
+    overflow: auto;
+    max-height: calc(100vh - 15rem);
+    color:white;
 }
 
 .chapterLeft{
@@ -80,11 +87,4 @@ body{
 .label{
     margin: 0.2rem;
     margin-left: 1rem;;
-}
-
-.content{
-    font-size: medium;
-    padding-left: 2rem;
-    overflow: auto;
-    max-height: calc(100vh - 12rem);
 }
