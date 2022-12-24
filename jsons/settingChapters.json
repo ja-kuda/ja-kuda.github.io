@@ -71,6 +71,22 @@
         {
             "id": "Factions",
             "path": "setting/5factions/index.html"
+        },
+        {
+            "id": "Tralian Empire",
+            "path": "setting/5factions/1tralia/index.html"
+        },
+        {
+            "id": "Great Kingdom of Varland",
+            "path": "setting/5factions/2varland/index.html"
+        },
+        {
+            "id": "Free States of Atania",
+            "path": "setting/5factions/3atania/index.html"
+        },
+        {
+            "id": "Caliphate of Ankhalat",
+            "path": "setting/5factions/4/ankhalat/index.html"
         }
     ]
 }
