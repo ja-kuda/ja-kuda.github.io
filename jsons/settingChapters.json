@@ -1,10 +1,6 @@
 {
     "chapters": [
         {
-            "id": "Overview",
-            "path": "setting/1overview/index.html"
-        },
-        {
             "id": "The world of Akudia",
             "path": "setting/2world/index.html"
         },
@@ -13,12 +9,12 @@
             "path": "setting/2world/1ambition/index.html"
         },
         {
-            "id": "The Arcane",
-            "path": "setting/2world/2magic/index.html"
-        },
-        {
             "id": "Ascension",
             "path": "setting/2world/3ascension/index.html"
+        },
+        {
+            "id": "The Arcane",
+            "path": "setting/2world/2magic/index.html"
         },
         {
             "id": "Inhabitants of the World",

@@ -77,12 +77,20 @@
             "path": "system/3characters/9progression/index.html"
         },
         {
-            "id": "Playing the game",
+            "id": "During the game",
             "path": "system/4playing/index.html"
         },
         {
             "id": "Creating the story",
             "path": "system/4playing/1starting/index.html"
+        },
+        {
+            "id": "The Arcane",
+            "path": "system/4playing/5magic/index.html"
+        },
+        {
+            "id": "Resting",
+            "path": "system/4playing/4rest/index.html"
         },
         {
             "id": "Wounds and Injuries",
@@ -91,14 +99,6 @@
         {
             "id": "Death",
             "path": "system/4playing/3death/index.html"
-        },
-        {
-            "id": "Resting",
-            "path": "system/4playing/4rest/index.html"
-        },
-        {
-            "id": "The Arcane",
-            "path": "system/4playing/5magic/index.html"
         },
         {
             "id": "Equipment",

@@ -49,7 +49,7 @@ function createChapters(chapters){
         setter.parentNode.insertBefore(newDiv, setter);
     });
     hideSubs();
-    document.getElementById('Overview').click();
+    document.getElementById('The world of Akudia').click();
 }
 
 /*function showSubs(element){
