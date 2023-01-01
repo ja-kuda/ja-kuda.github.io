@@ -1,4 +1,8 @@
 
+function selectDefault(){
+    document.getElementById('color').click();
+}
+
 function showPreview(element){
     var menu = document.getElementById("menu");
     var allDivs = menu.getElementsByTagName("div");
@@ -10,4 +14,5 @@ function showPreview(element){
 
     var preview = document.getElementById("previewFrame");
     preview.setAttribute("src", "https://ja-kuda.github.io/pdfs/" + element.id + ".pdf");
+    
 }
