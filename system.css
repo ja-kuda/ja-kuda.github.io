@@ -76,14 +76,6 @@ body{
     color: white;
 }
 
-.sub{
-    margin-left: 2rem;
-}
-
-.subsub{
-    margin-left: 4rem;
-}
-
 .noScrollBar{
     max-width: 100%;
     overflow-x: hidden;
@@ -92,4 +84,27 @@ body{
 .label{
     margin: 0.2rem;
     margin-left: 1rem;;
+}
+
+.scale{
+    max-width: 80%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .chapter{
+        display: none;
+    }
+
+    .chapterLeft{
+        display: none;
+    }
+
+    .chapterRight{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
 }

@@ -48,7 +48,9 @@ function unzoom() {
     doc.getElementById("Provinz_Wappen").style.display = "none";
     doc.getElementById("GeoGerman").style.display = "none";
 
-    doc.getElementById("Orte").addEventListener("click", elementClicked);
+    doc.getElementById("LocationButtons").addEventListener("click", elementClicked);
+    doc.getElementById("LocationButtons").addEventListener("mouseenter", locationHovered);
+    
     doc.getElementById("Regionen").addEventListener("click", regionClicked);
 
     Array.from(doc.getElementById("Regionen").children).forEach(element => {
@@ -144,18 +146,19 @@ function unzoom() {
   }
 
   function elementHovered(event){
-    event.target.style.stroke = "#c19a1e";
-    event.target.style.strokeWidth = "8";
+    event.target.style.stroke = "#ffffff";
+    event.target.style.strokeWidth = "7";
     event.target.style.opacity = "100%";
     event.target.style.strokeOpacity = "100%";
-    event.target.style.fillOpacity = "1%";
+    event.target.style.fillOpacity = "35%";
+    event.target.z
     //event.target.setAttribute("fill-opacity", "0.01");
   }
 
   function elementHoveredEnd(event){
     event.target.style.stroke = "none";
-    event.target.style.fill = "white";
-    event.target.style.opacity = "1%";
+    //event.target.style.fill = "white";
+    //event.target.style.opacity = "1%";
   }
 
   window.onclick = function(event) {
@@ -164,6 +167,15 @@ function unzoom() {
       modal.style.display = "none";
     }
   }
+
+  function locationHovered(event){
+    console.log(event.target + " ENTER");
+    event.target.style.cursor = "pointer";
+    event.target.setAttribute("cursor", "pointer");
+    console.log(event.target.style.cursor);
+  }
+
+
 
 
 
