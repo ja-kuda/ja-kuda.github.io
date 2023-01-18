@@ -13,7 +13,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When resolving cumulative checks to learn or gain information, add 1 success to the final tally of results.",
+            "effects": "Treat any check you make to learn something new as 2 checks for progress.",
             "tags": ["general"]
         },
         {
@@ -29,7 +29,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you obtain a special or rare item, gain 3 temporary boons. They last until they are used and can be used in any combination.",
+            "effects": "When you obtain a special or rare item, gain a boon x3. The boon can be used fully or partially in any check and loses xX per boon you used.",
             "tags": [ "general", "boon"]
         },
         {
@@ -101,7 +101,7 @@
             "prerequisites": "light weapons boon or similar",
             "charges": "",
             "costs": "",
-            "effects": "You are especially deadly when your enemy does not see you coming. Treat skirmish checks that target unsuspecting opponents as one stage better.",
+            "effects": "You are especially deadly when your enemy does not see you coming. Treat skirmish checks that target unsuspecting opponents as one stage better. This allows for critical success.",
             "tags": ["skirmish", "weapons"]
         },
         {
@@ -125,7 +125,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are outnumbered, gain a temporary boon: skirmish.",
+            "effects": "While you are outnumbered, gain a boon: skirmish x2.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -133,7 +133,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain a temporary boon x2 for your next skirmish check but gain a lvl 1 wound from an enemies attack.",
+            "effects": "Gain a temporary boon x2 for your next skirmish check but gain a lvl 1 wound from an enemies attack regardless of the checks result.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -149,7 +149,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Treat checks made to grapple and restrict others as one stage better.",
+            "effects": "Treat checks made to grapple and restrict others as one stage better. This allows for critical success.",
             "tags": ["agility"]
         },
         {
@@ -197,7 +197,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Attacking someone out of the shadows does not reveal you. Works only once per target in a given situation.",
+            "effects": "Attacking someone out of the shadows does not reveal you. Works only once until you are forgotten or switch locations.",
             "tags": ["skirmish", "trickery"]
         },
         {
@@ -205,7 +205,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When an ally besides you gains a wound, roll an endurance check to take G{a wound of a lvl lower} | Y{the wound} | R{take a wound of a higher lvl} instead.",
+            "effects": "When an ally besides you gains a wound, roll an endurance check to take G{a wound of a lvl lower} | Y{the wound} | R{a wound of a higher lvl} instead.",
             "tags": ["general", "skirmish", "endurance"]
         },
         {
@@ -221,7 +221,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "After you take damage, if you manage to kill the source to remove the wound.",
+            "effects": "Heal all wounds you have suffered from a creature when you kill it.",
             "tags": ["skirmish", "healing"]
         },
         {
@@ -251,9 +251,9 @@
         {
             "name": "Recovery",
             "prerequisites": "",
-            "charges": "5 charges",
+            "charges": "3 charges",
             "costs": "",
-            "effects": "When you use a piece of ammunition you can spend a charge of this talent instead of losing ammo and reloading.",
+            "effects": "When you use a piece of ammunition you can spend a charge of this talent instead of losing ammo. You also instantly reload your weapon.",
             "tags": ["weapons"]
         },
         {
@@ -261,7 +261,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you kill an enemy, gain another action instantly.",
+            "effects": "When you kill an enemy, act again.",
             "tags": ["skirmish"]
         },
         {
@@ -297,11 +297,11 @@
             "tags": ["weapons"]
         },
         {
-            "name": "General training",
+            "name": "Weapons training",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a general tag (light, medium, heavy, long, ranged, firearms or unarmed). Gain a boon of that tag.",
+            "effects": "Choose 2 weapon tags and gain them as boons.",
             "tags": ["weapons", "boon"]
         },
         {
@@ -445,7 +445,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "Resources for a ritual",
-            "effects": "Instead of spontaneous effects, you can perform rituals to create your arcane effects. This takes time and resources but you do not need to spend arcane threads and you can skip the arcane check to control the spell.",
+            "effects": "Instead of spontaneous effects, you can perform rituals to create your arcane effects. This takes time and resources but you do not need to spend arcane threads.",
             "tags": ["arcane"]
         },
         {
@@ -467,9 +467,9 @@
         {
             "name": "Identity theft",
             "prerequisites": "",
-            "charges": "1 charge per week",
-            "costs": "50 silver",
-            "effects": "You create a copy of a persons identity, including any documents used to prove your identity. This talent does not recharge normally on a rest, but instead after a week in the same city or town.",
+            "charges": "1 charge per town",
+            "costs": "Depending on target",
+            "effects": "You use your contacts to create a copy of a persons identity, including any documents used to prove your identity. This talent only recharges if you leave the area for a week.",
             "tags": ["performance"]
         },
         {
@@ -493,16 +493,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "After interacting with a person for a short time, gain a boon for that person. You can only have one of these boons active at once.",
+            "effects": "After interacting with a person for a short time, gain a boon x2 relating that person. You can only have one of these boons active at once.",
             "tags": ["influence"]
-        },
-        {
-            "name": "Motivational speaker",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "any number of resolve",
-            "effects": "You inspire and motivate your allies. Give your allies 1 resolve per resolve spent.",
-            "tags": ["general", "resolve"]
         },
         {
             "name": "Parley",
@@ -541,7 +533,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll an influence check to challenge enemies around you: G{You are focused and gain +1 resolve} | Y{You are focused} | R{You are focused, but take a lvl 1 wound}.",
+            "effects": "Roll an influence check to challenge enemies around you: You are focused by the enemies G{and gain +1 resolve} | R{but gain a lvl 1 wound}.",
             "tags": ["skirmish", "influence"]
         },
         {
@@ -549,7 +541,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you roll a successful influence check to lie you gain a stacking boon: lying. The boon is lost when you use an influence check to tell the truth.",
+            "effects": "When you roll an influence check to lie: G{gain a boon: lying}. This boon can stack. The boon resets to x0 when you use an influence check to tell the truth.",
             "tags": ["influence"]
         },
         {
@@ -641,11 +633,11 @@
             "tags": ["insight"]
         },
         {
-            "name": "Copycat",
+            "name": "Lure",
             "prerequisites": "",
-            "charges": "",
+            "charges": "4",
             "costs": "",
-            "effects": "Roll a performance check to mimic any sound you heard before: the sound is  G{indistinguishable} | Y{hard to distinguish} | R{suspicious but convincing}",
+            "effects": "Copy any sound.",
             "tags": ["performance"]
         },
         {
@@ -661,7 +653,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Roll a performance check to make your audience laugh G{so hard, they fall to the ground laughing}.",
+            "effects": "Roll a performance check to make a G{hostile} | Y{neutral} | R{friendly} audience laugh.",
             "tags": ["performance"]
         },
         {
@@ -677,7 +669,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can present false thoughts whenever your mind is being read.",
+            "effects": "Your mind can not be read.",
             "tags": ["vigilance"]
         },
         {
@@ -689,11 +681,11 @@
             "tags": ["vigilance"]
         },
         {
-            "name": "Living compass",
+            "name": "Magnetic body",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You always know the cardinal directions and the way you have traveled.",
+            "effects": "You always know where north is. Additionally you can pull or push small metallic items without touching them.",
             "tags": ["lore", "vigilance"]
         },
         {
@@ -748,16 +740,16 @@
             "name": "Feldsher",
             "prerequisites": "",
             "charges": "3 charges",
-            "costs": "",
-            "effects": "Heal a lvl 1 wound. This takes some time.",
+            "costs": "2 materials",
+            "effects": "Heal a lvl 1 wound. This takes 10 minutes.",
             "tags": ["medicine", "healing"]
         },
         {
             "name": "Fortifying treatment",
             "prerequisites": "",
-            "charges": "1 charge",
+            "charges": "2 charges",
             "costs": "",
-            "effects": "Choose an ally during a rest, they gain +1 armor for the next day.",
+            "effects": "You treat an ally for an hour. They gain +1 armor.",
             "tags": ["medicine", "healing", "resting"]
         },
         {
@@ -773,7 +765,7 @@
             "prerequisites": "",
             "charges": "1 charge per week per market",
             "costs": "",
-            "effects": "Roll a vigilance check to search the market for a specific item: You find G{an exact version} | Y{a lesser version} of the item.",
+            "effects": "Roll a vigilance check to search the market for a specific item: You find G{a better version} | Y{an exact version} | R{a lesser version} of the item.",
             "tags": ["vigilance"]
         },
         {
@@ -789,7 +781,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Choose a creature type or specific creature during rest. You gain +1 for all checks relating to or against that creature.",
+            "effects": "Choose a creature. You gain a boon on all checks relating to that creature.",
             "tags": ["general", "resting"]
         },
         {
@@ -799,14 +791,6 @@
             "costs": "",
             "effects": "As long as you have a free hand, you can keep a small item in it at all times unseen.",
             "tags": ["trickery"]
-        },
-        {
-            "name": "Pack mule",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "You can carry a lot more weight, without being weighed down.",
-            "tags": ["endurance"]
         },
         {
             "name": "Sticky feet",
@@ -829,7 +813,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boon: speed. Gain the following flaw: accuracy",
+            "effects": "Gain the following boon: speed x2. When you use this boon, actions that require accuracy or care automatically result in strong conflict (R).",
             "tags": ["agility"]
         },
         {
@@ -837,7 +821,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can skip checks relating to climbing unless they are especially dangerous or hard.",
+            "effects": "Ignore weak conflict from climbing checks.",
             "tags": ["agility"]
         },
         {
@@ -861,7 +845,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 lockpick",
-            "effects": "Roll a trickery check to pick a lock: G{open the lock} | G{open the lock quickly but lose the lockpick} | Y{open the lock, but lose the lockpick} | R{open the lock, but leave marks} | R{open the lock slowly}.",
+            "effects": "You open locks extremely fast and without traces.",
             "tags": ["trickery"]
         },
         {
@@ -869,7 +853,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your original check result.",
+            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your result. Then resolve the check again.",
             "tags": ["trickery"]
         },
         {
@@ -893,7 +877,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You may use endurance instead of trickery for hiding. If you take your time, you can create a hideout that lets you skip the checks altogether.",
+            "effects": "Choose a terrain. Checks for hiding and sneaking in the terrain are treated as 1 stage better.",
             "tags": ["trickery", "endurance"]
         },
         {
@@ -901,7 +885,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you roll checks to track a creature: G{gain knowledge of the specific creature from the GM}.",
+            "effects": "When you roll checks to track a creature you gain G{2} | Y{1} | R{1 true and 1 false} bits of knowledge about the creature from your GM.",
             "tags": ["vigilance"]
         },
         {
@@ -925,7 +909,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can learn and create alchemy formulas. You can create alchemical ingredients by spending 1 resolve during rest to create 5 crafting ingredients.",
+            "effects": "You can use and create alchemy formulas. When a formula calls for a special ingredient, you can substitute it by spending 1 resolve instead.",
             "tags": ["crafting"]
         },
         {
@@ -933,7 +917,7 @@
             "prerequisites": "Alchemy talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain the following boon: explosives. You learn the following alchemy formula: basic bomb. Once per rest you can create a basic bomb without spending ingredients.",
+            "effects": "Gain the following boon: explosives. You learn the following alchemy formula: basic bomb. By spending this talents charge you can instantly create a small bomb without spending materials or ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -941,7 +925,7 @@
             "prerequisites": "Alchemy talent, an alchemy formula",
             "charges": "",
             "costs": "",
-            "effects": "Choose an alchemy formula. You learn the chosen formula by heart and can craft it once per rest without rolling a check or spending ingredients.",
+            "effects": "Choose an alchemy formula. You learn the chosen formula by heart and can craft it without rolling a check and without spending materials or ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -957,7 +941,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "You can learn and create brewing recipes. You can gather ingredients by spending half a day and rolling 1d8. You gain the number rolled as ingredients.",
+            "effects": "You can learn and create brewing recipes. You can gather materials by spending half a day and rolling 1d8. You gain the number rolled as materials. Alternatively you can gather one special brewing ingredient.",
             "tags": ["crafting"]
         },
         {
@@ -973,7 +957,7 @@
             "prerequisites": "Brewer talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain the following boon: distilling, creating drugs. Once per rest you can create a jug of strong alchohol without spending ingredients.",
+            "effects": "Gain the following boons: alcohol, drugs. You can use this talent to create a jug of alchohol without spending materials or ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -1005,7 +989,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can learn and create mutation genecasts. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse and gain 1/2/3/4/5 special ingredients based on its size.",
+            "effects": "You can use and create mutation genecasts. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse to gain G{3} | Y{2} | R{1} ingredients of that creature.",
             "tags": ["crafting"]
         },
         {
@@ -1036,8 +1020,8 @@
             "name": "Craftology",
             "prerequisites": "",
             "charges": "3 charges",
-            "costs": "any 3 ingredients",
-            "effects": "Roll a crafting check. You can use it in place of any other check until your next rest.",
+            "costs": "3 materials",
+            "effects": "Roll a crafting check by spending 10 minutes on your work. You can use it in place of any other check until your next rest.",
             "tags": ["crafting"]
         },
         {
@@ -1045,7 +1029,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can roll a crafting check to identify food and drink: You gain information about G{poisons, drugs etc.} | Y{tampering}.",
+            "effects": "You can roll a crafting check to identify food and drink: You gain G{detailed information} | Y{rough information} | R{information if it has been tampered with}.",
             "tags": ["crafting"]
         },
         {
@@ -1105,19 +1089,19 @@
             "tags": ["ambition", "resolve", "insight"]
         },
         {
-            "name": "Intervention TODO",
-            "prerequisites": "",
+            "name": "Ascended intervention",
+            "prerequisites": "You follow a god, you finished 3+ arcs",
             "charges": "1 charge, does not recharge",
             "costs": "",
-            "effects": "Ask your god for help. They will help you, but you have to roll 1d20 to regain use of this talent with G{an easy task} | Y{a moderate mission} | R{a difficult quest}.",
+            "effects": "Ask your god for help. They will help you, but you have to roll 1d12 to regain use of this talent with G{an easy task} | Y{a moderate mission} | R{a difficult quest}.",
             "tags": ["ambition"]
         },
         {
-            "name": "Lay on hands",
+            "name": "Motivate",
             "prerequisites": "",
             "charges": "",
             "costs": "any number of resolve",
-            "effects": "Spend a number of resolve to use them on other creatures. They gain the number of resolve. Alternatively you can remove a sickness or disease per resolve spent.",
+            "effects": "Spend a number of resolve to use them on other creatures. They gain the number of resolve.",
             "tags": ["resolve", "medicine"]
         },
         {
@@ -1138,10 +1122,10 @@
         },
         {
             "name": "Offer for guidance",
-            "prerequisites": "",
+            "prerequisites": "You follow a god or other powerful entity",
             "charges": "",
             "costs": "An offering",
-            "effects": "Based on your offering roll between 1d6 and 5d6. You receive G{a clear vision of your next steps} | Y{a vague vision of an event} | R{a shrouded vision of a calamity}.",
+            "effects": "Make a check with 1d6 - 5d6 based on your offering. You receive G{a clear vision of the future} | Y{a vague vision of an event} | R{a shrouded vision of a calamity}.",
             "tags": ["ambition"]
         },
         {
@@ -1153,11 +1137,11 @@
             "tags": ["general", "ambition"]
         },
         {
-            "name": "Quick prayer",
+            "name": "Call ambition",
             "prerequisites": "",
             "charges": "",
             "costs": "1 arcane thread",
-            "effects": "Gain +1 to your next check that is made with the attribute most associated with your ambition or god.",
+            "effects": "Gain +1 to your next check if it represents your ambition.",
             "tags": ["ambition"]
         },
         {
@@ -1165,7 +1149,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "You gain -2 resolve during your next rest.",
-            "effects": "Roll an insight check and ask any G{2} | Y{1} questions about things you experienced during the last day.",
+            "effects": "Roll an insight check and ask any G{3} | Y{2} | R{1} questions about things you experienced during the last day.",
             "tags": ["resolve", "insight"]
         },
         {
@@ -1197,15 +1181,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Reduce the effects of poisons and gain the following boon: withstanding poisons.",
+            "effects": "Reduce the effects of poisons. Conflict you gain from poison effects is reduced by 1 stage.",
             "tags": ["status effect"]
         },
         {
             "name": "Connoisseur",
             "prerequisites": "",
-            "charges": "",
+            "charges": "2 charges",
             "costs": "",
-            "effects": "When ingesting food, drink, potions and poisons, roll 1d4: On a 1 receive no effect from it, on a 4 double the effects.",
+            "effects": "When ingesting food, drink, potions and poisons spend a charge of this talent to double their effects.",
             "tags": ["status effect"]
         },
         {
@@ -1213,7 +1197,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "You ignore an instance of fatigue.",
+            "effects": "Use this talent to ignore conflict from a stressful or exhausting effect.",
             "tags": ["resting", "status effect"]
         },
         {
@@ -1253,7 +1237,7 @@
             "prerequisites": "At least +3 in either endurance or influence",
             "charges": "",
             "costs": "",
-            "effects": "Gain a small or medium animal as your companion. Your companion can move and act independently from you and has 2 - 0 - 0 health.",
+            "effects": "Gain a small or medium animal as your companion. Your companion can move and act independently from you and is treated as any other creature. Conflict you gain on your checks might apply to your companion as well.",
             "tags": ["companion"]
         },
         {
@@ -1261,7 +1245,7 @@
             "prerequisites": "Animal companion talent",
             "charges": "",
             "costs": "",
-            "effects": "Your companion can be any creature.",
+            "effects": "Your companion can be any type of creature.",
             "tags": ["companion"]
         },
         {
@@ -1269,7 +1253,7 @@
             "prerequisites": "Animal companion",
             "charges": "",
             "costs": "",
-            "effects": "You are able to control stronger companions and functions as a separate character. They gain the following attributes: ST, DE and WE. Distribute 6 points between them. They also gain the following skills: agility, trickery, endurance, vigilance, performance, skirmish. Distribute 6 points between them like you would when creating a character. They gain 2 - 2 - 1 wounds.",
+            "effects": "You are able to control stronger companions and functions as a separate character. Choose their stats and talents from the TODO or work together with your GM to build your own companion from scratch.",
             "tags": ["companion"]
         },
         {
@@ -1316,7 +1300,7 @@
             "name": "Copy cat",
             "prerequisites": "",
             "charges": "",
-            "costs": "",
+            "costs": "2 arcane threads, a piece of your target",
             "effects": "You can change your looks to that of another person, excluding their clothes.",
             "tags": ["shapeshift"]
         },
@@ -1373,7 +1357,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "An item",
-            "effects": "When you learn this talent choose an item in your posession: You can telepathically move and materialise/dematerialise it. You can perform a ritual to bind another item, releasing the first.",
+            "effects": "Choose an item in your posession: You can telepathically move and materialise/dematerialise it. You can perform a ritual to bind another item, releasing the first.",
             "tags": ["static"]
         },
         {
@@ -1404,15 +1388,15 @@
             "name": "Illusory double",
             "prerequisites": "",
             "charges": "2 charges",
-            "costs": "",
-            "effects": "You can create an illusory double that copies your movement and lasts a medium duration.",
+            "costs": "1 arcane thread",
+            "effects": "You can create an illusory double that copies your movement and lasts 1 hour.",
             "tags": ["static"]
         },
         {
             "name": "Illusory clone",
             "prerequisites": "Illusory double talent",
             "charges": "",
-            "costs": "",
+            "costs": "1 additional arcane thread",
             "effects": "Your double can follow commands and act independently from you.",
             "tags": ["static"]
         },
@@ -1421,7 +1405,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you spend resolve to reduce conflict of arcane nature, reduce it again, as if you would spend another resolve.",
+            "effects": "When you spend resolve to reduce conflict from arcane effects, conflict is reduced by 2 stages. This allows for critical success.",
             "tags": ["arcane", "resolve"]
         },
         {
@@ -1429,7 +1413,7 @@
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
-            "effects": "Summon a magical hand for a medium duration.",
+            "effects": "Summon a magical hand for 1 hour.",
             "tags": ["static"]
         },
         {
@@ -1437,14 +1421,14 @@
             "prerequisites": "Spectral hand talent",
             "charges": "",
             "costs": "",
-            "effects": "Your spectral hand becomes permanent. You can use charges from your spectral hand talent to summon additional hands for a medium duration.",
+            "effects": "Your spectral hand becomes permanent. You can use charges from your spectral hand talent to summon additional hands for 1o minutes.",
             "tags": ["static"]
         },
         {
             "name": "Invisibility",
             "prerequisites": "",
             "charges": "3 charges",
-            "costs": "",
+            "costs": "2 arcane threads",
             "effects": "You and all that is on you when you use this talent turns invisible for a short duration.",
             "tags": ["static"]
         },
@@ -1459,17 +1443,17 @@
         {
             "name": "Flashback",
             "prerequisites": "",
-            "charges": "1 charge",
-            "costs": "",
+            "charges": "2 charges",
+            "costs": "3 arcane threads",
             "effects": "You travel back a short distance in time.",
             "tags": ["static"]
         },
         {
             "name": "Blink",
             "prerequisites": "",
-            "charges": "3 charges",
-            "costs": "",
-            "effects": "You teleport to a visible location in medium range. Alternatively you can spend 2 charges to teleport to a location you know, but can not see. Does not work while restricted or grappled.",
+            "charges": "",
+            "costs": "2 arcane threads",
+            "effects": "You teleport to a visible location in medium range. Does not work while restricted or grappled.",
             "tags": ["static"]
         },
         {
@@ -1593,7 +1577,7 @@
             "tags": ["vigilance"]
         },
         {
-            "name": "Nekromancy",
+            "name": "Arcane battery",
             "prerequisites": "Control over arcane element: life",
             "charges": "",
             "costs": "",
@@ -1801,11 +1785,11 @@
             "tags": ["ancestry", "movement", "arcane"]
         },
         {
-            "name": "Goldfinger",
+            "name": "Golden eyes",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You have a sense for gold, gold and only gold. You can see and feel every presence of gold in an area of 20 meters around you, but your sight becomes clouded. Gain a flaw: vigilance.",
+            "effects": "You have a sense for gold, gold and only gold. You can see and feel every presence of gold in an area of 20 meters around you, but your sight becomes clouded. Gain a flaw: sight.",
             "tags": ["vigilance"]
         },
         {
@@ -1813,16 +1797,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose an element when learning this talent. Gain the following boon: resistance against chosen element",
+            "effects": "Choose an arcane element when learning this talent. You gain 1 resistance against that element, reducing any wounds inflicted by it by 1 stage.",
             "tags": ["arcane", "boon"]
-        },
-        {
-            "name": "Arcane combination",
-            "prerequisites": "Arcane spellcasting talent",
-            "charges": "",
-            "costs": "Additional arcane threads",
-            "effects": "You can combine two or more talents that fit for a given spell effect. Doing so costs arcane threads for each element seperately.",
-            "tags": ["arcane"]
         },
         {
             "name": "Versatility",
@@ -1869,7 +1845,7 @@
             "prerequisites": "Durag ancestry",
             "charges": "1 charge",
             "costs": "A portion of rock",
-            "effects": "You are able to eat rocks, crystals and other minerals. Gain an effect based on the type of mineral: magnetic, extra heavy, jagged, camouflaged, luminous.",
+            "effects": "You are able to eat rocks, crystals and other minerals. Gain an effect based on the type of mineral: magnetic, extra heavy, jagged, camouflaged, luminous. The effects slowly lessen over the next day.",
             "tags": ["ancestry", "status effect"]
         },
         {
@@ -1877,7 +1853,7 @@
             "prerequisites": "Orvosa ancestry",
             "charges": "",
             "costs": "",
-            "effects": "You resemble the image of a fallen god, instilling a primal reaction in all those that see you. The first time you interact meaningfully with a creature, roll 1d6. On 4-6 gain a boon on them, as they trust you more, on a 1-3 gain a flaw instead, as they mistrust and maybe fear you.",
+            "effects": "You resemble the image of a fallen god, instilling a primal reaction in all those that see you. The first time you interact meaningfully with a creature, you can roll 1d6. On 4-6 gain a boon relating to them, as they trust you more, on a 1-3 gain a flaw instead, as they mistrust and maybe fear you.",
             "tags": ["ancestry"]
         },
         {
@@ -1899,7 +1875,7 @@
         {
             "name": "Hinans luck",
             "prerequisites": "Hinan ancestry",
-            "charges": "1 charge",
+            "charges": "",
             "costs": "",
             "effects": "Using resolve allows you to also use it on full successes, increasing them to critical successes.",
             "tags": ["ancestry", "resolve"]
@@ -1925,7 +1901,7 @@
             "prerequisites": "Half giant ancestry",
             "charges": "3 charges",
             "costs": "",
-            "effects": "You can push yourself to your limits. Gain +1 die on any physical check and a temporary flaw: exhausted until you rest.",
+            "effects": "You can push yourself to your limits. Increase all dice in a check by 1 stage. After the check is resolved, you gain a flaw: exhausted. The flaw stacks and impacts most physical actions.",
             "tags": ["ancestry"]
         },
         {
@@ -1933,7 +1909,7 @@
             "prerequisites": "Half giant ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Heal an additional lvl 1 wound per rest.",
+            "effects": "Heal a lvl 1 wound during rest.",
             "tags": ["ancestry", "resting", "healing"]
         },
         {
@@ -1978,10 +1954,10 @@
         },
         {
             "name": "Immortal soul",
-            "prerequisites": "Elf ancestry",
+            "prerequisites": "Elf ancestry, your soul is bound to a soul anchor",
             "charges": "",
             "costs": "",
-            "effects": "TODO",
+            "effects": "If you die, your soul is reborn at the soul anchor you are bound to. You gain a new body but keep your memories and experiences.",
             "tags": ["ancestry"]
         },
         {
@@ -1989,15 +1965,15 @@
             "prerequisites": "Undead ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Your body is dead and not affected by minor wounds. Ignore any lvl 1 wounds you would gain from damage. However your body is not as resilient against destruction anymore. You die by gaining a lvl 3 wound.",
+            "effects": "Your body is dead and not affected by minor wounds. Ignore any lvl 1 wounds you would gain. However, your body is not as resilient against destruction anymore. You die by gaining a lvl 3 wound.",
             "tags": ["ancestry", "healing"]
         },
         {
             "name": "Born of the veil",
             "prerequisites": "Undead ancestry",
             "charges": "1 charge per week",
-            "costs": "Materials for a resurrection ritual",
-            "effects": "You were created by nekromantic magic and can be easily revived by the same means. Once per week you can be revived by your allies with a simple ritual.",
+            "costs": "7 arcane threads of participants in resurrection",
+            "effects": "You were created by nekromantic magic and can be easily revived by the same means. Once per week you can be revived without the need of a resurrection ritual.",
             "tags": ["ancestry", "healing"]
         },
         {
@@ -2029,7 +2005,7 @@
             "prerequisites": "Karzion ancestry",
             "charges": "",
             "costs": "",
-            "effects": "You can turn your body invisible at will, however, everything you wear or carry will still be visible.",
+            "effects": "You can turn your body almost invisible at will, however, everything you wear or carry will still be visible.",
             "tags": ["ancestry"]
         },
         {
