@@ -50,7 +50,7 @@
         },
         {
             "name": "Spidersense",
-            "prerequisites": "",
+            "prerequisites": "vigilance 5",
             "charges": "",
             "costs": "",
             "effects": "You gain a sense of danger. When you use this talent, the GM will tell you about potential incoming danger, but not of its nature.",
@@ -309,7 +309,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a specialized tag and gain a boon of that tag.",
+            "effects": "Choose a specific weapon. You gain +1 die on checks when using it.",
             "tags": ["weapons", "boon"]
         },
         {
@@ -585,11 +585,11 @@
             "tags": ["influence"]
         },
         {
-            "name": "Upsell",
+            "name": "Bartermaster",
             "prerequisites": "",
-            "charges": "3 charges",
+            "charges": "1 charge per merchant",
             "costs": "",
-            "effects": "Roll a trickery or influence check to try and sell an item for a higher price: G{You double the price} | Y{You increase the price by half}. After you used this talent, increase the target for subsequent checks at that merchant by 1/2.",
+            "effects": "Roll a trickery or influence check to haggle for better prices: G{Double or half the price} | R{The GM decides to double or half the price}. Works only once per merchant.",
             "tags": ["trickery", "influence"]
         },
         {
@@ -629,7 +629,7 @@
             "prerequisites": "",
             "charges": "1 charge per target",
             "costs": "",
-            "effects": "When questioning a prisoner, choose a number between 1 and 10 and roll 1d10 for the prisoner. The higher the number, the more information you will gain, but if the roll is lower than your number, the prisoner falls unconscious, takes lasting damage or dies.",
+            "effects": "When questioning a prisoner, choose a number between 1 and 12. The higher the number, the more information you will gain, but if the roll is lower than your number, you will gain strong conflict.",
             "tags": ["insight"]
         },
         {
@@ -770,7 +770,7 @@
         },
         {
             "name": "Sharp senses",
-            "prerequisites": "",
+            "prerequisites": "vigilance 3 or higher",
             "charges": "",
             "costs": "",
             "effects": "Gain the following boons: smelling, hearing, tasting.",
@@ -805,7 +805,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boons: acrobatics, daring actions.",
+            "effects": "Gain the following boon: daring. Add the following to checks that you use the boon on: G{gain 1 resolve}.",
             "tags": ["agility"]
         },
         {
@@ -861,7 +861,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boon: shadows x2.",
+            "effects": "Gain the following boon: shadows.",
             "tags": ["trickery"]
         },
         {
@@ -869,7 +869,7 @@
             "prerequisites": "Shadow stalker talent",
             "charges": "",
             "costs": "",
-            "effects": "You can treat any trickery check made from within shadows as green.",
+            "effects": "Gain no conflict from trickery checks made from within shadows.",
             "tags": ["trickery"]
         },
         {
@@ -895,14 +895,6 @@
             "costs": "",
             "effects": "Mark a creature. You can follow a thin trail to the marked creature at all times. Only one creature can be marked this way at a time.",
             "tags": ["general", "static"]
-        },
-        {
-            "name": "Trapper",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Setting up traps takes you only a short time and most animals will not be able to find your traps.",
-            "tags": ["endurance"]
         },
         {
             "name": "Alchemy",
@@ -972,8 +964,8 @@
             "name": "Spell absorption",
             "prerequisites": "Brewer talent",
             "charges": "2 charges",
-            "costs": "5 ingredients",
-            "effects": "When you are hit by a spell or an arcane effect, you can spend 5 ingredients to bottle a copy of the effect as a potion. When using the potion, roll a crafting check: R:{It explodes with the bottled effect.}",
+            "costs": "5 materials",
+            "effects": "When you are hit by a spell or an arcane effect, you can spend 5 materials to bottle a copy of the effect as a potion. When using the potion, roll a crafting check: R:{It explodes with the bottled effect.}",
             "tags": ["crafting", "arcane"]
         },
         {
@@ -981,7 +973,7 @@
             "prerequisites": "Brewer talent",
             "charges": "",
             "costs": "",
-            "effects": "When you create a brewing recipe, you can spend 1 more ingredient to make the potion or poison throwable, working its effect wherever it lands.",
+            "effects": "When you create a brewing recipe, you can spend 1 more material to make the potion or poison throwable, working its effect wherever it lands.",
             "tags": ["crafting"]
         },
         {
@@ -1013,7 +1005,7 @@
             "prerequisites": "Mutationist talent",
             "charges": "",
             "costs": "",
-            "effects": "When you damage a creature you can make a crafting check to G{harvest 2 special ingredients} | Y{harvest 1 special ingredient}.",
+            "effects": "When you damage a creature you can make a crafting check to gain G{2} | Y{1} ingredients from that creature.",
             "tags": ["crafting"]
         },
         {
@@ -1156,8 +1148,8 @@
             "name": "Scrying",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 resolve, an anchor",
-            "effects": "Consume an anchor, a piece from or an object of a creature and roll an insight check: You may do the following: G{Ask 2 questions about the target} | G{Watch the target from afar} | Y{Ask 1 question about the target} | R{The target notices you}",
+            "costs": "2 arcane threads, a focus of a person, a place or similar",
+            "effects": "Consume a focus, a piece from or an object of a creature and roll an insight check: You may do the following: Watch the target or location G{unnoticed and gain an answer to 1 question} | Y{unnoticed} | Y{but the target notices you}.",
             "tags": ["resolve", "insight"]
         },
         {
@@ -1165,15 +1157,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 resolve",
-            "effects": "Roll an insight check to speak with a spirit or ghost: You G{speak with a cooperative spirit} | Y{speak with an uncooperative spirit} | R{anger the spirit}",
+            "effects": "Roll an insight check to speak with a spirit or ghost: You speak with G{a friendly spirit} | Y{a neutral spirit} | R{an angry spirit}",
             "tags": ["resolve", "insight"]
         },
         {
             "name": "Weave reality",
             "prerequisites": "",
             "charges": "",
-            "costs": "1+ resolve",
-            "effects": "You can make cumulative checks to weave a fantastical tale. Spend 1 resolve to make one check. There is no limit to the number of checks you can make, but if you gain 3 failures, your progress is reset. The more successes you accumulate, the more real your story becomes.",
+            "costs": "1 resolve",
+            "effects": "You can make checks to weave a fantastical tale. Spend 1 resolve to make one check based on how you want to create your story. There is no limit to the number of checks you can make and each check makes your story more real. If you gain strong conflict (R) from the check, your progress resets and your story is lost.",
             "tags": ["lore", "resolve", "influence"]
         },
         {
@@ -1229,7 +1221,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you gain a status effect you can choose to attack the nearest target with a skirmish check: G{End the effect} | Y{Suspend the effect until after your next action}.",
+            "effects": "When you gain a status effect you can choose to attack the nearest target with a skirmish check. Resolve it normally but add: G{End the effect} | Y{Suspend the effect for a few moments}.",
             "tags": ["status effect", "skirmish"]
         },
         {
@@ -1261,7 +1253,7 @@
             "prerequisites": "Beastmaster",
             "charges": "",
             "costs": "",
-            "effects": "You can train your companion in more complex moves and abilities. Choose up to 4 moves from the companion moves list to train your companion in.",
+            "effects": "Your companion gains a talent. Any prerequsite must be met by your companion as normal. This talent can be learned multiple times.",
             "tags": ["companion"]
         },
         {
@@ -1309,15 +1301,15 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "You can shapeshift into small creatures of a chosen type: animal, plant, dragon, anomaly, elemental, fey, demon.",
+            "effects": "You can shapeshift into small creatures.",
             "tags": ["shapeshift"]
         },
         {
             "name": "Shapeshift 2",
             "prerequisites": "Shapeshift",
             "charges": "2 charges",
-            "costs": "",
-            "effects": "You can shapeshift into medium or large creatures of your chosen type. ",
+            "costs": "1 arcane thread",
+            "effects": "You can shapeshift into medium or large creatures.",
             "tags": ["shapeshift"]
         },
         {
@@ -1325,7 +1317,7 @@
             "prerequisites": "Shapeshift 2",
             "charges": "2 charges",
             "costs": "1 resolve",
-            "effects": "You can shapeshift into huge creatures of your chosen type.",
+            "effects": "You can shapeshift into huge creatures.",
             "tags": ["resolve", "shapeshift"]
         },
         {
@@ -1341,7 +1333,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are burning, you move with incredible speed and strength. Gain a temporary boon: agility x3.",
+            "effects": "While you are burning you gain no other conflict from agility and endurance checks other than the fire itself.",
             "tags": ["status effect", "agility"]
         },
         {
@@ -1365,7 +1357,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "TODO",
             "tags": ["static", "arcane"]
         },
         {
@@ -1411,8 +1403,8 @@
         {
             "name": "Spectral hand",
             "prerequisites": "",
-            "charges": "3 charges",
-            "costs": "",
+            "charges": "",
+            "costs": "1 arcane thread",
             "effects": "Summon a magical hand for 1 hour.",
             "tags": ["static"]
         },
@@ -1477,62 +1469,62 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "TODO",
             "tags": ["static"] 
         },
         {
             "name": "Sign of the archer",
             "prerequisites": "",
             "charges": "3 charges",
-            "costs": "",
-            "effects": "Roll a skirmish check to shoot G{4} | Y{2} | R{1} arrows.",
+            "costs": "1 arcane thread",
+            "effects": "Roll a skirmish check to shoot G{4} | Y{2} | R{1} arrows at a target.",
             "tags": ["static", "skirmish"]
         },
         {
             "name": "Sign of the betrayer",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "",
-            "effects": "Touch a creature an roll a trickery check to inflict them with a poison: G{until it is treated} | Y{that is weaker} | Y{for a medium duration}. The poison will slowly eat away at the creatures strength, making them weaker until they fall unconscious.",
+            "costs": "3 arcane threads",
+            "effects": "Touch a creature to inflict them with an arcane poison. The poison will slowly eat away at the creatures strength, making them weaker until they fall unconscious.",
             "tags": ["static", "status effect", "trickery"]
         },
         {
             "name": "Sign of the king",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 resolve",
-            "effects": "Roll a performance check to inspire your allies: They gain G{boons x2 on their next 2 checks} | Y{a boon on their next check}.",
+            "costs": "2 arcane threads",
+            "effects": "Roll a performance check to inspire your allies: They gain a boon G{x3} | Y{x2} | R{x1} that can be used on any check. The charges of the boon can be used seperately and are removed when they are used in a check.",
             "tags": ["static", "performance"]
         },
         {
             "name": "Sign of the claw",
             "prerequisites": "",
-            "charges": "3 charges",
-            "costs": "",
-            "effects": "Roll an agility check to grapple or restrict a medium or smaller creature within medium range of you: G{Until you release it} | Y{For as long as you actively hold the effect} | Y{For a short time}",
+            "charges": "",
+            "costs": "3 arcane threads",
+            "effects": "Roll an agility check to grab a creature: G{Until you release it} | Y{For as long as you actively uphold the effect} | R{For a short time}",
             "tags": ["static", "agility"]
         },
         {
-            "name": "Sign of the clone",
+            "name": "Sign of the mirage",
             "prerequisites": "",
-            "charges": "3 charges",
+            "charges": "",
             "costs": "1 arcane thread",
-            "effects": "Roll a trickery check to create a small illusion: G{The illusion will fool everyone at least once} | Y{The illusion will fool stupid creatures}.",
+            "effects": "You create a small illusion on a place you can see.",
             "tags": ["static", "trickery"]
         },
         {
             "name": "Sign of the bull",
             "prerequisites": "",
-            "charges": "2 charges",
+            "charges": "",
             "costs": "",
-            "effects": "",
+            "effects": "TODO",
             "tags": ["static"]
         },
         {
             "name": "Sign of the ram",
             "prerequisites": "",
-            "charges": "2 charges",
-            "costs": "",
+            "charges": "",
+            "costs": "1 arcane thread",
             "effects": "Roll 2d6 and knock back a target a number of meters based on the results.",
             "tags": ["static"]
         },
@@ -1540,24 +1532,24 @@
             "name": "Shimmering sphere",
             "prerequisites": "",
             "charges": "",
-            "costs": "1 resolve",
+            "costs": "2 arcane threads",
             "effects": "Create a small sphere around you. Everyone inside of the sphere is camouflaged and while standing absolutely still, invisible even.",
             "tags": ["static", "trickery"]
         },
         {
             "name": "Sign of the sea",
             "prerequisites": "",
-            "charges": "2 charges",
+            "charges": "",
             "costs": "1 arcane thread",
-            "effects": "Roll an endurance check to allow G{3} | Y{1} creatures to breath underwater for a medium duration.",
+            "effects": "You can breath underwater for 10 minutes.",
             "tags": ["static", "endurance"]
         },
         {
             "name": "Sign of sleep",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "You gain no resolve during your next 2 rests.",
-            "effects": "Roll a vigilance check to distribute G{4} | Y{2} resolve between your allies. These can exceed their resolve maximum.",
+            "costs": "You gain no resolve during your next rest, 3 arcane threads per target",
+            "effects": "Roll a vigilance check to give G{3} | Y{2} | R{1} resolve to your target. These can exceed their resolve maximum.",
             "tags": ["static", "resolve", "vigilance"]
         },
         {
@@ -1565,7 +1557,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "1 arcane thread",
-            "effects": "Summon a small, otherworldly goat. It disappears after you rest.",
+            "effects": "Summon a small, otherworldly goat. Only one goat can exist at a time.",
             "tags": ["static", "companion"]
         },
         {
@@ -1778,10 +1770,10 @@
         },
         {
             "name": "Satür",
-            "prerequisites": "Satyr ancestry, tearhopping talent",
+            "prerequisites": "Satyr ancestry, riftmaker talent",
             "charges": "",
             "costs": "",
-            "effects": "You can choose to make the tear you create with your tearhopping talent accessible for others as well.",
+            "effects": "The rifts you create with your riftmaker talent can be accessed and teleport those that enter into the rolled destination.",
             "tags": ["ancestry", "movement", "arcane"]
         },
         {
@@ -1818,7 +1810,7 @@
         },
         {
             "name": "Unwavering mind",
-            "prerequisites": "Half elf ancestry",
+            "prerequisites": "",
             "charges": "",
             "costs": "",
             "effects": "Ignore the first time you would gain stress after each rest.",
@@ -1826,11 +1818,11 @@
         },
         {
             "name": "Sleepless",
-            "prerequisites": "Half elf ancestry",
+            "prerequisites": "",
             "charges": "",
             "costs": "",
             "effects": "You are unable to sleep and immune against negative effects gained from not sleeping or being exhausted. You still recover as normal at sunrise.",
-            "tags": ["ancestry"]
+            "tags": [""]
         },
         {
             "name": "Darkvision",
@@ -1863,14 +1855,6 @@
             "costs": "",
             "effects": "You can share emotions. Target a creature and choose which emotion to impart on them.",
             "tags": ["ancestry"]
-        },
-        {
-            "name": "Small frame",
-            "prerequisites": "Hinan ancestry",
-            "charges": "",
-            "costs": "",
-            "effects": "Your body is small and nimble, gain the following boons: sneaking, hiding, dodging",
-            "tags": ["ancestry", "boon"]
         },
         {
             "name": "Hinans luck",
@@ -1981,7 +1965,7 @@
             "prerequisites": "Undead ancestry",
             "charges": "Once per corpse",
             "costs": "A recently deceased corpse",
-            "effects": "Consume a recently deceased creature to gain insight into their memories. Roll an insight check to gain memories G{dating back a few days} | Y{of just before death}.",
+            "effects": "Consume a recently deceased creature to gain insight into their memories. Roll an insight check to gain memories G{from any time} | Y{dating back a few days} | R{of just before death}.",
             "tags": ["ancestry", "insight"]
         },
         {
@@ -1993,11 +1977,11 @@
             "tags": ["ancestry"]
         },
         {
-            "name": "Tearhopping",
+            "name": "Riftmaker",
             "prerequisites": "Satyr ancestry",
             "charges": "1 charge",
             "costs": "",
-            "effects": "You rip open a small tear in reality, but not into the void. Instead you create a portal to the FEYWILD, that only you can enter once. While in the FEYWILD, you can enter the portal again to return to reality. The portal closes after 5 seconds (or a day in the FEYWILD).",
+            "effects": "You create a rift in reality that leads to one of its echos. Roll 1d6 to see where the rift leads to: 1,2,3,4,5,6. Something from the chosen echo will come through the rift into reality before it closes.",
             "tags": ["ancestry", "movement", "arcane"]
         },
         {
