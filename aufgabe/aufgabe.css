@@ -1,6 +1,9 @@
 
 body{
     text-align: center;
+    background-image: url('./background_red.png');
+    color: white;
+    overflow-x: hidden;
 }
 
 .center{
@@ -23,13 +26,46 @@ body{
 
 .textInput{
     width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: #dddddd;
 }
 
 .listArea{
     border: 2px solid black;
     height: 5rem;
+    overflow-wrap: anywhere;
+    overflow: auto;
+    background-color: #dddddd;
+    color: black;
 }
 
 .optimizeButtonArea{
     margin: 3rem;
+}
+
+.Wbutton{
+    margin-right: 2rem;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Nbutton{
+    margin-bottom: 1rem;
+    vertical-align: top;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Sbutton{
+    margin-top: 1rem;
+    vertical-align: bottom;
+    width: 2rem;
+    height: 2rem;
+}
+
+.Obutton{
+    margin-left: 2rem;
+    width: 2rem;
+    height: 2rem;
 }

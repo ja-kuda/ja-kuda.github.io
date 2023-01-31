@@ -6,7 +6,11 @@ const opposites = new Map([[NORTH, SOUTH], [EAST, WEST]]);
 var directions = [];
 var optimalDirections = [];
 
-
+//TODO: Parameter übergeben
+//TODO: Bezeichnungen überall anpassen
+//TODO: Buttons hübsch machen
+//TODO: Styling allgemein
+//TODO: TESTEN!!!!!!
 function solve(){
     if(directions.length > 1){
         // start with the second to last element
@@ -32,19 +36,6 @@ function checkForOpposite(currentDirection, nextDirection){
         return false;
     }
     return opposites.get(currentDirection) === nextDirection || opposites.get(nextDirection) === currentDirection;
-    /*if(currentDirection == NORTH && nextDirection == SOUTH){
-        return true;
-    }
-    if(currentDirection == SOUTH && nextDirection == NORTH){
-        return true;
-    }
-    if(currentDirection == WEST && nextDirection == EAST){
-        return true;
-    }
-    if(currentDirection == EAST && nextDirection == WEST){
-        return true;
-    }
-    return false;*/
 }
 
 function addDirection(direction){
