@@ -126,8 +126,8 @@ function unzoom() {
   }
 
   function elementClicked(event){
-    console.log(event.target);
-    $.get('../system/2basics/2checks/index.html', function(data){
+    console.log(event.target.id);
+    $.get('./map_locations/locations/' + event.target.id + '/index.html', function(data){
       document.getElementById("content").innerHTML = data;
     });
     

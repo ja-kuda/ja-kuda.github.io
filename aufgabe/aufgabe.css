@@ -1,0 +1,35 @@
+
+body{
+    text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.useArea{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.divider{
+    border-left: 2px solid black;
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.textInput{
+    width: 100%;
+}
+
+.listArea{
+    border: 2px solid black;
+    height: 5rem;
+}
+
+.optimizeButtonArea{
+    margin: 3rem;
+}
