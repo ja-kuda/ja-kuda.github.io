@@ -6,6 +6,10 @@ body{
     overflow-x: hidden;
 }
 
+.header{
+    margin: 2rem;
+}
+
 .center{
     text-align: center;
 }
@@ -63,14 +67,18 @@ body{
 }
 
 .directionButton{
-    background-color: #dddddd; /* Green */
+    background-color: #dddddd;
     border: none;
     width: 3rem;
     height: 3rem;
 }
 
+.directionButton:hover{
+    background-color: #a5a5a5;
+}
+
 .solveButton{
-    background-color: #736770; /* Green */
+    background-color: #736770;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -78,4 +86,8 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.solveButton:hover{
+    background-color: #555555;
 }
