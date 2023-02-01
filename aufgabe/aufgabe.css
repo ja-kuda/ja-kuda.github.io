@@ -26,7 +26,7 @@ body{
 
 .textInput{
     width: 100%;
-    height: 100%;
+    height: 70%;
     resize: none;
     background-color: #dddddd;
 }
@@ -46,26 +46,36 @@ body{
 
 .Wbutton{
     margin-right: 2rem;
-    width: 2rem;
-    height: 2rem;
 }
 
 .Nbutton{
     margin-bottom: 1rem;
     vertical-align: top;
-    width: 2rem;
-    height: 2rem;
 }
 
 .Sbutton{
     margin-top: 1rem;
     vertical-align: bottom;
-    width: 2rem;
-    height: 2rem;
 }
 
 .Obutton{
     margin-left: 2rem;
-    width: 2rem;
-    height: 2rem;
+}
+
+.directionButton{
+    background-color: #dddddd; /* Green */
+    border: none;
+    width: 3rem;
+    height: 3rem;
+}
+
+.solveButton{
+    background-color: #736770; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

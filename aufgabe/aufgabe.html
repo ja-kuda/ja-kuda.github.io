@@ -10,16 +10,16 @@
     <title>singularIT Aufgabe</title>
   </head>
 
-  <body onload="solve()">
+  <body>
     
     <div class="header">
-        singularIT Bewerbungsaufgabe
+        <h1>singularIT Bewerbungsaufgabe</h1>
     </div>
 
     <div class="row useArea">
         <div class="col-md-3"></div>
         <div class="col-md-3">
-            Build a list of directions from text (use the format N,O,W,S,W...etc. for example).
+            Build a list of directions from text (use the format NORDEN,SÜDEN,WESTEN,OSTEN...etc. for example).
             <br><br>
             <div class="textArea">
                 <textarea class="textInput" onkeyup="parseToList(this)"></textarea>
@@ -29,14 +29,14 @@
             Build a list of directions by using the buttons below to add them to the end of the list.
             <br><br>
             <div class="buttonAreaTop">
-                <button type="button" id="Nbutton" class="Nbutton" onclick="addDirection('N')">N</button>
+                <button type="button" id="Nbutton" class="Nbutton directionButton" onclick="addDirection('NORDEN')">N</button>
             </div>
             <div class="buttonAreaMid">
-                <button type="button" id="Wbutton" class="Wbutton" onclick="addDirection('W')">W</button>
-                <button type="button" id="Obutton" class="Obutton" onclick="addDirection('O')">O</button>
+                <button type="button" id="Wbutton" class="Wbutton directionButton" onclick="addDirection('WESTEN')">W</button>
+                <button type="button" id="Obutton" class="Obutton directionButton" onclick="addDirection('OSTEN')">O</button>
             </div>
             <div class="buttonAreaBot">
-                <button type="button" id="Sbutton" class="Sbutton" onclick="addDirection('S')">S</button>
+                <button type="button" id="Sbutton" class="Sbutton directionButton" onclick="addDirection('SÜDEN')">S</button>
             </div>
         </div>
         <div class="col-md-3"></div>
@@ -53,7 +53,7 @@
     </div>
 
     <div class="optimizeButtonArea">
-        <button type="button" id="solveButton" onclick="solve()">Optimize the List</button>
+        <button type="button" class="solveButton" id="solveButton" onclick="optimizeList()">Optimize the List</button>
     </div>
 
     <div class="row">

@@ -1,51 +1,57 @@
-const NORTH = "N";
-const EAST = "O";
-const SOUTH = "S";
-const WEST = "W";
+const NORTH = "NORDEN";
+const EAST = "OSTEN";
+const SOUTH = "SÜDEN";
+const WEST = "WESTEN";
 const opposites = new Map([[NORTH, SOUTH], [EAST, WEST]]);
 var directions = [];
-var optimalDirections = [];
 
-//TODO: Parameter übergeben
-//TODO: Bezeichnungen überall anpassen
-//TODO: Buttons hübsch machen
-//TODO: Styling allgemein
 //TODO: TESTEN!!!!!!
-function solve(){
-    if(directions.length > 1){
+
+function optimizeList(){
+    document.getElementById("optimalList").innerHTML = solve(directions);
+}
+
+// this function could also be called directly from within the application, but this way the format of the problem could be used (solve(parameter))
+function solve(directionsList){
+    if(directionsList.length > 1){
         // start with the second to last element
-        var i = directions.length - 1;
+        var i = directionsList.length - 1;
         // traverse the array in reverse to make checking for bounds easier
         while(i--){
-            console.log(directions);
+            console.log(directionsList);
             // get element and successor
-            var currentDirection = directions[i];
-            var nextDirection = directions[i + 1];
+            var currentDirection = directionsList[i];
+            var nextDirection = directionsList[i + 1];
             if(checkForOpposite(currentDirection, nextDirection)){
                 // remove both and set index to last eligible index
-                directions.splice(i, 2);
+                directionsList.splice(i, 2);
                 i++;
             }
         }
-        document.getElementById("optimalList").innerHTML = directions;
+        return directionsList;
     }
+    return "ERROR - directions can not be parsed!";
 }
 
 function checkForOpposite(currentDirection, nextDirection){
+    // check for undefined values
     if(!currentDirection || !nextDirection){
         return false;
     }
+    // refer to map for directions that cancel each other
     return opposites.get(currentDirection) === nextDirection || opposites.get(nextDirection) === currentDirection;
 }
 
+// called from the buttons
 function addDirection(direction){
     directions.push(direction);
     console.log(directions);
     document.getElementById("baseList").innerHTML = directions;
 }
 
+// called onkeyup from the textarea
 function parseToList(element){
-    var text = element.value;
+    var text = element.value.toUpperCase();
     console.log(text);
     directions = text.split(",");
     document.getElementById("baseList").innerHTML = directions;
