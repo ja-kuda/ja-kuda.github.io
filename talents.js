@@ -188,8 +188,8 @@ function search(){
 
 
 function rollDice(){
-    var numberOfDice = 6;
-    var valueOfDice = 10;
+    var numberOfDice = 4;
+    var valueOfDice = 8;
     var tries = 1000000;
     var result = 0;
 

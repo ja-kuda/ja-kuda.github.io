@@ -103,6 +103,34 @@
         {
             "id": "Crafting",
             "path": "system/4playing/7crafting/index.html"
+        },
+        {
+            "id": "Running the Game",
+            "path": "system/5running/index.html"
+        },
+        {
+            "id": "Setting Scenes",
+            "path": "system/5running/2scenes/index.html"
+        },
+        {
+            "id": "Using Setpieces",
+            "path": "system/5running/3setpieces/index.html"
+        },
+        {
+            "id": "Managing Checks",
+            "path": "system/5running/1checks/index.html"
+        },
+        {
+            "id": "Lists",
+            "path": "system/6lists/index.html"
+        },
+        {
+            "id": "Items",
+            "path": "system/6lists/1items/index.html"
+        },
+        {
+            "id": "Creatures",
+            "path": "system/6lists/2creatures/index.html"
         }
     ]
 }
