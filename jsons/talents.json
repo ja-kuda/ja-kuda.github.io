@@ -901,7 +901,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can use and create alchemy formulas. When a formula calls for a special ingredient, you can substitute it by spending 1 resolve instead.",
+            "effects": "You can craft alchemical items. You can spend 1 resolve to either gain 1 ingredient for a crafting check or gain 10 materials.",
             "tags": ["crafting"]
         },
         {
@@ -909,7 +909,7 @@
             "prerequisites": "Alchemy talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain the following boon: explosives. You learn the following alchemy formula: basic bomb. By spending this talents charge you can instantly create a small bomb without spending materials or ingredients.",
+            "effects": "Gain the following boon: explosives. By spending this talents charge you can instantly create a small bomb with a custom effect without spending materials or ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -925,7 +925,7 @@
             "prerequisites": "Alchemy talent",
             "charges": "",
             "costs": "",
-            "effects": "Instead of taking your time, you can create alchemy formulas as an action and during stressful situations.",
+            "effects": "Instead of taking your time, you can craft alchemical items as an action and during stressful situations.",
             "tags": ["crafting"]
         },
         {
@@ -933,7 +933,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "You can learn and create brewing recipes. You can gather materials by spending half a day and rolling 1d8. You gain the number rolled as materials. Alternatively you can gather one special brewing ingredient.",
+            "effects": "You can craft brews and food. You can gather materials by spending half a day and rolling 1d8. You gain the number rolled as materials. Alternatively you can gather one brewing ingredient.",
             "tags": ["crafting"]
         },
         {
@@ -957,7 +957,7 @@
             "prerequisites": "Brewer talent",
             "charges": "",
             "costs": "",
-            "effects": "When crafting potions and other brewer recipes, you can combine 2 recipes into one potion or poison.",
+            "effects": "When crafting potions and other brewer recipes, you can combine 2 effects into one potion or poison.",
             "tags": ["crafting"]
         },
         {
@@ -973,7 +973,7 @@
             "prerequisites": "Brewer talent",
             "charges": "",
             "costs": "",
-            "effects": "When you create a brewing recipe, you can spend 1 more material to make the potion or poison throwable, working its effect wherever it lands.",
+            "effects": "When you craft a brewing recipe, you can spend 1 more material to make the potion or poison throwable, working its effect wherever it lands.",
             "tags": ["crafting"]
         },
         {
@@ -981,7 +981,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can use and create mutation genecasts. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse to gain G{3} | Y{2} | R{1} ingredients of that creature.",
+            "effects": "You can craft mutations. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse to gain G{3} | Y{2} | R{1} ingredients of that creature.",
             "tags": ["crafting"]
         },
         {
@@ -1805,7 +1805,7 @@
             "prerequisites": "Human ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Whenever you rest, you may increase a skill by 1 and decrease another skill by 1.",
+            "effects": "Whenever you rest, you may increase a skill by 1 and decrease another skill by 1. During your next rest these skills revert back to their normal values.",
             "tags": ["ancestry"]
         },
         {
@@ -1861,7 +1861,7 @@
             "prerequisites": "Hinan ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Using resolve allows you to also use it on full successes, increasing them to critical successes.",
+            "effects": "Using resolve allows you to also use it on green check results, adding further positive effects.",
             "tags": ["ancestry", "resolve"]
         },
         {
