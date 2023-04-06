@@ -1,0 +1,84 @@
+{
+    "talents": [
+        {
+            "name": "Fungal filter mask",
+            "type": "alchemy",
+            "materials": "3",
+            "ingredients": "Any fungus x1",
+            "effects": "Works as a single use gas mask. Filters air for up to 10 minutes.",
+            "tags": [""]
+        },
+        {
+            "name": "Smoke bomb",
+            "type": "alchemy",
+            "materials": "5",
+            "ingredients": "",
+            "effects": "Creates a smoke cloud on impact.",
+            "tags": [""]
+        },
+        {
+            "name": "Elves hazel",
+            "type": "alchemy",
+            "materials": "3",
+            "ingredients": "",
+            "effects": "Permanently removes a scar.",
+            "tags": [""]
+        },
+        {
+            "name": "Lightbreaker potion",
+            "type": "brewing",
+            "materials": "7",
+            "ingredients": "",
+            "effects": "After drenching a target in this potion, it becomes nearly invisible for 10 minutes.",
+            "tags": [""]
+        },
+        {
+            "name": "Bonexploder",
+            "type": "alchemy",
+            "materials": "4",
+            "ingredients": "",
+            "effects": "If this salve comes into contact with bone, it explodes violently.",
+            "tags": [""]
+        },
+        {
+            "name": "Sleeping gas",
+            "type": "alchemy",
+            "materials": "5",
+            "ingredients": "",
+            "effects": "Every creature that breathes in this gas becomes sleepy and falls asleep after a longer exposure.",
+            "tags": [""]
+        },
+        {
+            "name": "Fast acting rust",
+            "type": "alchemy",
+            "materials": "5",
+            "ingredients": "",
+            "effects": "Metal object coated in this tincture will rust extremely fast.",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "type": "",
+            "materials": "",
+            "ingredients": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "type": "",
+            "materials": "",
+            "ingredients": "",
+            "effects": "",
+            "tags": [""]
+        },
+        {
+            "name": "",
+            "type": "",
+            "materials": "",
+            "ingredients": "",
+            "effects": "",
+            "tags": [""]
+        }
+    ]
+}

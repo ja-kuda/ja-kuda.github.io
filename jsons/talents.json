@@ -1859,9 +1859,9 @@
         {
             "name": "Hinans luck",
             "prerequisites": "Hinan ancestry",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
-            "effects": "Using resolve allows you to also use it on green check results, adding further positive effects.",
+            "effects": "Using resolve allows you to also use it on green check results, adding further positive effects. You can use this talents charge in place of 1 resolve.",
             "tags": ["ancestry", "resolve"]
         },
         {
@@ -1999,6 +1999,14 @@
             "costs": "",
             "effects": "Fill a lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be removed in any other way.",
             "tags": ["ancestry", "healing", "companion"]
+        },
+        {
+            "name": "Herbalist",
+            "prerequisites": "+2 crafting skill",
+            "charges": "",
+            "costs": "5 crafting materials",
+            "effects": "Make a crafting check to create G{2} | Y{1} | R{0} healing herbs. They can be consumed and heal a lvl 1 wound. This effect takes a few hours.",
+            "tags": ["healing", "crafting"]
         }
     ]
 }
