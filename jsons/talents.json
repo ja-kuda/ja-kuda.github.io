@@ -29,7 +29,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you obtain a special or rare item, gain a boon x3. The boon can be used fully or partially in any check and loses xX per boon you used.",
+            "effects": "When you obtain a special or rare item, gain 3 boons. You can use one or more of these boons on any check until your next rest. Once you use one of these boons, it is removed.",
             "tags": [ "general", "boon"]
         },
         {
@@ -45,12 +45,12 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a skill. You gain +1 to all checks made with that skill.",
+            "effects": "Choose a skill. You gain +1 to the result of all checks made with that skill.",
             "tags": ["general"]
         },
         {
             "name": "Spidersense",
-            "prerequisites": "vigilance 5",
+            "prerequisites": "vigilance 4",
             "charges": "",
             "costs": "",
             "effects": "You gain a sense of danger. When you use this talent, the GM will tell you about potential incoming danger, but not of its nature.",
@@ -85,7 +85,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You gain another lvl 1 wound permanently.",
+            "effects": "You gain another free lvl 1 wound permanently.",
             "tags": ["general", "healing"]
         },
         {
