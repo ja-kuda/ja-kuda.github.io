@@ -9,7 +9,7 @@
             "tags": ["resolve", "healing"]
         },
         {
-            "name": "Fast learner",
+            "name": "TODO Fast learner",
             "prerequisites": "",
             "charges": "",
             "costs": "",
@@ -77,7 +77,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "If you would die, don't.",
+            "effects": "If you would die, don't. Instead gain a permanent flaw relating to the thing that killed you.",
             "tags": ["general"]
         },
         {
@@ -85,7 +85,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You gain another free lvl 1 wound permanently.",
+            "effects": "You gain an additional lvl 1 wound.",
             "tags": ["general", "healing"]
         },
         {
@@ -93,7 +93,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Skirmish checks against armored targets are more effective G{and destroy your targets armor}.",
+            "effects": "Successful skirmish checks against armored targets reduce the difficulty of subsequent skirmish checks against the same target by 2.",
             "tags": ["skirmish"]
         },
         {
@@ -101,7 +101,7 @@
             "prerequisites": "light weapons boon or similar",
             "charges": "",
             "costs": "",
-            "effects": "You are especially deadly when your enemy does not see you coming. Treat skirmish checks that target unsuspecting opponents as one stage better. This allows for critical success.",
+            "effects": "You are especially deadly when your enemy does not see you coming. One die of your skirmish checks against unsuspecting targets always counts as an 8 and explodes.",
             "tags": ["skirmish", "weapons"]
         },
         {
@@ -125,7 +125,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are outnumbered, gain a boon: skirmish x2.",
+            "effects": "While you are outnumbered, gain 2 boons: skirmish.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -133,7 +133,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain a temporary boon x2 for your next skirmish check but gain a lvl 1 wound from an enemies attack regardless of the checks result.",
+            "effects": "Gain 2 temporary boons and 1 resolve for your next skirmish check but also gain a lvl 1 wound.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -149,15 +149,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Treat checks made to grapple and restrict others as one stage better. This allows for critical success.",
+            "effects": "Reroll all 1s when making checks to grapple or restrict others.",
             "tags": ["agility"]
         },
         {
-            "name": "Critical attacks",
+            "name": "Critical attack",
             "prerequisites": "",
-            "charges": "",
+            "charges": "2 charges",
             "costs": "",
-            "effects": "Your skirmish checks critically succeed on a 13 or higher instead of 16.",
+            "effects": "Add 5 to the result of your next skirmish check.",
             "tags": ["skirmish"]
         },
         {
@@ -314,10 +314,10 @@
         },
         {
             "name": "Arcane bond",
-            "prerequisites": "",
+            "prerequisites": "You can only choose this talent on character creation or by talking with your GM",
             "charges": "",
             "costs": "",
-            "effects": "You gain the ability to create arcane effects. Choose an element talent and a form talent when you learn this talent and learn them as well.",
+            "effects": "You gain the ability to create arcane effects. Choose an element talent and gain +10 maximum threads when you learn this talent.",
             "tags": ["arcane"]
         },
         {
@@ -405,7 +405,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "You gain access over the arcane form: creation.",
+            "effects": "Whenever you use your element to create something, gain +1 to the check.",
             "tags": ["arcane"]
         },
         {
@@ -413,7 +413,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "You gain access over the arcane form: destruction.",
+            "effects": "Whenever you use your element to destroy something, gain +1 to the check.",
             "tags": ["arcane"]
         },
         {
@@ -421,7 +421,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "You gain access over the arcane form: exploration.",
+            "effects": "Whenever you use your element to explore something, gain +1 to the check.",
             "tags": ["arcane"]
         },
         {
@@ -429,7 +429,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "You gain access over the arcane form: mutation.",
+            "effects": "Whenever you use your element to change something, gain +1 to the check.",
             "tags": ["arcane"]
         },
         {
@@ -437,7 +437,7 @@
             "prerequisites": "Arcane bond talent",
             "charges": "",
             "costs": "",
-            "effects": "You gain access over the arcane form: control.",
+            "effects": "Whenever you use your element to control something, gain +1 to the check.",
             "tags": ["arcane"]
         },
         {
@@ -797,15 +797,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You stick to walls and ceilings.",
+            "effects": "You stick to walls and ceilings. Whenever you are attacked or want to move quickly or acrobatically, roll an agility check to see if you keep sticking to the wall.",
             "tags": ["agility"]
         },
         {
             "name": "Swashbuckle",
-            "prerequisites": "",
+            "prerequisites": "You can not use resolve on the check you use this talent on",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boon: daring. Add the following to checks that you use the boon on: G{gain 1 resolve}.",
+            "effects": "Gain the following boon: daring. If you use the boon and roll at least a 10 on your check, gain 1 resolve.",
             "tags": ["agility"]
         },
         {
@@ -813,7 +813,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boon: speed x2. When you use this boon, actions that require accuracy or care automatically result in strong conflict (R).",
+            "effects": "Gain the following boon: speed x2. When you use this boon, actions that require accuracy or care automatically fail.",
             "tags": ["agility"]
         },
         {
@@ -821,7 +821,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Ignore weak conflict from climbing checks.",
+            "effects": "Only stressful or dangerous climbing actions require you to make a check.",
             "tags": ["agility"]
         },
         {
@@ -837,7 +837,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Your allies can choose to use the result of your trickery checks for stealth and hiding when you move as a group.",
+            "effects": "Your allies can choose to use the result of your trickery checks for stealth and hiding when you move as a group and you lead them on.",
             "tags": ["trickery"]
         },
         {
@@ -853,7 +853,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your result. Then resolve the check again.",
+            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your result..",
             "tags": ["trickery"]
         },
         {
@@ -869,7 +869,7 @@
             "prerequisites": "Shadow stalker talent",
             "charges": "",
             "costs": "",
-            "effects": "Gain no conflict from trickery checks made from within shadows.",
+            "effects": "Trickery checks made from within the shadows reroll 1s and 2s.",
             "tags": ["trickery"]
         },
         {
@@ -877,11 +877,11 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a terrain. Checks for hiding and sneaking in the terrain are treated as 1 stage better.",
+            "effects": "Choose a terrain. Checks for hiding and sneaking in the terrain gain +1.",
             "tags": ["trickery", "endurance"]
         },
         {
-            "name": "Expert tracker",
+            "name": "TODOExpert tracker",
             "prerequisites": "",
             "charges": "",
             "costs": "",
@@ -1475,9 +1475,9 @@
         {
             "name": "Sign of the archer",
             "prerequisites": "",
-            "charges": "3 charges",
-            "costs": "1 arcane thread",
-            "effects": "Roll a skirmish check to shoot G{4} | Y{2} | R{1} arrows at a target.",
+            "charges": "",
+            "costs": "2 arcane threads",
+            "effects": "Roll a skirmish check with difficulty 7. If the result is below, shoot 1 arrow, if it is above, shoot 2 instead. If you roll double the difficulty, shoot 4 arrows at once.",
             "tags": ["static", "skirmish"]
         },
         {
@@ -1859,9 +1859,9 @@
         {
             "name": "Hinans luck",
             "prerequisites": "Hinan ancestry",
-            "charges": "1 charge",
+            "charges": "",
             "costs": "",
-            "effects": "Using resolve allows you to also use it on green check results, adding further positive effects. You can use this talents charge in place of 1 resolve.",
+            "effects": "As long as you have at least 2 resolve left, all dice results also explode on 1s.",
             "tags": ["ancestry", "resolve"]
         },
         {
