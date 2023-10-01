@@ -5,16 +5,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 resolve",
-            "effects": "Immediately heal up to 2 lvl 1 wounds.",
+            "effects": "Prevent the next wound you would take during your next 3 actions. (Max. lvl 3 wound)",
             "tags": ["resolve", "healing"]
-        },
-        {
-            "name": "TODO Fast learner",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Treat any check you make to learn something new as 2 checks for progress.",
-            "tags": ["general"]
         },
         {
             "name": "Levitation",
@@ -33,19 +25,19 @@
             "tags": [ "general", "boon"]
         },
         {
-            "name": "Pirates reputation",
+            "name": "Look at me!",
             "prerequisites": "A striking physical feature",
             "charges": "",
             "costs": "",
             "effects": "Choose a striking physical feature like an eyepatch, scars or tattoos. Brandish your chosen feature to immediately gather interest and attention, putting all eyes on you.",
-            "tags": ["influence", "pirates"]
+            "tags": ["influence"]
         },
         {
             "name": "Skill mastery",
-            "prerequisites": "",
+            "prerequisites": "5 in a skill",
             "charges": "",
             "costs": "",
-            "effects": "Choose a skill. You gain +1 to the result of all checks made with that skill.",
+            "effects": "Choose a skill you have 5 in. You gain +1 to all checks made with that skill.",
             "tags": ["general"]
         },
         {
@@ -53,7 +45,7 @@
             "prerequisites": "vigilance 4",
             "charges": "",
             "costs": "",
-            "effects": "You gain a sense of danger. When you use this talent, the GM will tell you about potential incoming danger, but not of its nature.",
+            "effects": "You gain a sense of danger. The GM will tell you about potential immediate danger, but not of its nature.",
             "tags": ["general", "vigilance"]
         },
         {
@@ -61,7 +53,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain 1 armor that regenerates during a rest.",
+            "effects": "Gain 1 TODO: armor that regenerates during a rest.",
             "tags": ["resting", "healing"]
         },
         {
@@ -81,11 +73,11 @@
             "tags": ["general"]
         },
         {
-            "name": "Vitality plus",
+            "name": "Vitality++",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You gain an additional lvl 1 wound.",
+            "effects": "You gain an additional empty lvl 1 wound permanently.",
             "tags": ["general", "healing"]
         },
         {
@@ -93,23 +85,23 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Successful skirmish checks against armored targets reduce the difficulty of subsequent skirmish checks against the same target by 2.",
+            "effects": "Successful skirmish checks against armored targets add +2 to subsequent skirmish checks made against that target. (Does not stack)",
             "tags": ["skirmish"]
         },
         {
             "name": "Backstab",
-            "prerequisites": "light weapons boon or similar",
+            "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You are especially deadly when your enemy does not see you coming. One die of your skirmish checks against unsuspecting targets always counts as an 8 and explodes.",
-            "tags": ["skirmish", "weapons"]
+            "effects": "TODO: irgendwas mit betrügen oder so -> Beziehung ruinieren mit Person, um Bonus zu bekommen.",
+            "tags": []
         },
         {
             "name": "Battle focus",
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "While you are in battle gain a temporary boon: skirmish. Also gain +1 resolve that can only be used as long as you are in that fight.",
+            "effects": "While you are in battle gain a boon: skirmish. Also gain +1 resolve that can only be used as long as you are in that fight.",
             "tags": ["skirmish", "boon", "resolve"]
         },
         {
@@ -117,15 +109,15 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Bathe in blood to gain 1 temporary empty lvl 1 wound that disappears when it is filled.",
+            "effects": "Bathe in blood to gain 1 empty lvl 1 wound that disappears when it is filled.",
             "tags": ["skirmish", "healing"]
         },
         {
-            "name": "Bring it on",
+            "name": "Bring it on!",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are outnumbered, gain 2 boons: skirmish.",
+            "effects": "While you are outnumbered in combat, gain +2 to skirmish checks.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -133,15 +125,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain 2 temporary boons and 1 resolve for your next skirmish check but also gain a lvl 1 wound.",
+            "effects": "Gain 2 boons and 1 resolve for your next skirmish check but also gain a lvl 1 wound.",
             "tags": ["skirmish", "boon"]
         },
         {
-            "name": "Charge with me",
+            "name": "Charge with me!",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "If you enter battle first and ahead of your allies, they gain a temporary boon during battle: skirmish.",
+            "effects": "If you enter battle first and ahead of your allies, they gain +1 to skirmish checks during battle.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -153,11 +145,11 @@
             "tags": ["agility"]
         },
         {
-            "name": "Critical attack",
+            "name": "Critical attacks",
             "prerequisites": "",
-            "charges": "2 charges",
+            "charges": "",
             "costs": "",
-            "effects": "Add 5 to the result of your next skirmish check.",
+            "effects": "TODO: Whenever you make a skirmish check and the result is double the difficulty, you score a critical hit and gain an additional effect.",
             "tags": ["skirmish"]
         },
         {
@@ -185,7 +177,7 @@
             "tags": ["skirmish"]
         },
         {
-            "name": "Flexible armor",
+            "name": "TODO Flexible armor",
             "prerequisites": "",
             "charges": "",
             "costs": "",
@@ -195,7 +187,7 @@
         {
             "name": "From the shadows",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge until forgotten",
             "costs": "",
             "effects": "Attacking someone out of the shadows does not reveal you. Works only once until you are forgotten or switch locations.",
             "tags": ["skirmish", "trickery"]
@@ -205,21 +197,21 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When an ally besides you gains a wound, roll an endurance check to take G{a wound of a lvl lower} | Y{the wound} | R{a wound of a higher lvl} instead.",
+            "effects": "When an ally besides you gains a wound you can choose to take it instead. If you do so, you can not use any other talents that would prevent you gaining wounds.",
             "tags": ["general", "skirmish", "endurance"]
         },
         {
             "name": "Instill fear",
             "prerequisites": "",
-            "charges": "",
+            "charges": "2 charges",
             "costs": "",
-            "effects": "When you kill or harm an enemy, roll an influence check: Remaining enemies will G{try to flee} | Y{be terrified of you} | R{lose morale}.",
+            "effects": "When you kill or harm an enemy, roll an influence check to make remaining enemies flee.",
             "tags": ["skirmish", "influence"]
         },
         {
             "name": "Lust for revenge",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
             "effects": "Heal all wounds you have suffered from a creature when you kill it.",
             "tags": ["skirmish", "healing"]
@@ -229,15 +221,15 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "After you deal damage to an enemy you can mark them. An ally or yourself can consume the mark to recover 1 resolve when killing them.",
+            "effects": "Instead of harming an emey with a skirmish check you can choose to mark them. An ally or yourself can consume the mark to recover 1 resolve when killing them.",
             "tags": ["skirmish", "resolve"]
         },
         {
             "name": "Power through",
             "prerequisites": "",
-            "charges": "3 charges",
+            "charges": "2 charges",
             "costs": "",
-            "effects": "When you take any wound, you can ignore it. Instead only gain the flaws of the injury. You can remove them during a rest instead of treating wounds.",
+            "effects": "When you take any wound, you can ignore it. Instead only gain the flaws from the injury. You can remove them during a rest instead of treating wounds.",
             "tags": ["general", "healing", "endurance"]
         },
         {
@@ -245,7 +237,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you gain a wound inflicted by a certain type of damage, you gain 1 armor against that type of damage.",
+            "effects": "When you gain a wound inflicted by a certain type of damage, the next time you gain a wound of the same type, reduce it by 1 lvl.",
             "tags": ["general", "endurance", "healing"]
         },
         {
@@ -261,7 +253,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When you kill an enemy, act again.",
+            "effects": "When you kill an enemy, you immediately gain another action.",
             "tags": ["skirmish"]
         },
         {
@@ -273,19 +265,11 @@
             "tags": ["weapons"]
         },
         {
-            "name": "Suave fighting",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "You can choose to use influence instead of skirmish for your checks during combat.",
-            "tags": ["skirmish", "influence"]
-        },
-        {
             "name": "Sword and powder",
             "prerequisites": "any melee weapon boon, firearm boon",
             "charges": "",
             "costs": "",
-            "effects": "When you make a skirmish check to attack with your melee weapon, you can also attack a target with your firearm.",
+            "effects": "A successful skirmish check with your melee weapon allows you to also gain the effects of your firearm.",
             "tags": ["skirmish", "weapons"]
         },
         {
@@ -297,23 +281,15 @@
             "tags": ["weapons"]
         },
         {
-            "name": "Weapons training",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Choose 2 weapon tags and gain them as boons.",
-            "tags": ["weapons", "boon"]
-        },
-        {
             "name": "Weapons specialist",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a specific weapon. You gain +1 die on checks when using it.",
+            "effects": "Choose a specific weapon. You gain +1 on skirmish checks with it.",
             "tags": ["weapons", "boon"]
         },
         {
-            "name": "Arcane bond",
+            "name": "Arcane weaver",
             "prerequisites": "You can only choose this talent on character creation or by talking with your GM",
             "charges": "",
             "costs": "",
@@ -441,19 +417,11 @@
             "tags": ["arcane"]
         },
         {
-            "name": "Arcane rituals",
-            "prerequisites": "Arcane bond talent",
-            "charges": "",
-            "costs": "Resources for a ritual",
-            "effects": "Instead of spontaneous effects, you can perform rituals to create your arcane effects. This takes time and resources but you do not need to spend arcane threads.",
-            "tags": ["arcane"]
-        },
-        {
             "name": "Command",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Give an ally a command. They gain a boon to follow that command. The boon lasts until used in a check or until a minute has passed.",
+            "effects": "Give an ally a command. If the next check they make ist used to follow that command they can reroll 1 die in the check.",
             "tags": ["influence", "boon"]
         },
         {
@@ -469,7 +437,7 @@
             "prerequisites": "",
             "charges": "1 charge per town",
             "costs": "Depending on target",
-            "effects": "You use your contacts to create a copy of a persons identity, including any documents used to prove your identity. This talent only recharges if you leave the area for a week.",
+            "effects": "You create a copy of a persons identity, including any documents used to prove your identity. This talent only recharges if you leave the area for a week.",
             "tags": ["performance"]
         },
         {
@@ -477,7 +445,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Your disguises are so good, that whenever you disguise yourself, skip the first two checks to determine whether you fool bystanders and your targets.",
+            "effects": "Reroll all 1s on checks made to disguise yourself.",
             "tags": ["performance"]
         },
         {
@@ -485,7 +453,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You become so unobtrusive and nondescript, that only those who specifically search for you, can find you. Any person that witnesses you, will forget you after a short while unless you interact directly with them for a longer period of time.",
+            "effects": "You become so unobtrusive and nondescript, that only those who specifically search for you, can find you. Any person that witnesses you, will forget you after a short while unless you interact directly with them.",
             "tags": ["performance"]
         },
         {
@@ -493,7 +461,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "After interacting with a person for a short time, gain a boon x2 relating that person. You can only have one of these boons active at once.",
+            "effects": "After interacting with a person you can choose to gain 2 boons of that person. You can only have one of these boons active at once.",
             "tags": ["influence"]
         },
         {
@@ -509,7 +477,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "When haggling, roll 2d12 and use the result in place of silver coins.",
+            "effects": "When haggling, roll 2d12 and use the result in place of coins.",
             "tags": ["influence"]
         },
         {
@@ -517,11 +485,11 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can create sounds without moving your lips and make it seem like they originate from any point around you.",
+            "effects": "You can create sounds without moving your lips and make it seem like they originate from any point around you without making any checks.",
             "tags": ["performance"]
         },
         {
-            "name": "Breaking affront",
+            "name": "HIER -> Breaking affront",
             "prerequisites": "",
             "charges": "3 charges",
             "costs": "",
@@ -1861,15 +1829,23 @@
             "prerequisites": "Hinan ancestry",
             "charges": "",
             "costs": "",
-            "effects": "As long as you have at least 2 resolve left, all dice results also explode on 1s.",
+            "effects": "As long as you have at least 1 resolve left, all dice results also explode on 1s.",
             "tags": ["ancestry", "resolve"]
+        },
+        {
+            "name": "TODO Hinan 2",
+            "prerequisites": "Hinan ancestry",
+            "charges": "",
+            "costs": "",
+            "effects": "",
+            "tags": ["ancestry"]
         },
         {
             "name": "Resilience",
             "prerequisites": "Korna ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Gain 1 permanent armor against blunt and frost damage.",
+            "effects": "Reduce all wounds gained from blunt or frost sources by 1 lvl.",
             "tags": ["ancestry", "healing"]
         },
         {
@@ -1877,13 +1853,13 @@
             "prerequisites": "Korna ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Whenever you enter willingly into a fight, you gain 1 resolve that can only be used during that fight.",
+            "effects": "Whenever you provoke a fight, you gain 1 resolve.",
             "tags": ["ancestry", "skirmish", "resolve"]
         },
         {
             "name": "Limit breaker",
             "prerequisites": "Half giant ancestry",
-            "charges": "3 charges",
+            "charges": "5 charges",
             "costs": "",
             "effects": "You can push yourself to your limits. Increase all dice in a check by 1 stage. After the check is resolved, you gain a flaw: exhausted. The flaw stacks and impacts most physical actions.",
             "tags": ["ancestry"]
@@ -1901,15 +1877,15 @@
             "prerequisites": "Gob ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Gain a trait from the list: Frog: Your long and sticky tongue works as a weak third arm. Toad: Your skin secrets a numbing poison that paralyzes after 10 seconds of contact. Salamander: When healing wounds you can roll and endurance check to regrow a lost limb. Alligator: Gain the following boon: biting x2",
+            "effects": "Gain a talent from the list: Frog: Your long and sticky tongue works as a weak third arm. Toad: Your skin secrets a numbing poison that paralyzes after a few seconds of contact. Salamander: When healing wounds you can roll and endurance check to regrow a lost limb. Alligator: Gain 2 boons: biting. Turtle: You can hide inside of your shell to ignore lvl 1 and lvl 2 wounds, but you can not move.",
             "tags": ["ancestry"]
         },
         {
             "name": "Gob's nature",
             "prerequisites": "Gob ancestry",
-            "charges": "7 charges",
+            "charges": "23 charges",
             "costs": "",
-            "effects": "You are bound by a genetic oath to your liege. Summon this oath to gain a boon x3 on any check. This talents charges do not recharge during a rest. Instead, once you used up all of them, your liege will call on you to fullfill a quest in their name. After successfully finishing the quest, all charges are restored.",
+            "effects": "You are bound by a genetic oath to your liege. Summon this oath to reroll a number of dice equal to the amount of charges spent on a check. This talents charges do not recharge during a rest. Instead, once you used up all of them, your liege will call on you to fullfill a quest in their name. After successfully finishing the quest, all charges are restored.",
             "tags": ["ancestry", "boon"]
         },
         {
@@ -1925,7 +1901,7 @@
             "prerequisites": "Quabut ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Water is running through your veins instead of water. You can store up to a weeks worth of it at a time and breathe water. As long as you are full of water, your touch deals electric damage.",
+            "effects": "Water is running through your body instead of blood. You can store up to a weeks worth of it at a time and breathe water. As long as you are full of water, your touch shocks living creatures.",
             "tags": ["ancestry", "status effect"]
         },
         {
@@ -1949,15 +1925,15 @@
             "prerequisites": "Undead ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Your body is dead and not affected by minor wounds. Ignore any lvl 1 wounds you would gain. However, your body is not as resilient against destruction anymore. You die by gaining a lvl 3 wound.",
+            "effects": "Ignore any lvl 1 wounds you would gain. However, your body is not as resilient against destruction anymore. You die by gaining a lvl 3 wound.",
             "tags": ["ancestry", "healing"]
         },
         {
             "name": "Born of the veil",
             "prerequisites": "Undead ancestry",
-            "charges": "1 charge per week",
-            "costs": "7 arcane threads of participants in resurrection",
-            "effects": "You were created by nekromantic magic and can be easily revived by the same means. Once per week you can be revived without the need of a resurrection ritual.",
+            "charges": "",
+            "costs": "",
+            "effects": "After you died, if your body is mostly intact, you will reawaken at the next morning. Any lost body parts must be near or they will not be restored.",
             "tags": ["ancestry", "healing"]
         },
         {
@@ -1965,15 +1941,15 @@
             "prerequisites": "Undead ancestry",
             "charges": "Once per corpse",
             "costs": "A recently deceased corpse",
-            "effects": "Consume a recently deceased creature to gain insight into their memories. Roll an insight check to gain memories G{from any time} | Y{dating back a few days} | R{of just before death}.",
+            "effects": "Consume a recently deceased creature to gain insight into their memories. Roll an insight check to gain memories from the former life of the corpse.",
             "tags": ["ancestry", "insight"]
         },
         {
             "name": "Unionized",
             "prerequisites": "Satyr ancestry",
-            "charges": "2 charges",
+            "charges": "",
             "costs": "",
-            "effects": "Ignore any dangerous or harmful conflict",
+            "effects": "You may reroll any check. Dice in the new roll do not explode.",
             "tags": ["ancestry"]
         },
         {
@@ -1981,7 +1957,7 @@
             "prerequisites": "Satyr ancestry",
             "charges": "1 charge",
             "costs": "",
-            "effects": "You create a rift in reality that leads to one of its echos. Roll 1d6 to see where the rift leads to: 1,2,3,4,5,6. Something from the chosen echo will come through the rift into reality before it closes.",
+            "effects": "You create a rift in reality that leads to one of its echos. Roll 1d6 to see where the rift leads to: 1,2,3,4,5,6. Something from the chosen echo will come through the rift into reality before it closes. TODO: Optionen",
             "tags": ["ancestry", "movement", "arcane"]
         },
         {
@@ -1989,7 +1965,7 @@
             "prerequisites": "Karzion ancestry",
             "charges": "",
             "costs": "",
-            "effects": "You can turn your body almost invisible at will, however, everything you wear or carry will still be visible.",
+            "effects": "You can turn your body translucent at will.",
             "tags": ["ancestry"]
         },
         {
@@ -1997,15 +1973,15 @@
             "prerequisites": "Karzion ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Fill a lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be removed in any other way.",
+            "effects": "Gain 1 lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be healed in any other way. TODO: Was wenn der Familiar stirbt?",
             "tags": ["ancestry", "healing", "companion"]
         },
         {
-            "name": "Herbalist",
-            "prerequisites": "+2 crafting skill",
+            "name": "TODO Herbalist",
+            "prerequisites": "crafting 2",
             "charges": "",
             "costs": "5 crafting materials",
-            "effects": "Make a crafting check to create G{2} | Y{1} | R{0} healing herbs. They can be consumed and heal a lvl 1 wound. This effect takes a few hours.",
+            "effects": "Make a crafting check to create healing herbs. They can be consumed and heal a lvl 1 wound. This effect takes a few hours.",
             "tags": ["healing", "crafting"]
         }
     ]
