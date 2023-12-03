@@ -261,7 +261,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a specific weapon. You gain +1 on skirmish checks with it.",
+            "effects": "Choose a specific weapon. You gain +1 die on skirmish checks with it.",
             "tags": ["weapons", "boon"]
         },
         {
@@ -517,7 +517,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Roll an insight check to reveal a characters weakness and possibly how to exploit it.",
+            "effects": "Roll an insight check to reveal a characters weakness and how to possibly exploit it.",
             "tags": ["insight", "skirmish"]
         },
         {
@@ -569,7 +569,7 @@
             "tags": ["vigilance"]
         },
         {
-            "name": "HIER Magnetic body",
+            "name": "Magnetic body",
             "prerequisites": "",
             "charges": "",
             "costs": "",
@@ -581,16 +581,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can telepathically communicate with creatures in your vicinity.",
+            "effects": "You can telepathically communicate simple thoughts with creatures in your vicinity.",
             "tags": ["insight", "vigilance"]
-        },
-        {
-            "name": "Unerring eyes",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Gain the following boon: illusions. On checks against illusions: G{ask the GM a question about the nature of the illusion}.",
-            "tags": ["vigilance", "arcane"]
         },
         {
             "name": "Universal translator",
@@ -605,7 +597,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When inspecting an item, roll a lore check to ask the GM G{3} | Y{2} | R{1} questions about the item.",
+            "effects": "When rolling a check to investigate an item, ask the GM additional questions about it based on the checks result.",
             "tags": ["lore"]
         },
         {
@@ -633,7 +625,7 @@
             "tags": ["medicine", "healing"]
         },
         {
-            "name": "Fortifying treatment",
+            "name": "HIER Fortifying treatment",
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
@@ -645,7 +637,7 @@
             "prerequisites": "Feldsher talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Roll a crafting check to heal the severely wounded: G{Remove a wound of any lvl} | Y{Heal a lvl 1 wound} | R{Inflict a lvl 1 wound}",
+            "effects": "Roll a crafting check to heal a wound on the target based on the result: 9+ -> lvl 3 wound | 6+ -> lvl 2 wound | 3+ -> lvl 1 wound | 1 or 2 -> inflict a lvl 1 wound instead.",
             "tags": ["medicine", "healing"]
         },
         {
@@ -785,35 +777,35 @@
             "tags": ["general", "static"]
         },
         {
-            "name": "Alchemy",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "You can craft alchemical items. You can spend 1 resolve to either gain 1 ingredient for a crafting check or gain 10 materials.",
-            "tags": ["crafting"]
-        },
-        {
             "name": "Bomber",
-            "prerequisites": "Alchemy talent",
-            "charges": "1 charge",
-            "costs": "",
-            "effects": "Gain the following boon: explosives. By spending this talents charge you can instantly create a small bomb with a custom effect without spending materials or ingredients.",
+            "prerequisites": "crafting 3",
+            "charges": "2 charges",
+            "costs": "1 ingredient, 3 materials",
+            "effects": "Gain the following boon: explosives. By spending this talents charge you can instantly create a small bomb based on 1 ingredient in your inventory.",
             "tags": ["crafting"]
         },
         {
             "name": "Purest form",
-            "prerequisites": "Alchemy talent, an alchemy formula",
+            "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose an alchemy formula. You learn the chosen formula by heart and can craft it without rolling a check and without spending materials or ingredients.",
+            "effects": "Choose a recipe. You learn the chosen formula by heart and can craft it without rolling a check and without spending materials or ingredients.",
             "tags": ["crafting"]
         },
         {
-            "name": "Quick alchemy",
-            "prerequisites": "Alchemy talent",
+            "name": "Quick crafting",
+            "prerequisites": "crafting 4",
             "charges": "",
             "costs": "",
-            "effects": "Instead of taking your time, you can craft alchemical items as an action and during stressful situations.",
+            "effects": "Instead of taking your time, you can craft small items as an action and during stressful situations. Make the crafting check with 1 less die.",
+            "tags": ["crafting"]
+        },
+        {
+            "name": "Battlesmith",
+            "prerequisites": "",
+            "charges": "",
+            "costs": "",
+            "effects": "You can craft bigger and more complicated items from metal and fire. You can destroy items to receive a number of materials or ingredients based on the item.",
             "tags": ["crafting"]
         },
         {
@@ -821,7 +813,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "You can craft brews and food. You can gather materials by spending half a day and rolling 1d8. You gain the number rolled as materials. Alternatively you can gather one brewing ingredient.",
+            "effects": "You can craft brews and food. You can gather materials while in nature and rolling 1d8. You gain the number rolled as materials. Alternatively you can gather one brewing ingredient.",
             "tags": ["crafting"]
         },
         {
@@ -1879,14 +1871,6 @@
             "costs": "",
             "effects": "Gain 1 lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be healed in any other way. TODO: Was wenn der Familiar stirbt?",
             "tags": ["ancestry", "healing", "companion"]
-        },
-        {
-            "name": "TODO Herbalist",
-            "prerequisites": "crafting 2",
-            "charges": "",
-            "costs": "5 crafting materials",
-            "effects": "Make a crafting check to create healing herbs. They can be consumed and heal a lvl 1 wound. This effect takes a few hours.",
-            "tags": ["healing", "crafting"]
         }
     ]
 }
