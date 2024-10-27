@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV File Merger</title>
+</head>
+<body>
+    <h2>CSV File Merger</h2>
+    <p>Upload two CSV files to merge.</p>
+    
+    <input type="file" id="file1" accept=".csv"> File 1 (id, amount, name)<br>
+    <input type="file" id="file2" accept=".csv"> File 2 (id, price)<br><br>
+    
+    <button onclick="mergeCSVFiles()">Merge and Download</button>
+    
+    <script>
+        function parseCSV(content) {
+            return content.trim().split('\n').map(line => line.split(',').map(cell => cell.trim()));
+        }
+
+        function mergeCSVFiles() {
+            const file1 = document.getElementById('file1').files[0];
+            const file2 = document.getElementById('file2').files[0];
+
+            if (!file1 || !file2) {
+                alert("Please upload both files.");
+                return;
+            }
+
+            const reader1 = new FileReader();
+            const reader2 = new FileReader();
+
+            reader1.onload = function(event1) {
+                const file1Data = parseCSV(event1.target.result);
+                const file1Map = new Map();
+                
+                // Read File 1 data into a map
+                file1Data.forEach(([id, amount, name]) => {
+                    file1Map.set(id, { id, amount, name, price: "0,00" });
+                });
+
+                reader2.onload = function(event2) {
+                    const file2Data = parseCSV(event2.target.result);
+
+                    // Update prices for matching IDs
+                    file2Data.forEach(([id, price]) => {
+                        if (file1Map.has(id)) {
+                            file1Map.get(id).price = price;
+                        }
+                    });
+
+                    // Generate merged CSV data
+                    const result = Array.from(file1Map.values())
+                        .map(({ id, amount, name, price }) => `${id}, ${amount}, ${name}, ${price}`)
+                        .join('\n');
+
+                    // Trigger download
+                    const blob = new Blob([result], { type: 'text/csv' });
+                    const url = URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'result.csv';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                    URL.revokeObjectURL(url);
+                };
+
+                reader2.readAsText(file2);
+            };
+
+            reader1.readAsText(file1);
+        }
+    </script>
+</body>
+</html>

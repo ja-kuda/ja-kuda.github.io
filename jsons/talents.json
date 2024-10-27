@@ -3,9 +3,9 @@
         {
             "name": "Adrenaline rush",
             "prerequisites": "",
-            "charges": "",
-            "costs": "1 resolve",
-            "effects": "Prevent the next wound you would take during your next 3 actions. (Max. lvl 3 wound)",
+            "charges": "1 charge",
+            "costs": "",
+            "effects": "Prevent the next wound you would take during X time.",
             "tags": ["resolve", "healing"]
         },
         {
@@ -19,30 +19,14 @@
         {
             "name": "Loot goblin",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
-            "effects": "When you obtain a special or rare item, gain 3 boons. You can use one or more of these boons on any check until your next rest. Once you use one of these boons, it is removed.",
+            "effects": "When you obtain a special or rare item, gain 2 successes. You can use one or more of them on any check.",
             "tags": [ "general", "boon"]
         },
         {
-            "name": "Look at me!",
-            "prerequisites": "A striking physical feature",
-            "charges": "",
-            "costs": "",
-            "effects": "Choose a striking physical feature like an eyepatch, scars or tattoos. Brandish your chosen feature to immediately gather interest and attention, putting all eyes on you.",
-            "tags": ["influence"]
-        },
-        {
-            "name": "Skill mastery",
-            "prerequisites": "5 in a skill",
-            "charges": "",
-            "costs": "",
-            "effects": "Choose a skill you have 5 in. You gain +1 to all checks made with that skill.",
-            "tags": ["general"]
-        },
-        {
             "name": "Spidersense",
-            "prerequisites": "vigilance 4",
+            "prerequisites": "vigilance 4+",
             "charges": "",
             "costs": "",
             "effects": "You gain a sense of danger. The GM will tell you about potential immediate danger, but not of its nature.",
@@ -53,7 +37,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain 1 TODO: armor that regenerates during a rest.",
+            "effects": "You have a basic armor of 1.",
             "tags": ["resting", "healing"]
         },
         {
@@ -69,7 +53,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "If you would die, don't. Instead gain a permanent flaw relating to the thing that killed you.",
+            "effects": "If you would die, don't. Instead gain a permanent trait relating to the thing that killed you.",
             "tags": ["general"]
         },
         {
@@ -77,16 +61,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You gain an additional empty lvl 1 wound permanently.",
+            "effects": "You gain an additional lvl 1 wound permanently.",
             "tags": ["general", "healing"]
-        },
-        {
-            "name": "Armor shred",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "Successful skirmish checks against armored targets add +2 to subsequent skirmish checks made against that target. (Does not stack)",
-            "tags": ["skirmish"]
         },
         {
             "name": "Backstab",
@@ -101,7 +77,7 @@
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
-            "effects": "While you are in battle gain a boon: skirmish. Also gain +1 resolve that can only be used as long as you are in that fight.",
+            "effects": "While you are in battle gain +1 resolve that can only be used as long as you are in that fight.",
             "tags": ["skirmish", "boon", "resolve"]
         },
         {
@@ -109,7 +85,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Bathe in blood to gain 1 empty lvl 1 wound that disappears when it is filled.",
+            "effects": "Bathe in blood to gain 1 temporary lvl 1 wound.",
             "tags": ["skirmish", "healing"]
         },
         {
@@ -117,7 +93,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "While you are outnumbered in combat, gain +2 to skirmish checks.",
+            "effects": "While you are outnumbered in combat, you can reroll 1 die on skirmish checks.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -125,15 +101,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Gain 2 boons and 1 resolve for your next skirmish check but also gain a lvl 1 wound.",
+            "effects": "Increase a skirmish checks difficulty by 1 but also gain 1 additional success on it.",
             "tags": ["skirmish", "boon"]
         },
         {
             "name": "Charge with me!",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "",
-            "effects": "If you enter battle first and ahead of your allies, they gain +1 to skirmish checks during battle.",
+            "effects": "When a battle starts you can inspire your allies and give them a boon on their next 2 checks each.",
             "tags": ["skirmish", "boon"]
         },
         {
@@ -141,7 +117,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Reroll all 1s when making checks to grapple or restrict others.",
+            "effects": "You can grab and hold onto things and creatures without using your arms.",
             "tags": ["agility"]
         },
         {
@@ -149,15 +125,15 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "TODO: Whenever you make a skirmish check and the result is double the difficulty, you score a critical hit and gain an additional effect.",
+            "effects": "Roll 4 successes on a skirmish check to instantly kill the target.",
             "tags": ["skirmish"]
         },
         {
-            "name": "Ethereal attacks",
+            "name": "Ethereal hands",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "TODO: beschreibung - Your attacks can be ethereal. This means that you can harm ethereal beings and also choose to not harm living creatures",
+            "effects": "You can touch ethereal creatures and objects.",
             "tags": ["skirmish", "weapons"]
         },
         {
@@ -173,7 +149,7 @@
             "prerequisites": "",
             "charges": "1 charge per target",
             "costs": "",
-            "effects": "Attacking someone out of the shadows does not reveal you. Works only once per target. If enough time passes the target may forget the incident and the talent can be used on them again.",
+            "effects": "Attacking someone out of the shadows does not reveal you.",
             "tags": ["skirmish", "trickery"]
         },
         {
@@ -181,16 +157,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "When an ally besides you gains a wound you can choose to take it instead. If you do so, you can not use any other talents that would prevent you gaining wounds.",
+            "effects": "When an ally besides you gains a wound you can choose to take it instead.",
             "tags": ["general", "skirmish", "endurance"]
-        },
-        {
-            "name": "Instill fear",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "1 resolve",
-            "effects": "When you kill or harm an enemy, roll an influence check to make weak and small enemies flee.",
-            "tags": ["skirmish", "influence"]
         },
         {
             "name": "Lust for revenge",
@@ -209,36 +177,12 @@
             "tags": ["skirmish", "resolve"]
         },
         {
-            "name": "Power through",
-            "prerequisites": "",
-            "charges": "2 charges",
-            "costs": "",
-            "effects": "When you gain a wound, you can ignore it. The next time you gain a wound, gain the ignored wound as well.",
-            "tags": ["general", "healing", "endurance"]
-        },
-        {
             "name": "Reactionary resistance",
             "prerequisites": "",
             "charges": "",
             "costs": "",
             "effects": "When you gain a wound inflicted by a certain type of damage, the next time you gain a wound of the same type, reduce it by 1.",
             "tags": ["general", "endurance", "healing"]
-        },
-        {
-            "name": "Revel in pain",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "When you kill an enemy, you immediately gain another action.",
-            "tags": ["skirmish"]
-        },
-        {
-            "name": "Strongarm",
-            "prerequisites": "heavy weapon boon",
-            "charges": "",
-            "costs": "",
-            "effects": "You can wield heavy weapons with only one hand.",
-            "tags": ["weapons"]
         },
         {
             "name": "Sword and powder",
@@ -485,7 +429,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "Roll an influence check against a single target to stare them down: If you exceed the difficulty by 10+ the target dies. If you succeed normally, the target falls unconscious.",
+            "effects": "Roll an influence check against a single target to stare them down: If you exceed the difficulty by 10+ the target dies. If you succeed, the target falls unconscious.",
             "tags": ["influence"]
         },
         {
@@ -610,7 +554,7 @@
         },
         {
             "name": "Battle medic",
-            "prerequisites": "Feldsher talent",
+            "prerequisites": "Surgeon talent",
             "charges": "1 charge",
             "costs": "",
             "effects": "Heal a creatures newest wound.",
@@ -625,35 +569,19 @@
             "tags": ["medicine", "healing"]
         },
         {
-            "name": "HIER Fortifying treatment",
-            "prerequisites": "",
-            "charges": "2 charges",
-            "costs": "",
-            "effects": "You treat an ally for an hour. They gain +1 armor.",
-            "tags": ["medicine", "healing", "resting"]
-        },
-        {
             "name": "Surgeon",
             "prerequisites": "Feldsher talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Roll a crafting check to heal a wound on the target based on the result: 9+ -> lvl 3 wound | 6+ -> lvl 2 wound | 3+ -> lvl 1 wound | 1 or 2 -> inflict a lvl 1 wound instead.",
+            "effects": "Roll a crafting check to heal a wound on the target based on the result: 9+ -> lvl 3 wound | 6+ -> lvl 2 wound | 3+ -> lvl 1 wound | 1 or 2 -> inflict a lvl 1 wound instead. This takes 10 minutes.",
             "tags": ["medicine", "healing"]
         },
         {
-            "name": "Looking for rarities",
-            "prerequisites": "",
-            "charges": "1 charge per week per market",
-            "costs": "",
-            "effects": "Roll a vigilance check to search the market for a specific item: You find G{a better version} | Y{an exact version} | R{a lesser version} of the item.",
-            "tags": ["vigilance"]
-        },
-        {
             "name": "Sharp senses",
-            "prerequisites": "vigilance 3 or higher",
+            "prerequisites": "vigilance 3",
             "charges": "",
             "costs": "",
-            "effects": "Gain the following boons: smelling, hearing, tasting.",
+            "effects": "Gain the following boons: smelling, hearing, tasting, seeing.",
             "tags": ["vigilance"]
         },
         {
@@ -682,10 +610,10 @@
         },
         {
             "name": "Swashbuckle",
-            "prerequisites": "You can not use resolve on the check you use this talent on",
+            "prerequisites": "",
             "charges": "",
-            "costs": "",
-            "effects": "Gain the following boon: daring. If you use the boon and roll at least a 10 on your check, gain 1 resolve.",
+            "costs": "You can not use resolve on the check you use this talent on",
+            "effects": "Gain the following boon: daring x2. When you use the boon and roll at least a 9 on your check, gain 1 resolve.",
             "tags": ["agility"]
         },
         {
@@ -725,7 +653,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 lockpick",
-            "effects": "You open locks extremely fast and without traces.",
+            "effects": "You open locks extremely fast and without traces. You do not need to roll a check to unlock simple door locks, but you destroy the lockpick in the process.",
             "tags": ["trickery"]
         },
         {
@@ -733,7 +661,7 @@
             "prerequisites": "",
             "charges": "2 charges",
             "costs": "",
-            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your result..",
+            "effects": "When you are spotted while sneaking or hiding, roll 1d6 and add it to your result.",
             "tags": ["trickery"]
         },
         {
@@ -757,16 +685,8 @@
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "Choose a terrain. Checks for hiding and sneaking in the terrain gain +1.",
+            "effects": "Choose a terrain. Checks for hiding and sneaking in the terrain gain +1 die.",
             "tags": ["trickery", "endurance"]
-        },
-        {
-            "name": "TODOExpert tracker",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "When you roll checks to track a creature you gain G{2} | Y{1} | R{1 true and 1 false} bits of knowledge about the creature from your GM.",
-            "tags": ["vigilance"]
         },
         {
             "name": "Tracking mark",
@@ -801,7 +721,7 @@
             "tags": ["crafting"]
         },
         {
-            "name": "Battlesmith",
+            "name": "Crafting specialization: Battlesmith",
             "prerequisites": "",
             "charges": "",
             "costs": "",
@@ -809,7 +729,7 @@
             "tags": ["crafting"]
         },
         {
-            "name": "Brewer",
+            "name": "Crafting specialization: Brewer",
             "prerequisites": "",
             "charges": "1 charge",
             "costs": "",
@@ -829,7 +749,7 @@
             "prerequisites": "Brewer talent",
             "charges": "1 charge",
             "costs": "",
-            "effects": "Gain the following boons: alcohol, drugs. You can use this talent to create a jug of alchohol without spending materials or ingredients.",
+            "effects": "Gain the following boon: drugs. You can use this talent to quickly create a jug of alchohol without spending materials or ingredients.",
             "tags": ["crafting"]
         },
         {
@@ -837,7 +757,7 @@
             "prerequisites": "Brewer talent",
             "charges": "",
             "costs": "",
-            "effects": "When crafting potions and other brewer recipes, you can combine 2 effects into one potion or poison.",
+            "effects": "When crafting potions and other brewer recipes, you can combine multiple effects into one potion or poison by spending the reqired materials and ingredients for all of them.",
             "tags": ["crafting"]
         },
         {
@@ -845,7 +765,7 @@
             "prerequisites": "Brewer talent",
             "charges": "2 charges",
             "costs": "5 materials",
-            "effects": "When you are hit by a spell or an arcane effect, you can spend 5 materials to bottle a copy of the effect as a potion. When using the potion, roll a crafting check: R:{It explodes with the bottled effect.}",
+            "effects": "When you are hit by a static spell or an arcane effect, you can spend 5 materials to bottle a copy of the effect as a potion. When using the potion, roll a crafting check to see if it explodes.",
             "tags": ["crafting", "arcane"]
         },
         {
@@ -853,15 +773,15 @@
             "prerequisites": "Brewer talent",
             "charges": "",
             "costs": "",
-            "effects": "When you craft a brewing recipe, you can spend 1 more material to make the potion or poison throwable, working its effect wherever it lands.",
+            "effects": "When you craft a brewing recipe, you can spend double the materials to make the potion or poison throwable, working its effect wherever it lands.",
             "tags": ["crafting"]
         },
         {
-            "name": "Mutationist",
+            "name": "Crafting specialization: Mutationist",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can craft mutations. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse to gain G{3} | Y{2} | R{1} ingredients of that creature.",
+            "effects": "You can craft mutations. Harvest creatures to gain some of their genetic material used in the creation of mutations. Destroy a corpse to gain a number of ingredients from that creature based on its size.",
             "tags": ["crafting"]
         },
         {
@@ -885,7 +805,7 @@
             "prerequisites": "Mutationist talent",
             "charges": "",
             "costs": "",
-            "effects": "When you damage a creature you can make a crafting check to gain G{2} | Y{1} ingredients from that creature.",
+            "effects": "When you damage a creature you can make a crafting check. On a 6+ you gain 1 ingredient from that creature.",
             "tags": ["crafting"]
         },
         {
@@ -897,24 +817,16 @@
             "tags": ["crafting"]
         },
         {
-            "name": "Honed nose",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "You can roll a crafting check to identify food and drink: You gain G{detailed information} | Y{rough information} | R{information if it has been tampered with}.",
-            "tags": ["crafting"]
-        },
-        {
             "name": "Night owl",
             "prerequisites": "",
             "charges": "",
             "costs": "",
-            "effects": "You can choose to gain +1 resolve during a rest. If you do, you do not remove stress and fatigue.",
+            "effects": "You can choose to gain +1 resolve during a rest. If you do, you do not heal a lvl 1 wound.",
             "tags": ["resolve", "resting"]
         },
         {
             "name": "Apotheosis",
-            "prerequisites": "You follow a god",
+            "prerequisites": "You follow a god, 2 or more other ambition talents",
             "charges": "1 charge, does not recharge",
             "costs": "You lose this talent",
             "effects": "Gain a permanent feature based on your chosen god and a talent fitting for that feature. Talk with your GM to work out the details.",
@@ -925,7 +837,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "Any number of resolve",
-            "effects": "Spend a number of resolve to clear an influence from a target. Roll an insight check with boons equal to the number of resolve spent: G{You clear the influence} | Y{You stop the influence temporarily} | R{You transfer the influence to you}.",
+            "effects": "Spend a number of resolve to clear an influence from a target. Roll an insight check with extra dice equal to the number of resolve spent. Based on the check you can either clear the influence or transfer it to you.",
             "tags": ["resolve", "healing"]
         },
         {
@@ -940,7 +852,7 @@
             "name": "Dreamer",
             "prerequisites": "",
             "charges": "",
-            "costs": "2 arcane threads",
+            "costs": "3 arcane threads",
             "effects": "You can enter a sleeping creatures dreams and interact with them or even try to manipulate them.",
             "tags": ["insight"]
         },
@@ -949,7 +861,7 @@
             "prerequisites": "",
             "charges": "",
             "costs": "2 arcane threads",
-            "effects": "You open up your mind to enter a creatures thoughts. Roll an insight check with a flaw for each creature near your target: You read G{thoughts clearly} | Y{unclear and distorted thoughts} | R{thoughts but alert the target}.",
+            "effects": "You open up your mind to enter a creatures thoughts. Roll an insight check with a flaw for each creature near your target to read their thoughts.",
             "tags": ["insight"]
         },
         {
@@ -962,18 +874,18 @@
         },
         {
             "name": "Ascended intervention",
-            "prerequisites": "You follow a god, you finished 3+ arcs",
-            "charges": "1 charge, does not recharge",
+            "prerequisites": "You follow a god, you finished 3+ arcs relating to their ambition or aspect",
+            "charges": "1 charge, recharges only by completing a quest",
             "costs": "",
-            "effects": "Ask your god for help. They will help you, but you have to roll 1d12 to regain use of this talent with G{an easy task} | Y{a moderate mission} | R{a difficult quest}.",
+            "effects": "Ask your god for help in a given task. They will help you.",
             "tags": ["ambition"]
         },
         {
             "name": "Motivate",
             "prerequisites": "",
-            "charges": "",
+            "charges": "1 charge",
             "costs": "any number of resolve",
-            "effects": "Spend a number of resolve to use them on other creatures. They gain the number of resolve.",
+            "effects": "Spend a number of resolve to use them on other creatures. They each gain the number of resolve.",
             "tags": ["resolve", "medicine"]
         },
         {
@@ -997,7 +909,7 @@
             "prerequisites": "You follow a god or other powerful entity",
             "charges": "",
             "costs": "An offering",
-            "effects": "Make a check with 1d6 - 5d6 based on your offering. You receive G{a clear vision of the future} | Y{a vague vision of an event} | R{a shrouded vision of a calamity}.",
+            "effects": "Make a check with a number of dice based on your offering. You receive a 10+ -> clear vision of your future | 6+ -> vague vision of an event | 1+ -> shrouded vision of a calamity.",
             "tags": ["ambition"]
         },
         {
@@ -1013,14 +925,14 @@
             "prerequisites": "",
             "charges": "",
             "costs": "1 arcane thread",
-            "effects": "Gain +1 to your next check if it represents your ambition.",
+            "effects": "Gain 3 boons on your next check if it represents your ambition.",
             "tags": ["ambition"]
         },
         {
             "name": "Reflection",
             "prerequisites": "",
             "charges": "1 charge",
-            "costs": "You gain -2 resolve during your next rest.",
+            "costs": "You gain no effects of your next rest",
             "effects": "Roll an insight check and ask any G{3} | Y{2} | R{1} questions about things you experienced during the last day.",
             "tags": ["resolve", "insight"]
         },
@@ -1356,8 +1268,8 @@
             "name": "Sign of the archer",
             "prerequisites": "",
             "charges": "",
-            "costs": "2 arcane threads",
-            "effects": "Roll a skirmish check with difficulty 7. If the result is below, shoot 1 arrow, if it is above, shoot 2 instead. If you roll double the difficulty, shoot 4 arrows at once.",
+            "costs": "1 arcane threads",
+            "effects": "Roll a skirmish check with difficulty 6. If the result is below, shoot 1 arrow, if it is above, shoot 2 instead. If you roll double the difficulty, shoot 4 arrows at once.",
             "tags": ["static", "skirmish"]
         },
         {
