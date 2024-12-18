@@ -33,7 +33,7 @@
             "tags": ["general", "vigilance"]
         },
         {
-            "name": "Thick hide",
+            "name": "Thick hide RAUS",
             "prerequisites": "",
             "charges": "",
             "costs": "",
@@ -1541,7 +1541,7 @@
             "prerequisites": "An ambition for war, strength, power or similar",
             "charges": "",
             "costs": "",
-            "effects": "After killing an enemy, gain 1d4 to add to any checks result. You can only have one of these d4 at a time.",
+            "effects": "After killing an enemy, gain 1d8. You can add this die to any check.",
             "tags": ["aspect"]
         },
         {
@@ -1551,14 +1551,6 @@
             "costs": "",
             "effects": "You have a photographic memory and can recall all that has happened in the last month in detail.",
             "tags": ["aspect"]
-        },
-        {
-            "name": "Wound redistribution",
-            "prerequisites": "",
-            "charges": "",
-            "costs": "",
-            "effects": "When you would fill a wound of a higher level, you can instead fill wounds of a lower level equal to its lvl.",
-            "tags": ["healing"]
         },
         {
             "name": "Satür",
@@ -1740,8 +1732,8 @@
             "name": "Born of the veil",
             "prerequisites": "Undead ancestry",
             "charges": "",
-            "costs": "",
-            "effects": "After you died, if your body is mostly intact, you will reawaken at the next morning. Any lost body parts must be near or they will not be restored.",
+            "costs": "3 resolve",
+            "effects": "If you die and have enough resolve to use this talent, you will reawaken the next morning wherever your body lies.",
             "tags": ["ancestry", "healing"]
         },
         {
@@ -1757,7 +1749,7 @@
             "prerequisites": "Satyr ancestry",
             "charges": "",
             "costs": "",
-            "effects": "You may reroll any check. Dice in the new roll do not explode.",
+            "effects": "When you add dice to another characters check by helping them, do not subtract a success from the final result.",
             "tags": ["ancestry"]
         },
         {
@@ -1765,7 +1757,7 @@
             "prerequisites": "Satyr ancestry",
             "charges": "1 charge",
             "costs": "",
-            "effects": "You create a rift in reality that leads to one of its echos. Roll 1d6 to see where the rift leads to: 1,2,3,4,5,6. Something from the chosen echo will come through the rift into reality before it closes. TODO: Optionen",
+            "effects": "You create a rift in reality that leads to one of its 4 echoes. Roll 1d4 to determine which rift you open.",
             "tags": ["ancestry", "movement", "arcane"]
         },
         {
@@ -1781,7 +1773,7 @@
             "prerequisites": "Karzion ancestry",
             "charges": "",
             "costs": "",
-            "effects": "Gain 1 lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be healed in any other way. TODO: Was wenn der Familiar stirbt?",
+            "effects": "Gain 1 lvl 3 wound permanently to split off a piece of your body. It can act on its own an serves as your familiar until you reattach it, which heals the wound. Wounds gained by this talent, can not be healed in any other way.",
             "tags": ["ancestry", "healing", "companion"]
         }
     ]

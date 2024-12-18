@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSV Name Counter</title>
+</head>
+<body>
+    <h1>CSV Name Counter</h1>
+    <input type="file" id="csvFileInput" accept=".csv">
+    <button id="processButton">Process CSV</button>
+    <a id="downloadLink" style="display:none;">Download Result</a>
+
+    <script>
+        document.getElementById('processButton').addEventListener('click', () => {
+            const fileInput = document.getElementById('csvFileInput');
+            if (!fileInput.files.length) {
+                alert('Please upload a CSV file first.');
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function (event) {
+                const csvData = event.target.result;
+                const rows = csvData.split('\n').map(row => row.trim()).filter(row => row);
+                
+                const nameCounts = {};
+                rows.forEach(name => {
+                    nameCounts[name] = (nameCounts[name] || 0) + 1;
+                });
+
+                // Create the output CSV
+                const outputRows = ['Name,Count'];
+                for (const [name, count] of Object.entries(nameCounts)) {
+                    outputRows.push(`${name},${count}`);
+                }
+                const outputCsv = outputRows.join('\n');
+
+                // Create a downloadable link
+                const blob = new Blob([outputCsv], { type: 'text/csv' });
+                const downloadLink = document.getElementById('downloadLink');
+                downloadLink.href = URL.createObjectURL(blob);
+                downloadLink.download = 'output.csv';
+                downloadLink.style.display = 'inline';
+                downloadLink.textContent = 'Download Result';
+            };
+
+            reader.readAsText(file);
+        });
+    </script>
+</body>
+</html>
