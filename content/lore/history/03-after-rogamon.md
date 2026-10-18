@@ -6,34 +6,33 @@ Against all expectations, Rogamon's fall did not leave the continent in permanen
 
 - **Year 0** – The continent falls into chaos. The undead are uncontrolled, most of them fall into a frenzy and kill many of the survivors. Winterglehn is abandoned. Warlords seize territories and lose them again. There are no structures, the continent breaks apart politically, famine spreads.
 - **Around year 10** – Fear of necromancy and magic rules the population. The first small realms join together, most fall apart again quickly. The population begins to stabilise.
-- **Around year 20** – In the Tralian lands, the persecution of mages begins.
-- **Around year 20** – **Tralien** emerges as the first larger realm. A movement against any use of magic "for the protection of the kingdom" quickly grows into the Tralian movement – the foundation of the **Tralian Empire**. Atikun is one of the first provinces to join it.
-- **Around year 30** – Stabilisation continues. Smaller provinces form; many conflicts arise over resources, lands and power.
-- **Around year 35** – The first emperor, **Idaf the Red**, takes power.
-- **Around year 50** – The first more stable realms form.
-- **Around year 60** – The Tralian Empire threatens the borders of Atania for the first time and occupies parts of the Border Fields. Atania eventually leaves them to the Empire in exchange for the promise that it will not advance further south. Later, under Emperor Tarmak, the Empire also conquers South Parnast.
-- **Around year 90** – Several northern provinces join together as **Varland**; Varland has its first king again.
-- **Around year 100** – Varland as it is known today takes shape.
-- **Around year 150** – Tralien begins to expand aggressively. Border wars with Varland follow. In the last of them, the Tralian troops trying to cross the Blue Arm and take Steilfurt are crushed on the *Plains of Decision* – the Empire's **Day of Decision** still reminds it of this defeat. A truce follows.
+- **Around year 25** – Many of the young provinces band together to resolve the hordes of undead once and for all. Though many of the creatures can be pushed back, many areas are still uninhabitable, like the Expansion for example.
+- **Around year 35** – Stabilisation continues. Smaller provinces form; many conflicts arise over resources, lands and power.
+- **Around year 50** – CAMPAIGN 3 - Many small Provinces fight for power and influence, still threatened by the undead and general unrest, but more stable. Many of the later institutions and factions begin to emerge around this time.
+- **Year 89** - The Tralian Empire emerges as the result of centuries of infighting in the midlands.
+- **Around year 100** – In the Tralian Empire, the persecution of mages begins.
+- **Around year 120** – Several northern provinces join together as **Varland**; Varland has its first king again.
+- **Around year 150** – The Tralian empire begins to expand aggressively. Border wars with neighbouring provinces follow. In the last of them, the Tralian troops trying to cross the Blue Arm and take Steilfurt are crushed on the *Plains of Decision* – the Empire's **Day of Decision** still reminds it of this defeat. A truce follows.
+- **Year 225** - A cult of necromancers and other powerful beings tries to resurrect the bound Rogamon under the city of Winterglehn. They fail but large parts of the city are destroyed again, weakening Varlands control over the Area and leading to tensions in the Kingdom.
+- **Year 234** - The Tralian Empire starts marching north to conquer Varland and to destroy or control all magic in the northern Lands to safe the continent from destruction.
+- **Year 235** - The Tralian Empire manages to swiftly defeat the first lines of defense, conquering Rotmark.
 
 The descendants of the old rulers and lords – the arcane nobility – claimed their birthright, and those opportunistic enough rose to power and money even without old titles. It was decided to undo the time of Rogamon's rule and to rebuild the land on the realm structures, borders and forms of government of centuries past.
 
 In Atania, too, the great cities soon began to fight over the masterless provinces; within about twenty years the old mix of city lords, nobles and militias had returned.
 
 > [!note]
-> After Rogamon, many provinces splintered – **the provinces on the map are the de facto kingdoms of this era.** Later in the era some of them unite: the Tralian Empire from around year 20, Varland from around year 90.
+> After Rogamon, many provinces splintered – **the provinces on the map are the de facto kingdoms of this era.** Later in the era some of them unite: the Tralian Empire from around year 90, Varland from around year 120.
 
-Winterglehn was rebuilt on the ruins of Old Winterglehn and soon rose to new greatness, fed by fertile soil, rich forests and the treasures still to be found in the ruins.
+Winterglehn was rebuilt on the ruins of Old Winterglehn and soon rose to new greatness, fed by fertile soil, rich forests and the treasures still to be found in the ruins. But it should later be destroyed again, reducing the impact on the region.
 
 ## The emperors of the Tralian Empire
 
 | Reign | Emperor | Title |
 |---|---|---|
-| 35 – 67 | Idaf | The Red |
-| 67 – 85 | Tarmak | The Golden |
-| 85 – 120 | Merdak | The Blind Falcon |
-| 120 – 153 | Turdalin | The Iron, the Queen-Slayer |
-| 155 – 187 | Lartarte | The Mage – noticeably loosened the persecution of mages |
-| 191 – 219 | Norman Pastell | The Paralysed |
+| 89 – 120 | Merdak | The Red |
+| 120 – 153 | Turdalin | The Iron |
+| 155 – 187 | Lartarte | The Golden |
+| 191 – 219 | Norman Pastell | The Mage |
 | 220 – 230 | Santor | The Awakened Lion |
 | since 230 | Suta | The Bearer of Hope |
