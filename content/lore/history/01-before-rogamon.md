@@ -1,4 +1,4 @@
-# Before Rogamon
+# Before Rogamon (vKR)
 
 <div data-embed="era" data-era="before-rogamon"></div>
 

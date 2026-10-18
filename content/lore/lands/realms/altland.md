@@ -3,7 +3,7 @@
 
 Its trade centre is **Höhlenhafen**, famous for its harbour inside a huge natural cave and for its gladiator-like arena fights. Höhlenhafen offers one of the few entrances to the underworld of the continent not controlled by Durag, and keeps very much to itself.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 Höhlenhafen in the east stayed independent longer than most of Varland, but was later sparsely occupied by undead too.
 

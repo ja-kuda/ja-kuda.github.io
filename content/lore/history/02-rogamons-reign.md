@@ -1,4 +1,4 @@
-# During Rogamon's reign
+# Rogamon's Reign
 
 <div data-embed="era" data-era="rogamons-reign"></div>
 

@@ -1,5 +1,5 @@
 {
-  "_help": "Key = the name exactly as written on the map. General fields (type, region, facts, image, text, lore) are shown in every era. Under \"eras\" you can add the same fields per era id (before-rogamon, rogamons-reign, after-rogamon, unification, present) – they are shown when that era is selected. Era-specific type/title/image replace the general ones.",
+  "_help": "Key = the name exactly as written on the map. General fields (type, region, facts, image, text, lore) are shown in every era. Under \"eras\" you can add the same fields per era id (before-rogamon, rogamons-reign, after-rogamon, present) – they are shown when that era is selected. Era-specific type/title/image replace the general ones.",
   "Toralt": {
     "type": "City",
     "region": "Placeholder region",
@@ -43,13 +43,10 @@
       },
       "after-rogamon": {
         "type": "Ruins",
-        "text": "Abandoned in year 0. Later rebuilt on the ruins of Old Winterglehn and soon rising to new greatness, fed by fertile soil, rich forests and the treasures still hidden in the ruins."
-      },
-      "unification": {
+        "text": "Abandoned in year 0. Later rebuilt on the ruins of Old Winterglehn and soon rising to new greatness, fed by fertile soil, rich forests and the treasures still hidden in the ruins.\n\nCentre of trade of the Expansion – and of crime and corruption. Theoretically anyone can get rich here; few do.",
         "facts": {
           "Ruler": "The Lord of Winterglehn (Arnil Fang)"
-        },
-        "text": "Centre of trade of the Expansion – and of crime and corruption. Theoretically anyone can get rich here; few do."
+        }
       },
       "present": {
         "type": "Ruins",
@@ -68,7 +65,7 @@
       "rogamons-reign": {
         "text": "Resisted the necromancer for a long time, but fell through a trick. Generations later a still youthful Rogamon entered its throne room and declared his rule over the whole kingdom."
       },
-      "unification": {
+      "after-rogamon": {
         "facts": {
           "Ruler": "The kings of Varland"
         }
@@ -92,7 +89,7 @@
       "rogamons-reign": {
         "text": "Spared at first for its crystals – then its entire population was wiped out."
       },
-      "unification": {
+      "after-rogamon": {
         "text": "Slowly resettled; crystal mining resumes."
       },
       "present": {
@@ -108,7 +105,7 @@
     "region": "Rotmark",
     "text": "A heavily fortified city at one of the very few crossings of the Blue Arm – the most important fortress on the continent.",
     "eras": {
-      "unification": {
+      "after-rogamon": {
         "text": "Tralian troops trying to take Steilfurt are crushed on the Plains of Decision; a truce follows."
       },
       "present": {
@@ -193,7 +190,7 @@
     "region": "Silbertal",
     "text": "A town on the shore of the Twins.",
     "eras": {
-      "unification": {
+      "after-rogamon": {
         "text": "After the short silver rush ran dry, the town emptied and became a ghost town."
       }
     }
@@ -203,7 +200,7 @@
     "region": "Atikun",
     "text": "Heavily fortified, imperial and extremely rich, with academies and a university.",
     "eras": {
-      "unification": {
+      "after-rogamon": {
         "text": "Capital of the young Tralian Empire."
       },
       "present": {

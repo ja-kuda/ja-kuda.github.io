@@ -36,11 +36,10 @@
     {
       "title": "History", "id": "history", "file": "history/00-timeline.md",
       "sections": [
-        { "title": "Before Rogamon",          "id": "before-rogamon", "file": "history/01-before-rogamon.md" },
-        { "title": "During Rogamon's reign",  "id": "rogamons-reign", "file": "history/02-rogamons-reign.md" },
-        { "title": "After Rogamon",           "id": "after-rogamon",  "file": "history/03-after-rogamon.md" },
-        { "title": "Unification",             "id": "unification",    "file": "history/04-unification.md" },
-        { "title": "Present",                 "id": "present",        "file": "history/05-present.md" }
+        { "title": "Before Rogamon (vKR)", "id": "before-rogamon", "file": "history/01-before-rogamon.md" },
+        { "title": "Rogamon's Reign",      "id": "rogamons-reign", "file": "history/02-rogamons-reign.md" },
+        { "title": "After Rogamon (nKR)",  "id": "after-rogamon",  "file": "history/03-after-rogamon.md" },
+        { "title": "Present",              "id": "present",        "file": "history/05-present.md" }
       ]
     },
     { "title": "Factions and Organisations", "id": "factions", "file": "factions/01-factions.md" },

@@ -9,9 +9,7 @@ One of the largest provinces of the great kingdom of Varland.
 
 After Rogamon's end a movement arose here against any use of magic "for the protection of the kingdom". It quickly grew into the **Tralian movement**.
 
-## Unification
-
-The Tralian movement became the foundation of the [Tralian Empire](lore.html?realm=tralian-empire#realms).
+**Later in this era:** The Tralian movement became the foundation of the [Tralian Empire](lore.html?realm=tralian-empire#realms).
 
 ## Present
 

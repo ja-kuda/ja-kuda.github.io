@@ -76,14 +76,17 @@
       const src = await realmTextCache[realm.id];
       const out = { general: "", byEra: {} };
       let cur = null;
+      // a heading counts as an era if it matches its id, name, short name or one of its "aliases" –
+      // text in brackets is ignored, so "## Before Rogamon" matches "Before Rogamon (vKR)"
+      const bare = (x) => A.slug(String(x || "").replace(/\([^)]*\)/g, ""));
       const match = (h) => {
-        const k = A.slug(h);
-        return L.eras.find((e) => [e.id, A.slug(e.name), A.slug(e.short || "")].includes(k));
+        const k = bare(h);
+        return L.eras.find((e) => [e.id, e.name, e.short, ...(e.aliases || [])].filter(Boolean).map(bare).includes(k));
       };
       src.replace(/\r\n?/g, "\n").split("\n").forEach((line) => {
         const m = line.match(/^##\s+(.+?)\s*$/);
         const era = m && match(m[1]);
-        if (era) { cur = era.id; out.byEra[cur] = ""; return; }
+        if (era) { cur = era.id; out.byEra[cur] = out.byEra[cur] || ""; return; }
         if (cur) out.byEra[cur] += line + "\n"; else out.general += line + "\n";
       });
       return out;

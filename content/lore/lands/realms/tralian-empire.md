@@ -5,9 +5,9 @@ Cities and regions are run by **regents**, often high-ranking officers; in remot
 
 Regions: **Atikun**, **Tralien** (Central Tralien, Stahlmark …), the **Tralian Wilderness** in the east (only nominally controlled), the **Border Fields** (dry steppe, smugglers and beasts – one of the few places in the Empire where mages are not actively hunted) and **South Parnast**.
 
-## Unification
+## After Rogamon
 
-After Tralien separated from Varland, the new Empire quickly conquered parts of the centre of the continent and became one of the three great powers. See [Unification](#unification) for the list of emperors.
+After Tralien separated from Varland, the new Empire quickly conquered parts of the centre of the continent and became one of the three great powers. See [After Rogamon](#after-rogamon) for the list of emperors.
 
 ## Present
 

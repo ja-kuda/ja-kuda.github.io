@@ -7,7 +7,7 @@ The crystals amplify any magic around them and make it unstable. To prevent acci
 
 People saw the potential of the crystals and began to mine them, with devastating accidents. To reduce the danger from new cracks in the ground, most of the city was built into the cliff. For some decades Beltheim was even the capital of Varland.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 Rogamon spared Beltheim at first – he wanted the crystals' energy and needed those who knew how to handle them. Once he had forged magic weapons and armour for his armies, he **wiped out the entire population** so the crystals could not be used against him.
 
@@ -15,9 +15,7 @@ Rogamon spared Beltheim at first – he wanted the crystals' energy and needed t
 
 *Placeholder.* What Belt was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
 
-## Unification
-
-Beltheim slowly recovered from the loss of its people and resumed the long work of mining the crystals – the right hand of the crown in governing the Partition.
+**Later in this era:** Beltheim slowly recovered from the loss of its people and resumed the long work of mining the crystals – the right hand of the crown in governing the Partition.
 
 ## Present
 

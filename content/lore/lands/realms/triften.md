@@ -10,7 +10,7 @@ The only larger town is **Rabenhorst**, on the source lake of the Endwasser, oft
 
 Triften once looked completely different: fertile fields, blooming meadows and rich fruit plantations.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 The land suffered under the dark magic and was robbed of its riches until only an empty husk remained. Misshapen, aggressive creatures made by King Rogamon spread across it. About twenty years before Rogamon's end, **Lord Rabenhorst** rebuilt a forgotten castle here as the secret base of the **Paladins of the Good**.
 

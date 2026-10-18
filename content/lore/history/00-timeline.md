@@ -1,6 +1,6 @@
 # History
 
-The history of Akudia reaches back to the age of the gods. Most people today only know its rough outline – and above all one name: **Rogamon**, the Necromancer King, whose fall marks the beginning of the calendar used in Varland (*nKR*, "after the King's reign").
+The history of Akudia reaches back to the age of the gods. Most people today only know its rough outline – and above all one name: **Rogamon**, the Necromancer King, whose fall marks the beginning of the calendar used in Varland: years are counted *vKR* ("before the King's reign") and *nKR* ("after the King's reign").
 
 > [!note]
 > The details of the timeline are still being reworked – the order of events is what counts.

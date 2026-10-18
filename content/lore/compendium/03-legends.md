@@ -99,7 +99,7 @@ In the centuries that followed, stories and rumours kept appearing of a warrior 
 > what the Thirteen Faithful did for us all.
 
 > [!secret] Hidden truth
-> What the ballad leaves out happened after the last blow – see [During Rogamon's reign](#rogamons-reign).
+> What the ballad leaves out happened after the last blow – see [Rogamon's Reign](#rogamons-reign).
 
 ### The End of the Dragons
 

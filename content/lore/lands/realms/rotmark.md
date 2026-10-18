@@ -13,9 +13,7 @@ Always contested: when humans arrived and drove out the other peoples, and later
 
 *Placeholder.* What Rotmark was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
 
-## Unification
-
-The main training ground and base of Varland's armies. The last war between the Empire and Varland ended here, when Tralian troops trying to cross the Blue Arm to take Steilfurt were crushed on the *Plains of Decision*. A truce followed; since then the Rotmark has been Varland's only land link to the rest of the continent.
+**Later in this era:** The main training ground and base of Varland's armies. The last war between the Empire and Varland ended here, when Tralian troops trying to cross the Blue Arm to take Steilfurt were crushed on the *Plains of Decision*. A truce followed; since then the Rotmark has been Varland's only land link to the rest of the continent.
 
 ## Present
 

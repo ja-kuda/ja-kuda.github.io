@@ -24,12 +24,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Altenbrunn in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Altenbrunn in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Lake",
@@ -63,12 +61,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Altland in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Altland in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Province",
@@ -102,12 +98,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Belt in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Belt in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Inquisition territory",
@@ -141,12 +135,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Champs in this era."
-        },
-        "unification": {
-          "status": "Imperial province",
-          "partOf": "tralian-empire",
-          "summary": "Part of the young Tralian Empire, where all magic is suppressed."
+          "summary": "*Placeholder* – one or two sentences about Champs in this era.",
+          "facts": {
+            "Later in this era": "Becomes part of the Tralian Empire"
+          }
         },
         "present": {
           "status": "Imperial city",
@@ -192,12 +184,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Essrath in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Essrath in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Lordship",
@@ -231,12 +221,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Hammerfall in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Hammerfall in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Royal heartland",
@@ -270,12 +258,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Hexenwald in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Hexenwald in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Forest",
@@ -326,12 +312,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Riewenfall in this era."
-        },
-        "unification": {
-          "status": "Imperial province",
-          "partOf": "tralian-empire",
-          "summary": "Part of the young Tralian Empire, where all magic is suppressed."
+          "summary": "*Placeholder* – one or two sentences about Riewenfall in this era.",
+          "facts": {
+            "Later in this era": "Becomes part of the Tralian Empire"
+          }
         },
         "present": {
           "status": "Imperial region",
@@ -365,12 +349,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Rotmark in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Rotmark in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "March",
@@ -404,12 +386,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Rybben in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Rybben in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Ruins",
@@ -443,12 +423,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Silbertal in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Silbertal in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Province",
@@ -482,12 +460,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Speermark in this era."
-        },
-        "unification": {
-          "status": "Imperial province",
-          "partOf": "tralian-empire",
-          "summary": "Part of the young Tralian Empire, where all magic is suppressed."
+          "summary": "*Placeholder* – one or two sentences about Speermark in this era.",
+          "facts": {
+            "Later in this era": "Becomes part of the Tralian Empire"
+          }
         },
         "present": {
           "status": "Imperial region",
@@ -521,12 +497,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Stillmarsch in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Stillmarsch in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Marsh",
@@ -560,12 +534,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Tralien in this era."
-        },
-        "unification": {
-          "status": "Imperial province",
-          "partOf": "tralian-empire",
-          "summary": "Part of the young Tralian Empire, where all magic is suppressed."
+          "summary": "*Placeholder* – one or two sentences about Tralien in this era.",
+          "facts": {
+            "Later in this era": "Becomes part of the Tralian Empire"
+          }
         },
         "present": {
           "status": "Imperial heartland",
@@ -599,12 +571,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Triften in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Triften in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "Province",
@@ -638,12 +608,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Weißstein in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Weißstein in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "City province",
@@ -677,12 +645,10 @@
           "ruler": "",
           "capital": "",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Westkliff in this era."
-        },
-        "unification": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Part of the reunited Kingdom of Varland."
+          "summary": "*Placeholder* – one or two sentences about Westkliff in this era.",
+          "facts": {
+            "Later in this era": "Joins the Kingdom of Varland (around year 90)"
+          }
         },
         "present": {
           "status": "City province",
@@ -710,11 +676,11 @@
           "partOf": "rogamons-realm",
           "summary": "Overrun by Rogamon's undead armies."
         },
-        "unification": {
-          "status": "Kingdom",
+        "after-rogamon": {
+          "status": "Kingdom (from around year 90)",
           "ruler": "",
           "capital": "Hammerfall",
-          "summary": "Several northern provinces join together; Varland has a king again."
+          "summary": "Several northern provinces join together around year 90 and Varland has a king again; the kingdom as it is known today takes shape."
         },
         "present": {
           "status": "Shrinking kingdom",
@@ -742,11 +708,10 @@
         },
         "after-rogamon": {
           "status": "Alliance of city-states",
-          "summary": "The great cities fight over the masterless provinces; order returns within about twenty years."
-        },
-        "unification": {
-          "status": "Alliance of city-states",
-          "summary": "Cedes the Border Fields to the Tralian Empire in exchange for peace."
+          "summary": "The great cities fight over the masterless provinces; order returns within about twenty years.",
+          "facts": {
+            "Later in this era": "Cedes the Border Fields to the Tralian Empire in exchange for peace."
+          }
         },
         "present": {
           "status": "Alliance of city-states",
@@ -775,11 +740,11 @@
       "coat": "content/images/coats/tralien.svg",
       "file": "lands/realms/tralian-empire.md",
       "eras": {
-        "unification": {
-          "status": "Empire",
+        "after-rogamon": {
+          "status": "Empire (from around year 20)",
           "ruler": "Emperors from Idaf the Red onwards",
           "capital": "Goldzahn",
-          "summary": "Born from the anti-magic Tralian movement; quickly conquers parts of the centre of the continent."
+          "summary": "Born from the anti-magic Tralian movement around year 20; quickly conquers parts of the centre of the continent."
         },
         "present": {
           "status": "Empire",

@@ -3,7 +3,7 @@ A harbour city on the southern west coast, built where the cliffs of the norther
 
 About 25,000 people live in the city and its lands – mostly soldiers and fighters, merchants and craftsmen. Every citizen is ready to take up arms. Debilor and Norvos have the most followers; the great temple of Norvos stands in the city centre.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 Westkliff was attacked again and again and slowly worn down and destroyed.
 
@@ -11,9 +11,7 @@ Westkliff was attacked again and again and slowly worn down and destroyed.
 
 *Placeholder.* What Westkliff was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
 
-## Unification
-
-Rebuilt for its good position and the need for new ships, Westkliff only became important after the founding of the Tralian Empire – as a military base and the first line of defence against attacks from the sea. Since then it has been expanded and garrisoned more and more.
+**Later in this era:** Rebuilt for its good position and the need for new ships, Westkliff only became important after the founding of the Tralian Empire – as a military base and the first line of defence against attacks from the sea. Since then it has been expanded and garrisoned more and more.
 
 ## Present
 

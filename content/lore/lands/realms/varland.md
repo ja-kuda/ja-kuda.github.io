@@ -3,13 +3,13 @@ The kingdom of the north, once the greatest realm of the continent. Shortly afte
 
 ## Before Rogamon
 
-A great kingdom ruled by the arcane nobility, for centuries one of the two great powers of the continent next to Atania. See [Before Rogamon](#before-rogamon).
+A great kingdom ruled by the arcane nobility, for centuries one of the two great powers of the continent next to Atania. See [Before Rogamon (vKR)](#before-rogamon).
 
-## During Rogamon's reign
+## Rogamon's Reign
 
-Conquered by the Necromancer King – see [During Rogamon's reign](#rogamons-reign).
+Conquered by the Necromancer King – see [Rogamon's Reign](#rogamons-reign).
 
-## Unification
+## After Rogamon
 
 Several northern provinces join together and Varland has a king again; the kingdom as it is known today takes shape. Its border wars with the Tralian Empire end on the Plains of Decision.
 

@@ -5,7 +5,6 @@
   "icon": "assets/img/icons/system.png",
   "intro": "The rules of Ambition – checks, characters, magic and everything in between.",
   "chapters": [
-    { "title": "Key terms", "id": "key-terms", "file": "01-key-terms.md" },
     {
       "title": "Characters", "id": "characters", "file": "02-characters.md",
       "sections": [
@@ -44,6 +43,7 @@
     { "title": "Inventory", "id": "inventory", "file": "06-inventory.md" },
     { "title": "Death",     "id": "death",     "file": "07-death.md" },
     { "title": "Crafting",  "id": "crafting",  "file": "08-crafting.md" },
+    { "title": "Key terms", "id": "key-terms", "file": "01-key-terms.md" },
     { "title": "Patch notes", "id": "patch-notes", "file": "09-patch-notes.md" }
   ]
 }

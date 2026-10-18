@@ -163,7 +163,7 @@ Useful boxes for lore pages:
 
 ### Eras, kingdoms and provinces
 
-- `content/lore/eras.json` – the eras in order (`id`, `name`, `short` label for the timeline, `period`, `summary`, `chapter` = History section). `default` is the era shown first. Optional `mapLayers` switches map layers when an era is selected, e.g. `{"_11_Borders_Unification": true, "_07_ProvincesOutlines": false}` – so you can draw borders per era later.
+- `content/lore/eras.json` – the eras in order (`id`, `name`, `short` label for the timeline, `period`, `summary`, `chapter` = History section). `default` is the era shown first. Optional `mapLayers` switches map layers when an era is selected, e.g. `{"_11_Borders_Present": true, "_07_ProvincesOutlines": false}` – so you can draw borders per era later.
 - `content/lore/realms.json` – every kingdom/province. A realm only appears in an era if it has an entry under `eras`:
 
 ```json
@@ -171,12 +171,12 @@ Useful boxes for lore pages:
   "coat": "content/images/coats/rotmark.svg", "file": "lands/realms/rotmark.md",
   "eras": {
     "after-rogamon": { "status": "Independent kingdom", "ruler": "…", "capital": "…", "summary": "…" },
-    "unification":   { "status": "Duchy", "partOf": "tralien" }
+    "present":       { "status": "Duchy", "partOf": "red-white-alliance" }
   } }
 ```
 
   `partOf` (the id of another realm in the same era) groups realms – e.g. provinces that unified into one kingdom. Extra rows: `"facts": {"Army": "…"}`. A new kingdom that doesn't exist on the map simply gets no `map` value.
-- `content/lore/lands/realms/<id>.md` – the long texts. Text before the first heading is shown in every era; then one `## Era name` heading per era.
+- `content/lore/lands/realms/<id>.md` – the long texts. Text before the first heading is shown in every era; then one `## Era name` heading per era (text in brackets can be left out, e.g. `## After Rogamon` for "After Rogamon (nKR)").
 - The coats of arms in `content/images/coats/` were cut out of the map's Symbols layer. Replace a file to change a coat, or add a new one for a new realm.
 - On the map, the era chosen in the dropdown (shared with the Lore pages) decides which information the info window shows for provinces and symbols.
 
@@ -207,10 +207,10 @@ Save the symbol picture under exactly that name in `content/images/gods/` (PNG w
 ```json
 { "id": "_07_ProvincesOutlines", "label": "Province borders", "visible": true },
 { "id": "_11_Borders_Present",   "label": "Province borders", "visible": true, "eras": ["present"] },
-{ "id": "_12_Borders_Unification","label": "Province borders", "visible": true, "eras": ["unification"] }
+{ "id": "_12_Borders_After",      "label": "Province borders", "visible": true, "eras": ["after-rogamon"] }
 ```
 
-  Layers with the same label are one switch. In an era that has its own layer, that layer is shown; in all other eras the layer without `"eras"` is used. This works for any layer – e.g. a clickable `"items": "areas"` layer with the provinces of one era (`"label": "Provinces"`). Era ids: `before-rogamon`, `rogamons-reign`, `after-rogamon`, `unification`, `present` (see `content/lore/eras.json`).
+  Layers with the same label are one switch. In an era that has its own layer, that layer is shown; in all other eras the layer without `"eras"` is used. This works for any layer – e.g. a clickable `"items": "areas"` layer with the provinces of one era (`"label": "Provinces"`). Era ids: `before-rogamon`, `rogamons-reign`, `after-rogamon`, `present` (see `content/lore/eras.json`).
 - **Descriptions:** `locations.json`. The key must be **exactly the name as written on the map**:
 
 ```json

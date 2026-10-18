@@ -7,7 +7,7 @@ Its city-states employ the **Gold Chains**, a league of mercenary companies serv
 
 After centuries of fighting, the **first accord** divided the continent between Varland and Atania and settled Atania's form of government. Later the **second accord** let the grown city-states make their own decisions, binding them to work together – making Atania the Free Alliance.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 Rogamon invaded through the Border Fields and began to subdue the Alliance – but his rule left Atania far less devastated than Varland.
 
@@ -15,9 +15,7 @@ Rogamon invaded through the Border Fields and began to subdue the Alliance – b
 
 Soon the great cities fought over the masterless provinces. Within about twenty years the old chaos of city lords, nobles and militias had returned.
 
-## Unification
-
-The Tralian Empire threatened Atania's borders and occupied parts of the Border Fields. Atania ceded them in exchange for the promise that the Empire would advance no further south. Later South Parnast was conquered by Emperor Tarmak.
+**Later in this era:** The Tralian Empire threatened Atania's borders and occupied parts of the Border Fields. Atania ceded them in exchange for the promise that the Empire would advance no further south. Later South Parnast was conquered by Emperor Tarmak.
 
 ## Present
 

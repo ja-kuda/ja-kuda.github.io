@@ -9,7 +9,7 @@ The Partition is also the seat of Varland's **necromancer hunters**, founded aft
 
 Hammerfall was founded at the same time as Beltheim and soon became the capital of the young kingdom. The two cities quarrelled over which should be the capital – for some decades it was even Beltheim – until a later king made Hammerfall the seat of the crown again.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 Hammerfall resisted the necromancer and his armies for a long time, but finally fell through a trick of the new ruler. After its fall the remaining great centres of resistance broke.
 

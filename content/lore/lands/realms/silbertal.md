@@ -7,7 +7,7 @@ The deeper woods are haunted by magical plant creatures and – legend says – 
 
 Named for its many silver deposits, the valley drew determined merchants and ambitious miners.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 Scene of several rebellions, all crushed. Rogamon occupied most of the valley and carried as much silver as possible to Winterglehn. Ruined fortresses and abandoned villages remain to this day.
 
@@ -15,9 +15,7 @@ Scene of several rebellions, all crushed. Rogamon occupied most of the valley an
 
 *Placeholder.* What Silbertal was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
 
-## Unification
-
-The valley recovered only slowly and its mines seemed to fail. New mines brought a short silver rush – then it ran dry, and a crisis followed. The town of **Kamrum** became a ghost town on the shore of the Twins, **Kilrum** lost most of its people, and rule fell back to the crown.
+**Later in this era:** The valley recovered only slowly and its mines seemed to fail. New mines brought a short silver rush – then it ran dry, and a crisis followed. The town of **Kamrum** became a ghost town on the shore of the Twins, **Kilrum** lost most of its people, and rule fell back to the crown.
 
 ## Present
 

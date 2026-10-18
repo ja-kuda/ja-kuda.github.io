@@ -35,4 +35,5 @@ Add a row to add a term – keep the list alphabetical.
 | **Tralian Empire** | The empire in the centre of the continent, ruled by Emperor Suta |
 | **The Veil** | Aestor's shield between the world and Limbo |
 | **Varland** | The old great kingdom of the north, capital Hammerfall |
+| **vKR** | "Before the King's reign" – years before Rogamon's fall in Varland's calendar |
 | **Weave** | The mass of energies and threads exposed when the Null tore open; the fabric of reality is woven from it – see [The fabric of reality](#fabric) |

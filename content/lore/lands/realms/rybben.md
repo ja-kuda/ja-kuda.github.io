@@ -5,7 +5,7 @@ The ruins of **Alt-Rybben**, once a training ground for soldiers and mages.
 
 One of the most important cities of the great kingdom of Varland, and seat of a small order of paladins.
 
-## During Rogamon's reign
+## Rogamon's Reign
 
 Depopulated and destroyed by Rogamon's armies to stop the training of mages and soldiers. The paladin order was wiped out completely – until Lord Rabenhorst rebuilt it more than a hundred years later in the neighbouring town of Rabenhorst.
 

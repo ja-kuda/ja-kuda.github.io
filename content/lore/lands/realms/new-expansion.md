@@ -7,7 +7,7 @@ An independent realm made of the former lands of **Silbertal** and the **Expansi
 
 The Expansion was born from the wish of some powerful guilds in north-west Varland for more freedom and self-government; a revolt led by mercenary armies began a larger revolution of the young kingdom.
 
-## Unification
+## After Rogamon
 
 The Expansion was ruled by the lord of Winterglehn and was one of the regions most loyal to the royal house.
 

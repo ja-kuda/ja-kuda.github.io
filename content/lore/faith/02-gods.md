@@ -115,7 +115,7 @@ Inferna is the goddess of the Orvosa since she freed them from Orvos. She stands
 ### The Blind Seer – Rebirth, Resurrection
 <img class="symbol" src="content/images/gods/blind-seer.png" alt="Symbol of The Blind Seer">
 
-A dark god, banished by Aestor. During Rogamon's war he whispered to King Sigmar of Norvall and nearly turned Rogamon himself – see [During Rogamon's reign](#rogamons-reign).
+A dark god, banished by Aestor. During Rogamon's war he whispered to King Sigmar of Norvall and nearly turned Rogamon himself – see [Rogamon's Reign](#rogamons-reign).
 
 ### Corvilas – Corruption
 <img class="symbol" src="content/images/gods/corvilas.png" alt="Symbol of Corvilas">
