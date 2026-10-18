@@ -1,0 +1,172 @@
+{
+  "_help": "The arcane elements. 'image' is the symbol shown on the site.",
+  "elements": [
+    {
+      "id": "fire",
+      "name": "Fire",
+      "image": "content/images/elements/fire.png",
+      "subElements": [
+        {
+          "name": "Flame",
+          "description": "Focuses purely on generating and manipulating open flames, heatwaves and explosive bursts. Flame spells are quick, intense and often destructive."
+        },
+        {
+          "name": "Ember",
+          "description": "Deals with smoldering, slow-burning fire, ash and sparks. Ember magic can be used to ignite materials subtly, create enduring fire wards, or even burn without visible flames."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "water",
+      "name": "Water",
+      "image": "content/images/elements/water.png",
+      "subElements": [
+        {
+          "name": "Ice",
+          "description": "Specializes in freezing, solidifying and forming ice barriers or structures. Ice spells allow for control over cold environments and freezing effects."
+        },
+        {
+          "name": "Fluid",
+          "description": "Encompasses control over liquid water, including shaping, purifying and even altering water's density. Fluid magic is versatile, with applications in healing, movement and adapting water to different forms."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "air",
+      "name": "Air",
+      "image": "content/images/elements/air.png",
+      "subElements": [
+        {
+          "name": "Wind",
+          "description": "Focuses on creating gusts, controlling air pressure and directing air currents. Wind spells can grant enhanced speed, push enemies away or create protective barriers."
+        },
+        {
+          "name": "Storm",
+          "description": "Specializes in summoning lightning, thunder and chaotic weather effects. Storm magic taps into raw atmospheric energy, allowing for lightning attacks or even weather manipulation on a small scale."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "earth",
+      "name": "Earth",
+      "image": "content/images/elements/earth.png",
+      "subElements": [
+        {
+          "name": "Stone",
+          "description": "Concentrates on solid earth materials like rocks, gemstones and soil. Stone magic is stable, with uses in creating walls, barriers or even manipulating landscapes."
+        },
+        {
+          "name": "Metal",
+          "description": "Dedicated to controlling and shaping metals, whether for crafting weapons or armor, magnetic manipulation or enhancing equipment."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "essence",
+      "name": "Essence",
+      "image": "content/images/elements/essence.png",
+      "subElements": [
+        {
+          "name": "Growth",
+          "description": "Emphasizes plants, vegetation, animals and the nurturing side of nature. Growth spells allow for summoning plants or animals, accelerating growth, using vines for binding or defense, enhancing physical traits or taking on animal characteristics."
+        },
+        {
+          "name": "Decay",
+          "description": "Focuses on the other side of nature, the rotting destruction. Still handles mostly plants and animals/creatures, but uses energy to slow and damage instead of building and strengthening."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "mind",
+      "name": "Mind",
+      "image": "content/images/elements/mind.png",
+      "subElements": [
+        {
+          "name": "Control",
+          "description": "Specializes in manipulating the thoughts and actions of others, including charm spells, mind control and forced perception changes."
+        },
+        {
+          "name": "Illusion",
+          "description": "Deals with shadows, illusions, perception and the creation of almost, but not quite tangible images."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "energy",
+      "name": "Energy",
+      "image": "content/images/elements/energy.png",
+      "subElements": [
+        {
+          "name": "Radiance",
+          "description": "Governs pure light energy, including blinding flashes, intense beams and light-based attacks, as well as electricity to an extent. Radiance can be used to illuminate, purify, scorch or fuel."
+        },
+        {
+          "name": "Force",
+          "description": "Focuses on kinetic energy and the forces that result from it. Explosions, pressure and increases or decreases of power."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "entropy",
+      "name": "Entropy",
+      "image": "content/images/elements/entropy.png",
+      "subElements": [
+        {
+          "name": "Shadow",
+          "description": "Everything shadow."
+        },
+        {
+          "name": "Dissolution",
+          "description": "Negation of effects and things. Destruction – a black hole, for example – the absence of matter."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "time",
+      "name": "Time",
+      "image": "content/images/elements/time.png",
+      "subElements": [
+        {
+          "name": "Chrono",
+          "description": "Concentrates on manipulating the flow of time, such as speeding it up or slowing it down. Chrono spells allow for haste, slow effects or rapid aging/decay."
+        },
+        {
+          "name": "Echo",
+          "description": "Deals with events from the past or the future, allowing the caster to observe or even interact with echoes of history. Echo magic can uncover secrets, replay moments or recreate temporary fragments of the past."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "space",
+      "name": "Space",
+      "image": "content/images/elements/space.png",
+      "subElements": [
+        {
+          "name": "Link",
+          "description": "Centers on creating pathways or \"doors\" between places. Portal spells enable teleportation, gates or passage through barriers."
+        },
+        {
+          "name": "Distortion",
+          "description": "Manipulates spatial perception, allowing the caster to warp distances, distort sizes or create mirages that confuse the sense of space."
+        }
+      ],
+      "note": ""
+    },
+    {
+      "id": "life",
+      "name": "Life",
+      "image": "content/images/elements/life.png",
+      "subElements": [],
+      "note": "This element has no sub-elements. It encompasses all forms of interacting with souls, the dead and undead, the creation of undead, the manipulation of life force and so on. This element only works in conjunction with the right talents when creating a character, since it represents another, newer form of arcane magic."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "_help": "Order here = order on the website. 'sections' are sub-chapters, 'file' is relative to content/lore/. Recommended reading order: concrete (places, peoples) first, deep lore (fabric, Null) later.",
+  "title": "Lore",
+  "eyebrow": "The world",
+  "icon": "assets/img/icons/lore.png",
+  "intro": "Akudia – its peoples, realms, gods, magic and history. Start with the welcome page and go as deep as you like.",
+  "chapters": [
+    { "title": "Welcome to Akudia", "id": "welcome", "file": "world/01-welcome.md", "image": "content/images/akudia-overview.jpg" },
+    { "title": "Peoples", "id": "peoples", "file": "peoples/01-peoples.md" },
+    {
+      "title": "Lands and Realms", "id": "realms", "file": "lands/01-lands-and-realms.md",
+      "sections": [
+        { "title": "Geography", "id": "geography", "file": "lands/02-geography.md" }
+      ]
+    },
+    {
+      "title": "Faiths and Gods", "id": "faith", "file": "faith/01-faiths.md",
+      "sections": [
+        { "title": "The gods and their aspects", "id": "gods", "file": "faith/02-gods.md" },
+        { "title": "The Ascension", "id": "ascension", "file": "faith/03-ascension.md" }
+      ]
+    },
+    {
+      "title": "Magic and the Fabric of Reality", "id": "magic", "file": "magic/01-magic.md",
+      "sections": [
+        { "title": "Magic in everyday life", "id": "everyday-magic", "file": "magic/02-everyday.md" },
+        { "title": "The fabric of reality", "id": "fabric", "file": "magic/03-fabric.md" },
+        { "title": "Threads and weaving", "id": "weaving", "file": "magic/04-weaving.md" },
+        { "title": "The elements", "id": "elements", "file": "magic/05-elements.md" },
+        { "title": "Static magic", "id": "static-magic", "file": "magic/06-static-magic.md" },
+        { "title": "Necromancy and the Life element", "id": "necromancy", "file": "magic/07-necromancy.md" },
+        { "title": "The Null", "id": "null", "file": "magic/08-null.md" },
+        { "title": "The Rifts", "id": "rifts", "file": "magic/09-rifts.md" }
+      ]
+    },
+    {
+      "title": "History", "id": "history", "file": "history/00-timeline.md",
+      "sections": [
+        { "title": "Before Rogamon",          "id": "before-rogamon", "file": "history/01-before-rogamon.md" },
+        { "title": "During Rogamon's reign",  "id": "rogamons-reign", "file": "history/02-rogamons-reign.md" },
+        { "title": "After Rogamon",           "id": "after-rogamon",  "file": "history/03-after-rogamon.md" },
+        { "title": "Unification",             "id": "unification",    "file": "history/04-unification.md" },
+        { "title": "Present",                 "id": "present",        "file": "history/05-present.md" }
+      ]
+    },
+    { "title": "Factions and Organisations", "id": "factions", "file": "factions/01-factions.md" },
+    {
+      "title": "Compendium", "id": "compendium", "file": "compendium/01-compendium.md",
+      "sections": [
+        { "title": "Glossary", "id": "glossary", "file": "compendium/02-glossary.md" },
+        { "title": "Legends and songs", "id": "legends", "file": "compendium/03-legends.md" }
+      ]
+    }
+  ]
+}

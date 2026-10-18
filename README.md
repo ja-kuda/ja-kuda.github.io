@@ -1,0 +1,244 @@
+# Ambition – Website
+
+Hub for the Ambition pen & paper RPG: **System**, **Characters**, **Map** and **Lore**.
+
+The site is plain HTML/CSS/JavaScript – no build step, no frameworks. It runs on GitHub Pages (or any web host) as it is.
+
+---
+
+## Viewing the site on your computer
+
+Browsers don't allow pages opened straight from disk (`file://…`) to load the content files.
+Double-click **`start-local-server.bat`** (needs Python – https://python.org) and open <http://localhost:8000>.
+Alternatives: the "Live Server" extension in VS Code, or `npx serve`.
+
+## Publishing on GitHub Pages
+
+Copy everything in this folder into your `ja-kuda.github.io` repository (replacing the old files) and push. The empty `.nojekyll` file must stay.
+
+---
+
+## Where everything lives
+
+```
+index.html, system.html, characters.html, map.html, lore.html   ← page shells (rarely need editing)
+assets/        ← design: css, javascript, icons, crystal dividers, element symbols
+content/       ← EVERYTHING YOU WRITE – edit only here
+  site.json            home page texts, tiles, news, footer, "work in progress" note
+  home.md              "What is Ambition?" box on the home page
+  impressum.md
+  system/              rules: chapters.json + one .md file per chapter
+  lore/                world: chapters.json + one .md file per chapter
+  characters/          builder.json, skills.json, ancestries.json, ambitions.json, talents.json
+  map/                 map.json, locations.json, Akudia_full_1.svg
+  images/              put your own pictures here
+```
+
+---
+
+## Writing texts (Markdown)
+
+All chapter texts are Markdown files. Quick reference:
+
+| You write | You get |
+|---|---|
+| `# Title`, `## Section`, `### Sub` | headings |
+| `**bold**`, `*italic*` | **bold**, *italic* |
+| `[System](system.html#checks)` | a link (`#checks` jumps to that chapter) |
+| `![Alt text](content/images/pic.png "Caption")` | an image with caption |
+| `- item` / `1. item` | lists |
+| `---` | a crystal divider (cycles through the 13 crystal images) |
+| `\| a \| b \|` + `\|---\|---\|` | a table |
+
+**Boxes** (callouts):
+
+```
+> [!example]
+> Damo the thief jumps across the gap…
+
+> [!rule] Making a check
+> Roll dice equal to your skill…
+
+> [!note]    > [!gm]    > [!tip]
+```
+The text after `[!example]` becomes the box title (optional).
+
+You can also write plain HTML where Markdown isn't enough.
+
+## Adding / reordering chapters (System & Lore)
+
+Open `content/system/chapters.json` (or `content/lore/…`). Each entry points to a Markdown file:
+
+```json
+{ "title": "Checks", "file": "02-1-checks.md" }
+```
+
+- Order in the file = order on the website.
+- Sub-chapters go into `"sections": [ … ]` of a chapter.
+- Optional: `"id"` (the link name after `#`, otherwise made from the title) and `"image"` (a cover picture shown on top of the chapter).
+- The file names don't matter to the website – the numbers are just to keep the folder tidy.
+
+## Swapping images
+
+Put a new image into `content/images/` and reference it as `content/images/your-file.png`.
+To replace an existing image, simply save a new file under the **same name** – nothing else needs to change.
+The section icons (System / Characters / Map / Lore) are in `assets/img/icons/`.
+
+## Home page
+
+Everything on the home page is in `content/site.json`: title, tagline, intro, the four tiles, the news list and the footer.
+Delete the `"workInProgressNote"` line to remove the yellow note on every page.
+
+---
+
+## Characters (rules data)
+
+The character builder, the talent builder **and** the System pages all read the same files in `content/characters/` – change a talent once and it changes everywhere.
+
+| File | Contains |
+|---|---|
+| `builder.json` | the creation rules: starting resolve, skill start value (1), skill points (15), max skill (5), how many skills may drop to 0, number of traits (3), talent picks (5), max static spells (3), thread base (9) – plus the title and intro text of every builder step |
+| `skills.json` | the skills with `group` (physical / mental / social), description and examples |
+| `ancestries.json` | each ancestry: `health` ("3-2-1"), `traits`, `talents` (names, granted automatically), `notes`, `lore`, optional `image` |
+| `ambitions.json` | the example ambitions |
+| `archetypes.json` | archetype names and descriptions (`id` = the `group` used in talents.json) |
+| `talents.json` | the categories (ancestry, archetype, aspect, static) and **all talents** |
+
+A talent looks like this:
+
+```json
+{ "name": "Shadow jumper", "category": "archetype", "group": "assassin",
+  "uses": "4", "cost": "", "prerequisites": "Shadow stalker", "effect": "Teleport from shadow to shadow" }
+```
+
+- `category`: `ancestry`, `archetype`, `aspect` or `static`
+- `group`: the ancestry id, archetype id, god name or spell group (e.g. `star sign`)
+- `prerequisites` (separate several with commas) are understood automatically when written as
+  - a talent name – `Shadow stalker` (or `Inspire Talent`)
+  - a skill – `Lore +3` or `lore 3+`
+  - an ancestry – `Orvosa ancestry`
+  - anything else (e.g. `Choose a weapon`) is shown as a note and not checked.
+- Talents with an empty `effect` are marked as unfinished.
+- Ancestry talents never count against the 5 talent picks.
+
+### Talent builder
+
+`characters.html#talents` – browse all talents by category and group, add them to the current character, and see what each talent requires and unlocks. Adding a talent automatically adds its missing talent prerequisites; removing one removes the talents that depend on it. Link straight to a talent with `characters.html?focus=<id>#talents` or to a group with `characters.html?group=assassin#talents`.
+
+### Showing data inside chapters
+
+A Markdown chapter can show data from the json files instead of copying it. Put one of these lines on its own (with empty lines around it):
+
+```html
+<div data-embed="talents" data-category="archetype"></div>
+<div data-embed="talents" data-category="ancestry" data-group="hinan"></div>
+<div data-embed="ancestries"></div>
+<div data-embed="skills"></div>
+<div data-embed="archetypes"></div>
+<div data-embed="ambitions"></div>
+<div data-embed="elements"></div>            (add data-compact="true" for symbols only)
+```
+
+### Elements
+
+`content/system/elements.json` lists the elements with their sub-elements; the symbols are in `content/images/elements/` (transparent PNGs, drawn for a light background, so the site shows them on a pale disc). The full wheel is `content/images/element-wheel.png`.
+
+---
+
+## Lore
+
+`content/lore/chapters.json` lists the Lore chapters; the files are sorted into folders (`world/`, `peoples/`, `lands/`, `faith/`, `magic/`, `history/`, `factions/`, `compendium/`). The order goes from concrete (places, peoples) to deep lore (the fabric of reality, the Null) so new readers aren't overwhelmed.
+
+Useful boxes for lore pages:
+
+```
+> [!glance] At a glance          ← fact box, put a two-column table inside
+> | | |
+> |---|---|
+> | **Capital** | … |
+
+> [!secret] Hidden truth         ← closed until the reader clicks it (GM secrets, spoilers)
+> …
+```
+
+### Eras, kingdoms and provinces
+
+- `content/lore/eras.json` – the eras in order (`id`, `name`, `short` label for the timeline, `period`, `summary`, `chapter` = History section). `default` is the era shown first. Optional `mapLayers` switches map layers when an era is selected, e.g. `{"_11_Borders_Unification": true, "_07_ProvincesOutlines": false}` – so you can draw borders per era later.
+- `content/lore/realms.json` – every kingdom/province. A realm only appears in an era if it has an entry under `eras`:
+
+```json
+{ "id": "rotmark", "name": "Rotmark", "kind": "Province", "map": "Rotmark",
+  "coat": "content/images/coats/rotmark.svg", "file": "lands/realms/rotmark.md",
+  "eras": {
+    "after-rogamon": { "status": "Independent kingdom", "ruler": "…", "capital": "…", "summary": "…" },
+    "unification":   { "status": "Duchy", "partOf": "tralien" }
+  } }
+```
+
+  `partOf` (the id of another realm in the same era) groups realms – e.g. provinces that unified into one kingdom. Extra rows: `"facts": {"Army": "…"}`. A new kingdom that doesn't exist on the map simply gets no `map` value.
+- `content/lore/lands/realms/<id>.md` – the long texts. Text before the first heading is shown in every era; then one `## Era name` heading per era.
+- The coats of arms in `content/images/coats/` were cut out of the map's Symbols layer. Replace a file to change a coat, or add a new one for a new realm.
+- On the map, the era chosen in the dropdown (shared with the Lore pages) decides which information the info window shows for provinces and symbols.
+
+Embeds for lore pages: `<div data-embed="realms">`, `<div data-embed="eras">`, `<div data-embed="era" data-era="present">`, `<div data-embed="gods">`.
+`<div data-embed="ancestries" data-lore="true">` shows the peoples with only their name, picture and lore (from the `lore` field in `content/characters/ancestries.json`) – no rules.
+
+### God symbols
+
+Each god in `content/lore/faith/02-gods.md` has a line like
+
+```html
+<img class="symbol" src="content/images/gods/debilor.png" alt="Symbol of Debilor">
+```
+
+Save the symbol picture under exactly that name in `content/images/gods/` (PNG with a transparent background works best) and it appears next to the god's description. Until then a small ◆ placeholder is shown. Copy the line to give a new god a symbol.
+
+---
+
+## Map
+
+- **Replace the map:** save the new SVG over `content/map/Akudia_full_1.svg` (or change `"svg"` in `map.json`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
+- **Layers:** `map.json` → `layers`. `id` is the layer id in the SVG (Affinity exports `08_Locations` as `_08_Locations`), `label` is the shown name, `visible` the default, and `type` makes the names in that layer clickable.
+- **Clickable shapes (symbols, provinces):** add `"items": "shapes"` (things drawn on top, like coats of arms) or `"items": "areas"` (large areas like provinces – names and symbols on top of them stay clickable) to a layer in `map.json`. Every object directly inside that layer becomes clickable, with hover highlight and tooltip. Its name is the object's ID (Inkscape: Object properties → ID; Affinity: the layer/object name). Objects without a name can borrow one with `"nameFrom"`: `"nameFrom": "_09_Symbols"` gives each province the name of the symbol lying inside it. A province and its symbol then share one entry in `locations.json`.
+- **Start hidden:** `"visible": false` on a layer.
+- **Eras on the map:** the **Era** box at the top sets the time period for the whole map (shared with the Lore pages). It decides which border layers are shown and which era the info window opens with. Inside the info window the era buttons switch only that place's view – the map keeps its era. A small dot marks the map's era; buttons with content are brighter.
+- **Borders per era:** draw the borders for an era as a new layer in the SVG (e.g. `11_Borders_Present`) and add it to `map.json` with the **same label** as the normal borders and an `"eras"` list:
+
+```json
+{ "id": "_07_ProvincesOutlines", "label": "Province borders", "visible": true },
+{ "id": "_11_Borders_Present",   "label": "Province borders", "visible": true, "eras": ["present"] },
+{ "id": "_12_Borders_Unification","label": "Province borders", "visible": true, "eras": ["unification"] }
+```
+
+  Layers with the same label are one switch. In an era that has its own layer, that layer is shown; in all other eras the layer without `"eras"` is used. This works for any layer – e.g. a clickable `"items": "areas"` layer with the provinces of one era (`"label": "Provinces"`). Era ids: `before-rogamon`, `rogamons-reign`, `after-rogamon`, `unification`, `present` (see `content/lore/eras.json`).
+- **Descriptions:** `locations.json`. The key must be **exactly the name as written on the map**:
+
+```json
+"Toralt": {
+  "type": "City",
+  "region": "Tralia",
+  "facts": { "Population": "12,000" },
+  "image": "content/images/toralt.jpg",
+  "text": "Markdown text …",
+  "lore": "lore.html#world"
+}
+```
+All fields are optional. Places without an entry show a "No description yet" hint with the exact name to use.
+
+Information for a single era goes under `"eras"` – the same fields again, per era id. The general fields are shown in every era; the era part only when that era is selected:
+
+```json
+"Winterglehn": {
+  "type": "City",
+  "text": "The largest city of the continent …",
+  "eras": {
+    "rogamons-reign": { "type": "Capital", "facts": { "Ruler": "King Rogamon" }, "text": "…" },
+    "present":        { "type": "Ruins", "text": "Destroyed when Rogamon returned …" }
+  }
+}
+```
+Provinces and realms get their per-era information from `content/lore/realms.json` automatically.
+An entry for something that isn't labelled on the map can get a pin by adding `"x"` and `"y"` (map coordinates, 0–1949 / 0–1516).
+- Link straight to a place: `map.html#Toralt`.
+
+> JSON tip: every entry except the last needs a comma after it, and texts need "double quotes". If a page suddenly shows "Content could not be loaded", the error message names the broken file.

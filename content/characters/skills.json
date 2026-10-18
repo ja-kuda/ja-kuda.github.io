@@ -1,0 +1,75 @@
+{
+  "_help": "Skills range from 0 to 5. 'group' is physical, mental or social.",
+  "skills": [
+    {
+      "id": "agility",
+      "name": "Agility",
+      "group": "physical",
+      "description": "The ability to move nimbly and gracefully and to apply dexterity.",
+      "examples": "Climbing, throwing something precisely, chasing someone on foot"
+    },
+    {
+      "id": "crafting",
+      "name": "Crafting",
+      "group": "physical",
+      "description": "Using, understanding, modifying and making items and mechanisms.",
+      "examples": ""
+    },
+    {
+      "id": "influence",
+      "name": "Influence",
+      "group": "social",
+      "description": "Influencing others and your surroundings. Resistance against social effects.",
+      "examples": "Lying to a guard, haggling with a merchant, fishing for information in a conversation"
+    },
+    {
+      "id": "insight",
+      "name": "Insight",
+      "group": "mental",
+      "description": "Understanding yourself and others, reading people and situations. Resistance against mental effects.",
+      "examples": "Understanding a magical effect, understanding the intention of someone you are talking to"
+    },
+    {
+      "id": "lore",
+      "name": "Lore",
+      "group": "mental",
+      "description": "Processing and passing on information, doing mental work.",
+      "examples": "Quickly searching a book for information, remembering a story, interpreting a prophecy"
+    },
+    {
+      "id": "might",
+      "name": "Might",
+      "group": "physical",
+      "description": "Physical toughness and strength. Resistance against physical effects.",
+      "examples": "Swimming, holding someone down, moving or throwing something heavy, melee attacks with heavy weapons"
+    },
+    {
+      "id": "performance",
+      "name": "Performance",
+      "group": "social",
+      "description": "Putting on a show, artistically and physically.",
+      "examples": "Singing, dancing, painting, disguising yourself"
+    },
+    {
+      "id": "skirmish",
+      "name": "Skirmish",
+      "group": "physical",
+      "description": "Fighting, using weapons, harming someone.",
+      "examples": ""
+    },
+    {
+      "id": "trickery",
+      "name": "Trickery",
+      "group": "physical",
+      "description": "Secrecy and caution – everything to do with the non-obvious and steady hands.",
+      "examples": "Pickpocketing, sleight of hand, sneaking and hiding, picking locks"
+    },
+    {
+      "id": "vigilance",
+      "name": "Vigilance",
+      "group": "mental",
+      "description": "Attentiveness and using your senses.",
+      "examples": "Searching for clues, keeping watch, tasting poison in a drink, spotting someone in a crowd"
+    }
+  ]
+}

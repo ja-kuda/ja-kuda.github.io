@@ -1,0 +1,269 @@
+{
+  "_help": "Key = the name exactly as written on the map. General fields (type, region, facts, image, text, lore) are shown in every era. Under \"eras\" you can add the same fields per era id (before-rogamon, rogamons-reign, after-rogamon, unification, present) – they are shown when that era is selected. Era-specific type/title/image replace the general ones.",
+  "Toralt": {
+    "type": "City",
+    "region": "Placeholder region",
+    "facts": {
+      "Population": "ca. 12,000",
+      "Ruler": "Placeholder"
+    },
+    "text": "*Placeholder text.* A bustling trade city at the crossroads of the old empire roads.\n\n> [!example] Rumour\n> Strange lights have been seen above the harbour.",
+    "lore": "lore.html#world"
+  },
+  "Drachenhals": {
+    "type": "Mountain range",
+    "text": "*Placeholder text.* A long, jagged mountain range in the north-east, said to be the spine of a sleeping dragon."
+  },
+  "Smaragdgärten": {
+    "type": "Forest",
+    "image": "content/images/akudia-overview.jpg",
+    "text": "*Placeholder text.* The Emerald Gardens – an ancient forest full of glowing moss and old elven ruins."
+  },
+  "Dominico": {
+    "type": "Island",
+    "region": "Splinter Islands",
+    "text": "*Placeholder text.* One of the larger Splinter Islands, home to smugglers and pirates.",
+    "lore": "lore.html#the-splinter-islands"
+  },
+  "Winterglehn": {
+    "type": "City",
+    "region": "The Expansion",
+    "text": "The largest city of the continent, at the tip of the Expansion's coast where the Salt Road begins.",
+    "lore": "lore.html#rogamons-reign",
+    "eras": {
+      "before-rogamon": {
+        "text": "(Old) Winterglehn – a rich city of the Expansion. One of its lords gathered children with necromantic gifts for cruel experiments; one of them was the boy who would call himself Rogamon."
+      },
+      "rogamons-reign": {
+        "type": "Capital",
+        "facts": {
+          "Ruler": "King Rogamon"
+        },
+        "text": "Rogamon takes the city and declares himself king of Winterglehn and of the common people of Varland. From here he rules his realm of the dead."
+      },
+      "after-rogamon": {
+        "type": "Ruins",
+        "text": "Abandoned in year 0. Later rebuilt on the ruins of Old Winterglehn and soon rising to new greatness, fed by fertile soil, rich forests and the treasures still hidden in the ruins."
+      },
+      "unification": {
+        "facts": {
+          "Ruler": "The Lord of Winterglehn (Arnil Fang)"
+        },
+        "text": "Centre of trade of the Expansion – and of crime and corruption. Theoretically anyone can get rich here; few do."
+      },
+      "present": {
+        "type": "Ruins",
+        "text": "Destroyed when Rogamon was brought back to life around year 225. Merchants and guild members who saved their goods now hold great power in the New Expansion."
+      }
+    }
+  },
+  "Hammerfall": {
+    "type": "Capital",
+    "region": "The Partition",
+    "text": "The capital of Varland, on a height between two arms of the Endwasser, with the king's palace right above the waterfalls. On its temple square every god has a place.",
+    "eras": {
+      "before-rogamon": {
+        "text": "Founded at the same time as Beltheim; after a long rivalry it became the seat of the crown."
+      },
+      "rogamons-reign": {
+        "text": "Resisted the necromancer for a long time, but fell through a trick. Generations later a still youthful Rogamon entered its throne room and declared his rule over the whole kingdom."
+      },
+      "unification": {
+        "facts": {
+          "Ruler": "The kings of Varland"
+        }
+      },
+      "present": {
+        "facts": {
+          "Ruler": "King Anselm I"
+        },
+        "text": "All of Varland's military power is gathered around the city while the outer provinces are left to fend for themselves."
+      }
+    }
+  },
+  "Beltheim": {
+    "type": "City",
+    "region": "The Scars",
+    "text": "A city at the foot of – and largely built into – a sheer cliff above the crystal fields of the Scars.",
+    "eras": {
+      "before-rogamon": {
+        "text": "For some decades even the capital of Varland."
+      },
+      "rogamons-reign": {
+        "text": "Spared at first for its crystals – then its entire population was wiped out."
+      },
+      "unification": {
+        "text": "Slowly resettled; crystal mining resumes."
+      },
+      "present": {
+        "facts": {
+          "Ruler": "High Inquisitor Horuas"
+        },
+        "text": "Ruled by the Inquisition. All magic is forbidden and punished by the Arcane Guard."
+      }
+    }
+  },
+  "Steilfurt": {
+    "type": "Fortress city",
+    "region": "Rotmark",
+    "text": "A heavily fortified city at one of the very few crossings of the Blue Arm – the most important fortress on the continent.",
+    "eras": {
+      "unification": {
+        "text": "Tralian troops trying to take Steilfurt are crushed on the Plains of Decision; a truce follows."
+      },
+      "present": {
+        "text": "Its governor is one of the three leaders of the Red-White Alliance. Behind the walls everyone is ready to take up arms."
+      }
+    }
+  },
+  "Norvall": {
+    "type": "City",
+    "text": "Once the city of the gold fields.",
+    "eras": {
+      "before-rogamon": {
+        "facts": {
+          "Ruler": "King Sigmar of Norvall"
+        },
+        "text": "Capital of a flourishing realm of gold fields that reached far into Triften and the Expansion."
+      },
+      "rogamons-reign": {
+        "text": "**The Shame of Norvall:** facing Rogamon's army, Sigmar had every inhabitant executed and burned so that only ashes would be left for the Necromancer King. His own guard killed him for it."
+      }
+    }
+  },
+  "Driftholz": {
+    "type": "Ruined town",
+    "region": "The Fields of Silence",
+    "text": "A ruined town in the north of the Fields of Silence.",
+    "eras": {
+      "rogamons-reign": {
+        "text": "The golden valley around it becomes the Fields of Silence when Rogamon drains the life and souls of its people."
+      },
+      "present": {
+        "text": "Avoided by almost everyone."
+      }
+    }
+  },
+  "Rabenhorst": {
+    "type": "Town",
+    "region": "Triften",
+    "text": "A small town on the source lake of the Endwasser, below a castle on a stone arch.",
+    "eras": {
+      "rogamons-reign": {
+        "type": "Castle",
+        "text": "About twenty years before Rogamon's end, Lord Rabenhorst rebuilds the forgotten castle as the secret base of the Paladins of the Good."
+      },
+      "after-rogamon": {
+        "text": "An opportunistic lord seizes the castle but is driven out; the lands are held for Rabenhorst until he returns. A town grows to keep training Paladins of the Good."
+      },
+      "present": {
+        "text": "Also a relay for messages carried by ravens."
+      }
+    }
+  },
+  "Alt Rybben": {
+    "type": "Ruins",
+    "region": "Weißküst",
+    "eras": {
+      "before-rogamon": {
+        "type": "City",
+        "text": "One of the most important cities of Varland – a training ground for soldiers and mages and seat of a small paladin order."
+      },
+      "rogamons-reign": {
+        "text": "Depopulated and destroyed by Rogamon's armies."
+      }
+    }
+  },
+  "Zweigheim": {
+    "type": "Trade city",
+    "region": "The Expansion",
+    "text": "A city on both banks of the Siechlauf, joined by a great bridge that is also its market. Beneath it lies the Dark Harbour, a maze of tunnels.",
+    "eras": {
+      "present": {
+        "type": "Capital",
+        "facts": {
+          "Ruler": "A nameless warlord"
+        },
+        "text": "Capital of the New Expansion."
+      }
+    }
+  },
+  "Kamrum": {
+    "type": "Ghost town",
+    "region": "Silbertal",
+    "text": "A town on the shore of the Twins.",
+    "eras": {
+      "unification": {
+        "text": "After the short silver rush ran dry, the town emptied and became a ghost town."
+      }
+    }
+  },
+  "Goldzahn": {
+    "type": "Capital",
+    "region": "Atikun",
+    "text": "Heavily fortified, imperial and extremely rich, with academies and a university.",
+    "eras": {
+      "unification": {
+        "text": "Capital of the young Tralian Empire."
+      },
+      "present": {
+        "facts": {
+          "Ruler": "Emperor Suta"
+        }
+      }
+    }
+  },
+  "Speerstadt": {
+    "type": "City",
+    "region": "Stahlmark",
+    "text": "One of the largest cities of Tralien and the training ground of the imperial army.",
+    "eras": {
+      "present": {
+        "text": "The barracks around the city are full – the army is preparing for the offensive."
+      }
+    }
+  },
+  "Champ de Soleil": {
+    "type": "City",
+    "region": "Central Tralien",
+    "text": "The city where no one stays – inns, taverns and entertainment for everyone passing through.",
+    "eras": {
+      "present": {
+        "text": "Business is booming as mercenaries and soldiers spend their last pay before marching north."
+      }
+    }
+  },
+  "Brung": {
+    "type": "Capital",
+    "region": "Bregonia",
+    "text": "The great cauldron – a Durag city of rings inside an extinct volcano.",
+    "eras": {
+      "present": {
+        "facts": {
+          "Ruler": "The Shield Lord"
+        },
+        "text": "Capital of the reborn Durag kingdom of Bregonia."
+      }
+    }
+  },
+  "Höhlenhafen": {
+    "type": "Port city",
+    "region": "Altland",
+    "text": "Famous for its harbour inside a huge natural cave and its arena fights; one of the few entrances to the underworld not controlled by the Durag.",
+    "eras": {
+      "rogamons-reign": {
+        "text": "Stayed independent longer than most of Varland."
+      }
+    }
+  },
+  "Winters Ende": {
+    "type": "Town",
+    "region": "Ice Desert",
+    "text": "Home of the academy Ars Arkanum. The weave is especially strong here.",
+    "eras": {
+      "present": {
+        "text": "The grandmasters of the academy rule the region, regardless of the king's wishes."
+      }
+    }
+  }
+}

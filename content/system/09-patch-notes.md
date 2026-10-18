@@ -1,0 +1,31 @@
+# Patch notes
+
+- **Lore:** "Chaos" renamed to "Null"
+- **Resting** rules updated and moved to their own page
+  - "Rest" basically means a freely defined period of time, but mostly a night with enough sleep, peace and comfort. The lower the comfort etc., the weaker the effects.
+- **Freeform magic**
+  - Overloading threads
+    - Once per day, you can now spend threads beyond the maximum for a spell check.
+    - Regardless of the result, the mage receives an arcane scar with a permanent effect.
+    - Depending on the result, the scar is more or less pronounced.
+  - Regenerating threads
+    - Characters regenerate 6 threads per rest.
+  - The Lore skill allows increasing the thread maximum by up to +2. The maximum number of threads before receiving scars is now 9 + (Lore skill / 2).
+- **Wounds**
+  - During a rest, every character can by default reduce one lvl 1 wound by 1, removing it.
+  - First Aid talent
+    - Allows lvl 2 wounds to be reduced during the next rest as well.
+  - Second Aid talent
+    - Requires First Aid.
+    - Allows removing lvl 1 wounds directly, without the next rest.
+  - Field Medicine
+    - Requires Second Aid.
+    - Instead allows reducing a lvl 2 wound by 1.
+- **Talents**
+  - First Aid – see "Wounds" – Doctor archetype
+  - Second Aid – see "Wounds" – Doctor archetype
+  - Field Medicine – see "Wounds" – Doctor archetype
+  - I altered the Deal
+    - Allows retroactively changing a deal, as long as the basic idea stays the same.
+    - Works only once per deal and worsens the relationship with the other party.
+    - Politician archetype

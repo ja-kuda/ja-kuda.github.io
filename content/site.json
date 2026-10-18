@@ -1,0 +1,56 @@
+{
+  "footer": "Ambition by Jan Rehmeyer",
+  "footerLinks": [
+    {
+      "label": "Impressum",
+      "href": "impressum.html"
+    }
+  ],
+  "workInProgressNote": "Ambition is still in development – rules and texts on this site will change.",
+  "home": {
+    "title": "Ambition",
+    "tagline": "Fantastical stories in the world of Akudia",
+    "intro": "A pen & paper roleplaying game about people who want more – and what they are willing to pay for it.",
+    "aboutFile": "content/home.md",
+    "tiles": [
+      {
+        "title": "System",
+        "href": "system.html",
+        "icon": "assets/img/icons/system.png",
+        "text": "The rules of the game – checks, wounds, magic, resting and more."
+      },
+      {
+        "title": "Characters",
+        "href": "characters.html",
+        "icon": "assets/img/icons/characters.png",
+        "text": "Build a character step by step and plan talents with the talent builder."
+      },
+      {
+        "title": "Map",
+        "href": "map.html",
+        "icon": "assets/img/icons/map.png",
+        "text": "Explore the continent of Akudia: regions, rivers, mountains and cities."
+      },
+      {
+        "title": "Lore",
+        "href": "lore.html",
+        "icon": "assets/img/icons/lore.png",
+        "text": "History, magic, peoples and factions of the world."
+      }
+    ]
+  },
+  "news": [
+    {
+      "date": "2026-10-18",
+      "text": "Rules updated to the **Regelwerk Rework**, new **talent builder** and the new element symbols."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "New website launched – content is being written."
+    },
+    {
+      "date": "2026-10-18",
+      "text": "The **interactive map** of Akudia is online."
+    }
+  ]
+}

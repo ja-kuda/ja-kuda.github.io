@@ -1,0 +1,49 @@
+{
+  "_help": "Order here = order on the website. 'sections' are sub-chapters. 'id' is the link name after # (optional).",
+  "title": "System",
+  "eyebrow": "Rules",
+  "icon": "assets/img/icons/system.png",
+  "intro": "The rules of Ambition – checks, characters, magic and everything in between.",
+  "chapters": [
+    { "title": "Key terms", "id": "key-terms", "file": "01-key-terms.md" },
+    {
+      "title": "Characters", "id": "characters", "file": "02-characters.md",
+      "sections": [
+        { "title": "Ambition",           "id": "ambition",           "file": "02-1-ambition.md" },
+        { "title": "Ancestry",           "id": "ancestry",           "file": "02-2-ancestry.md" },
+        { "title": "Wounds",             "id": "wounds",             "file": "02-3-wounds.md" },
+        { "title": "Skills",             "id": "skills",             "file": "02-4-skills.md" },
+        { "title": "Arcs",               "id": "arcs",               "file": "02-5-arcs.md" },
+        { "title": "Talents",            "id": "talents",            "file": "02-6-talents.md" },
+        { "title": "Ancestry talents",   "id": "ancestry-talents",   "file": "02-7-ancestry-talents.md" },
+        { "title": "Talents by archetype","id": "archetype-talents", "file": "02-8-archetype-talents.md" },
+        { "title": "Aspect talents",     "id": "aspect-talents",     "file": "02-9-aspect-talents.md" },
+        { "title": "Static spells",      "id": "static-spells",      "file": "02-10-static-spells.md" },
+        { "title": "Character creation", "id": "character-creation", "file": "02-11-character-creation.md" }
+      ]
+    },
+    {
+      "title": "Checks", "id": "checks", "file": "03-checks.md",
+      "sections": [
+        { "title": "Position and scale",  "id": "position",  "file": "03-1-position.md" },
+        { "title": "Conflict and effect", "id": "conflict-effect", "file": "03-2-conflict-effect.md" },
+        { "title": "Modifiers",           "id": "modifiers", "file": "03-3-modifiers.md" },
+        { "title": "How to roll checks",  "id": "how-to-roll", "file": "03-4-how-to-roll.md" }
+      ]
+    },
+    {
+      "title": "Magic", "id": "magic", "file": "04-magic.md",
+      "sections": [
+        { "title": "Arcane weaving", "id": "arcane-weaving", "file": "04-1-arcane-weaving.md" },
+        { "title": "Threads",        "id": "threads",        "file": "04-2-threads.md" },
+        { "title": "Elements",       "id": "elements",       "file": "04-3-elements.md" },
+        { "title": "Static magic",   "id": "static-magic",   "file": "04-4-static-magic.md" }
+      ]
+    },
+    { "title": "Resting",   "id": "resting",   "file": "05-resting.md" },
+    { "title": "Inventory", "id": "inventory", "file": "06-inventory.md" },
+    { "title": "Death",     "id": "death",     "file": "07-death.md" },
+    { "title": "Crafting",  "id": "crafting",  "file": "08-crafting.md" },
+    { "title": "Patch notes", "id": "patch-notes", "file": "09-patch-notes.md" }
+  ]
+}

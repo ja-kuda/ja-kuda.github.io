@@ -1,0 +1,148 @@
+{
+  "_help": "health = wounds per level (lvl 1 - lvl 2 - lvl 3). 'talents' must match talent names in talents.json (category 'ancestry'); they are granted automatically. 'image' is optional.",
+  "ancestries": [
+    {
+      "id": "human",
+      "name": "Human",
+      "health": "3-2-1",
+      "traits": [],
+      "talents": [
+        "Skilled",
+        "Versatile"
+      ],
+      "notes": "",
+      "lore": "Humans are the de facto rulers of Akudia and make up the largest part of the continent's population. Humans are adaptable and flexible, but also seem to seek out conflict again and again.",
+      "image": ""
+    },
+    {
+      "id": "durag",
+      "name": "Durag",
+      "health": "4-2-1",
+      "traits": [
+        "heavy"
+      ],
+      "talents": [
+        "Darkvision",
+        "Rock eater"
+      ],
+      "notes": "",
+      "lore": "Durag are close relatives of humans who share a special bond with stone and earth. They are born from the earth and return to it when they die. Over the course of their lives, Durag take on more and more of the properties and appearance of rock, until they finally become completely unable to move, which marks the end of their life.\n\nDurag live secluded lives, often in mountains or caves, and have a strong sense of family.",
+      "image": ""
+    },
+    {
+      "id": "orvosa",
+      "name": "Orvosa",
+      "health": "3-2-1",
+      "traits": [],
+      "talents": [
+        "Image of Orvos",
+        "Gift of Inferna"
+      ],
+      "notes": "",
+      "lore": "The Orvosa were once humans who were remade in his image during the ascension of Orvos, one of the gods. Orvos enslaved his followers, and when his ascension was imminent he turned against them, hoping to keep his power and not ascend. The goddess Inferna came to the aid of the helpless Orvosa, defeated Orvos and thereby freed them from their invisible chains.",
+      "image": ""
+    },
+    {
+      "id": "hinan",
+      "name": "Hinan",
+      "health": "2-2-1",
+      "traits": [
+        "small"
+      ],
+      "talents": [
+        "Essence Magic",
+        "Rapid Evolution"
+      ],
+      "notes": "",
+      "lore": "The Hinan – sometimes called halflings – are an unassuming people who rarely step into the spotlight of history. They stumble through life with a fondness for diplomacy and the conviction that everyone carries their own burden, and that meddling in the affairs of others rarely bears fruit.\n\nNevertheless, Hinan are capable craftsmen, builders and often scholars: these small folk, seldom taller than 1.20 m, value education far more than warfare or glory in battle. Apart from their size they differ little from humans, and they live well integrated among all the other peoples and cultures of Akudia.",
+      "image": ""
+    },
+    {
+      "id": "korna",
+      "name": "Korna",
+      "health": "3-3-1",
+      "traits": [],
+      "talents": [
+        "Resilience",
+        "Adrenaline rush"
+      ],
+      "notes": "",
+      "lore": "The Korna were once a warlike and territorial people. When humans arrived on Akudia and began to subjugate the land, the Korna were nearly wiped out; only small parts of the once proud people escaped into exile in the far north.\n\nThe waves have calmed since then, and today the small population of Korna lives peacefully alongside humans – but in many places they are still regarded as \"exotic\" and met with mistrust.",
+      "image": ""
+    },
+    {
+      "id": "half giant",
+      "name": "Half Giant",
+      "health": "5-2-2",
+      "traits": [
+        "large"
+      ],
+      "talents": [
+        "Limit breaker",
+        "Regeneration"
+      ],
+      "notes": "",
+      "lore": "",
+      "image": ""
+    },
+    {
+      "id": "gob",
+      "name": "Gob",
+      "health": "3-2-1",
+      "traits": [
+        "frog"
+      ],
+      "talents": [
+        "Gob's honor",
+        "Gob's nature"
+      ],
+      "notes": "",
+      "lore": "",
+      "image": ""
+    },
+    {
+      "id": "quabut",
+      "name": "Quabut",
+      "health": "3-2-1",
+      "traits": [
+        "fungus"
+      ],
+      "talents": [
+        "Hivemind",
+        "Living spores"
+      ],
+      "notes": "",
+      "lore": "The Quabut are found only in the deserts of the world, where they live in seclusion. Their bodies, which seem to consist of more than a single organism, store and transform water that they draw from the air at night or from nearby oases. This water replaces their blood, and at times it can even be seen flowing through their bodies.\n\nQuabut who have to go without water for a long time begin to dry out and lose their radiant colours, until they finally turn grey or brown and can barely move. They avoid contact with the outside world as far as they can, and no one knows why Quabut swarms do not move to regions with more water.",
+      "image": ""
+    },
+    {
+      "id": "undead",
+      "name": "Undead",
+      "health": "0-4-0",
+      "traits": [
+        "dead"
+      ],
+      "talents": [
+        "Dead body",
+        "Never really dead",
+        "Thoughts for food"
+      ],
+      "notes": "",
+      "lore": "",
+      "image": ""
+    },
+    {
+      "id": "satyr",
+      "name": "Satyr",
+      "health": "3-2-1",
+      "traits": [],
+      "talents": [
+        "Riftmaker",
+        "XXX"
+      ],
+      "notes": "",
+      "lore": "",
+      "image": ""
+    }
+  ]
+}

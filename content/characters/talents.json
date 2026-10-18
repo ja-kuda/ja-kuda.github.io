@@ -1,0 +1,2011 @@
+{
+  "_help": "Every talent: name, category (ancestry | archetype | aspect | static), group (the ancestry, archetype, god or spell group), uses, cost, prerequisites, effect. Prerequisites: separate several with commas. Talent names (e.g. 'Shadow stalker'), skills ('Lore +3' or 'lore 3+') and ancestries ('Orvosa ancestry') are checked automatically, anything else is shown as a note.",
+  "categories": [
+    {
+      "id": "ancestry",
+      "name": "Ancestry talents",
+      "short": "Ancestry",
+      "description": "Talents every character of an ancestry starts with, plus ancestry-specific options. They don't count towards your talent picks."
+    },
+    {
+      "id": "archetype",
+      "name": "Talents by archetype",
+      "short": "Archetypes",
+      "description": "The main pool of talents, sorted by archetype. Archetypes are only a guide – you can freely mix talents from different archetypes."
+    },
+    {
+      "id": "aspect",
+      "name": "Aspect talents",
+      "short": "Aspects",
+      "description": "Talents granted by the aspects of the gods."
+    },
+    {
+      "id": "static",
+      "name": "Static spells",
+      "short": "Static spells",
+      "description": "Fixed spells with defined effects. A normal character can take up to 3 static spells as regular talents."
+    }
+  ],
+  "talents": [
+    {
+      "name": "Skilled",
+      "category": "ancestry",
+      "group": "human",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "During rest you may increase a skill by 1 and decrease another by 1 until you rest again."
+    },
+    {
+      "name": "Versatile",
+      "category": "ancestry",
+      "group": "human",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose any talent that you fulfill the prerequisites for."
+    },
+    {
+      "name": "Darkvision",
+      "category": "ancestry",
+      "group": "durag",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You have black and white darkvision."
+    },
+    {
+      "name": "Rock eater",
+      "category": "ancestry",
+      "group": "durag",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You are able to eat rocks to gain special traits based on the rock you consumed. You can have 3 of these traits active at the same time, eating more rocks replaces the oldest trait."
+    },
+    {
+      "name": "Image of Orvos",
+      "category": "ancestry",
+      "group": "orvosa",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Whenever you interact with another person choose one of the following boons for your interaction: intimidation | persuasion | seduction | deception"
+    },
+    {
+      "name": "Gift of Inferna",
+      "category": "ancestry",
+      "group": "orvosa",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose a creature and an emotion. The creature feels the emotion for as long as you look at it."
+    },
+    {
+      "name": "Essence Magic",
+      "category": "ancestry",
+      "group": "hinan",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create a static spell from the essence element. You can cast this spell innately."
+    },
+    {
+      "name": "Rapid Evolution",
+      "category": "ancestry",
+      "group": "hinan",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose one of the following talents from below:"
+    },
+    {
+      "name": "Feral",
+      "category": "ancestry",
+      "group": "hinan",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Rapid Evolution",
+      "effect": "You gain natural weapons on your hands and feet. Gain +1 die when attacking with them."
+    },
+    {
+      "name": "Verdant",
+      "category": "ancestry",
+      "group": "hinan",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Rapid Evolution",
+      "effect": "You have the ability to photosynthesize. Being in direct sunlight for a time heals a lvl1 wound."
+    },
+    {
+      "name": "Urban",
+      "category": "ancestry",
+      "group": "hinan",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Rapid Evolution",
+      "effect": "You gain the ability to squeeze through tiny cracks and holes."
+    },
+    {
+      "name": "Deep",
+      "category": "ancestry",
+      "group": "hinan",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Rapid Evolution",
+      "effect": "You gain a simple form of echolocation, allowing you to navigate in complete darkness by screaming."
+    },
+    {
+      "name": "Resilience",
+      "category": "ancestry",
+      "group": "korna",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You are resistant against the cold, ice and freezing etc. Conflict you gain from such sources is always reduced to -conflict."
+    },
+    {
+      "name": "Adrenaline rush",
+      "category": "ancestry",
+      "group": "korna",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you enter a fight gain +1 resolve which you can use it during the fight. If you do not use it, it disappears after the fight is over."
+    },
+    {
+      "name": "Limit Breaker",
+      "category": "ancestry",
+      "group": "half giant",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain +1 boon on any physical check you make. If you use this talent the next check you make, has +1 flaw."
+    },
+    {
+      "name": "Regeneration",
+      "category": "ancestry",
+      "group": "half giant",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you rest you may reduce a lvl 2 wound to a lvl 1 wound instead of removing a lvl 1 wound."
+    },
+    {
+      "name": "Gob's Honor",
+      "category": "ancestry",
+      "group": "gob",
+      "uses": "max 5",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You have an honor codex. Note down 5 tenets that represent you and which you must follow to become your true self. Whenever you act accordingly to your tenets, you gain +1 charge. Other talents can use these charges for special effects."
+    },
+    {
+      "name": "Gob's Nature",
+      "category": "ancestry",
+      "group": "gob",
+      "uses": "*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You are bound to your liege by an oath. Whenever you roll any check you may reroll 2 dice. You do not gain back charges by resting, but instead you must fulfill a quest for your liege to restore all charges of this talent."
+    },
+    {
+      "name": "Hivemind",
+      "category": "ancestry",
+      "group": "quabut",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can speak telepathically to other intelligent creatures. If you are in the vicinity of other quabut you can read their minds and they can read yours."
+    },
+    {
+      "name": "Living Spores",
+      "category": "ancestry",
+      "group": "quabut",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can detach a patch of harmless? spores from your body to either infect another creature with or leave them on a surface. You can sense the spores and if you infected a creature with them, they will continue growing until they remove them completely or you infect another creature with the spores."
+    },
+    {
+      "name": "Dead body",
+      "category": "ancestry",
+      "group": "undead",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Ignore lvl 1 wounds."
+    },
+    {
+      "name": "Never really dead",
+      "category": "ancestry",
+      "group": "undead",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you die, you may resurrect yourself. This process takes a few days and you will gain a trait based on your death."
+    },
+    {
+      "name": "Thoughts for food",
+      "category": "ancestry",
+      "group": "undead",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can consume recently deceased creatures to gain insight into their thoughts before death. The fresher the creature, the longer back the memories go."
+    },
+    {
+      "name": "Riftmaker",
+      "category": "ancestry",
+      "group": "satyr",
+      "uses": "1",
+      "cost": "+1 lvl 2 wound",
+      "prerequisites": "",
+      "effect": "You can gain a lvl 2 wound to create a temporary rift in reality towards another reality. You can not enter this rift, but you may try to grab an item from the other side."
+    },
+    {
+      "name": "XXX",
+      "category": "ancestry",
+      "group": "satyr",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Scrying ear",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose an item. You can listen through the item until you rest."
+    },
+    {
+      "name": "Scrying eye",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose an item. You can see through the item until you rest."
+    },
+    {
+      "name": "Macguffin",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "1*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose an item to track and always know the position of. Lasts until you choose another item."
+    },
+    {
+      "name": "Quick forgery",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "2",
+      "cost": "Material for a document",
+      "prerequisites": "",
+      "effect": "Falsify a paper or document in a short amount of time, but it will fall apart after an hour"
+    },
+    {
+      "name": "Secret message",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can choose to write in invisible ink."
+    },
+    {
+      "name": "Winged informant",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Receive a useful piece of information from a bird that carries a letter."
+    },
+    {
+      "name": "Honest exchange",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You gain a truthful answer for one of your questions, but in turn you must answer one of theirs truthfully"
+    },
+    {
+      "name": "Status sense",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can sense the person of highest status or authority in any situation."
+    },
+    {
+      "name": "Flashback scene",
+      "category": "archetype",
+      "group": "agent",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you make a roll in a situation, you can instead explain how you have prepared for exactly this situation and treat the roll as a success."
+    },
+    {
+      "name": "Mutationist",
+      "category": "archetype",
+      "group": "alchemist",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create injectable mutagens that give passive bonuses."
+    },
+    {
+      "name": "Brewer",
+      "category": "archetype",
+      "group": "alchemist",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create potions and drinks"
+    },
+    {
+      "name": "Portable cauldron",
+      "category": "archetype",
+      "group": "alchemist",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Brewer",
+      "effect": "Summon a cauldron to brew in"
+    },
+    {
+      "name": "Bomber",
+      "category": "archetype",
+      "group": "alchemist",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create Bombs and explosives"
+    },
+    {
+      "name": "Favorite recipe",
+      "category": "archetype",
+      "group": "alchemist",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Learn a crafting recipe by heart so you do not have to make a crafting check for it."
+    },
+    {
+      "name": "Reactive resistance",
+      "category": "archetype",
+      "group": "alchemist",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain resistance against the last element that caused you harm"
+    },
+    {
+      "name": "Backstab",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain +effect when attacking or damaging an unsuspecting creature."
+    },
+    {
+      "name": "Translucency",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Stand completely still to become translucent until you move again."
+    },
+    {
+      "name": "Shadow stalker",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain +1 boon to trickery checks while you are within shadows."
+    },
+    {
+      "name": "Shadow jumper",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "4",
+      "cost": "",
+      "prerequisites": "Shadow stalker",
+      "effect": "Teleport from shadow to shadow"
+    },
+    {
+      "name": "Living shadow",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "Shadow jumper",
+      "effect": "Meld with shadows to become invisible while completely within shadows."
+    },
+    {
+      "name": "Shadowmaster",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "Living shadow",
+      "effect": "You can attack a persons shadow to attack their physical form."
+    },
+    {
+      "name": "Nonterminal velocity",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You take no damage from a fall as long as you can move and act freely."
+    },
+    {
+      "name": "Wall runner",
+      "category": "archetype",
+      "group": "assassin",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Run along walls as if they were the ground for a time."
+    },
+    {
+      "name": "Ok, anyway...",
+      "category": "archetype",
+      "group": "bard",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Change the topic of any conversation without the other people in the conversation noticing."
+    },
+    {
+      "name": "Death glare",
+      "category": "archetype",
+      "group": "bard",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "A single stare is enough to unsettle creatures. Add knocking them out | killing them to the possible effects."
+    },
+    {
+      "name": "Ventriloquist",
+      "category": "archetype",
+      "group": "bard",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can make your sound originate from other locations around you."
+    },
+    {
+      "name": "Inspire",
+      "category": "archetype",
+      "group": "bard",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Make a performance | influence check to inspire your allies, if you succeed they gain +1 boon on their next check."
+    },
+    {
+      "name": "Lullaby",
+      "category": "archetype",
+      "group": "bard",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Roll an influence check to make people fall asleep"
+    },
+    {
+      "name": "Unnamed talent",
+      "category": "archetype",
+      "group": "bard",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Tell a joke to make people laugh uncontrollably"
+    },
+    {
+      "name": "Fueled fighting",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "take damage",
+      "prerequisites": "",
+      "effect": "When you take damage in a fight, gain +1 boon that stacks for all combat checks for the remainder of the fight"
+    },
+    {
+      "name": "Adrenaline rush",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "1 resolve",
+      "prerequisites": "",
+      "effect": "Spend 1 resolve to prevent 1 lvl1 | lvl2 wound."
+    },
+    {
+      "name": "Revenge",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Whenever you kill an enemy heal the last wound they inflicted on you."
+    },
+    {
+      "name": "Giant grappler",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can grapple and hold creatures that are much larger than you."
+    },
+    {
+      "name": "Living weapon",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can grapple a creature and still continue fighting as if you had two hands free. You can choose to use the grappled creature as a weapon. In that case make skirmish checks with -1 success."
+    },
+    {
+      "name": "Reckless attack",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "+1 lvl1 wound",
+      "prerequisites": "",
+      "effect": "Gain +1 lvl1 wound to reroll all fails on your next combat check"
+    },
+    {
+      "name": "I like those odds",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "As long as you are outnumbered you gain a number of boons for skirmish checks based on the difference of enemies and allies"
+    },
+    {
+      "name": "Bloodbath",
+      "category": "archetype",
+      "group": "brute",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Bathe in the blood of a slain creature to gain a temporary boon based on the creature. It lasts until you rest."
+    },
+    {
+      "name": "Delay fate",
+      "category": "archetype",
+      "group": "cleric",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can choose to ignore conflict from a check. The GM can add +conflict to any one check you make in the future."
+    },
+    {
+      "name": "Offering",
+      "category": "archetype",
+      "group": "cleric",
+      "uses": "",
+      "cost": "An offering",
+      "prerequisites": "",
+      "effect": "Sacrifice an offering to gain a reroll of all dice for a check."
+    },
+    {
+      "name": "Cleanse",
+      "category": "archetype",
+      "group": "cleric",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Roll an insight check to remove a negative effect from a creature, but gain it yourself on conflict."
+    },
+    {
+      "name": "Guidance",
+      "category": "archetype",
+      "group": "cleric",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Ask your god to support you directly. Your situation is treated as unsafe (1) for one action."
+    },
+    {
+      "name": "Apotheosis",
+      "category": "archetype",
+      "group": "cleric",
+      "uses": "1*",
+      "cost": "This talent",
+      "prerequisites": "",
+      "effect": "Lose this talent and gain a permanent passive effect based on your god or ambition."
+    },
+    {
+      "name": "Strategize",
+      "category": "archetype",
+      "group": "commander",
+      "uses": "3*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Make 3 insight or lore checks when you wake up. During the day you can choose to use one of those results in place of another check you make."
+    },
+    {
+      "name": "Command",
+      "category": "archetype",
+      "group": "commander",
+      "uses": "5",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Give a command to an ally. If they try to follow it with their next action, they reroll all 1s on their check."
+    },
+    {
+      "name": "Commanders Aura",
+      "category": "archetype",
+      "group": "commander",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose one stance when taking this talent: social, combat, travel. All allies beside you gain +1 boon on checks for the chosen stance."
+    },
+    {
+      "name": "Tactical Focus",
+      "category": "archetype",
+      "group": "commander",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Mark a creature. Allies that focus that creature with spells or abilities gain +1 boon for all checks against that creature."
+    },
+    {
+      "name": "Show how its done",
+      "category": "archetype",
+      "group": "commander",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you are helping an ally improve their situation, you do not worsen you own."
+    },
+    {
+      "name": "Motivate allies",
+      "category": "archetype",
+      "group": "commander",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Animal companion",
+      "category": "archetype",
+      "group": "companion",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain a small companion"
+    },
+    {
+      "name": "Animal companion+",
+      "category": "archetype",
+      "group": "companion",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain a medium companion"
+    },
+    {
+      "name": "Animal companion++",
+      "category": "archetype",
+      "group": "companion",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain a large companion / steed"
+    },
+    {
+      "name": "We are one",
+      "category": "archetype",
+      "group": "companion",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "See through your companions eyes and feel what they feel. As long as you stay in your companion, your body stays behind unconscious."
+    },
+    {
+      "name": "Magical companion",
+      "category": "archetype",
+      "group": "companion",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can cast spells from your compaions position."
+    },
+    {
+      "name": "Swarm",
+      "category": "archetype",
+      "group": "companion",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You control a swarm of small insects or critters instead of a single creature."
+    },
+    {
+      "name": "First Aid",
+      "category": "archetype",
+      "group": "doctor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When a character reduces a wound during rest after your treatment, they can instead reduce a lvl 2 wound by 1."
+    },
+    {
+      "name": "Advanced Aid",
+      "category": "archetype",
+      "group": "doctor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "First Aid Talent",
+      "effect": "Roll a crafting | lore check to remove 1 lvl1 wound from a creature."
+    },
+    {
+      "name": "Field medicine",
+      "category": "archetype",
+      "group": "doctor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Advanced Aid",
+      "effect": "Roll a crafting | lore check to reduce a lvl 1 or lvl 2 wound by 1."
+    },
+    {
+      "name": "Surgeon",
+      "category": "archetype",
+      "group": "doctor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Cure disease",
+      "category": "archetype",
+      "group": "doctor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "House's Edge",
+      "category": "archetype",
+      "group": "gambler",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can choose a single die in any check made by anyone and determine which side it lands on."
+    },
+    {
+      "name": "Double down",
+      "category": "archetype",
+      "group": "gambler",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can reroll 1 success in a check. If the new roll of that die is also a success, gain +effect"
+    },
+    {
+      "name": "Counting dice",
+      "category": "archetype",
+      "group": "gambler",
+      "uses": "x*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Track every 1 you roll during your checks. You can choose to trade them in once during your day for +effect for each 1 you have stored."
+    },
+    {
+      "name": "All in",
+      "category": "archetype",
+      "group": "gambler",
+      "uses": "1",
+      "cost": "something special",
+      "prerequisites": "",
+      "effect": "Bet something special to you on a single roll. On a full success, gain ++Effect but on all other results lose the thing."
+    },
+    {
+      "name": "Snake eyes",
+      "category": "archetype",
+      "group": "gambler",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you roll doubles on a check, add another dice to the check."
+    },
+    {
+      "name": "Lucky roll",
+      "category": "archetype",
+      "group": "gambler",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Instead of rolling a normal check for an action, throw a coin. Heads counts as a green result, while tails counts as a red result."
+    },
+    {
+      "name": "Unnamed talent",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can harvest special ingredients and items from slain creatures."
+    },
+    {
+      "name": "Animal sense",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You sense animals in the vicinity."
+    },
+    {
+      "name": "Dangerzone",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Concentrate on a creature to see their weak points or injuries."
+    },
+    {
+      "name": "Heatvision",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can see creatures based on their body heat."
+    },
+    {
+      "name": "Dangersense",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can concentrate to sense danger around you. You also gain insight into potential danger in the near future."
+    },
+    {
+      "name": "Tracking mark",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "1*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can mark a creature. It leaves a magical trail behind that only you can see. Once you mark another creature, the first one becomes unmarked."
+    },
+    {
+      "name": "Lick a trail",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Taste a drop of blood to gain insight about the creature it came from."
+    },
+    {
+      "name": "Quick trap",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create a small trap from whatever materials are close by."
+    },
+    {
+      "name": "First sighting",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "After encountering a creature make an isnight | lore check to gain knowledge about the creature."
+    },
+    {
+      "name": "Weatherman",
+      "category": "archetype",
+      "group": "hunter",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Predict the weather for the day."
+    },
+    {
+      "name": "Magical resistance",
+      "category": "archetype",
+      "group": "inquisitor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you make a check against magical effects, gain +1 die"
+    },
+    {
+      "name": "Arcane affinity",
+      "category": "archetype",
+      "group": "inquisitor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you witness a magical effect you gain some knowledge of the specifics of the spell."
+    },
+    {
+      "name": "Arcane sense",
+      "category": "archetype",
+      "group": "inquisitor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Feel magic around you at all times."
+    },
+    {
+      "name": "Arcane sight",
+      "category": "archetype",
+      "group": "inquisitor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Arcane sense",
+      "effect": "See traces of magic in the vicinity for a short time."
+    },
+    {
+      "name": "Follow Thread",
+      "category": "archetype",
+      "group": "inquisitor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Arcane sight",
+      "effect": ""
+    },
+    {
+      "name": "Spellbreak",
+      "category": "archetype",
+      "group": "inquisitor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Disrupt a spell?"
+    },
+    {
+      "name": "Get down!",
+      "category": "archetype",
+      "group": "knight",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can choose to become the target of an attack or spell when it targets an ally beside you"
+    },
+    {
+      "name": "Follow me!",
+      "category": "archetype",
+      "group": "knight",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Charge into a fight to give your allies +1 boon during the fight"
+    },
+    {
+      "name": "Challenge",
+      "category": "archetype",
+      "group": "knight",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Challenge an enemy to come at you and focus their attacks on you."
+    },
+    {
+      "name": "Duel of fate",
+      "category": "archetype",
+      "group": "knight",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Challenge an enemy to a 1vs1 fight. The fight lasts until one of you goes down or dies."
+    },
+    {
+      "name": "Unnamed talent",
+      "category": "archetype",
+      "group": "knight",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When an ally is knocked out or dies, you gain +1 success on all checks until the threat is neutralized."
+    },
+    {
+      "name": "Shielding aura",
+      "category": "archetype",
+      "group": "knight",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Allies besides you gain resistance to harmful effects for a duration. Any check they make against those effects gains +1 boon and they gain -conflict while besides you."
+    },
+    {
+      "name": "Shared pain",
+      "category": "archetype",
+      "group": "knight",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When an ally gains a wound, you can allow them to gain a lower level wound, but you gain the same wound."
+    },
+    {
+      "name": "Golden eyes",
+      "category": "archetype",
+      "group": "merchant",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Sense gold around you, but gain clouded vision for the duration"
+    },
+    {
+      "name": "It's all a question of price",
+      "category": "archetype",
+      "group": "merchant",
+      "uses": "",
+      "cost": "x gold",
+      "prerequisites": "",
+      "effect": "You can buy a temporary boon for a check with X gold."
+    },
+    {
+      "name": "Parley",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can establish a neutral reason for you and a hostile creature to talk with one another once per creature."
+    },
+    {
+      "name": "Compulsive liar",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Whenever you successfully lie, gain +1 stacking boon on influence checks. The boons reset, when you tell the truth"
+    },
+    {
+      "name": "Bribery",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "",
+      "cost": "x gold",
+      "prerequisites": "",
+      "effect": "You can use money in place of charisma. Every X gold you spend on an influence check adds +1 boon on the check."
+    },
+    {
+      "name": "Relations",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you gain this talent choose a group or type of people. You innately have their respect."
+    },
+    {
+      "name": "Diplomatic immunity",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When someone accuses you of something or gives you blame, you gain +1 success on the influence check to reject the blame."
+    },
+    {
+      "name": "Deflect Blame",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "Diplomatic immunity",
+      "effect": "Instead of rejecting the blame with your dimplomatic immunity, pin the blame to the accuser with your check."
+    },
+    {
+      "name": "Empty promises",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You have an ear for lies and can see through them. Whenever you make an insight check to check if someone lies to you, you may reroll all odd results once."
+    },
+    {
+      "name": "Charity",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "You have at least 1 follower",
+      "effect": "Roll an influence check to gain X gold from your followers."
+    },
+    {
+      "name": "Demilitarized zone",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "A small area you designate becomes a neutral ground for a while and no lies can be spoken inside the area."
+    },
+    {
+      "name": "Binding contract",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can create an arrangement or contract with another party. Both you and the other party are bound by the contract. If either of you breaks the contract you gain a random curse?"
+    },
+    {
+      "name": "Hey you!",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You summon a child to your side. Pay however much you see fit and give the child a job to carry out. Based on the payment, the child will carry out more difficult jobs or carry out easier jobs more diligently or faster."
+    },
+    {
+      "name": "I speak for the king",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "A superior, influence +5",
+      "effect": "Invoke the status of your superior and speak as if they were talking directly."
+    },
+    {
+      "name": "Instigator",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you interact with a group of people you can find a thing that will lead to conflict between them. Works only once per interaction."
+    },
+    {
+      "name": "The art of the deal",
+      "category": "archetype",
+      "group": "politician",
+      "uses": "1*",
+      "cost": "",
+      "prerequisites": "Influence +5",
+      "effect": "You can retroactively alter the details of a deal or contract you have made, as long as the nature of the deal does not change. Works only once per deal and your relationship to the other party gets worse."
+    },
+    {
+      "name": "Curved shots",
+      "category": "archetype",
+      "group": "ranger",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can curve shots with ranged weapons around creatures or walls."
+    },
+    {
+      "name": "Railgun",
+      "category": "archetype",
+      "group": "ranger",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can fire your weapons twice as far."
+    },
+    {
+      "name": "Piercing shots",
+      "category": "archetype",
+      "group": "ranger",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Your next projectile fires through up to 2 enemies."
+    },
+    {
+      "name": "Splitting arrows",
+      "category": "archetype",
+      "group": "ranger",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Fire into an area instead of a single target."
+    },
+    {
+      "name": "Charged shot",
+      "category": "archetype",
+      "group": "ranger",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "When you make a ranged attack, you can charge it up for 1 action to release an even more powerful shot with your next action."
+    },
+    {
+      "name": "Analyzer",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Analyze a creature to gain a boon for all checks relating to the creature"
+    },
+    {
+      "name": "Night owl",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Reflection",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Obtuse",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Your mind can not be read"
+    },
+    {
+      "name": "Dreamwalker",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Enter a creatures mind while it is asleep"
+    },
+    {
+      "name": "Mindreader",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Enter a creatures mind while it is awake"
+    },
+    {
+      "name": "Experienced pallette",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain bonus effects from ingesting potions, food and drink etc."
+    },
+    {
+      "name": "Strongwilled",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Become better against magical effects"
+    },
+    {
+      "name": "First hand experience",
+      "category": "archetype",
+      "group": "scholar",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Learn the specifics of a spell when hit by it"
+    },
+    {
+      "name": "Voodoo dolls",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "1",
+      "cost": "A piece of a creature",
+      "prerequisites": "",
+      "effect": "Craft a doll containing a piece of a creature or person. The creature or person receives a lesser version of anything you do to the puppet. Breaks after two uses."
+    },
+    {
+      "name": "Spectral hand",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Summon a spectral hand"
+    },
+    {
+      "name": "Permanent spectral hand",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Spectral hand Talent",
+      "effect": "Gain a permanent spectral hand"
+    },
+    {
+      "name": "Firespeaker",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "Orvosa Ancestry or an Orvosa teacher",
+      "effect": "Look into a fire and make an insight check. You may ask a question about the future. Based on effect they are more or less clouded."
+    },
+    {
+      "name": "Beastspeaker",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can speak with animals."
+    },
+    {
+      "name": "Plantspeaker",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can speak with plants."
+    },
+    {
+      "name": "Poison resistance",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You are resistant to poison, reduce any wound or negative effect you take from poison by 1."
+    },
+    {
+      "name": "Poison immunity",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You are immune to wounds or negative effects from poison."
+    },
+    {
+      "name": "Curse",
+      "category": "archetype",
+      "group": "shaman",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Shapeshift",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "4",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Transform into a small creature."
+    },
+    {
+      "name": "Shapeshift+",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "Shapeshift",
+      "effect": "Transform into a medium creature."
+    },
+    {
+      "name": "Shapeshift++",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "Shapeshift+",
+      "effect": "Transform into a large creature."
+    },
+    {
+      "name": "Shapeshift+++",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "Shapeshift++",
+      "effect": "Transform into a giant creature."
+    },
+    {
+      "name": "Genestealer",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Copy another persons face."
+    },
+    {
+      "name": "Copycat",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Copy another persons clothes and style"
+    },
+    {
+      "name": "Parrots voice",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Mimic any sound or voice"
+    },
+    {
+      "name": "Hamster cheeks",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Store up to 4 items in you mouth"
+    },
+    {
+      "name": "Temporary wings",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain wings to fly for a time"
+    },
+    {
+      "name": "Spider legs",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Stick to walls and ceilings"
+    },
+    {
+      "name": "Cat eyes",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain the ability to see in the dark"
+    },
+    {
+      "name": "Dog nose",
+      "category": "archetype",
+      "group": "shifter",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain the ability to use your sense of smell"
+    },
+    {
+      "name": "Spell arsenal",
+      "category": "archetype",
+      "group": "static mage",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You gain the ability to learn any number of static spells and can prepare 3 of them for each day. You also gain 2 static spells with this talent."
+    },
+    {
+      "name": "Spell preparation",
+      "category": "archetype",
+      "group": "static mage",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Spell arsenal",
+      "effect": "You can prepare 5 spells per day"
+    },
+    {
+      "name": "Spell switch",
+      "category": "archetype",
+      "group": "static mage",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Spell arsenal",
+      "effect": "You can quickly switch your prepared spells to others from within your arsenal"
+    },
+    {
+      "name": "Static energy",
+      "category": "archetype",
+      "group": "static mage",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "The first 5 static spells you cast each day do not cost any threads."
+    },
+    {
+      "name": "Klopf Klopf",
+      "category": "archetype",
+      "group": "thief",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create a passage/portal through a door without opening it"
+    },
+    {
+      "name": "Loot goblin",
+      "category": "archetype",
+      "group": "thief",
+      "uses": "x*",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Whenever you loot something valuable, note down +1 die. When you make any check you may use one or more of those dice in the check, using them up."
+    },
+    {
+      "name": "Handy pockets",
+      "category": "archetype",
+      "group": "thief",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can choose a small item to always have available in your hands, even when they are full"
+    },
+    {
+      "name": "Chosen weapon",
+      "category": "archetype",
+      "group": "weaponsmaster",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Choose a weapon",
+      "effect": "Gain +1 boon as long as you use the chosen weapon"
+    },
+    {
+      "name": "Critical strikes",
+      "category": "archetype",
+      "group": "weaponsmaster",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Bound weapon",
+      "category": "archetype",
+      "group": "weaponsmaster",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Chosen weapon",
+      "effect": "Bind a weapon to you. You can summon it into your hand."
+    },
+    {
+      "name": "Ultra heavy weapons",
+      "category": "archetype",
+      "group": "weaponsmaster",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can parry weapons and attacks that are significantly larger than your wepaon would allow"
+    },
+    {
+      "name": "Arcane Weaving",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You gain access to an arcane element of your choice and the ability to weave spells."
+    },
+    {
+      "name": "Element specialization",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Choose one specialization of one of the elements you can access. Whenever you cast a spell with the chosen specialization, you gain +1 die."
+    },
+    {
+      "name": "Secondary Element",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain access to a secondary element adjacent to one of your other elements. When you cast spells from this element your position is more risky."
+    },
+    {
+      "name": "Tertiary Element",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain access to a tertiary element adjacent to one of your other elements. When you cast spells from this element your position is more risky."
+    },
+    {
+      "name": "Overclocked",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Permanently spend 3 threads. All of your spell checks are made with 2d8 + dice bought with spent threads."
+    },
+    {
+      "name": "Arcane battery",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Static spell creation",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Arcane Studies",
+      "category": "archetype",
+      "group": "weaver",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "Lore +3",
+      "effect": "Gain half your lore as additional arcane threads (rounded down)."
+    },
+    {
+      "name": "Aspect of Honor",
+      "category": "aspect",
+      "group": "Norvos",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Conflict from fear or terror does not affect you"
+    },
+    {
+      "name": "Aspect of Freedom",
+      "category": "aspect",
+      "group": "Aleandra",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Wildlife does not see you as a threat until proven otherwise"
+    },
+    {
+      "name": "Aspect of Hope",
+      "category": "aspect",
+      "group": "Saranah",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can create a small globe of light around you"
+    },
+    {
+      "name": "Aspect of Strength",
+      "category": "aspect",
+      "group": "Baros",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": ""
+    },
+    {
+      "name": "Aspect of Peace",
+      "category": "aspect",
+      "group": "Buko",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You do not need to sleep to rest while you are under moonlight."
+    },
+    {
+      "name": "Aspect of War",
+      "category": "aspect",
+      "group": "Ruin",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "After you kill an enemy gain +1 success to the next check you make to kill someone."
+    },
+    {
+      "name": "Aspect of Flame",
+      "category": "aspect",
+      "group": "Inferna",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "By looking into a fire you can see visions of the past."
+    },
+    {
+      "name": "Aspect of Corruption",
+      "category": "aspect",
+      "group": "Corvilas",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Communicate thoughts with crows, crows are friendly towards you."
+    },
+    {
+      "name": "Aspect of Creation",
+      "category": "aspect",
+      "group": "Grumlin",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Touch a stone surface to gain a brief vision of the surroundings."
+    },
+    {
+      "name": "Aspect of Change",
+      "category": "aspect",
+      "group": "Pilger",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Change a feature on you for the day"
+    },
+    {
+      "name": "Aspect of Memory",
+      "category": "aspect",
+      "group": "Ob Nihil",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Touch a creature to gain access to one of their memories"
+    },
+    {
+      "name": "Aspect of Lies",
+      "category": "aspect",
+      "group": "Zwist",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Lying to someone always results in -conflict"
+    },
+    {
+      "name": "Aspect of Wisdom",
+      "category": "aspect",
+      "group": "Virinia",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Read books 5 times as fast"
+    },
+    {
+      "name": "Aspect of Justice",
+      "category": "aspect",
+      "group": "Debilor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Touch a person to learn their most recent crime"
+    },
+    {
+      "name": "Aspect of Community",
+      "category": "aspect",
+      "group": "Mondarn",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "People are more friendly towards you"
+    },
+    {
+      "name": "Aspect of Beauty",
+      "category": "aspect",
+      "group": "Virallon",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create a patch of flowers on any surface"
+    },
+    {
+      "name": "Aspect of Sorrow",
+      "category": "aspect",
+      "group": "Red queen",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You can touch a dead creature to briefly speak with it"
+    },
+    {
+      "name": "Aspect of Rebirth",
+      "category": "aspect",
+      "group": "Blind seer",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Undead do not instinctually attack you"
+    },
+    {
+      "name": "Aspect of Balance",
+      "category": "aspect",
+      "group": "Aestor",
+      "uses": "",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Sense the veil between life and death and where it is thinner"
+    },
+    {
+      "name": "Warp step",
+      "category": "static",
+      "group": "general",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Teleport a short distance"
+    },
+    {
+      "name": "Echo",
+      "category": "static",
+      "group": "general",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Jumb back a few seconds in time"
+    },
+    {
+      "name": "Scry",
+      "category": "static",
+      "group": "general",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create a magical eye on an item to see though"
+    },
+    {
+      "name": "Deja Vu",
+      "category": "static",
+      "group": "general",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Make a creature repeat the last few seconds"
+    },
+    {
+      "name": "Imbue Weapon",
+      "category": "static",
+      "group": "general",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Imbue a weapon with an element"
+    },
+    {
+      "name": "Poison claws",
+      "category": "static",
+      "group": "general",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "You coat your natural weapons or fists with a poison."
+    },
+    {
+      "name": "Sign of the sea",
+      "category": "static",
+      "group": "star sign",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Breathe underwater"
+    },
+    {
+      "name": "Sign of the ram",
+      "category": "static",
+      "group": "star sign",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create a shockwave"
+    },
+    {
+      "name": "Sign of the mirage",
+      "category": "static",
+      "group": "star sign",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create an illusion"
+    },
+    {
+      "name": "Sign of the king",
+      "category": "static",
+      "group": "star sign",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Give a creature a command"
+    },
+    {
+      "name": "Sign of the goat",
+      "category": "static",
+      "group": "star sign",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Summon a spectral goat"
+    },
+    {
+      "name": "Sign of the claw",
+      "category": "static",
+      "group": "star sign",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Hold someone or something in place"
+    },
+    {
+      "name": "Sign of the child",
+      "category": "static",
+      "group": "star sign",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Change size to become small"
+    },
+    {
+      "name": "Sign of the betrayer",
+      "category": "static",
+      "group": "star sign",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Inflict a curse for a short amount of time"
+    },
+    {
+      "name": "Sign of the archer",
+      "category": "static",
+      "group": "star sign",
+      "uses": "3",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Shoot a magical arrow"
+    },
+    {
+      "name": "Sign of the candle",
+      "category": "static",
+      "group": "star sign",
+      "uses": "1",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Give an ally +1 resolve"
+    },
+    {
+      "name": "Sign of the dragon",
+      "category": "static",
+      "group": "star sign",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Gain +1 armor"
+    },
+    {
+      "name": "Sign of the shimmer",
+      "category": "static",
+      "group": "star sign",
+      "uses": "2",
+      "cost": "",
+      "prerequisites": "",
+      "effect": "Create a small field of invisibility"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+Save the god symbols here, named like in content/lore/faith/02-gods.md:
+
+debilor.png, mondarn.png, grumlin.png, saranah.png, virinia.png, buko.png, pilger.png,
+aleandra.png, virallon.png, baros.png, norvos.png, inferna.png, blind-seer.png,
+corvilas.png, ruin.png, zwist.png, red-queen.png, ob-nihil.png, aestor.png
+
+This text file can be deleted once the pictures are here.

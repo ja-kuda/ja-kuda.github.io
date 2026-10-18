@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ambition – Map of Akudia</title>
+  <meta name="description" content="Interactive map of the continent Akudia">
+  <link rel="icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="assets/img/emblem-192.png">
+  <meta name="theme-color" content="#120e13">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/core.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/embeds.js"></script>
+  <script src="assets/js/realms.js"></script>
+  <script src="assets/js/map.js"></script>
+</head>
+<body class="map-page">
+  <header id="site-header"></header>
+
+  <main class="map-shell">
+    <div class="map-viewport" id="map-viewport" aria-label="Map of Akudia – drag to move, scroll to zoom">
+      <div class="map-stage" id="map-stage"></div>
+    </div>
+    <div class="map-loading" id="map-loading"><div><img src="assets/img/emblem.png" alt="">Loading map…</div></div>
+
+    <div class="map-ui map-search">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input type="search" id="map-q" placeholder="Search places, rivers, mountains…" autocomplete="off" aria-label="Search the map">
+      <ul id="map-results" class="hidden"></ul>
+    </div>
+
+    <div class="map-ui map-era hidden" id="map-era">
+      <label for="map-era-select">Era</label>
+      <select id="map-era-select"></select>
+    </div>
+
+    <div class="map-ui map-zoom">
+      <button class="btn" id="zoom-in" aria-label="Zoom in" title="Zoom in"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14"/></svg></button>
+      <button class="btn" id="zoom-out" aria-label="Zoom out" title="Zoom out"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14"/></svg></button>
+      <button class="btn" id="zoom-fit" aria-label="Show whole map" title="Show whole map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+    </div>
+
+    <button class="btn map-ui map-layers-toggle" id="map-layers-toggle" aria-label="Layers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg></button>
+    <div class="map-ui map-layers facet" id="map-layers">
+      <button class="btn small ghost close-layers" id="map-layers-close" aria-label="Close layers">✕</button>
+      <h3>Layers</h3>
+      <div id="map-layers-list"></div>
+    </div>
+
+    <div class="map-tip" id="map-tip" aria-hidden="true"></div>
+    <div class="map-ui map-hint">Drag to move · Scroll to zoom · Click a name for details</div>
+
+    <aside class="map-ui map-info" id="map-info" aria-live="polite">
+      <button class="btn ghost info-close" id="info-close" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <div class="info-scroll" id="info-body"></div>
+    </aside>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+
+</body>
+</html>

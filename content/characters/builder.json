@@ -1,0 +1,43 @@
+{
+  "_help": "Rules for the character builder. Change the numbers when the rules change.",
+  "startingResolve": 1,
+  "skillStart": 1,
+  "skillPoints": 15,
+  "skillMin": 0,
+  "skillMax": 5,
+  "maxSkillsAtZero": 1,
+  "traitCount": 3,
+  "talentPicks": 5,
+  "maxStaticSpells": 3,
+  "threadsBase": 9,
+  "steps": {
+    "concept": {
+      "title": "Concept",
+      "intro": "Who is your character? Give them a name and a short concept. A portrait is optional."
+    },
+    "ambition": {
+      "title": "Ambition",
+      "intro": "The ambition is the central driving force of your character. Ideally it can be summed up in one word. Pick an example or write your own."
+    },
+    "ancestry": {
+      "title": "Ancestry",
+      "intro": "Your ancestry sets your wounds, traits and starting talents."
+    },
+    "skills": {
+      "title": "Skills",
+      "intro": "All skills start at 1. Distribute 15 points, a skill can go up to 5. You may lower one skill to 0 to gain an extra point."
+    },
+    "traits": {
+      "title": "Traits",
+      "intro": "Choose 3 traits that describe both positive and negative sides of your character. Traits can give boons or flaws on checks."
+    },
+    "talents": {
+      "title": "Talents",
+      "intro": "Choose 5 talents. Ancestry talents are granted automatically and don't count. Talents whose prerequisites you don't meet are locked."
+    },
+    "sheet": {
+      "title": "Sheet",
+      "intro": "Your finished character. Print it, save it as a file or keep editing – it is stored in this browser automatically."
+    }
+  }
+}

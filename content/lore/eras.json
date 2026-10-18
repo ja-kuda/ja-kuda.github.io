@@ -1,0 +1,51 @@
+{
+  "_help": "The eras of Akudia, in chronological order. 'id' is used in realms.json and in the headings of the realm texts. 'chapter' is the History section about the era (its id in chapters.json). 'default' is the era shown first. 'mapLayers' (optional) switches map layers on/off when this era is selected, e.g. {\"_06_Provinces\": true}.",
+  "default": "after-rogamon",
+  "eras": [
+    {
+      "id": "before-rogamon",
+      "name": "Before Rogamon",
+      "short": "Before",
+      "period": "Until Rogamon's rise",
+      "summary": "From the God Wars to the rise of necromancy. Elves, then humans rule Akudia; the continent is divided between the Kingdom of Varland in the north and the Free Alliance of Atania in the south. Children with necromantic gifts begin to be born – and hunted.",
+      "mapLayers": {},
+      "chapter": "before-rogamon"
+    },
+    {
+      "id": "rogamons-reign",
+      "name": "During Rogamon's reign",
+      "short": "Rogamon",
+      "period": "Ends in year 0 nKR",
+      "summary": "Rogamon, the Necromancer King, takes Winterglehn and conquers the continent with his undead armies. Mages are hunted, the old order is swept away – until Lord Rabenhorst and the 13 Faithful end his reign.",
+      "mapLayers": {},
+      "chapter": "rogamons-reign"
+    },
+    {
+      "id": "after-rogamon",
+      "name": "After Rogamon",
+      "short": "After",
+      "period": "Year 0 – around 50 nKR",
+      "summary": "Rogamon has fallen. Uncontrolled undead, famine and warlords tear the continent apart. The provinces splinter and become de facto kingdoms of their own, while fear of magic grows.",
+      "mapLayers": {},
+      "chapter": "after-rogamon"
+    },
+    {
+      "id": "unification",
+      "name": "Unification",
+      "short": "Unification",
+      "period": "Around 50 – 225 nKR",
+      "summary": "The provinces unite into larger realms: the anti-magic Tralian Empire rises in the centre, Varland gets a king again. Border wars end with the Empire's defeat on the Plains of Decision and a long truce.",
+      "mapLayers": {},
+      "chapter": "unification"
+    },
+    {
+      "id": "present",
+      "name": "Present",
+      "short": "Present",
+      "period": "From around 225 nKR",
+      "summary": "Rogamon returns and is stopped again. Varland casts off its outer provinces, new realms break away, and the Tralian Empire launches a great offensive – war spreads across Akudia.",
+      "mapLayers": {},
+      "chapter": "present"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "_help": "Archetypes are only a guide for choosing talents. 'id' must match the 'group' of the talents in talents.json.",
+  "archetypes": [
+    {
+      "id": "agent",
+      "name": "Agent",
+      "description": "Spies, informants, detectives – vigilance and trickery."
+    },
+    {
+      "id": "alchemist",
+      "name": "Alchemist",
+      "description": "Crafting, lore, bombs, cooking, potions, ingestibles, mutations."
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "description": "Stealth and acrobatics, killing single targets, climbing and parkour."
+    },
+    {
+      "id": "bard",
+      "name": "Bard",
+      "description": "Performance, song, dance, acting."
+    },
+    {
+      "id": "brute",
+      "name": "Brute",
+      "description": "Barbarian, strength, brawler, unarmed combat, wrestler, grappler."
+    },
+    {
+      "id": "cleric",
+      "name": "Cleric",
+      "description": "Devotee to a god, religion, cults, preacher."
+    },
+    {
+      "id": "commander",
+      "name": "Commander",
+      "description": "Strategist, leader, auras, captain."
+    },
+    {
+      "id": "companion",
+      "name": "Companion",
+      "description": "Animal companions and talents that relate to companions."
+    },
+    {
+      "id": "crafter",
+      "name": "Crafter",
+      "description": "Crafting, repairing, creating items."
+    },
+    {
+      "id": "doctor",
+      "name": "Doctor",
+      "description": "Healing, lore, treating the sick."
+    },
+    {
+      "id": "explorer",
+      "name": "Explorer",
+      "description": "Treasure hunter, navigator, survivalist, hermit."
+    },
+    {
+      "id": "gambler",
+      "name": "Gambler",
+      "description": "Manipulating chance, dice rolls, meta."
+    },
+    {
+      "id": "hunter",
+      "name": "Hunter",
+      "description": "Monster hunter, tracker, spotter, trapper."
+    },
+    {
+      "id": "inquisitor",
+      "name": "Inquisitor",
+      "description": "Anti-magic, controlling magic – basically a mage hunter or detective."
+    },
+    {
+      "id": "knight",
+      "name": "Knight",
+      "description": "Armor, honorable combat, sense of obligation, paladin, oath, protector."
+    },
+    {
+      "id": "merchant",
+      "name": "Merchant",
+      "description": "Focused on gold and money."
+    },
+    {
+      "id": "necromancer",
+      "name": "Necromancer",
+      "description": "Weaver magic with the Life element – using life for power."
+    },
+    {
+      "id": "politician",
+      "name": "Politician",
+      "description": "Influence, schemes, diplomacy, lords."
+    },
+    {
+      "id": "ranger",
+      "name": "Ranger",
+      "description": "Ranged weapons, sharpshooter, bowman, firearms."
+    },
+    {
+      "id": "scholar",
+      "name": "Scholar",
+      "description": "Lore, understanding, books and knowledge."
+    },
+    {
+      "id": "shaman",
+      "name": "Shaman",
+      "description": "Nature, closeness to animals, grove tenders, spirituality, elements, curses."
+    },
+    {
+      "id": "shifter",
+      "name": "Shifter",
+      "description": "Shapeshifting."
+    },
+    {
+      "id": "static mage",
+      "name": "Static Spellcaster",
+      "description": "Wizard, learned magic, specific spells."
+    },
+    {
+      "id": "thief",
+      "name": "Thief",
+      "description": "Looting, gathering items, picking locks, breaking and entering, pickpocketing."
+    },
+    {
+      "id": "weaponsmaster",
+      "name": "Weaponsmaster",
+      "description": "Everything relating to weapons and specific weapons."
+    },
+    {
+      "id": "weaver",
+      "name": "Weaver",
+      "description": "Freeform magic."
+    }
+  ]
+}
