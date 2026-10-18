@@ -89,6 +89,14 @@ The section icons (System / Characters / Map / Lore) are in `assets/img/icons/`.
 Everything on the home page is in `content/site.json`: title, tagline, intro, the four tiles, the news list and the footer.
 Delete the `"workInProgressNote"` line to remove the yellow note on every page.
 
+**Latest updates** fills itself: after every push, the newest commit messages from GitHub appear there (with date and a link to the change), mixed with the hand-written entries under `"news"`. Settings in `site.json` → `"updates"`:
+
+- `"github"`: the repository (`ja-kuda/ja-kuda.github.io`). Delete the line to show only the hand-written news.
+- `"count"`: how many commits to show.
+- `"hidePrefix"`: commits whose message starts with this are skipped – e.g. a commit message `- fixed typo` won't appear.
+
+Tip: the first line of the commit message is what visitors see, so write it for them (e.g. "New lore: the gods and their symbols").
+
 ---
 
 ## Characters (rules data)

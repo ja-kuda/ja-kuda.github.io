@@ -297,6 +297,8 @@ label.field > span { display: block; font-size: .85rem; color: var(--muted); mar
 .news li { padding: 12px 0; border-bottom: 1px solid var(--line-soft); }
 .news li:last-child { border-bottom: 0; }
 .news time { display: block; font-size: .8rem; color: var(--crystal-2); letter-spacing: .08em; }
+.news li.commit a { color: var(--text); text-decoration: none; }
+.news li.commit a:hover { color: var(--crystal); text-decoration: underline; }
 
 /* ==========================================================================
    READER (System + Lore)

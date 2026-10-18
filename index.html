@@ -45,6 +45,47 @@
   <footer id="site-footer"></footer>
 
   <script>
+    /* "Latest updates": hand-written entries from site.json → "news" plus the newest commits from GitHub
+       (site.json → "updates"). If GitHub can't be reached, only the hand-written entries are shown. */
+    async function githubCommits(cfg) {
+      if (!cfg || !cfg.github) return [];
+      const key = "ambition.commits." + cfg.github;
+      try {
+        const c = JSON.parse(sessionStorage.getItem(key) || "null");
+        if (c && Date.now() - c.t < 10 * 60 * 1000) return c.list;            // cached for 10 minutes
+      } catch (e) {}
+      const res = await fetch(`https://api.github.com/repos/${cfg.github}/commits?per_page=30`);
+      if (!res.ok) throw new Error("GitHub " + res.status);
+      const list = (await res.json()).map((c) => ({
+        date: (c.commit.committer || c.commit.author).date,
+        text: c.commit.message.split("\n")[0].trim(),
+        url: c.html_url
+      }));
+      try { sessionStorage.setItem(key, JSON.stringify({ t: Date.now(), list })); } catch (e) {}
+      return list;
+    }
+    async function renderNews(site) {
+      const A = Ambition, box = document.getElementById("news");
+      const cfg = site.updates || {};
+      const draw = (items) => {
+        box.innerHTML = items.map((n) => `<li${n.url ? ' class="commit"' : ""}><time>${A.esc(n.day)}</time>${n.url
+          ? `<a href="${n.url}" target="_blank" rel="noopener">${A.esc(n.text)}</a>` : A.inline(n.text)}</li>`).join("")
+          || `<li class="muted">Nothing yet.</li>`;
+      };
+      const manual = (site.news || []).map((n) => ({ ...n, sort: String(n.date) + "T00:00:00", day: n.date }));
+      const count = cfg.count || 6;
+      const merge = (extra) => [...manual, ...extra].sort((a, b) => (a.sort < b.sort ? 1 : -1)).slice(0, count + manual.length);
+      draw(merge([]));
+      try {
+        const hide = cfg.hidePrefix;
+        const commits = (await githubCommits(cfg))
+          .filter((c) => c.text && !(hide && c.text.startsWith(hide)) && !/^Merge /.test(c.text))
+          .slice(0, count)
+          .map((c) => ({ ...c, sort: c.date, day: c.date.slice(0, 10) }));
+        if (commits.length) draw(merge(commits));
+      } catch (e) { /* offline or GitHub limit reached – keep the hand-written news */ }
+    }
+
     (async () => {
       const A = Ambition;
       try {
@@ -65,8 +106,7 @@
         const about = await A.loadText(home.aboutFile || "content/home.md").catch(() => "");
         document.getElementById("home-about").innerHTML = `<div class="md">${A.md(about)}</div>`;
 
-        document.getElementById("news").innerHTML = (site.news || []).map(n =>
-          `<li><time>${A.esc(n.date)}</time>${A.inline(n.text)}</li>`).join("") || `<li class="muted">Nothing yet.</li>`;
+        renderNews(site);
       } catch (e) {
         document.getElementById("tiles").innerHTML = A.errorBox(e);
       }
