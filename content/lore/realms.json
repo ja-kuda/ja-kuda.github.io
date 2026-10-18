@@ -10,9 +10,9 @@
       "file": "lands/realms/altenbrunn.md",
       "eras": {
         "before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
+          "status": "",
+          "partOf": "",
+          "summary": ""
         },
         "rogamons-reign": {
           "status": "Conquered",
@@ -47,9 +47,9 @@
       "file": "lands/realms/altland.md",
       "eras": {
         "before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
+          "status": "",
+          "partOf": "",
+          "summary": ""
         },
         "rogamons-reign": {
           "status": "Conquered",
@@ -59,7 +59,7 @@
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "",
-          "capital": "",
+          "capital": "Höhlenhafen",
           "partOf": "",
           "summary": "*Placeholder* – one or two sentences about Altland in this era.",
           "facts": {
@@ -67,9 +67,9 @@
           }
         },
         "present": {
-          "status": "Province",
+          "status": "Province of Varland",
           "ruler": "Governed by the crown",
-          "capital": "Höhlenhafen",
+          "capital": "Hammerfall",
           "partOf": "varland",
           "summary": "The thinly settled east of Varland, with the isolated cave port of Höhlenhafen."
         }
@@ -84,9 +84,9 @@
       "file": "lands/realms/belt.md",
       "eras": {
         "before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
+          "status": "",
+          "partOf": "",
+          "summary": ""
         },
         "rogamons-reign": {
           "status": "Exterminated",
@@ -94,9 +94,9 @@
           "summary": "Spared at first for its crystals – then its entire population was wiped out."
         },
         "after-rogamon": {
-          "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "status": "Independent Province",
+          "ruler": "The Inquisition",
+          "capital": "Beltheim",
           "partOf": "",
           "summary": "*Placeholder* – one or two sentences about Belt in this era.",
           "facts": {
@@ -142,7 +142,7 @@
         },
         "present": {
           "status": "Imperial city",
-          "ruler": "Imperial regents",
+          "ruler": "Imperator",
           "capital": "Champ de Soleil",
           "partOf": "tralian-empire",
           "summary": "The city where no one stays – a crossroads of inns and taverns, now full of soldiers heading north."

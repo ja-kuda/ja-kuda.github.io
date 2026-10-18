@@ -45,12 +45,12 @@
         "type": "Ruins",
         "text": "Abandoned in year 0. Later rebuilt on the ruins of Old Winterglehn and soon rising to new greatness, fed by fertile soil, rich forests and the treasures still hidden in the ruins.\n\nCentre of trade of the Expansion – and of crime and corruption. Theoretically anyone can get rich here; few do.",
         "facts": {
-          "Ruler": "The Lord of Winterglehn (Arnil Fang)"
+          "Ruler": "The last Lord of Winterglehn was Arnil Fang, though many would argue that the city was really ruled by Modyi, a shrewd businessman and mob-boss."
         }
       },
       "present": {
         "type": "Ruins",
-        "text": "Destroyed when Rogamon was brought back to life around year 225. Merchants and guild members who saved their goods now hold great power in the New Expansion."
+        "text": "Mostly destroyed when Rogamon was brought back to life around year 225. Merchants and guild members who saved their goods now hold great power in the New Expansion."
       }
     }
   },

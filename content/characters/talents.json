@@ -490,10 +490,10 @@
       "name": "Inspire",
       "category": "archetype",
       "group": "bard",
-      "uses": "",
+      "uses": "3",
       "cost": "",
       "prerequisites": "",
-      "effect": "Make a performance | influence check to inspire your allies, if you succeed they gain +1 boon on their next check."
+      "effect": "When you inspire an ally, you can spend a charge of this talent to instead give a boon to all allies near you."
     },
     {
       "name": "Lullaby",
