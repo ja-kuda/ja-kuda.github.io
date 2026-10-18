@@ -235,7 +235,7 @@
     const autoId = /^(g|path|polygon|polyline|ellipse|circle|rect|use|image|text|line)\d*$/i;
     const nameOfEl = (el) => {
       const id = el.getAttribute("id");
-      if (id && !autoId.test(id) && !id.startsWith("_")) return norm(id);
+      if (id && !autoId.test(id) && !id.startsWith("_")) return norm(id.replace(/_/g, " "));   // Affinity writes spaces in names as "_"
       return norm(el.getAttribute("serif:id") || el.getAttributeNS("http://www.serif.com/", "id") ||
         el.getAttribute("inkscape:label") || el.getAttributeNS("http://www.inkscape.org/namespaces/inkscape", "label") || "");
     };

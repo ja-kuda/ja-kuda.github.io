@@ -663,6 +663,8 @@
       "id": "varland",
       "name": "Kingdom of Varland",
       "kind": "Kingdom",
+      "map": "Varland",
+      "coat": "content/images/coats/varland.svg",
       "file": "lands/realms/varland.md",
       "eras": {
         "before-rogamon": {
@@ -737,7 +739,8 @@
       "id": "tralian-empire",
       "name": "Tralian Empire",
       "kind": "Empire",
-      "coat": "content/images/coats/tralien.svg",
+      "map": "Tralisches Imperium",
+      "coat": "content/images/coats/tralian-empire.svg",
       "file": "lands/realms/tralian-empire.md",
       "eras": {
         "after-rogamon": {
@@ -758,6 +761,8 @@
       "id": "red-white-alliance",
       "name": "Red-White Alliance",
       "kind": "Alliance",
+      "map": "Rot-Weiße Allianz",
+      "coat": "content/images/coats/red-white-alliance.svg",
       "file": "lands/realms/red-white-alliance.md",
       "eras": {
         "present": {
@@ -772,6 +777,8 @@
       "id": "new-expansion",
       "name": "New Expansion",
       "kind": "Kingdom",
+      "map": "Neue Expansion",
+      "coat": "content/images/coats/new-expansion.svg",
       "file": "lands/realms/new-expansion.md",
       "eras": {
         "present": {
@@ -807,6 +814,23 @@
           "ruler": "The Ivory League (and many pirates)",
           "capital": "",
           "summary": "Countless islands in the Evening Sea, fought over by merchant guilds and pirate fleets."
+        }
+      }
+    },
+    {
+      "id": "rogamons-remnants",
+      "name": "Rogamon's remaining lands",
+      "kind": "Lands",
+      "map": "Rogamon",
+      "coat": "content/images/coats/rogamons-remnants.svg",
+      "file": "lands/realms/rogamons-remnants.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "Masterless lands",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – what remained of Rogamon's realm after his fall."
         }
       }
     }

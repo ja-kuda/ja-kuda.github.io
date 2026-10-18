@@ -1,19 +1,92 @@
 {
   "_help": "layers: id = layer id in the SVG, label = name of the switch, visible = shown at start, type = makes names clickable, items = shapes/areas makes objects clickable. Layers with the SAME label form one switch. Add \"eras\": [\"present\"] to a layer to show it only in those eras; layers of that switch without \"eras\" are used in all other eras. Example: { \"id\": \"_11_Borders_Present\", \"label\": \"Province borders\", \"visible\": true, \"eras\": [\"present\"] }",
-  "svg": "content/map/Akudia_full_1.svg",
+  "svg": "content/map/Akudia_full_3.svg",
   "title": "Akudia",
-
   "layers": [
-    { "id": "_09_Symbols",          "label": "Symbols",           "visible": false, "type": "Symbol",   "items": "shapes" },
-    { "id": "_08_Locations",        "label": "Places",            "visible": true,  "type": "Place" },
-    { "id": "_07_ProvincesOutlines","label": "Province borders",  "visible": true },
-    { "id": "_06_Provinces",        "label": "Provinces",         "visible": false, "type": "Province", "items": "areas", "nameFrom": "_09_Symbols" },
-    { "id": "_02_Mountains",        "label": "Mountain names",    "visible": true,  "type": "Mountains" },
-    { "id": "_05_Forests",          "label": "Forest names",      "visible": true,  "type": "Forest" },
-    { "id": "_04_Rivers",           "label": "River & lake names","visible": true,  "type": "Water" },
-    { "id": "_03_Islands",          "label": "Island names",      "visible": true,  "type": "Island" },
-    { "id": "_10_Distances",        "label": "Distances & scale", "visible": false }
+    {
+      "id": "_09_Symbols_nKR",
+      "label": "Symbols",
+      "visible": false,
+      "type": "Symbol",
+      "items": "shapes"
+    },
+    {
+      "id": "_13_Symbols_Present",
+      "label": "Symbols",
+      "visible": false,
+      "type": "Symbol",
+      "items": "shapes",
+      "eras": [
+        "present"
+      ]
+    },
+    {
+      "id": "_08_Locations",
+      "label": "Places",
+      "visible": true,
+      "type": "Place"
+    },
+    {
+      "id": "_07_ProvincesOutlines_nKR",
+      "label": "Borders",
+      "visible": true
+    },
+    {
+      "id": "_12_ProvincesOutlines_Present",
+      "label": "Borders",
+      "visible": true,
+      "eras": [
+        "present"
+      ]
+    },
+    {
+      "id": "_06_Provinces_nKR",
+      "label": "Provinces",
+      "visible": false,
+      "type": "Province",
+      "items": "areas",
+      "nameFrom": "_09_Symbols_nKR"
+    },
+    {
+      "id": "_11_Provinces_Present",
+      "label": "Provinces",
+      "visible": false,
+      "type": "Realm",
+      "items": "areas",
+      "nameFrom": "_13_Symbols_Present",
+      "eras": [
+        "present"
+      ]
+    },
+    {
+      "id": "_02_Mountains",
+      "label": "Mountain names",
+      "visible": true,
+      "type": "Mountains"
+    },
+    {
+      "id": "_05_Forests",
+      "label": "Forest names",
+      "visible": true,
+      "type": "Forest"
+    },
+    {
+      "id": "_04_Rivers",
+      "label": "River & lake names",
+      "visible": true,
+      "type": "Water"
+    },
+    {
+      "id": "_03_Islands",
+      "label": "Island names",
+      "visible": true,
+      "type": "Island"
+    },
+    {
+      "id": "_10_Distances",
+      "label": "Distances & scale",
+      "visible": false
+    }
   ],
-
   "maxZoom": 20
 }
