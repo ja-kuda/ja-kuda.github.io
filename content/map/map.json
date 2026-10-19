@@ -154,11 +154,11 @@
   "travel": [
     {
       "label": "On foot",
-      "kmPerDay": 30
+      "kmPerDay": 20
     },
     {
       "label": "On horseback",
-      "kmPerDay": 60
+      "kmPerDay": 35
     },
     {
       "label": "By cart",
