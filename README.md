@@ -183,6 +183,7 @@ Useful boxes for lore pages:
   } }
 ```
 
+  **Hide a realm in one era** without deleting its text: put an underscore in front of the era name, e.g. `"_present": { … }`. The realm then doesn't appear in that era (realm list, era icons, map info); remove the underscore to bring it back. Many entries are parked like this at the moment.
   `partOf` (the id of another realm in the same era) groups realms – e.g. provinces that unified into one kingdom. Extra rows: `"facts": {"Army": "…"}`. A new kingdom that doesn't exist on the map simply gets no `map` value.
 - `content/lore/lands/realms/<id>.md` – the long texts. Text before the first heading is shown in every era; then one `## Era name` heading per era (text in brackets can be left out, e.g. `## After Rogamon` for "After Rogamon (nKR)").
 - The coats of arms in `content/images/coats/` were cut out of the map's Symbols layer. Replace a file to change a coat, or add a new one for a new realm.
