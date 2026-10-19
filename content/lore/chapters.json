@@ -16,8 +16,8 @@
     {
       "title": "Faiths and Gods", "id": "faith", "file": "faith/01-faiths.md",
       "sections": [
-        { "title": "The gods and their aspects", "id": "gods", "file": "faith/02-gods.md" },
-        { "title": "The Ascension", "id": "ascension", "file": "faith/03-ascension.md" }
+        { "title": "The Ascension", "id": "ascension", "file": "faith/03-ascension.md" },
+        { "title": "The gods and their aspects", "id": "gods", "file": "faith/02-gods.md" }
       ]
     },
     {

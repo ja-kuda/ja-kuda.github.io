@@ -154,19 +154,19 @@
   "travel": [
     {
       "label": "On foot",
-      "kmPerDay": 20
-    },
-    {
-      "label": "On horseback",
-      "kmPerDay": 35
-    },
-    {
-      "label": "By cart",
       "kmPerDay": 25
     },
     {
+      "label": "On horseback",
+      "kmPerDay": 40
+    },
+    {
+      "label": "By cart",
+      "kmPerDay": 30
+    },
+    {
       "label": "By ship",
-      "kmPerDay": 120
+      "kmPerDay": 130
     }
   ],
   "maxZoom": 20

@@ -196,10 +196,10 @@ Embeds for lore pages: `<div data-embed="realms">`, `<div data-embed="eras">`, `
 Each god in `content/lore/faith/02-gods.md` has a line like
 
 ```html
-<img class="symbol" src="content/images/gods/debilor.png" alt="Symbol of Debilor">
+<img class="symbol" src="content/images/gods/debilor.webp" alt="Symbol of Debilor">
 ```
 
-Save the symbol picture under exactly that name in `content/images/gods/` (PNG with a transparent background works best) and it appears next to the god's description. Until then a small ◆ placeholder is shown. Copy the line to give a new god a symbol.
+The symbols from Lionafire are saved as `content/images/gods/<name>.webp`. To change one, save a new picture (PNG/WebP with a transparent background) and change the file name in the line. If the file is missing, a small ◆ placeholder is shown. Copy the line to give a new god a symbol.
 
 ---
 

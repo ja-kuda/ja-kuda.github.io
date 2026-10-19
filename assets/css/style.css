@@ -366,7 +366,7 @@ label.field > span { display: block; font-size: .85rem; color: var(--muted); mar
 .md .callout.rule .callout-title { color: #e58aaa; }
 .md .callout.gm { border-color: var(--warn); }
 .md .callout.gm .callout-title { color: var(--warn); }
-.divider { display: flex; align-items: center; gap: 16px; margin: 2.2em 0; }
+.divider { display: flex; align-items: center; gap: 16px; margin: 2.2em 0; clear: both; }
 .divider::before, .divider::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, transparent, var(--line)); }
 .divider::after { background: linear-gradient(90deg, var(--line), transparent); }
 .divider img { height: 38px; width: auto; margin: 0; }
@@ -845,10 +845,11 @@ body.map-page .site-footer { display: none; }
 .people .people-img { float: right; max-width: 140px; max-height: 160px; margin: 0 0 10px 16px; }
 
 /* ---------- God symbols ---------- */
-.symbol { float: right; width: 96px; height: 96px; object-fit: contain; margin: 4px 0 12px 18px; }
-.symbol-missing { display: flex; align-items: center; justify-content: center; font-size: 2rem;
+.symbol { float: right; width: 104px; height: 104px; object-fit: contain; margin: 4px 0 12px 18px; padding: 16px; box-sizing: border-box;
+  border-radius: 50%; background: radial-gradient(circle at 40% 35%, #fff, #e9e1e8); box-shadow: 0 0 0 3px rgba(220,163,203,.25); }   /* pale disc like the element symbols */
+.symbol-missing { display: flex; align-items: center; justify-content: center; font-size: 2rem; background: none; box-shadow: none;
   color: var(--crystal-2); opacity: .6; border: 1px dashed currentColor; border-radius: 6px; }
-@media (max-width: 560px) { .symbol { width: 64px; height: 64px; } .people .people-img { max-width: 90px; } }
+@media (max-width: 560px) { .symbol { width: 72px; height: 72px; padding: 11px; } .people .people-img { max-width: 90px; } }
 
 /* ---------- map info panel: era chips ---------- */
 .map-info .info-eras { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 12px; }

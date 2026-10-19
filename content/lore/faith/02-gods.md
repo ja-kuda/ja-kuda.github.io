@@ -9,7 +9,7 @@ Every god embodies an **ambition** – the idea they became when they ascended. 
 ## The gods
 
 ### Debilor – Justice, Judgement
-<img class="symbol" src="content/images/gods/debilor.png" alt="Symbol of Debilor">
+<img class="symbol" src="content/images/gods/debilor.webp" alt="Symbol of Debilor">
 
 Debilor stands for the just punishment a misdeed deserves and for the judgement that comes with it. He truly wants to make the world a better place, but his methods are often hard and unyielding.
 
@@ -22,8 +22,10 @@ Debilor is the god of soldiers and the main religion of the Tralian Empire. His 
 - Justice has no price.
 - A judge knows no feelings.
 
+---
+
 ### Mondarn – Community, Work, Family
-<img class="symbol" src="content/images/gods/mondarn.png" alt="Symbol of Mondarn">
+<img class="symbol" src="content/images/gods/mondarn.webp" alt="Symbol of Mondarn">
 
 Mondarn is the god of the harvest, of the land and of rest after work is done. He is generally revered as a good god, above all in rural areas and among farmers. There are hardly any temples – his followers pray in nature and offer what they have produced, such as food or animals. Nobles sometimes mockingly call him the "peasant god".
 
@@ -31,16 +33,20 @@ Mondarn is the god of the harvest, of the land and of rest after work is done. H
 - Even a simple life is fulfilling if you do your part.
 - Every living being deserves a family.
 
+---
+
 ### Grumlin – Creation, Endurance
-<img class="symbol" src="content/images/gods/grumlin.png" alt="Symbol of Grumlin">
+<img class="symbol" src="content/images/gods/grumlin.webp" alt="Symbol of Grumlin">
 
 Grumlin is the god of stone and earth and is often called the god of the Durag, who according to legend were made in his image. He stands for creating things that last, for endurance and for silently bearing everything the world has to offer. His followers are known as stubborn and steadfast.
 
 - What counts is to endure. The world is hard – be harder.
 - Whoever creates something with their own hands will be immortal as long as their work stands.
 
+---
+
 ### Saranah – Hope, Light
-<img class="symbol" src="content/images/gods/saranah.png" alt="Symbol of Saranah">
+<img class="symbol" src="content/images/gods/saranah.webp" alt="Symbol of Saranah">
 
 Saranah is the goddess of light. She also stands for life and love, and above all for the hope that every night, no matter how dark, is followed by a new morning. Her temples are orderly and clean and are usually found in wealthy cities. She is open to every kind of believer – but her commandments are clear about those who destroy the hope of others.
 
@@ -52,8 +58,10 @@ The **Children of the New Morning** are among her most devoted followers – mos
 
 Saranah's temples are a popular place for marriages, as it is believed that the new chapter of life is then blessed with light.
 
+---
+
 ### Virinia – Curiosity, Knowledge, Learning, Progress
-<img class="symbol" src="content/images/gods/virinia.png" alt="Symbol of Virinia">
+<img class="symbol" src="content/images/gods/virinia.webp" alt="Symbol of Virinia">
 
 Virinia is the goddess of knowledge, teaching and the drive to improve oneself. It is said that she ascended because she created the first writings and taught so many beings that they followed her by themselves. She is a strict goddess, patron of scholars, arcanists and researchers. Her temples almost always contain a library and are found only in larger cities.
 
@@ -66,25 +74,33 @@ Anyone can follow Virinia – a smith, a historian, a mage, a mother or a farmer
 
 Her followers despise the idea of an irreplaceable master: every master should be able to tell their student, at some point, "You have surpassed me."
 
+---
+
 ### Buko – Guidance, Calm
-<img class="symbol" src="content/images/gods/buko.png" alt="Symbol of Buko">
+<img class="symbol" src="content/images/gods/buko.webp" alt="Symbol of Buko">
 
 Buko is the god of the moon, of calm and of inner peace.
 
 *Placeholder – more to come.*
 
+---
+
 ### Pilger – Change
-<img class="symbol" src="content/images/gods/pilger.png" alt="Symbol of Pilger">
+<img class="symbol" src="content/images/gods/pilger.webp" alt="Symbol of Pilger">
 
 *Placeholder.*
 
+---
+
 ### Aleandra – Wilderness
-<img class="symbol" src="content/images/gods/aleandra.png" alt="Symbol of Aleandra">
+<img class="symbol" src="content/images/gods/aleandra.webp" alt="Symbol of Aleandra">
 
 Aleandra is the goddess of nature and the wild. She is especially revered on Orubus, where druid tribes honour her with animal sacrifices and rituals.
 
+---
+
 ### Virallon – Carefreeness, Transience, Beauty, Life
-<img class="symbol" src="content/images/gods/virallon.png" alt="Symbol of Virallon">
+<img class="symbol" src="content/images/gods/virallon.webp" alt="Symbol of Virallon">
 
 Virallon is one of the lesser-known gods. He unites spring, the beauty of nature and the carefreeness of youth. There are almost no temples or larger organisations, but he is happily celebrated in the early days of spring and summer. Virallon stands for what is fleeting – and for the beauty that comes precisely from that.
 
@@ -97,28 +113,38 @@ Many of his followers are artists, musicians and actors; others use him as a rea
 
 Customs: at the **first spring festival** every follower brings something they created during the year – and at the end it is destroyed, the greatest gift one can give Virallon. Flowers are given as gifts of gratitude and love. At the **festival of moments** on the first hot day, people set themselves goals they keep putting off, to be fulfilled before winter. Funerals are celebrated, not mourned: the deceased stands **one last round**.
 
+---
+
 ### Baros – Vigour
-<img class="symbol" src="content/images/gods/baros.png" alt="Symbol of Baros">
+<img class="symbol" src="content/images/gods/baros.webp" alt="Symbol of Baros">
 
 *Placeholder.*
 
+---
+
 ### Norvos – Honour
-<img class="symbol" src="content/images/gods/norvos.png" alt="Symbol of Norvos">
+<img class="symbol" src="content/images/gods/norvos.webp" alt="Symbol of Norvos">
 
 *Placeholder.* One of the most widely worshipped gods among soldiers in Varland.
 
+---
+
 ### Inferna, the Burning Tyrant – Temper, Emotion
-<img class="symbol" src="content/images/gods/inferna.png" alt="Symbol of Inferna">
+<img class="symbol" src="content/images/gods/inferna.webp" alt="Symbol of Inferna">
 
 Inferna is the goddess of the Orvosa since she freed them from Orvos. She stands for charity, emotion and hot-headedness – but humans see her as a goddess of destruction and fire, because she is so closely associated with the Orvosa. See [The Ascension](#ascension).
 
+---
+
 ### The Blind Seer – Rebirth, Resurrection
-<img class="symbol" src="content/images/gods/blind-seer.png" alt="Symbol of The Blind Seer">
+<img class="symbol" src="content/images/gods/blind-seer.webp" alt="Symbol of The Blind Seer">
 
 A dark god, banished by Aestor. During Rogamon's war he whispered to King Sigmar of Norvall and nearly turned Rogamon himself – see [Rogamon's Reign](#rogamons-reign).
 
+---
+
 ### Corvilas – Corruption
-<img class="symbol" src="content/images/gods/corvilas.png" alt="Symbol of Corvilas">
+<img class="symbol" src="content/images/gods/corvilas.webp" alt="Symbol of Corvilas">
 
 Corvilas feeds on betrayal, deceit and the loss of all morals, and rewards those who betray and exploit their neighbours. Once the god and ruler of the elven tribes, he is responsible for the fall of the elves.
 
@@ -127,18 +153,24 @@ Corvilas feeds on betrayal, deceit and the loss of all morals, and rewards those
 >
 > The elves blamed the humans, and the Elf Wars began. Those who survived turned aggressive and mad, or joined Corvilas deep underground, sacrificing their souls for a perverse immortality: the soulless dark elves die and rise again in an endless cycle. Recently the seers of the dark elves have felt unrest on the surface – Corvilas promises that the ritual to bring him back is almost complete. All it needs is the blood of a whole continent and the destruction of the last anchor.
 
+---
+
 ### Ruin – Destruction
-<img class="symbol" src="content/images/gods/ruin.png" alt="Symbol of Ruin">
+<img class="symbol" src="content/images/gods/ruin.webp" alt="Symbol of Ruin">
 
 *Placeholder.*
+
+---
 
 ### Zwist – Strife
-<img class="symbol" src="content/images/gods/zwist.png" alt="Symbol of Zwist">
+<img class="symbol" src="content/images/gods/zwist.webp" alt="Symbol of Zwist">
 
 *Placeholder.*
 
+---
+
 ### The Red Queen – Grief, Fear of Loss, Melancholy
-<img class="symbol" src="content/images/gods/red-queen.png" alt="Symbol of The Red Queen">
+<img class="symbol" src="content/images/gods/red-queen.webp" alt="Symbol of The Red Queen">
 
 The Red Queen resisted her ascension, though without the drastic means of other gods. Her central motive is the fear of loss, loss itself, and the preservation of a certain state. Her ambition only took this form shortly before the ascension – before that she may have stood for love and bonds, but that is long forgotten.
 
@@ -152,13 +184,17 @@ High priests are called **Father** or **Mother of Tears**, priests **Keepers of 
 
 Customs: relatives wipe away the red tear of the deceased – they no longer need to fear loss – and paint it on themselves instead. On the **Night of Open Eyes** people stay awake to remember the past; no one may speak of an ending. Some take **"forgetting is betrayal"** to the extreme, wearing the clothes of the dead and changing nothing.
 
+---
+
 ### Ob Nihil – Memory
-<img class="symbol" src="content/images/gods/ob-nihil.png" alt="Symbol of Ob Nihil">
+<img class="symbol" src="content/images/gods/ob-nihil.webp" alt="Symbol of Ob Nihil">
 
 *Placeholder.*
 
+---
+
 ### Aestor – Balance
-<img class="symbol" src="content/images/gods/aestor.png" alt="Symbol of Aestor">
+<img class="symbol" src="content/images/gods/aestor.webp" alt="Symbol of Aestor">
 
 
 Aestor is a special case among the gods. He was one of those who welcomed their ascension most – yet he felt forced to keep up the ever more damaged border between life and death. So he gave up his own ascension to create **Limbo** and **the Veil** that covers the world.
