@@ -353,7 +353,7 @@
     if (!measure.g) { measure.g = document.createElementNS(NS, "g"); measure.g.setAttribute("class", "measure-layer"); svg.appendChild(measure.g); }
     const all = measure.hover && measure.pts.length ? [...measure.pts, measure.hover] : measure.pts;
     const line = all.map((p) => `${p.x},${p.y}`).join(" ");
-    let html = all.length > 1 ? `<polyline points="${line}" class="m-line"/>` : "";
+    let html = all.length > 1 ? `<polyline points="${line}" class="m-line" fill="none" style="fill:none"/>` : "";   // a route, never a filled area
     measure.pts.forEach((p) => { html += `<circle cx="${p.x}" cy="${p.y}" class="m-pt"/>`; });
     if (all.length > 1) { const p = all[all.length - 1]; html += `<text x="${p.x}" y="${p.y}" class="m-label" text-anchor="middle">${fmtKm(measureLength(all))}</text>`; }
     measure.g.innerHTML = html;

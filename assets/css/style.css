@@ -867,7 +867,7 @@ body.map-page .site-footer { display: none; }
 .map-viewport.measuring, .map-viewport.measuring * { cursor: crosshair !important; }
 #measure-toggle.on { background: var(--crystal); color: var(--wine-dk); }
 .measure-layer { pointer-events: none; }
-.measure-layer .m-line { fill: none; stroke: var(--crystal); stroke-width: 2.5; stroke-dasharray: 7 5; vector-effect: non-scaling-stroke; }
+.measure-layer .m-line { fill: none !important; stroke: var(--crystal); stroke-width: 2.5; stroke-dasharray: 7 5; vector-effect: non-scaling-stroke; }
 .measure-layer .m-pt { fill: var(--crystal); stroke: var(--wine-dk); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
 .measure-layer .m-label { fill: #fff; stroke: var(--wine-dk); paint-order: stroke; font-family: var(--font-body, sans-serif); font-weight: 700; }
 .map-measure { left: 50%; bottom: 54px; transform: translateX(-50%); width: min(380px, calc(100% - 32px)); padding: 10px 14px;

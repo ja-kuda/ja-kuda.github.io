@@ -147,8 +147,8 @@
     }
   ],
   "scale": {
-    "_help": "For the measuring tool: 'mapUnits' map units are 'km' kilometres. Taken from the old 1000 km scale bar (312.69 units). Change it if the scale of the map changes.",
-    "mapUnits": 312.69,
+    "_help": "For the measuring tool: 'mapUnits' map units are 'km' kilometres. Smaller mapUnits = longer distances. (Originally 312.69 from the old 1000 km scale bar; changed so that distances are about 1.44× longer.)",
+    "mapUnits": 216.48,
     "km": 1000
   },
   "travel": [
