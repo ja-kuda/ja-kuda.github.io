@@ -61,7 +61,12 @@
           L.eraById = Object.fromEntries(eras.map((x) => [x.id, x]));
           L.realmById = Object.fromEntries(realms.map((x) => [x.id, x]));
           L.realmByMapName = {};
-          realms.forEach((x) => { L.realmByMapName[String(x.map || x.name).normalize("NFKC").replace(/\s+/g, " ").trim()] = x; });
+          L.realmsByMapName = {};
+          realms.forEach((x) => {
+            const k = String(x.map || x.name).normalize("NFKC").replace(/\s+/g, " ").trim();
+            if (!L.realmByMapName[k]) L.realmByMapName[k] = x;
+            (L.realmsByMapName[k] = L.realmsByMapName[k] || []).push(x);   // several realms may share a map name in different eras
+          });
           return L;
         });
       loreCache.catch(() => (loreCache = null));

@@ -30,7 +30,7 @@ content/       ← EVERYTHING YOU WRITE – edit only here
   system/              rules: chapters.json + one .md file per chapter
   lore/                world: chapters.json + one .md file per chapter
   characters/          builder.json, skills.json, ancestries.json, ambitions.json, talents.json
-  map/                 map.json, locations.json, Akudia_full_3.svg (the map)
+  map/                 map.json, locations.json, Akudia_full_4.svg (the map)
   images/              put your own pictures here
 ```
 
@@ -92,7 +92,7 @@ Delete the `"workInProgressNote"` line to remove the yellow note on every page.
 **Latest updates** fills itself: after every push, the newest commit messages from GitHub appear there (with date and a link to the change), mixed with the hand-written entries under `"news"`. Settings in `site.json` → `"updates"`:
 
 - `"github"`: the repository (`ja-kuda/ja-kuda.github.io`). Delete the line to show only the hand-written news.
-- `"count"`: how many commits to show.
+- `"count"`: how many entries the box shows in total (5) – commits and hand-written news together, newest first; the oldest drop out.
 - `"hidePrefix"`: commits whose message starts with this are skipped – e.g. a commit message `- fixed typo` won't appear.
 
 Tip: the first line of the commit message is what visitors see, so write it for them (e.g. "New lore: the gods and their symbols").
@@ -205,25 +205,25 @@ Save the symbol picture under exactly that name in `content/images/gods/` (PNG w
 
 ## Map
 
-- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_3.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
+- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_4.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
 - **Layers:** `map.json` → `layers`. `id` is the layer id in the SVG (Affinity exports `08_Locations` as `_08_Locations`), `label` is the shown name, `visible` the default, and `type` makes the names in that layer clickable.
 - **Clickable shapes (symbols, provinces):** add `"items": "shapes"` (things drawn on top, like coats of arms) or `"items": "areas"` (large areas like provinces – names and symbols on top of them stay clickable) to a layer in `map.json`. Every object directly inside that layer becomes clickable, with hover highlight and tooltip. Its name is the object's ID (Inkscape: Object properties → ID; Affinity: the layer/object name). Objects without a name can borrow one with `"nameFrom"`: `"nameFrom": "_09_Symbols"` gives each province the name of the symbol lying inside it. A province and its symbol then share one entry in `locations.json`.
 - **Start hidden:** `"visible": false` on a layer.
 - **Eras on the map:** the **Era** box at the top sets the time period for the whole map (shared with the Lore pages). It decides which border layers are shown and which era the info window opens with. Inside the info window the era buttons switch only that place's view – the map keeps its era. A small dot marks the map's era; buttons with content are brighter.
-- **Borders, provinces and symbols per era:** draw them as separate layers in the SVG and list them in `map.json` with the **same label**; the era-specific one gets an `"eras"` list. The current setup (Akudia_full_3.svg):
+- **Borders, provinces and symbols per era:** each era has its own layers in the SVG (`_vKR` = Before Rogamon, `_RR` = Rogamon's Reign, `_nKR` = After Rogamon, `_Present`). In `map.json` the layers of one kind share a **label** (one switch) and each gets its era:
 
 ```json
-{ "id": "_09_Symbols_nKR",               "label": "Symbols",   "items": "shapes" },
-{ "id": "_13_Symbols_Present",           "label": "Symbols",   "items": "shapes", "eras": ["present"] },
-{ "id": "_07_ProvincesOutlines_nKR",     "label": "Borders" },
-{ "id": "_12_ProvincesOutlines_Present", "label": "Borders",   "eras": ["present"] },
-{ "id": "_06_Provinces_nKR",             "label": "Provinces", "items": "areas", "nameFrom": "_09_Symbols_nKR" },
-{ "id": "_11_Provinces_Present",         "label": "Provinces", "items": "areas", "nameFrom": "_13_Symbols_Present", "eras": ["present"] }
+{ "id": "_15_Symbols_vKR",     "label": "Symbols",   "items": "shapes", "eras": ["before-rogamon"] },
+{ "id": "_14_Symbols_RR",      "label": "Symbols",   "items": "shapes", "eras": ["rogamons-reign"] },
+{ "id": "_09_Symbols_nKR",     "label": "Symbols",   "items": "shapes", "eras": ["after-rogamon"] },
+{ "id": "_13_Symbols_Present", "label": "Symbols",   "items": "shapes", "eras": ["present"] },
+{ "id": "_06_Provinces_nKR",   "label": "Provinces", "items": "areas",  "eras": ["after-rogamon"] },
+{ "id": "_07_ProvincesOutlines_nKR", "label": "Borders",                "eras": ["after-rogamon"] }
 ```
 
-  So in **Present** the switches Symbols / Borders / Provinces show the _Present layers; in every other era the _nKR layers (they have no `"eras"`, so they are the fallback). To show the _nKR layers **only** in After Rogamon, give them `"eras": ["after-rogamon"]` – then Before Rogamon and Rogamon's Reign show none until you draw layers for them.
-- **Names of symbols:** the name of a symbol object in Affinity is its name on the map; `_` counts as a space (`Rot-Weiße_Allianz` → "Rot-Weiße Allianz"). A kingdom in `content/lore/realms.json` is linked to its symbol with `"map": "Rot-Weiße Allianz"`. A province area without a symbol inside it shows up as "Realm 2" etc. – put a symbol on it or give the area a name.
-  Layers with the same label are one switch. In an era that has its own layer, that layer is shown; in all other eras the layer without `"eras"` is used. This works for any layer – e.g. a clickable `"items": "areas"` layer with the provinces of one era (`"label": "Provinces"`). Era ids: `before-rogamon`, `rogamons-reign`, `after-rogamon`, `present` (see `content/lore/eras.json`).
+  The switch shows only the layer of the chosen era; empty layers simply show nothing. A layer of a switch **without** `"eras"` would be used for every era that has no layer of its own. `"items": "shapes"` / `"areas"` make the objects clickable; `"nameFrom": "<symbol layer>"` lets unnamed areas borrow the name of the symbol inside them. Era ids: `before-rogamon`, `rogamons-reign`, `after-rogamon`, `present` (see `content/lore/eras.json`).
+- **Names of objects:** the name you give an object in Affinity is its name on the map (Affinity's numbered ids like `Varland2` are ignored) and `_` counts as a space (`Rot-Weiße_Allianz` → "Rot-Weiße Allianz"). A kingdom in `content/lore/realms.json` is linked to its symbol/area with `"map": "Rot-Weiße Allianz"`. Several realms may use the same map name in different eras (e.g. "Rogamon" = *Rogamon's realm* in Rogamon's Reign and *Rogamon's remaining lands* in After Rogamon) – the info window picks the one of the shown era.
+- **Measuring distances:** the ruler button below the zoom buttons. Click points on the map; the box shows the distance and the travel time. Undo point / Clear / Done (or Esc). The scale is set in `map.json` → `"scale"` (`"mapUnits": 312.69, "km": 1000` – taken from the old 1000 km scale bar) and the travel speeds in `"travel"` (`{ "label": "On foot", "kmPerDay": 30 }` – add, remove or change as you like).
 - **Descriptions:** `locations.json`. The key must be **exactly the name as written on the map**:
 
 ```json

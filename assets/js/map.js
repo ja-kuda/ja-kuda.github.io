@@ -32,6 +32,7 @@
     raf = requestAnimationFrame(() => {
       raf = 0;
       stage.style.transform = `translate(${view.x}px, ${view.y}px) scale(${view.s})`;
+      measureScale();
     });
   }
   function clampView() {
@@ -70,6 +71,7 @@
       view.y = from.y + (ty - from.y) * e;
       view.s = from.s + (ts - from.s) * e;
       stage.style.transform = `translate(${view.x}px, ${view.y}px) scale(${view.s})`;
+      measureScale();
       if (t < 1) anim = requestAnimationFrame(step);
     };
     anim = requestAnimationFrame(step);
@@ -90,7 +92,7 @@
 
     viewport.addEventListener("pointerdown", (e) => {
       if (e.button !== 0 && e.pointerType === "mouse") return;
-      downHit = hitAt(e.clientX, e.clientY);
+      downHit = measure.on ? null : hitAt(e.clientX, e.clientY);
       setHover(null);
       viewport.setPointerCapture(e.pointerId);
       pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
@@ -104,7 +106,11 @@
       }
     });
     viewport.addEventListener("pointermove", (e) => {
-      if (!pts.has(e.pointerId)) { if (e.pointerType === "mouse") hoverAt(e); return; }
+      if (!pts.has(e.pointerId)) {
+        if (measure.on) { measure.hover = toMap(e); measureDraw(); return; }
+        if (e.pointerType === "mouse") hoverAt(e);
+        return;
+      }
       pts.set(e.pointerId, { x: e.clientX, y: e.clientY });
       const r = viewport.getBoundingClientRect();
       if (pts.size === 2 && pinch) {
@@ -138,6 +144,7 @@
     // a click only counts if the pointer didn't move (so dragging doesn't open labels)
     viewport.addEventListener("click", (e) => {
       if (moved > 6) { e.stopPropagation(); e.preventDefault(); return; }
+      if (measure.on) { downHit = null; measureAdd(toMap(e)); return; }
       const hit = downHit || hitAt(e.clientX, e.clientY);
       downHit = null;
       if (hit) select(hit.dataset.mapName, hit, false);
@@ -151,6 +158,7 @@
     }, { passive: false });
 
     viewport.addEventListener("dblclick", (e) => {
+      if (measure.on) return;
       const h = hitAt(e.clientX, e.clientY);
       if (h && !h.classList.contains("map-area")) return;
       const r = viewport.getBoundingClientRect();
@@ -233,11 +241,15 @@
     // "items": "shapes" = drawn on top (symbols), "items": "areas" = big areas that never hide names.
     const shapeLayers = cfg.layers.filter((l) => l.items === "shapes" || l.items === "areas");
     const autoId = /^(g|path|polygon|polyline|ellipse|circle|rect|use|image|text|line)\d*$/i;
+    // name of an object = its name in Affinity (serif:id) or Inkscape (label), else its id.
+    // Affinity makes ids unique ("Varland2") and writes spaces as "_" – both are undone here.
     const nameOfEl = (el) => {
+      const given = el.getAttribute("serif:id") || el.getAttributeNS("http://www.serif.com/", "id") ||
+        el.getAttribute("inkscape:label") || el.getAttributeNS("http://www.inkscape.org/namespaces/inkscape", "label");
+      if (given && !autoId.test(given)) return norm(given.replace(/_/g, " "));
       const id = el.getAttribute("id");
-      if (id && !autoId.test(id) && !id.startsWith("_")) return norm(id.replace(/_/g, " "));   // Affinity writes spaces in names as "_"
-      return norm(el.getAttribute("serif:id") || el.getAttributeNS("http://www.serif.com/", "id") ||
-        el.getAttribute("inkscape:label") || el.getAttributeNS("http://www.inkscape.org/namespaces/inkscape", "label") || "");
+      if (id && !autoId.test(id) && !id.startsWith("_")) return norm(id.replace(/_/g, " "));
+      return "";
     };
     const pending = [];
     shapeLayers.forEach((layer) => {
@@ -317,9 +329,78 @@
     });
   }
 
+  /* ---------- measuring distances ----------
+     Click the ruler button, then click points on the map. The scale (map units per km) and the
+     travel speeds come from content/map/map.json → "scale" and "travel". */
+  const measure = { on: false, pts: [], hover: null, g: null };
+  const NS = "http://www.w3.org/2000/svg";
+  function toMap(e) {
+    const r = viewport.getBoundingClientRect();
+    return { x: (e.clientX - r.left - view.x) / view.s, y: (e.clientY - r.top - view.y) / view.s };
+  }
+  const kmPerUnit = () => (cfg.scale && cfg.scale.mapUnits && cfg.scale.km ? cfg.scale.km / cfg.scale.mapUnits : null);
+  const fmtKm = (u) => { const k = kmPerUnit(); if (!k) return Math.round(u) + " units"; const km = u * k; return (km < 100 ? km.toFixed(1) : Math.round(km).toLocaleString("en")) + " km"; };
+  const fmtDays = (d) => { if (d < 1) { const h = Math.max(1, Math.round(d * 24)); return h + " hour" + (h === 1 ? "" : "s"); } const r = Math.round(d * 2) / 2; return (r % 1 ? Math.floor(r) + "½" : r) + " day" + (r === 1 ? "" : "s"); };
+  function measureLength(pts) { let L = 0; for (let i = 1; i < pts.length; i++) L += Math.hypot(pts[i].x - pts[i - 1].x, pts[i].y - pts[i - 1].y); return L; }
+  function measureScale() {
+    if (!measure.g) return;
+    const k = 1 / view.s;
+    measure.g.querySelectorAll("circle").forEach((c) => c.setAttribute("r", 5 * k));
+    measure.g.querySelectorAll("text").forEach((t) => { t.setAttribute("font-size", 13 * k); t.setAttribute("stroke-width", 3 * k); });
+    measure.g.querySelectorAll("text").forEach((t) => t.setAttribute("dy", -10 * k));
+  }
+  function measureDraw() {
+    if (!measure.g) { measure.g = document.createElementNS(NS, "g"); measure.g.setAttribute("class", "measure-layer"); svg.appendChild(measure.g); }
+    const all = measure.hover && measure.pts.length ? [...measure.pts, measure.hover] : measure.pts;
+    const line = all.map((p) => `${p.x},${p.y}`).join(" ");
+    let html = all.length > 1 ? `<polyline points="${line}" class="m-line"/>` : "";
+    measure.pts.forEach((p) => { html += `<circle cx="${p.x}" cy="${p.y}" class="m-pt"/>`; });
+    if (all.length > 1) { const p = all[all.length - 1]; html += `<text x="${p.x}" y="${p.y}" class="m-label" text-anchor="middle">${fmtKm(measureLength(all))}</text>`; }
+    measure.g.innerHTML = html;
+    measureScale();
+    measurePanel();
+  }
+  function measurePanel() {
+    const L = measureLength(measure.pts), k = kmPerUnit();
+    const travel = (cfg.travel || []).filter((t) => t.kmPerDay > 0);
+    $("#measure-total").textContent = measure.pts.length > 1 ? fmtKm(L) : "Click on the map to set points";
+    $("#measure-travel").innerHTML = measure.pts.length > 1 && k ? travel.map((t) =>
+      `<li><span>${A.esc(t.label)}</span><b>≈ ${fmtDays(L * k / t.kmPerDay)}</b></li>`).join("") : "";
+    $("#measure-undo").disabled = !measure.pts.length;
+    $("#measure-clear").disabled = !measure.pts.length;
+  }
+  function measureAdd(p) { measure.pts.push(p); measureDraw(); }
+  function measureToggle(on) {
+    measure.on = on === undefined ? !measure.on : on;
+    viewport.classList.toggle("measuring", measure.on);
+    $("#measure-toggle").classList.toggle("on", measure.on);
+    $("#measure-toggle").setAttribute("aria-pressed", measure.on);
+    $("#map-measure").classList.toggle("hidden", !measure.on);
+    if (measure.on) { setHover(null); measurePanel(); }
+    else { measure.pts = []; measure.hover = null; if (measure.g) measure.g.innerHTML = ""; }
+  }
+  function bindMeasure() {
+    $("#measure-toggle").addEventListener("click", () => measureToggle());
+    $("#measure-done").addEventListener("click", () => measureToggle(false));
+    $("#measure-undo").addEventListener("click", () => { measure.pts.pop(); measureDraw(); });
+    $("#measure-clear").addEventListener("click", () => { measure.pts = []; measureDraw(); });
+    viewport.addEventListener("pointerleave", () => { if (measure.on) { measure.hover = null; measureDraw(); } });
+    document.addEventListener("keydown", (e) => {
+      if (!measure.on) return;
+      if (e.key === "Escape") { e.stopImmediatePropagation(); measureToggle(false); }
+      if ((e.key === "Backspace" || (e.key === "z" && (e.ctrlKey || e.metaKey))) && document.activeElement !== $("#map-q")) { e.preventDefault(); measure.pts.pop(); measureDraw(); }
+    }, true);
+  }
+
   /* ---------- info panel ----------
      The panel shows the general entry from locations.json plus everything recorded for ONE era.
      That era starts as the map's era; the era chips in the panel switch it for this place only. */
+  // the realm behind a map name – if several realms use the same name, the one that exists in the shown era
+  function realmFor(name) {
+    const list = (lore.realmsByMapName || {})[name] || (lore.realmByMapName[name] ? [lore.realmByMapName[name]] : []);
+    const has = (r, id) => r.eras && r.eras[id];
+    return list.find((r) => has(r, infoEra)) || list.find((r) => has(r, era)) || list[0] || null;
+  }
   function eraHasInfo(name, realm, id) {
     const e = entries[name] || {};
     return !!((e.eras && e.eras[id]) || (realm && realm.eras && realm.eras[id]));
@@ -331,14 +412,14 @@
     const e = entries[name] || {};
     if (activeEl) activeEl.forEach((x) => x.classList.remove("active"));
     const kind = el ? el.dataset.mapKind : null;
+    if (!keepInfoEra || !infoEra) infoEra = era;
     activeEl = [...svg.querySelectorAll(`[data-map-name="${CSS.escape(name)}"]`)].filter((x) => (!kind || x.dataset.mapKind === kind) && shown(x));
     activeEl.forEach((x) => x.classList.add("active"));
-    if (!keepInfoEra || !infoEra) infoEra = era;
     lastSel = { name, el };
 
     // realms (provinces / kingdoms) get era-specific information from content/lore/realms.json
     const isShape = label && (label.el.classList.contains("map-area") || label.el.classList.contains("map-shape"));
-    const realm = lore && isShape ? lore.realmByMapName[name] : null;
+    const realm = lore && isShape ? realmFor(name) : null;
     const ev = (lore && infoEra && e.eras && e.eras[infoEra]) || null;    // era part of locations.json
     const eraObj = lore && infoEra ? lore.eraById[infoEra] : null;
 
@@ -582,6 +663,7 @@
     buildLayers();
     initEras();
     bindInteraction();
+    bindMeasure();
     bindSearch();
     loading.remove();
 

@@ -862,3 +862,24 @@ body.map-page .site-footer { display: none; }
 .map-info .era-part { margin: 0 0 16px; }
 .map-info .era-empty { margin-top: 4px; }
 #map-layers-list .by-era { font-size: .7rem; color: var(--faint); letter-spacing: .05em; }
+
+/* ---------- map: measuring distances ---------- */
+.map-viewport.measuring, .map-viewport.measuring * { cursor: crosshair !important; }
+#measure-toggle.on { background: var(--crystal); color: var(--wine-dk); }
+.measure-layer { pointer-events: none; }
+.measure-layer .m-line { fill: none; stroke: var(--crystal); stroke-width: 2.5; stroke-dasharray: 7 5; vector-effect: non-scaling-stroke; }
+.measure-layer .m-pt { fill: var(--crystal); stroke: var(--wine-dk); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
+.measure-layer .m-label { fill: #fff; stroke: var(--wine-dk); paint-order: stroke; font-family: var(--font-body, sans-serif); font-weight: 700; }
+.map-measure { left: 50%; bottom: 54px; transform: translateX(-50%); width: min(380px, calc(100% - 32px)); padding: 10px 14px;
+  background: rgba(18,14,19,.94); border: 1px solid var(--line); backdrop-filter: blur(6px); }
+.map-measure.hidden { display: none; }
+.map-measure .mm-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 4px; }
+.map-measure .mm-head .eyebrow { font-family: var(--font-display); font-size: .72rem; letter-spacing: .2em; text-transform: uppercase; color: var(--crystal-2); }
+.map-measure .mm-total { font-size: 1.2rem; font-family: var(--font-display); margin-bottom: 4px; }
+.map-measure .mm-travel { list-style: none; margin: 0 0 8px; padding: 0; font-size: .85rem; }
+.map-measure .mm-travel:empty { display: none; }
+.map-measure .mm-travel li { display: flex; justify-content: space-between; gap: 10px; padding: 2px 0; color: var(--muted); }
+.map-measure .mm-travel b { color: var(--text); font-weight: 600; }
+.map-measure .mm-actions { display: flex; gap: 6px; }
+.map-measure .btn[disabled] { opacity: .45; pointer-events: none; }
+@media (max-width: 760px) { .map-measure { top: 118px; bottom: auto; left: 14px; right: 70px; width: auto; transform: none; } }

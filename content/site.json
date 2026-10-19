@@ -40,9 +40,9 @@
     ]
   },
   "updates": {
-    "_help": "The 'Latest updates' box on the home page. It shows the newest commits (pushes) from GitHub automatically, mixed with the hand-written entries in 'news' below. A commit whose message starts with the hidePrefix (e.g. '- small typo fix') is not shown. Delete 'github' to show only the 'news' entries.",
+    "_help": "The 'Latest updates' box on the home page. It shows the newest commits (pushes) from GitHub automatically, mixed with the hand-written entries in 'news' below – 'count' entries in total, newest first; older ones drop out. A commit whose message starts with the hidePrefix (e.g. '- small typo fix') is not shown. Delete 'github' to show only the 'news' entries.",
     "github": "ja-kuda/ja-kuda.github.io",
-    "count": 6,
+    "count": 5,
     "hidePrefix": "-"
   },
   "news": [

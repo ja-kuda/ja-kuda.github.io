@@ -1,14 +1,37 @@
 {
   "_help": "layers: id = layer id in the SVG, label = name of the switch, visible = shown at start, type = makes names clickable, items = shapes/areas makes objects clickable. Layers with the SAME label form one switch. Add \"eras\": [\"present\"] to a layer to show it only in those eras; layers of that switch without \"eras\" are used in all other eras. Example: { \"id\": \"_11_Borders_Present\", \"label\": \"Province borders\", \"visible\": true, \"eras\": [\"present\"] }",
-  "svg": "content/map/Akudia_full_3.svg",
+  "svg": "content/map/Akudia_full_4.svg",
   "title": "Akudia",
   "layers": [
+    {
+      "id": "_15_Symbols_vKR",
+      "label": "Symbols",
+      "visible": false,
+      "type": "Symbol",
+      "items": "shapes",
+      "eras": [
+        "before-rogamon"
+      ]
+    },
+    {
+      "id": "_14_Symbols_RR",
+      "label": "Symbols",
+      "visible": false,
+      "type": "Symbol",
+      "items": "shapes",
+      "eras": [
+        "rogamons-reign"
+      ]
+    },
     {
       "id": "_09_Symbols_nKR",
       "label": "Symbols",
       "visible": false,
       "type": "Symbol",
-      "items": "shapes"
+      "items": "shapes",
+      "eras": [
+        "after-rogamon"
+      ]
     },
     {
       "id": "_13_Symbols_Present",
@@ -27,9 +50,28 @@
       "type": "Place"
     },
     {
+      "id": "_19_Provinces_Outlines_vKR",
+      "label": "Borders",
+      "visible": true,
+      "eras": [
+        "before-rogamon"
+      ]
+    },
+    {
+      "id": "_18_Provinces_Outlines_RR",
+      "label": "Borders",
+      "visible": true,
+      "eras": [
+        "rogamons-reign"
+      ]
+    },
+    {
       "id": "_07_ProvincesOutlines_nKR",
       "label": "Borders",
-      "visible": true
+      "visible": true,
+      "eras": [
+        "after-rogamon"
+      ]
     },
     {
       "id": "_12_ProvincesOutlines_Present",
@@ -40,12 +82,34 @@
       ]
     },
     {
+      "id": "_17_Provinces_vKR",
+      "label": "Provinces",
+      "visible": false,
+      "type": "Province",
+      "items": "areas",
+      "eras": [
+        "before-rogamon"
+      ]
+    },
+    {
+      "id": "_16_Provinces_RR",
+      "label": "Provinces",
+      "visible": false,
+      "type": "Realm",
+      "items": "areas",
+      "eras": [
+        "rogamons-reign"
+      ]
+    },
+    {
       "id": "_06_Provinces_nKR",
       "label": "Provinces",
       "visible": false,
       "type": "Province",
       "items": "areas",
-      "nameFrom": "_09_Symbols_nKR"
+      "eras": [
+        "after-rogamon"
+      ]
     },
     {
       "id": "_11_Provinces_Present",
@@ -53,7 +117,6 @@
       "visible": false,
       "type": "Realm",
       "items": "areas",
-      "nameFrom": "_13_Symbols_Present",
       "eras": [
         "present"
       ]
@@ -81,11 +144,29 @@
       "label": "Island names",
       "visible": true,
       "type": "Island"
+    }
+  ],
+  "scale": {
+    "_help": "For the measuring tool: 'mapUnits' map units are 'km' kilometres. Taken from the old 1000 km scale bar (312.69 units). Change it if the scale of the map changes.",
+    "mapUnits": 312.69,
+    "km": 1000
+  },
+  "travel": [
+    {
+      "label": "On foot",
+      "kmPerDay": 30
     },
     {
-      "id": "_10_Distances",
-      "label": "Distances & scale",
-      "visible": false
+      "label": "On horseback",
+      "kmPerDay": 60
+    },
+    {
+      "label": "By cart",
+      "kmPerDay": 25
+    },
+    {
+      "label": "By ship",
+      "kmPerDay": 120
     }
   ],
   "maxZoom": 20

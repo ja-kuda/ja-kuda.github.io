@@ -733,7 +733,9 @@
           "capital": "Winterglehn",
           "summary": "The realm of the Necromancer King, built on fear and undead armies."
         }
-      }
+      },
+      "map": "Rogamon",
+      "coat": "content/images/coats/rogamons-realm.svg"
     },
     {
       "id": "tralian-empire",
@@ -831,6 +833,22 @@
           "capital": "",
           "partOf": "",
           "summary": "*Placeholder* – what remained of Rogamon's realm after his fall."
+        }
+      }
+    },
+    {
+      "id": "tralian-conquest",
+      "name": "Tralian conquest",
+      "kind": "Occupied territory",
+      "map": "Tralische Eroberung",
+      "file": "lands/realms/tralian-conquest.md",
+      "eras": {
+        "present": {
+          "status": "Occupied by the Tralian army",
+          "ruler": "Tralian military command",
+          "capital": "",
+          "partOf": "tralian-empire",
+          "summary": "The part of the Rotmark that the Tralian army has already taken in the new offensive."
         }
       }
     }

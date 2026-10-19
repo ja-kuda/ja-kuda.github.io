@@ -73,8 +73,8 @@
           || `<li class="muted">Nothing yet.</li>`;
       };
       const manual = (site.news || []).map((n) => ({ ...n, sort: String(n.date) + "T00:00:00", day: n.date }));
-      const count = cfg.count || 6;
-      const merge = (extra) => [...manual, ...extra].sort((a, b) => (a.sort < b.sort ? 1 : -1)).slice(0, count + manual.length);
+      const count = cfg.count || 5;     // total number of entries – the oldest drop out
+      const merge = (extra) => [...manual, ...extra].sort((a, b) => (a.sort < b.sort ? 1 : -1)).slice(0, count);
       draw(merge([]));
       try {
         const hide = cfg.hidePrefix;

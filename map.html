@@ -42,6 +42,17 @@
       <button class="btn" id="zoom-in" aria-label="Zoom in" title="Zoom in"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 5v14M5 12h14"/></svg></button>
       <button class="btn" id="zoom-out" aria-label="Zoom out" title="Zoom out"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M5 12h14"/></svg></button>
       <button class="btn" id="zoom-fit" aria-label="Show whole map" title="Show whole map"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+      <button class="btn" id="measure-toggle" aria-label="Measure distance" aria-pressed="false" title="Measure distance"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9"><path d="M3 16.5 16.5 3 21 7.5 7.5 21Z"/><path d="m7 13 2 2M10 10l2 2M13 7l2 2"/></svg></button>
+    </div>
+
+    <div class="map-ui map-measure facet hidden" id="map-measure" aria-live="polite">
+      <div class="mm-head"><span class="eyebrow">Measure</span><button class="btn small ghost" id="measure-done">Done</button></div>
+      <div class="mm-total" id="measure-total"></div>
+      <ul class="mm-travel" id="measure-travel"></ul>
+      <div class="mm-actions">
+        <button class="btn small ghost" id="measure-undo">Undo point</button>
+        <button class="btn small ghost" id="measure-clear">Clear</button>
+      </div>
     </div>
 
     <button class="btn map-ui map-layers-toggle" id="map-layers-toggle" aria-label="Layers"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m12 3 9 5-9 5-9-5 9-5Z"/><path d="m3 13 9 5 9-5"/></svg></button>
