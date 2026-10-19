@@ -1,6 +1,6 @@
-# Necromancy and the Life element
+# Necromancy
 
-The Life element encompasses all forms of interacting with souls, the dead and undead, the creation of undead and the manipulation of life force. It represents another, newer form of arcane magic – and the most feared one.
+Necromancy is weaving with the **Life** [element](#elements): all forms of interacting with souls, the dead and undead, the creation of undead and the manipulation of life force. It is the youngest form of arcane magic – and the most feared one.
 
 > [!glance] At a glance
 > | | |

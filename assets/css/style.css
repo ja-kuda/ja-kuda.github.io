@@ -844,12 +844,16 @@ body.map-page .site-footer { display: none; }
 .people h3 { margin-top: 0; }
 .people .people-img { float: right; max-width: 140px; max-height: 160px; margin: 0 0 10px 16px; }
 
-/* ---------- God symbols ---------- */
-.symbol { float: right; width: 104px; height: 104px; object-fit: contain; margin: 4px 0 12px 18px; padding: 16px; box-sizing: border-box;
-  border-radius: 50%; background: radial-gradient(circle at 40% 35%, #fff, #e9e1e8); box-shadow: 0 0 0 3px rgba(220,163,203,.25); }   /* pale disc like the element symbols */
-.symbol-missing { display: flex; align-items: center; justify-content: center; font-size: 2rem; background: none; box-shadow: none;
-  color: var(--crystal-2); opacity: .6; border: 1px dashed currentColor; border-radius: 6px; }
-@media (max-width: 560px) { .symbol { width: 72px; height: 72px; padding: 11px; } .people .people-img { max-width: 90px; } }
+/* ---------- God symbols ----------
+   centred above each god; pale disc so dark symbols show, thin dark outline so light symbols show */
+.symbol-disc { width: 150px; height: 150px; margin: .4em auto 10px; border-radius: 50%; display: grid; place-items: center;
+  background: radial-gradient(circle at 40% 35%, #fff, #e6dce6 70%, #d9cbd9); box-shadow: 0 0 0 3px rgba(220,163,203,.35), 0 0 26px rgba(220,163,203,.18); }
+.symbol-disc .symbol { width: 104px; height: 104px; object-fit: contain; margin: 0;
+  filter: drop-shadow(0 0 1px rgba(40,20,45,.9)) drop-shadow(0 0 1px rgba(40,20,45,.55)); }
+.symbol-disc + h3 { text-align: center; margin-top: .2em; }
+.symbol-missing { display: flex; align-items: center; justify-content: center; font-size: 2rem; filter: none !important;
+  color: var(--crystal-2); opacity: .6; }
+@media (max-width: 560px) { .symbol-disc { width: 118px; height: 118px; } .symbol-disc .symbol { width: 80px; height: 80px; } .people .people-img { max-width: 90px; } }
 
 /* ---------- map info panel: era chips ---------- */
 .map-info .info-eras { display: flex; flex-wrap: wrap; gap: 4px; margin: 0 0 12px; }

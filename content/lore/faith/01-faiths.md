@@ -24,4 +24,4 @@ The gods of Akudia were once mortal beings – the first who learned to sense an
 | **Bregonia** | Grumlin – other gods are barely tolerated |
 | **Tralian Empire** | Debilor is the main faith; Aestor, Mondarn, Saranah and Norvos are tolerated. Public worship and temples are not allowed. |
 
-Read more about each god in [The gods and their aspects](#gods), and about how the gods came to be in [The Ascension](#ascension).
+Read more about each god in [The gods](#gods), and about how the gods came to be in [The Ascension](#ascension).

@@ -1,15 +1,14 @@
-# The gods and their aspects
+# The gods
 
-Every god embodies an **ambition** – the idea they became when they ascended. Characters can receive gifts of these aspects as [aspect talents](system.html#aspect-talents).
-
-<div data-embed="gods"></div>
+Every god embodies an **ambition** – the idea they became when they ascended. How the gods came to be is told in [The Ascension](#ascension).
 
 ---
 
 ## The gods
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/debilor.webp" alt="Symbol of Debilor"></div>
+
 ### Debilor – Justice, Judgement
-<img class="symbol" src="content/images/gods/debilor.webp" alt="Symbol of Debilor">
 
 Debilor stands for the just punishment a misdeed deserves and for the judgement that comes with it. He truly wants to make the world a better place, but his methods are often hard and unyielding.
 
@@ -24,8 +23,9 @@ Debilor is the god of soldiers and the main religion of the Tralian Empire. His 
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/mondarn.webp" alt="Symbol of Mondarn"></div>
+
 ### Mondarn – Community, Work, Family
-<img class="symbol" src="content/images/gods/mondarn.webp" alt="Symbol of Mondarn">
 
 Mondarn is the god of the harvest, of the land and of rest after work is done. He is generally revered as a good god, above all in rural areas and among farmers. There are hardly any temples – his followers pray in nature and offer what they have produced, such as food or animals. Nobles sometimes mockingly call him the "peasant god".
 
@@ -35,8 +35,9 @@ Mondarn is the god of the harvest, of the land and of rest after work is done. H
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/grumlin.webp" alt="Symbol of Grumlin"></div>
+
 ### Grumlin – Creation, Endurance
-<img class="symbol" src="content/images/gods/grumlin.webp" alt="Symbol of Grumlin">
 
 Grumlin is the god of stone and earth and is often called the god of the Durag, who according to legend were made in his image. He stands for creating things that last, for endurance and for silently bearing everything the world has to offer. His followers are known as stubborn and steadfast.
 
@@ -45,8 +46,9 @@ Grumlin is the god of stone and earth and is often called the god of the Durag, 
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/saranah.webp" alt="Symbol of Saranah"></div>
+
 ### Saranah – Hope, Light
-<img class="symbol" src="content/images/gods/saranah.webp" alt="Symbol of Saranah">
 
 Saranah is the goddess of light. She also stands for life and love, and above all for the hope that every night, no matter how dark, is followed by a new morning. Her temples are orderly and clean and are usually found in wealthy cities. She is open to every kind of believer – but her commandments are clear about those who destroy the hope of others.
 
@@ -60,8 +62,9 @@ Saranah's temples are a popular place for marriages, as it is believed that the 
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/virinia.webp" alt="Symbol of Virinia"></div>
+
 ### Virinia – Curiosity, Knowledge, Learning, Progress
-<img class="symbol" src="content/images/gods/virinia.webp" alt="Symbol of Virinia">
 
 Virinia is the goddess of knowledge, teaching and the drive to improve oneself. It is said that she ascended because she created the first writings and taught so many beings that they followed her by themselves. She is a strict goddess, patron of scholars, arcanists and researchers. Her temples almost always contain a library and are found only in larger cities.
 
@@ -76,8 +79,9 @@ Her followers despise the idea of an irreplaceable master: every master should b
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/buko.webp" alt="Symbol of Buko"></div>
+
 ### Buko – Guidance, Calm
-<img class="symbol" src="content/images/gods/buko.webp" alt="Symbol of Buko">
 
 Buko is the god of the moon, of calm and of inner peace.
 
@@ -85,22 +89,25 @@ Buko is the god of the moon, of calm and of inner peace.
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/pilger.webp" alt="Symbol of Pilger"></div>
+
 ### Pilger – Change
-<img class="symbol" src="content/images/gods/pilger.webp" alt="Symbol of Pilger">
 
 *Placeholder.*
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/aleandra.webp" alt="Symbol of Aleandra"></div>
+
 ### Aleandra – Wilderness
-<img class="symbol" src="content/images/gods/aleandra.webp" alt="Symbol of Aleandra">
 
 Aleandra is the goddess of nature and the wild. She is especially revered on Orubus, where druid tribes honour her with animal sacrifices and rituals.
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/virallon.webp" alt="Symbol of Virallon"></div>
+
 ### Virallon – Carefreeness, Transience, Beauty, Life
-<img class="symbol" src="content/images/gods/virallon.webp" alt="Symbol of Virallon">
 
 Virallon is one of the lesser-known gods. He unites spring, the beauty of nature and the carefreeness of youth. There are almost no temples or larger organisations, but he is happily celebrated in the early days of spring and summer. Virallon stands for what is fleeting – and for the beauty that comes precisely from that.
 
@@ -115,36 +122,41 @@ Customs: at the **first spring festival** every follower brings something they c
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/baros.webp" alt="Symbol of Baros"></div>
+
 ### Baros – Vigour
-<img class="symbol" src="content/images/gods/baros.webp" alt="Symbol of Baros">
 
 *Placeholder.*
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/norvos.webp" alt="Symbol of Norvos"></div>
+
 ### Norvos – Honour
-<img class="symbol" src="content/images/gods/norvos.webp" alt="Symbol of Norvos">
 
 *Placeholder.* One of the most widely worshipped gods among soldiers in Varland.
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/inferna.webp" alt="Symbol of Inferna"></div>
+
 ### Inferna, the Burning Tyrant – Temper, Emotion
-<img class="symbol" src="content/images/gods/inferna.webp" alt="Symbol of Inferna">
 
 Inferna is the goddess of the Orvosa since she freed them from Orvos. She stands for charity, emotion and hot-headedness – but humans see her as a goddess of destruction and fire, because she is so closely associated with the Orvosa. See [The Ascension](#ascension).
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/blind-seer.webp" alt="Symbol of The Blind Seer"></div>
+
 ### The Blind Seer – Rebirth, Resurrection
-<img class="symbol" src="content/images/gods/blind-seer.webp" alt="Symbol of The Blind Seer">
 
 A dark god, banished by Aestor. During Rogamon's war he whispered to King Sigmar of Norvall and nearly turned Rogamon himself – see [Rogamon's Reign](#rogamons-reign).
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/corvilas.webp" alt="Symbol of Corvilas"></div>
+
 ### Corvilas – Corruption
-<img class="symbol" src="content/images/gods/corvilas.webp" alt="Symbol of Corvilas">
 
 Corvilas feeds on betrayal, deceit and the loss of all morals, and rewards those who betray and exploit their neighbours. Once the god and ruler of the elven tribes, he is responsible for the fall of the elves.
 
@@ -155,22 +167,25 @@ Corvilas feeds on betrayal, deceit and the loss of all morals, and rewards those
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/ruin.webp" alt="Symbol of Ruin"></div>
+
 ### Ruin – Destruction
-<img class="symbol" src="content/images/gods/ruin.webp" alt="Symbol of Ruin">
 
 *Placeholder.*
 
 ---
+
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/zwist.webp" alt="Symbol of Zwist"></div>
 
 ### Zwist – Strife
-<img class="symbol" src="content/images/gods/zwist.webp" alt="Symbol of Zwist">
 
 *Placeholder.*
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/red-queen.webp" alt="Symbol of The Red Queen"></div>
+
 ### The Red Queen – Grief, Fear of Loss, Melancholy
-<img class="symbol" src="content/images/gods/red-queen.webp" alt="Symbol of The Red Queen">
 
 The Red Queen resisted her ascension, though without the drastic means of other gods. Her central motive is the fear of loss, loss itself, and the preservation of a certain state. Her ambition only took this form shortly before the ascension – before that she may have stood for love and bonds, but that is long forgotten.
 
@@ -186,15 +201,17 @@ Customs: relatives wipe away the red tear of the deceased – they no longer nee
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/ob-nihil.webp" alt="Symbol of Ob Nihil"></div>
+
 ### Ob Nihil – Memory
-<img class="symbol" src="content/images/gods/ob-nihil.webp" alt="Symbol of Ob Nihil">
 
 *Placeholder.*
 
 ---
 
+<div class="symbol-disc"><img class="symbol" src="content/images/gods/aestor.webp" alt="Symbol of Aestor"></div>
+
 ### Aestor – Balance
-<img class="symbol" src="content/images/gods/aestor.webp" alt="Symbol of Aestor">
 
 
 Aestor is a special case among the gods. He was one of those who welcomed their ascension most – yet he felt forced to keep up the ever more damaged border between life and death. So he gave up his own ascension to create **Limbo** and **the Veil** that covers the world.

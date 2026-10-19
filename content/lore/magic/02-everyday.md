@@ -1,6 +1,6 @@
 # Magic in everyday life
 
-How people see magic depends very much on where they live.
+Weavers who can tear the fabric, necromancers who command the dead, scholars with their safe formulas – how people see all of this depends very much on where they live.
 
 > [!glance] At a glance
 > | | |

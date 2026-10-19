@@ -17,20 +17,18 @@
       "title": "Faiths and Gods", "id": "faith", "file": "faith/01-faiths.md",
       "sections": [
         { "title": "The Ascension", "id": "ascension", "file": "faith/03-ascension.md" },
-        { "title": "The gods and their aspects", "id": "gods", "file": "faith/02-gods.md" }
+        { "title": "The gods", "id": "gods", "file": "faith/02-gods.md" }
       ]
     },
     {
       "title": "Magic and the Fabric of Reality", "id": "magic", "file": "magic/01-magic.md",
       "sections": [
-        { "title": "Magic in everyday life", "id": "everyday-magic", "file": "magic/02-everyday.md" },
-        { "title": "The fabric of reality", "id": "fabric", "file": "magic/03-fabric.md" },
-        { "title": "Threads and weaving", "id": "weaving", "file": "magic/04-weaving.md" },
-        { "title": "The elements", "id": "elements", "file": "magic/05-elements.md" },
-        { "title": "Static magic", "id": "static-magic", "file": "magic/06-static-magic.md" },
-        { "title": "Necromancy and the Life element", "id": "necromancy", "file": "magic/07-necromancy.md" },
-        { "title": "The Null", "id": "null", "file": "magic/08-null.md" },
-        { "title": "The Rifts", "id": "rifts", "file": "magic/09-rifts.md" }
+        { "title": "The fabric of reality and the Null", "id": "fabric",         "file": "magic/03-fabric.md" },
+        { "title": "Weaving, threads and their risks",   "id": "weaving",        "file": "magic/04-weaving.md" },
+        { "title": "The elements",                       "id": "elements",       "file": "magic/05-elements.md" },
+        { "title": "Necromancy",                         "id": "necromancy",     "file": "magic/07-necromancy.md" },
+        { "title": "Static magic",                       "id": "static-magic",   "file": "magic/06-static-magic.md" },
+        { "title": "Magic in everyday life",             "id": "everyday-magic", "file": "magic/02-everyday.md" }
       ]
     },
     {
