@@ -916,7 +916,7 @@
       "uses": "3",
       "cost": "",
       "prerequisites": "",
-      "effect": "After encountering a creature make an isnight | lore check to gain knowledge about the creature."
+      "effect": "After encounXXXXXXXtering a creature make an isnight | lore check to gain knowledge about the creature."
     },
     {
       "name": "Weatherman",
