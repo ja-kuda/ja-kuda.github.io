@@ -150,7 +150,7 @@
     const here = L.realms.filter((r) => inEra(r, e.id));
     el.innerHTML = `<div class="era-info panel">
       <div><div class="eyebrow">${esc(e.period || "Era")}</div><p>${A.inline(e.summary || "")}</p>
-      ${here.length ? `<div class="era-coats">${here.slice(0, 24).map((r) => `<button data-realm="${r.id}" title="${esc(r.name)}">${coat(r)}</button>`).join("")}</div>` : ""}</div>
+      ${here.length ? `<div class="era-coats">${here.map((r) => `<button data-realm="${r.id}" title="${esc(r.name)}">${coat(r)}</button>`).join("")}</div>` : ""}</div>
       <div class="era-links"><a class="btn small ghost" href="#realms" data-goto-era="${e.id}">Realms in this era</a>
       <a class="btn small ghost" href="map.html?era=${e.id}">Map in this era</a></div></div>`;
     el.querySelectorAll("[data-goto-era]").forEach((a) => a.addEventListener("click", () => A.era.set(a.dataset.gotoEra)));

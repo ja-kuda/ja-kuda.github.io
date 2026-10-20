@@ -30,7 +30,7 @@ content/       ← EVERYTHING YOU WRITE – edit only here
   system/              rules: chapters.json + one .md file per chapter
   lore/                world: chapters.json + one .md file per chapter
   characters/          builder.json, skills.json, ancestries.json, ambitions.json, talents.json
-  map/                 map.json, locations.json, Akudia_full_4.svg (the map)
+  map/                 map.json, locations.json, Akudia_full_6.svg (the map)
   images/              put your own pictures here
 ```
 
@@ -171,7 +171,7 @@ Useful boxes for lore pages:
 
 ### Eras, kingdoms and provinces
 
-- `content/lore/eras.json` – the eras in order (`id`, `name`, `short` label for the timeline, `period`, `summary`, `chapter` = History section). `default` is the era shown first. Optional `mapLayers` switches map layers when an era is selected, e.g. `{"_11_Borders_Present": true, "_07_ProvincesOutlines": false}` – so you can draw borders per era later.
+- `content/lore/eras.json` – the eras in order (`id`, `name`, `short` label for the timeline, `period`, `summary`, `chapter` = History section). `default` is the era shown first. Optional `mapLayers` switches map layers when an era is selected, e.g. `{"_10_Roads": false}`.
 - `content/lore/realms.json` – every kingdom/province. A realm only appears in an era if it has an entry under `eras`:
 
 ```json
@@ -206,12 +206,12 @@ The symbols from Lionafire are saved as `content/images/gods/<name>.webp`. To ch
 
 ## Map
 
-- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_4.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
+- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_6.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
 - **Layers:** `map.json` → `layers`. `id` is the layer id in the SVG (Affinity exports `08_Locations` as `_08_Locations`), `label` is the shown name, `visible` the default, and `type` makes the names in that layer clickable.
 - **Clickable shapes (symbols, provinces):** add `"items": "shapes"` (things drawn on top, like coats of arms) or `"items": "areas"` (large areas like provinces – names and symbols on top of them stay clickable) to a layer in `map.json`. Every object directly inside that layer becomes clickable, with hover highlight and tooltip. Its name is the object's ID (Inkscape: Object properties → ID; Affinity: the layer/object name). Objects without a name can borrow one with `"nameFrom"`: `"nameFrom": "_09_Symbols"` gives each province the name of the symbol lying inside it. A province and its symbol then share one entry in `locations.json`.
 - **Start hidden:** `"visible": false` on a layer.
 - **Eras on the map:** the **Era** box at the top sets the time period for the whole map (shared with the Lore pages). It decides which border layers are shown and which era the info window opens with. Inside the info window the era buttons switch only that place's view – the map keeps its era. A small dot marks the map's era; buttons with content are brighter.
-- **Borders, provinces and symbols per era:** each era has its own layers in the SVG (`_vKR` = Before Rogamon, `_RR` = Rogamon's Reign, `_nKR` = After Rogamon, `_Present`). In `map.json` the layers of one kind share a **label** (one switch) and each gets its era:
+- **Provinces and symbols per era:** each era has its own layers in the SVG (`_vKR` = Before Rogamon, `_RR` = Rogamon's Reign, `_nKR` = After Rogamon, `_Present`). In `map.json` the layers of one kind share a **label** (one switch) and each gets its era:
 
 ```json
 { "id": "_15_Symbols_vKR",     "label": "Symbols",   "items": "shapes", "eras": ["before-rogamon"] },
@@ -219,7 +219,6 @@ The symbols from Lionafire are saved as `content/images/gods/<name>.webp`. To ch
 { "id": "_09_Symbols_nKR",     "label": "Symbols",   "items": "shapes", "eras": ["after-rogamon"] },
 { "id": "_13_Symbols_Present", "label": "Symbols",   "items": "shapes", "eras": ["present"] },
 { "id": "_06_Provinces_nKR",   "label": "Provinces", "items": "areas",  "eras": ["after-rogamon"] },
-{ "id": "_07_ProvincesOutlines_nKR", "label": "Borders",                "eras": ["after-rogamon"] }
 ```
 
   The switch shows only the layer of the chosen era; empty layers simply show nothing. A layer of a switch **without** `"eras"` would be used for every era that has no layer of its own. `"items": "shapes"` / `"areas"` make the objects clickable; `"nameFrom": "<symbol layer>"` lets unnamed areas borrow the name of the symbol inside them. Era ids: `before-rogamon`, `rogamons-reign`, `after-rogamon`, `present` (see `content/lore/eras.json`).

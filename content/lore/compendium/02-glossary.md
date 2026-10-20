@@ -14,12 +14,12 @@ Names and terms of the world, sorted by topic. Add a row to add a term – keep 
 | **Elf Wars** | The war of the dying elves against the humans – the greatest war since the age of the gods – see [Before Rogamon](#before-rogamon) |
 | **Fields of Silence** | The former Golden Valley, drained of all life by Rogamon; it lies in eternal dusk – see [Rogamon's Reign](#rogamons-reign) |
 | **First Accord** | The treaty that divided the continent between Varland and Atania |
-| **God Wars** | The wars between the gods that shattered reality into the mirror realities |
+| **War of Ascension** | The wars between the gods that permanently left its mark on the world and created the gods |
 | **Golden Times** | The long age of growth and prosperity before necromancy appeared |
 | **nKR** | "After the King's reign" – Varland's calendar, counting from Rogamon's fall (year 0) |
 | **Plains of Decision** | Battlefield on the Blue Arm near Steilfurt where the Tralian army was crushed |
 | **Second Accord** | The treaty that gave Atania's city-states their self-government and made it the Free Alliance |
-| **Shame of Norvall** | The night King Sigmar had his own city burned rather than surrender it to Rogamon |
+| **Shame of Norvall** | King Sigmar had his own city burned rather than surrender it to Rogamon |
 | **The Tearing** | The moment the Null tore open and the weave appeared |
 | **Tralian movement** | The movement against all magic "for the protection of the kingdom" that grew into the Tralian Empire |
 | **vKR** | "Before the King's reign" – years before Rogamon's fall in Varland's calendar |
@@ -32,13 +32,12 @@ Names and terms of the world, sorted by topic. Add a row to add a term – keep 
 | **Ambition** | The deepest ideal that drives a person – and the idea each god became when they ascended |
 | **Arcane nobility** | The old mage families who ruled much of Varland before Rogamon |
 | **Arcane scars** | Marks left on weavers who pull too many threads; they always show the weaver's element – see [Weaving](#weaving) |
-| **Arkas** | A god who killed himself to escape his ascension; since then far more beings are born with arcane gifts |
-| **Blights** | Diseases and curses created by the elves to rule the other peoples, later sealed away |
+| **Arkas** | A god who killed himself to escape his ascension; since then far more beings are born with the ability to weave |
+| **Blights** | Diseases and curses created by the elves to rule the continent, later sealed away |
 | **Blind Seer** | A dark god banished by Aestor, who whispered to King Sigmar – see [The gods](#gods) |
 | **Corvilas** | God of corruption and once ruler of the elves, blamed for their fall – see [The gods](#gods) |
 | **Elements** | The building blocks of the fabric of reality that weavers reshape – see [The elements](#elements) |
 | **Fabric of reality** | What shields existence from the Null – see [The fabric of reality and the Null](#fabric) |
-| **Feywild** | Another world, reached through rifts that open regularly near Feitor |
 | **Inferna** | Goddess of emotion who freed the Orvosa from Orvos |
 | **Limbo** | The space between life and death created by Aestor |
 | **Mirror realities** | The shards reality broke into during the God Wars |
@@ -124,7 +123,6 @@ Names and terms of the world, sorted by topic. Add a row to add a term – keep 
 | **Ivory League** | Alliance of merchant guilds and towns that claims to govern the Splinter Islands |
 | **Machinarium** | A secretive order within the Tralian Empire – see [Factions](#factions) |
 | **Necromancer hunters** | Varland's guild for tracking down necromancy, founded after Rogamon |
-| **Paladins of the Good** | Lord Rabenhorst's resistance against Rogamon |
 | **Raiders** | Seafaring bands from the Ice Desert who raid Varland's northern coasts |
 | **Raven who cleanses the world** | A mysterious being worshipped by the remnants of the Cabal of Korvus – see [Legends](#legends) |
 | **Rightwalkers** | Adventurers who right injustices and help the poor |

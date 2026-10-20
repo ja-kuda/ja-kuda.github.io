@@ -851,6 +851,172 @@
           "summary": "The part of the Rotmark that the Tralian army has already taken in the new offensive."
         }
       }
+    },
+    {
+      "id": "summerlight-coast",
+      "name": "Summerlight Coast",
+      "kind": "Coastal realm",
+      "map": "Sommerlichtküste",
+      "coat": "content/images/coats/summerlight-coast.webp",
+      "file": "lands/realms/summerlight-coast.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "The Summerlight Coast, ruled by its Sea Lords."
+        },
+        "present": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "Rich coastal city-states in the south-west, ruled by the Sea Lords and guarded by the Gold Chains."
+        }
+      }
+    },
+    {
+      "id": "syndria",
+      "name": "Syndria",
+      "kind": "Island",
+      "map": "Syndria",
+      "coat": "content/images/coats/syndria.webp",
+      "file": "lands/realms/syndria.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – one of the Splinter Islands."
+        },
+        "present": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – one of the Splinter Islands."
+        }
+      }
+    },
+    {
+      "id": "altai",
+      "name": "Altai",
+      "kind": "Realm",
+      "map": "Altai",
+      "coat": "content/images/coats/altai.webp",
+      "file": "lands/realms/altai.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – a realm in the south."
+        },
+        "present": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – a realm in the south."
+        }
+      }
+    },
+    {
+      "id": "goldenriff",
+      "name": "Goldenriff",
+      "kind": "Island",
+      "map": "Goldenriff",
+      "coat": "content/images/coats/goldenriff.webp",
+      "file": "lands/realms/goldenriff.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – an island realm off the south-west coast."
+        },
+        "present": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – an island realm, an important trading partner of the Tralian Empire."
+        }
+      }
+    },
+    {
+      "id": "bolton",
+      "name": "Bolton",
+      "kind": "Realm",
+      "map": "Bolton",
+      "coat": "content/images/coats/bolton.webp",
+      "file": "lands/realms/bolton.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – a realm in the south."
+        },
+        "present": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – a realm in the south."
+        }
+      }
+    },
+    {
+      "id": "border-fields",
+      "name": "Border Fields",
+      "kind": "Region",
+      "map": "Grenzfelder",
+      "file": "lands/realms/border-fields.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "Part of Atania",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "A dry, empty steppe that once belonged to the Free Alliance of Atania – until the Tralian Empire reached south."
+        },
+        "present": {
+          "status": "Imperial borderland",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "Officially part of the Tralian Empire, but the Empire's influence barely reaches past the first miles of steppe."
+        }
+      }
+    },
+    {
+      "id": "suncourt-basin",
+      "name": "Suncourt Basin",
+      "kind": "Region",
+      "map": "Sonnenbecken",
+      "file": "lands/realms/suncourt-basin.md",
+      "eras": {
+        "after-rogamon": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – a region of Atania, separated from the Summerlight Coast by the river Gamberi."
+        },
+        "present": {
+          "status": "",
+          "ruler": "",
+          "capital": "",
+          "partOf": "",
+          "summary": "*Placeholder* – a region of Atania, separated from the Summerlight Coast by the river Gamberi."
+        }
+      }
     }
   ]
 }
