@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 The kingdom of the north, once the greatest realm of the continent. Shortly after the first accord with Atania it was divided into regions, each under a lord who could set its own laws while remaining subject to the crown.
 
 ## Before Rogamon

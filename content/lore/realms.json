@@ -1,5 +1,5 @@
 {
-  "_help": "Kingdoms and provinces. A realm is shown in an era only if it has an entry for that era under 'eras'. Fields per era: status, ruler, capital, partOf (id of the realm it belongs to in that era), summary, and optional 'facts' {\"Label\": \"Value\"}. 'map' is the name of the province/symbol on the map. Longer texts go into the realm's Markdown 'file' – use one '## <era name>' heading per era. To hide a realm in one era without losing what is written, put an underscore in front of the era name (\"_present\": {...}); remove the underscore to show it again.",
+  "_help": "Kingdoms and provinces. A realm is shown in an era only if it has an entry for that era under 'eras'. Fields per era: status, ruler, capital, partOf (id of the realm it belongs to in that era), summary, and optional 'facts' {\"Label\": \"Value\"}. 'map' is the name of the province/symbol on the map. Longer texts go into the realm's Markdown 'file' – use one '## <era name>' heading per era. Fields that say TODO are hidden on the website – search for TODO to find what is left. To hide a realm in one era without losing what is written, put an underscore in front of the era name (\"_present\": {...}); remove the underscore to show it again.",
   "realms": [
     {
       "id": "altenbrunn",
@@ -21,10 +21,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Altenbrunn in this era.",
+          "summary": "TODO: one or two sentences about Altenbrunn in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -58,10 +58,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
+          "ruler": "TODO",
           "capital": "Höhlenhafen",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Altland in this era.",
+          "summary": "TODO: one or two sentences about Altland in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -98,7 +98,7 @@
           "ruler": "The Inquisition",
           "capital": "Beltheim",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Belt in this era.",
+          "summary": "TODO: one or two sentences about Belt in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -132,10 +132,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Champs in this era.",
+          "summary": "TODO: one or two sentences about Champs in this era.",
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
@@ -159,10 +159,10 @@
       "eras": {
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – not yet placed in the present-day realms."
+          "summary": "TODO: not yet placed in the present-day realms."
         }
       }
     },
@@ -181,10 +181,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Essrath in this era.",
+          "summary": "TODO: one or two sentences about Essrath in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -218,10 +218,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Hammerfall in this era.",
+          "summary": "TODO: one or two sentences about Hammerfall in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -255,10 +255,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Hexenwald in this era.",
+          "summary": "TODO: one or two sentences about Hexenwald in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -282,10 +282,10 @@
       "eras": {
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – not yet placed in the present-day realms."
+          "summary": "TODO: not yet placed in the present-day realms."
         }
       }
     },
@@ -309,10 +309,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Riewenfall in this era.",
+          "summary": "TODO: one or two sentences about Riewenfall in this era.",
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
@@ -346,10 +346,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Rotmark in this era.",
+          "summary": "TODO: one or two sentences about Rotmark in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -383,10 +383,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Rybben in this era.",
+          "summary": "TODO: one or two sentences about Rybben in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -420,10 +420,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Silbertal in this era.",
+          "summary": "TODO: one or two sentences about Silbertal in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -457,10 +457,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Speermark in this era.",
+          "summary": "TODO: one or two sentences about Speermark in this era.",
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
@@ -494,10 +494,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Stillmarsch in this era.",
+          "summary": "TODO: one or two sentences about Stillmarsch in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -531,10 +531,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Tralien in this era.",
+          "summary": "TODO: one or two sentences about Tralien in this era.",
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
@@ -568,10 +568,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Triften in this era.",
+          "summary": "TODO: one or two sentences about Triften in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -605,10 +605,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Weißstein in this era.",
+          "summary": "TODO: one or two sentences about Weißstein in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -642,10 +642,10 @@
         },
         "after-rogamon": {
           "status": "Independent kingdom",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one or two sentences about Westkliff in this era.",
+          "summary": "TODO: one or two sentences about Westkliff in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
@@ -688,6 +688,7 @@
           "status": "Shrinking kingdom",
           "ruler": "King Anselm I",
           "capital": "Hammerfall",
+          "partOf": "",
           "summary": "A shadow of itself – Anselm has cast off the outer provinces and holds only the heartland."
         }
       }
@@ -731,6 +732,7 @@
           "status": "Necromantic kingdom",
           "ruler": "King Rogamon",
           "capital": "Winterglehn",
+          "partOf": "",
           "summary": "The realm of the Necromancer King, built on fear and undead armies."
         }
       },
@@ -755,6 +757,7 @@
           "status": "Empire",
           "ruler": "Emperor Suta",
           "capital": "Goldzahn",
+          "partOf": "",
           "summary": "Militaristic and anti-magic – it has launched a great offensive against Varland."
         }
       }
@@ -770,7 +773,8 @@
         "present": {
           "status": "Military alliance",
           "ruler": "Council of the governors of Westkliff, Weißstein and Steilfurt",
-          "capital": "",
+          "capital": "TODO",
+          "partOf": "",
           "summary": "Weißküst and the Rotmark, united against the Empire – nominally still part of Varland."
         }
       }
@@ -787,6 +791,7 @@
           "status": "Independent realm",
           "ruler": "A nameless warlord",
           "capital": "Zweigheim",
+          "partOf": "",
           "summary": "The Expansion and Silbertal, broken away from Varland under threat of war."
         }
       }
@@ -829,10 +834,10 @@
       "eras": {
         "after-rogamon": {
           "status": "Masterless lands",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – what remained of Rogamon's realm after his fall."
+          "summary": "TODO: what remained of Rogamon's realm after his fall."
         }
       }
     },
@@ -861,16 +866,16 @@
       "file": "lands/realms/summerlight-coast.md",
       "eras": {
         "after-rogamon": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
           "summary": "The Summerlight Coast, ruled by its Sea Lords."
         },
         "present": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
           "summary": "Rich coastal city-states in the south-west, ruled by the Sea Lords and guarded by the Gold Chains."
         }
@@ -885,18 +890,18 @@
       "file": "lands/realms/syndria.md",
       "eras": {
         "after-rogamon": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one of the Splinter Islands."
+          "summary": "TODO: one of the Splinter Islands."
         },
         "present": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – one of the Splinter Islands."
+          "summary": "TODO: one of the Splinter Islands."
         }
       }
     },
@@ -909,18 +914,18 @@
       "file": "lands/realms/altai.md",
       "eras": {
         "after-rogamon": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – a realm in the south."
+          "summary": "TODO: a realm in the south."
         },
         "present": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – a realm in the south."
+          "summary": "TODO: a realm in the south."
         }
       }
     },
@@ -933,18 +938,18 @@
       "file": "lands/realms/goldenriff.md",
       "eras": {
         "after-rogamon": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – an island realm off the south-west coast."
+          "summary": "TODO: an island realm off the south-west coast."
         },
         "present": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – an island realm, an important trading partner of the Tralian Empire."
+          "summary": "TODO: an island realm, an important trading partner of the Tralian Empire."
         }
       }
     },
@@ -957,18 +962,18 @@
       "file": "lands/realms/bolton.md",
       "eras": {
         "after-rogamon": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – a realm in the south."
+          "summary": "TODO: a realm in the south."
         },
         "present": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – a realm in the south."
+          "summary": "TODO: a realm in the south."
         }
       }
     },
@@ -981,15 +986,15 @@
       "eras": {
         "after-rogamon": {
           "status": "Part of Atania",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
           "summary": "A dry, empty steppe that once belonged to the Free Alliance of Atania – until the Tralian Empire reached south."
         },
         "present": {
           "status": "Imperial borderland",
-          "ruler": "",
-          "capital": "",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
           "summary": "Officially part of the Tralian Empire, but the Empire's influence barely reaches past the first miles of steppe."
         }
@@ -1003,18 +1008,18 @@
       "file": "lands/realms/suncourt-basin.md",
       "eras": {
         "after-rogamon": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – a region of Atania, separated from the Summerlight Coast by the river Gamberi."
+          "summary": "TODO: a region of Atania, separated from the Summerlight Coast by the river Gamberi."
         },
         "present": {
-          "status": "",
-          "ruler": "",
-          "capital": "",
+          "status": "TODO",
+          "ruler": "TODO",
+          "capital": "TODO",
           "partOf": "",
-          "summary": "*Placeholder* – a region of Atania, separated from the Summerlight Coast by the river Gamberi."
+          "summary": "TODO: a region of Atania, separated from the Summerlight Coast by the river Gamberi."
         }
       }
     }

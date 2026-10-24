@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 Once one of the largest provinces of Varland. Tralien is split into many smaller areas – **Central Tralien**, the **Stahlmark** and more – and is rarely seen as one province; the cultural and geographical differences are too great.
 
 ## Before Rogamon

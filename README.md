@@ -36,6 +36,13 @@ content/       ← EVERYTHING YOU WRITE – edit only here
 
 ---
 
+## TODO placeholders
+
+Texts that are not written yet are marked with **TODO** – in `content/map/locations.json`, `content/lore/realms.json` and the realm texts in `content/lore/lands/realms/`. Search a file for `TODO` to find what is left.
+
+- A field or a line that **starts with TODO** is hidden on the website, so unfinished stubs never show up. Replace the TODO with your text and it appears.
+- Text after the TODO (e.g. `"TODO: City / Town / Village"`) is only a hint for you.
+
 ## Writing texts (Markdown)
 
 All chapter texts are Markdown files. Quick reference:

@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 The march in the south, framed by natural barriers: the Endwasser in the north, a moor in the west (see [Stillmarsch](lore.html?realm=stillmarsch#realms)), the Rotmark Mountains, the Border Mountains and the Blue Arm in the south. Its name comes from the many battles fought on its fields – grassy plains soaked in blood, shallow graves circled by crows.
 
 The larger towns – **Steilfurt**, Mondburg and Windwart – are all heavily fortified. Most inhabitants work for the military in some way; they are hardened, willing to sacrifice, and have no patience for idle talk. Norvos, Debilor and Baros are worshipped most.
@@ -11,7 +11,7 @@ Always contested: when humans arrived and drove out the other peoples, and later
 
 ## After Rogamon
 
-*Placeholder.* What Rotmark was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
+TODO: What Rotmark was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
 
 **Later in this era:** The main training ground and base of Varland's armies. The last war between the Empire and Varland ended here, when Tralian troops trying to cross the Blue Arm to take Steilfurt were crushed on the *Plains of Decision*. A truce followed; since then the Rotmark has been Varland's only land link to the rest of the continent.
 

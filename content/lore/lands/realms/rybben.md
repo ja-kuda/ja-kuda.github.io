@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 The ruins of **Alt-Rybben**, once a training ground for soldiers and mages.
 
 ## Before Rogamon
@@ -11,7 +11,7 @@ Depopulated and destroyed by Rogamon's armies to stop the training of mages and 
 
 ## After Rogamon
 
-*Placeholder.* What Rybben was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
+TODO: What Rybben was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
 
 ## Present
 

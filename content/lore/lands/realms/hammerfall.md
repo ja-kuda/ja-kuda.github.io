@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 **The Partition** – the central region of Varland. It divides the kingdom in two: in the north the **Schnitter** mountains split the continent, in the south the **Endwasser** is a natural barrier between west and east. Mountains, great rivers, waterfalls and hill plains – and in the north-east the crystal fields of [the Scars](lore.html?realm=belt#realms).
 
 The capital **Hammerfall** stands on a height between two arms of the Endwasser, with the king's palace right at the top, above the waterfalls. The south is farmland. Debilor and Norvos are worshipped most, but on Hammerfall's temple square every god has a place.
@@ -15,7 +15,7 @@ Hammerfall resisted the necromancer and his armies for a long time, but finally 
 
 ## After Rogamon
 
-*Placeholder.* What Hammerfall was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
+TODO: What Hammerfall was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
 
 ## Present
 

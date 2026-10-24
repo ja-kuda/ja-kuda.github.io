@@ -230,6 +230,26 @@
     return { meta, body: src.slice(m[0].length) };
   };
 
+  /* TODO placeholders: any text that starts with "TODO" is treated as not written yet and hidden on the site.
+     A.stripTodo(value) returns a copy without TODO texts, empty fact lists and empty era parts. */
+  A.isTodo = (v) => typeof v === "string" && /^\s*\**\s*TODO\b/i.test(v);
+  A.stripTodo = function strip(v, depth = 0) {
+    if (A.isTodo(v)) return undefined;
+    if (Array.isArray(v)) return v.map((x) => strip(x, depth + 1)).filter((x) => x !== undefined);
+    if (v && typeof v === "object") {
+      const out = {};
+      Object.entries(v).forEach(([k, x]) => {
+        const c = strip(x, depth + 1);
+        if (c === undefined) return;
+        if (c && typeof c === "object" && !Array.isArray(c) && !Object.keys(c).length && (k === "facts" || depth >= 1)) return;   // drop empty facts / empty era parts
+        out[k] = c;
+      });
+      return out;
+    }
+    return v;
+  };
+  A.dropTodoLines = (text) => String(text || "").split(/\r?\n/).filter((l) => !A.isTodo(l)).join("\n");
+
   /* Images with class "symbol" (e.g. god symbols) show a placeholder until the file exists */
   document.addEventListener("error", (e) => {
     const img = e.target;

@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 The realm of King Rogamon, the Necromancer King, ruled from **Winterglehn**.
 
 ## Rogamon's Reign

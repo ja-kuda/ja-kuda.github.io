@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 The **Border Fields** (Grenzfelder) are a plain of dry grass and emptiness as far as the eye can see – an ochre steppe full of ruined trading posts overrun by beasts, smugglers and bandits.
 
 ## After Rogamon

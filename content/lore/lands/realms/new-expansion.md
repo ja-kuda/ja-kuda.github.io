@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 An independent realm made of the former lands of **Silbertal** and the **Expansion**. In its own words, the New Expansion rose from the ruins of the old realm, freed from the chains of tradition that slow progress and healing.
 
 **The Expansion** was the cultural and economic centre of Varland: fields and forests, villages along the **Salt Road** from Winterglehn via **Zweigheim** on the Siechlauf into the rest of the kingdom – one of the most important trade routes of the continent. People of every people and land live here, chasing trade and profit; corruption and shady business thrive in the towns. **Zweigheim** spans both banks of the Siechlauf, linked by a great bridge that is also its central market; beneath the city lies the **Dark Harbour**, a maze of tunnels and hidden chambers.

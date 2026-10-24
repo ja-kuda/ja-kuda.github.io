@@ -56,7 +56,8 @@
       loreCache = Promise.all([A.loadJSON("content/lore/eras.json"), A.loadJSON("content/lore/realms.json")])
         .then(([e, r]) => {
           const eras = e.eras || e;
-          const realms = r.realms || r;
+          // realms: TODO fields are hidden, but an era entry itself stays (it decides in which eras a realm exists)
+          const realms = (r.realms || r).map((x) => ({ ...x, eras: Object.fromEntries(Object.entries(x.eras || {}).map(([k, e]) => [k, A.stripTodo(e, -5) || {}])) }));
           const L = { eras, realms, defaultEra: e.default || (eras[eras.length - 1] || {}).id };
           L.eraById = Object.fromEntries(eras.map((x) => [x.id, x]));
           L.realmById = Object.fromEntries(realms.map((x) => [x.id, x]));
@@ -88,7 +89,7 @@
         const k = bare(h);
         return L.eras.find((e) => [e.id, e.name, e.short, ...(e.aliases || [])].filter(Boolean).map(bare).includes(k));
       };
-      src.replace(/\r\n?/g, "\n").split("\n").forEach((line) => {
+      A.dropTodoLines(src.replace(/\r\n?/g, "\n")).split("\n").forEach((line) => {
         const m = line.match(/^##\s+(.+?)\s*$/);
         const era = m && match(m[1]);
         if (era) { cur = era.id; out.byEra[cur] = out.byEra[cur] || ""; return; }

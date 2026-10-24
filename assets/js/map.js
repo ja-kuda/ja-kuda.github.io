@@ -655,7 +655,9 @@
     }
 
     // normalise names in locations.json the same way as labels
-    entries = Object.fromEntries(Object.entries(entries).filter(([k]) => !k.startsWith("_")).map(([k, v]) => [norm(k), v]));
+    entries = Object.fromEntries(Object.entries(entries).filter(([k]) => !k.startsWith("_"))
+      .map(([k, v]) => [norm(k), A.stripTodo(v)])                       // TODO fields are hidden
+      .filter(([, v]) => v && Object.keys(v).some((f) => !["type", "eras"].includes(f) || (f === "eras" && Object.keys(v.eras).length))));
 
     fit();
     stage.style.transform = `translate(${view.x}px, ${view.y}px) scale(${view.s})`;

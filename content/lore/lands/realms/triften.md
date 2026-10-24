@@ -1,4 +1,4 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
 The westernmost of Varland's inner regions: wide plains bordered only by hills and a few groves. Not known for being beautiful or exciting – travellers are advised to keep to the fortified roads and villages so as not to fall prey to the creatures roaming the land. Many farms and villages are heavily fortified.
 
 The only larger town is **Rabenhorst**, on the source lake of the Endwasser, often the only name outsiders know.
