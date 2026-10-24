@@ -3,7 +3,7 @@
   "_____ PLACES _____": "",
   "Alt Koppenheim": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "region": "Altenbrunn",
     "facts": {
       "Population": "TODO"
     },
@@ -16,7 +16,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "A small town in the outskirts of the Brachtung Mountains. It was nearly destroyed when raiders attacked but could be saved by Lord Albrecht Falkenried."
       },
       "present": {
         "text": "TODO"
@@ -29,23 +29,23 @@
     "eras": {
       "before-rogamon": {
         "type": "City",
-        "text": "One of the most important cities of Varland – a training ground for soldiers and mages and seat of a small paladin order."
+        "text": "One of the most important cities of Varland – a training ground for weavers and seat of a paladin order."
       },
       "rogamons-reign": {
         "text": "Depopulated and destroyed by Rogamon's armies."
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "After Rogamon it was rebuilt but could never again achieve its status."
       },
       "present": {
-        "text": "TODO"
+        "text": "The seat of a local lord."
       }
     },
     "text": "TODO"
   },
   "Altnacht": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "region": "Ellaise",
     "facts": {
       "Population": "TODO"
     },
@@ -58,7 +58,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "A small settlement near the Lamdé."
       },
       "present": {
         "text": "TODO"
@@ -66,8 +66,8 @@
     }
   },
   "Alumbra": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Port-City",
+    "region": "Sommerlichtküste",
     "facts": {
       "Population": "TODO"
     },
@@ -80,7 +80,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "Capital of the Sommerlichtküste. A powerful city with a famous port."
       },
       "present": {
         "text": "TODO"
@@ -88,8 +88,8 @@
     }
   },
   "Ardahall": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "City",
+    "region": "Altenbrunn",
     "facts": {
       "Population": "TODO"
     },
@@ -102,7 +102,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "Capital of the province Altenbrunn. Seat of Lord Wieland Falkenried."
       },
       "present": {
         "text": "TODO"
@@ -110,8 +110,8 @@
     }
   },
   "Baleiras": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Ruined City",
+    "region": "Altai",
     "facts": {
       "Population": "TODO"
     },
@@ -124,7 +124,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "Destroyed, it is said that there are still powerful artifacts to be found in the ruins."
       },
       "present": {
         "text": "TODO"
@@ -133,7 +133,7 @@
   },
   "Balstad": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "region": "Zitterwälder",
     "facts": {
       "Population": "TODO"
     },
@@ -146,7 +146,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "Ruled by raiders and vikings this small town marks one of the most northern settlements on the continent."
       },
       "present": {
         "text": "TODO"
@@ -165,7 +165,7 @@
         "text": "Spared at first for its crystals – then its entire population was wiped out."
       },
       "after-rogamon": {
-        "text": "Slowly resettled; crystal mining resumes."
+        "text": "Slowly resettled; crystal mining resumes. Here the Inquisition is founded."
       },
       "present": {
         "facts": {
@@ -198,8 +198,8 @@
     }
   },
   "Brachstrom": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Castle Town",
+    "region": "Rotmark",
     "facts": {
       "Population": "TODO"
     },
@@ -231,7 +231,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "Capital of Bregonien."
       },
       "present": {
         "facts": {
@@ -242,11 +242,8 @@
     }
   },
   "Burg Eskildsen": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
+    "type": "Castle",
+    "region": "Expansion",
     "text": "TODO",
     "eras": {
       "before-rogamon": {
@@ -256,7 +253,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "After the undead were pushed back as far as possible into the Expansion, the Castle was used as a border checkpoint until it was overrun again by undead a few years later."
       },
       "present": {
         "text": "TODO"
@@ -264,8 +261,8 @@
     }
   },
   "Burg Mirkwood": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Castle",
+    "region": "Stillmarsch",
     "facts": {
       "Population": "TODO"
     },
@@ -287,7 +284,7 @@
   },
   "Champ de Soleil": {
     "type": "City",
-    "region": "Central Tralien",
+    "region": "Champs",
     "text": "The city where no one stays – inns, taverns and entertainment for everyone passing through.",
     "eras": {
       "before-rogamon": {
@@ -305,8 +302,8 @@
     }
   },
   "Dalley Town": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Port City",
+    "region": "Pirates of the Iron Crossing",
     "facts": {
       "Population": "TODO"
     },
@@ -327,8 +324,8 @@
     }
   },
   "Degenfur": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "City",
+    "region": "Tralien",
     "facts": {
       "Population": "TODO"
     },
@@ -360,7 +357,7 @@
         "text": "The golden valley around it becomes the Fields of Silence when Rogamon drains the life and souls of its people."
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "Lost to the Undead hordes within the fields of silence."
       },
       "present": {
         "text": "Avoided by almost everyone."
@@ -368,8 +365,8 @@
     }
   },
   "Drimaquell": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Town",
+    "region": "Riewenfall",
     "facts": {
       "Population": "TODO"
     },
@@ -390,11 +387,8 @@
     }
   },
   "Dunsack": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Town",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
@@ -412,7 +406,7 @@
     }
   },
   "Durbracht": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Port town",
     "region": "TODO",
     "facts": {
       "Population": "TODO"
@@ -434,8 +428,8 @@
     }
   },
   "El Acaria": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Port City",
+    "region": "Syndria",
     "facts": {
       "Population": "TODO"
     },
@@ -456,11 +450,8 @@
     }
   },
   "Elysart": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
+    "type": "Oasis",
+    "region": "Hungernde Sande",
     "text": "TODO",
     "eras": {
       "before-rogamon": {
@@ -478,8 +469,8 @@
     }
   },
   "Endahl": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Town",
+    "region": "Varland",
     "facts": {
       "Population": "TODO"
     },
@@ -500,8 +491,8 @@
     }
   },
   "Essrath": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Town",
+    "region": "Essrath",
     "facts": {
       "Population": "TODO"
     },
@@ -514,7 +505,7 @@
         "text": "TODO"
       },
       "after-rogamon": {
-        "text": "TODO"
+        "text": "Capital of the region of the same name."
       },
       "present": {
         "text": "TODO"
@@ -522,8 +513,8 @@
     }
   },
   "Feuernacht": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Town",
+    "region": "Silbertal",
     "facts": {
       "Population": "TODO"
     },
@@ -544,8 +535,8 @@
     }
   },
   "Feytor": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Town",
+    "region": "Westkliff",
     "facts": {
       "Population": "TODO"
     },
@@ -566,7 +557,7 @@
     }
   },
   "Finsterturm": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Castle",
     "region": "TODO",
     "facts": {
       "Population": "TODO"
@@ -588,7 +579,7 @@
     }
   },
   "Fuhrwert": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Town",
     "region": "TODO",
     "facts": {
       "Population": "TODO"
@@ -610,7 +601,7 @@
     }
   },
   "Gladenstern": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Town",
     "region": "TODO",
     "facts": {
       "Population": "TODO"
@@ -632,7 +623,7 @@
     }
   },
   "Goldzahn": {
-    "type": "Capital",
+    "type": "City",
     "region": "Atikun",
     "text": "Heavily fortified, imperial and extremely rich, with academies and a university.",
     "eras": {
@@ -654,7 +645,7 @@
     }
   },
   "Grimlicht": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Town",
     "region": "TODO",
     "facts": {
       "Population": "TODO"
@@ -676,7 +667,7 @@
     }
   },
   "Gronlund": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Port town",
     "region": "TODO",
     "facts": {
       "Population": "TODO"
@@ -698,7 +689,7 @@
     }
   },
   "Grubendorf": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
+    "type": "Town",
     "region": "TODO",
     "facts": {
       "Population": "TODO"
@@ -720,8 +711,8 @@
     }
   },
   "Hammerfall": {
-    "type": "Capital",
-    "region": "The Partition",
+    "type": "City",
+    "region": "Partition",
     "text": "The capital of Varland, on a height between two arms of the Endwasser, with the king's palace right above the waterfalls. On its temple square every god has a place.",
     "eras": {
       "before-rogamon": {
@@ -745,8 +736,8 @@
     }
   },
   "Henkers Krone": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "Town",
+    "region": "Rotmark",
     "facts": {
       "Population": "TODO"
     },
@@ -767,8 +758,8 @@
     }
   },
   "Heulerten": {
-    "type": "TODO: City / Town / Village / Castle / Ruin",
-    "region": "TODO",
+    "type": "City",
+    "region": "Altenbrunn",
     "facts": {
       "Population": "TODO"
     },
