@@ -99,7 +99,7 @@ Names and terms of the world, sorted by topic. Add a row to add a term – keep 
 | **Steilfurt** | Fortress city at one of the few crossings of the Blue Arm |
 | **Tralian Empire** | The anti-magic empire in the centre of the continent, ruled by Emperor Suta |
 | **Varland** | The old great kingdom of the north, capital Hammerfall |
-| **Weißküst** | The rich south-west coast of Varland with its white cliffs |
+| **Weißküst** | The rich south-west coast of Varland with its white cliffs – and the province around Weißstein |
 | **Winterglehn** | The largest city of the continent and once Rogamon's capital |
 | **Winters End** | Town in the far north where the weave is strongest; home of the Ars Arkanum |
 

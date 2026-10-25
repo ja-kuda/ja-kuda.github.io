@@ -1,6 +1,6 @@
 {
   "_help": "layers: id = layer id in the SVG, label = name of the switch, visible = shown at start, type = makes names clickable, items = shapes/areas makes objects clickable. Layers with the SAME label form one switch. Add \"eras\": [\"present\"] to a layer to show it only in those eras; layers of that switch without \"eras\" are used in all other eras. The top-level \"eras\" lists the eras the map offers (era id → the year the map shows); other eras (e.g. Before Rogamon) are only in the Lore.",
-  "svg": "content/map/Akudia_full_7.svg",
+  "svg": "content/map/Akudia_full_8.svg",
   "title": "Akudia",
   "eras": {
     "after-rogamon": "59 nKR",

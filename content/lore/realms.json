@@ -586,12 +586,12 @@
       }
     },
     {
-      "id": "weissstein",
-      "name": "Weißstein",
+      "id": "weisskuest",
+      "name": "Weißküst",
       "kind": "Province",
-      "map": "Weißstein",
-      "coat": "content/images/coats/weissstein.svg",
-      "file": "lands/realms/weissstein.md",
+      "map": "Weißküst",
+      "coat": "content/images/coats/weisskuest.svg",
+      "file": "lands/realms/weisskuest.md",
       "eras": {
         "_before-rogamon": {
           "status": "Province",
@@ -606,9 +606,9 @@
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
-          "capital": "TODO",
+          "capital": "Weißstein",
           "partOf": "",
-          "summary": "TODO: one or two sentences about Weißstein in this era.",
+          "summary": "TODO: one or two sentences about Weißküst in this era.",
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }

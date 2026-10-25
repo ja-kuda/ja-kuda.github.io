@@ -30,7 +30,7 @@ content/       ← EVERYTHING YOU WRITE – edit only here
   system/              rules: chapters.json + one .md file per chapter
   lore/                world: chapters.json + one .md file per chapter
   characters/          builder.json, skills.json, ancestries.json, ambitions.json, talents.json
-  map/                 map.json, locations.json, Akudia_full_7.svg (the map)
+  map/                 map.json, locations.json, Akudia_full_8.svg (the map)
   images/              put your own pictures here
 ```
 
@@ -213,7 +213,7 @@ The symbols from Lionafire are saved as `content/images/gods/<name>.webp`. To ch
 
 ## Map
 
-- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_7.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
+- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_8.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
 - **Layers:** `map.json` → `layers`. `id` is the layer id in the SVG (Affinity exports `08_Locations` as `_08_Locations`), `label` is the shown name, `visible` the default, and `type` makes the names in that layer clickable.
 - **Clickable shapes (symbols, provinces):** add `"items": "shapes"` (things drawn on top, like coats of arms) or `"items": "areas"` (large areas like provinces – names and symbols on top of them stay clickable) to a layer in `map.json`. Every object directly inside that layer becomes clickable, with hover highlight and tooltip. Its name is the object's ID (Inkscape: Object properties → ID; Affinity: the layer/object name). Objects without a name can borrow one with `"nameFrom"`: `"nameFrom": "_09_Symbols"` gives each province the name of the symbol lying inside it. A province and its symbol then share one entry in `locations.json`.
 - **Start hidden:** `"visible": false` on a layer.
