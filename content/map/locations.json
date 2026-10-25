@@ -180,7 +180,7 @@
   "Bornheser Furt": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Port Town",
         "province": "TODO",
         "facts": {
           "Ruler": "TODO",
@@ -189,7 +189,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Port City",
         "province": "TODO",
         "facts": {
           "Ruler": "TODO",
@@ -274,7 +274,7 @@
           "Ruler": "TODO",
           "Population": "TODO"
         },
-        "text": "TODO"
+        "text": "Burg Mirkwood überwacht die Salzstraße auf einer Enge zwischen den steilen Klippen des Krabbenarms und der Stillmarsch, die diesem Gebiet ihren Namen gibt. Wer nach Norden reist, muss an der Burg vorbei."
       },
       "present": {
         "type": "Castle",
@@ -283,7 +283,7 @@
           "Ruler": "TODO",
           "Population": "TODO"
         },
-        "text": "TODO"
+        "text": "Die Burg stellt die größte Hürde für das Tralische Imperium weiter in den Norden zu expandieren. Ihre günstige Lage macht es nahezu unmöglich eine Armee an ihr vorbeiziehen zu lassen ohne schwere Verluste zu erleiden."
       }
     }
   },
@@ -318,7 +318,7 @@
           "Ruler": "TODO",
           "Population": "TODO"
         },
-        "text": "TODO"
+        "text": "Auf Irons Crossing schlossen sich gescheiterte Existenzen und abtrünnige Händler zusammen und begannen als Piraten die Splitter-Inseln unsicher zu machen. Dalley Town ist das Zentrum dieses Zusammenschlusses."
       },
       "present": {
         "type": "Port City",
@@ -340,16 +340,16 @@
           "Ruler": "TODO",
           "Population": "TODO"
         },
-        "text": "TODO"
+        "text": "Eine wichtige Stadt in Tralien, sie dient als Verbindung zum Eisenstolz und damit zum Meer."
       },
       "present": {
-        "type": "City",
+        "type": "Town",
         "province": "Tralian Imperium",
         "facts": {
           "Ruler": "Emperor Suta",
           "Population": "TODO"
         },
-        "text": "TODO"
+        "text": "Mit der Gründung des Tralischen Imperiums verlor Degenfur mehr und mehr an strategischer Bedeutung und ist heute kaum mehr als eine Kleinstadt in der Reisende kurz Rast machen."
       }
     }
   },
@@ -401,7 +401,7 @@
     "eras": {
       "after-rogamon": {
         "type": "Town",
-        "province": "TODO",
+        "province": "Expansion",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -410,12 +410,12 @@
       },
       "present": {
         "type": "Town",
-        "province": "TODO",
+        "province": "Neue Expansion",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
         },
-        "text": "TODO"
+        "text": "Die kleine Stadt am Rande des Blutmoors gewann nach dem erneuten Fall von Winterglehn an mehr Bedeutung in der Region. Sie ist ein wichtiger Umschlagepunkt für Handelswaren und Reisende."
       }
     }
   },
@@ -423,7 +423,7 @@
     "eras": {
       "after-rogamon": {
         "type": "Port town",
-        "province": "TODO",
+        "province": "Bregonien",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -432,7 +432,7 @@
       },
       "present": {
         "type": "Port town",
-        "province": "TODO",
+        "province": "Bregonien",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -445,7 +445,7 @@
     "eras": {
       "after-rogamon": {
         "type": "Port City",
-        "province": "Syndria",
+        "province": "Alvarena",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -454,7 +454,7 @@
       },
       "present": {
         "type": "Port City",
-        "province": "Syndria",
+        "province": "Alvarena",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1112,8 +1112,8 @@
   "Matoga": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "City",
+        "province": "Altai",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1121,8 +1121,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "City",
+        "province": "Altai",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1134,7 +1134,7 @@
   "Mistelzing": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Town",
         "province": "Ellaise",
         "facts": {
           "Ruler": "TODO",
@@ -1143,7 +1143,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Town",
         "province": "Tralian Imperium",
         "facts": {
           "Ruler": "TODO",
@@ -1156,7 +1156,7 @@
   "Mondburg": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Castle",
         "province": "Ellaise",
         "facts": {
           "Ruler": "TODO",
@@ -1165,7 +1165,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Castle",
         "province": "Tralian Imperium",
         "facts": {
           "Ruler": "TODO",
@@ -1178,7 +1178,7 @@
   "Montnau": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "City",
         "province": "Champs",
         "facts": {
           "Ruler": "TODO",
@@ -1187,7 +1187,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "City",
         "province": "Tralian Imperium",
         "facts": {
           "Ruler": "TODO",
@@ -1200,7 +1200,7 @@
   "Mudbarg": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Village",
         "province": "Rogamon",
         "facts": {
           "Ruler": "TODO",
@@ -1209,7 +1209,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Village",
         "province": "Neue Expansion",
         "facts": {
           "Ruler": "TODO",
@@ -1222,8 +1222,8 @@
   "Muldenau": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Drachenhals",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1231,7 +1231,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Varland",
         "province": "Varland",
         "facts": {
           "Ruler": "TODO",
@@ -1244,8 +1244,8 @@
   "Muldenspit": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Village",
+        "province": "Drachenhals",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1253,7 +1253,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Village",
         "province": "Varland",
         "facts": {
           "Ruler": "TODO",
@@ -1266,7 +1266,7 @@
   "Nebeltor": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Port Town",
         "province": "Atikun",
         "facts": {
           "Ruler": "TODO",
@@ -1275,7 +1275,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Port City",
         "province": "Tralian Imperium",
         "facts": {
           "Ruler": "TODO",
@@ -1288,8 +1288,8 @@
   "New Calaga": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port Town",
+        "province": "Invierno",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1297,8 +1297,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port Town",
+        "province": "Invierno",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1310,7 +1310,7 @@
   "Nibelung": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Town",
         "province": "Weißküst",
         "facts": {
           "Ruler": "TODO",
@@ -1319,7 +1319,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Town",
         "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
@@ -1332,7 +1332,7 @@
   "Norvall": {
     "eras": {
       "after-rogamon": {
-        "type": "City",
+        "type": "Ruined City",
         "province": "Rogamon",
         "facts": {
           "Ruler": "TODO",
@@ -1341,7 +1341,7 @@
         "text": "Once the city of the gold fields."
       },
       "present": {
-        "type": "City",
+        "type": "Ruined City",
         "province": "Felder der Stille",
         "facts": {
           "Ruler": "TODO",
@@ -1349,24 +1349,13 @@
         },
         "text": "Once the city of the gold fields."
       }
-    },
-    "_older eras": {
-      "before-rogamon": {
-        "text": "Capital of a flourishing realm of gold fields that reached far into Triften and the Expansion.",
-        "facts": {
-          "Ruler": "King Sigmar of Norvall"
-        }
-      },
-      "rogamons-reign": {
-        "text": "**The Shame of Norvall:** facing Rogamon's army, Sigmar had every inhabitant executed and burned so that only ashes would be left for the Necromancer King. His own guard killed him for it."
-      }
     }
   },
   "Otoso": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Village",
+        "province": "Grenzfelder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1374,8 +1363,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Village",
+        "province": "Grenzfelder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1387,8 +1376,8 @@
   "Passhaus": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Inn",
+        "province": "Stillmarsch",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1396,8 +1385,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1409,8 +1398,8 @@
   "Passwacht": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle",
+        "province": "Drachenhals",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1418,8 +1407,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle",
+        "province": "Varland",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1431,8 +1420,8 @@
   "Port Lunees": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port City",
+        "province": "Ohmlande",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1440,8 +1429,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port City",
+        "province": "Tralisches Imperium",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1453,7 +1442,7 @@
   "Port Stocknau": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Port Town",
         "province": "TODO",
         "facts": {
           "Ruler": "TODO",
@@ -1462,8 +1451,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port City",
+        "province": "Goldenriff",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1476,35 +1465,29 @@
     "eras": {
       "after-rogamon": {
         "type": "Town",
-        "province": "Triften",
+        "province": "Rybben",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
         },
-        "text": "A small town on the source lake of the Endwasser, below a castle on a stone arch.\n\nAn opportunistic lord seizes the castle but is driven out; the lands are held for Rabenhorst until he returns. A town grows to keep training Paladins of the Good."
+        "text": "A small town on the source lake of the Endwasser, below a castle on a stone arch.\n\nAn opportunistic lord seizes the castle but is driven out; the lands are held for Rabenhorst until he returns. A town grows to keep training Paladins."
       },
       "present": {
         "type": "Town",
-        "province": "Triften",
+        "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
         },
         "text": "A small town on the source lake of the Endwasser, below a castle on a stone arch.\n\nAlso a relay for messages carried by ravens."
       }
-    },
-    "_older eras": {
-      "rogamons-reign": {
-        "type": "Castle",
-        "text": "About twenty years before Rogamon's end, Lord Rabenhorst rebuilds the forgotten castle as the secret base of the Paladins of the Good."
-      }
     }
   },
   "Radiknau": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle Town",
+        "province": "Rotmark",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1512,8 +1495,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle City",
+        "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1525,8 +1508,8 @@
   "Randbecken": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Millfell",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1534,8 +1517,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Millfell",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1547,8 +1530,8 @@
   "Rauchkant": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Triften",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1556,8 +1539,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "City",
+        "province": "Varland",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1569,8 +1552,8 @@
   "Relva": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Bolton",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1578,8 +1561,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Bolton",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1591,8 +1574,8 @@
   "Remano": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port Town",
+        "province": "Endenwald",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1600,8 +1583,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port Town",
+        "province": "Tralisches Imperium",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1613,8 +1596,8 @@
   "Riewenfall": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Capital City",
+        "province": "Riewenfall",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1622,8 +1605,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "City",
+        "province": "Tralisches Imperium",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1635,8 +1618,8 @@
   "Rivenfoot": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Grenzfelder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1644,8 +1627,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Altai",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1657,8 +1640,8 @@
   "Rocham": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Orubus",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1666,8 +1649,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Orubus",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1679,8 +1662,8 @@
   "Rohenburg": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle Town",
+        "province": "Altenbrunn",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1688,8 +1671,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle",
+        "province": "Neue Expansion",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1701,8 +1684,8 @@
   "San Calisa": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port City",
+        "province": "Syndria",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1710,8 +1693,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port City",
+        "province": "Alvarena",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1723,8 +1706,8 @@
   "San Mesa": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Capital City",
+        "province": "Grenzfelder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1732,8 +1715,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "City",
+        "province": "Grenzfelder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1745,8 +1728,8 @@
   "San Taro": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Grenzfelder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1754,8 +1737,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Grenzfelder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1767,8 +1750,8 @@
   "Schardherz": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Insel Dolbien",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1776,8 +1759,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Insel Dolbien",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1789,8 +1772,8 @@
   "Schester": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Ohmlande",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1798,8 +1781,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Tralisches Imperium",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1811,8 +1794,8 @@
   "Schweinfurt": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Speermark",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1820,8 +1803,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Tralisches Imperium",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -2898,8 +2881,8 @@
   },
   "Syndria": {
     "type": "Island",
-    "province": "TODO",
-    "text": "TODO"
+    "province": "Splinter Islands",
+    "text": "One of the countless islands of the [Splinter Islands](lore.html?realm=splinter-islands#realms)."
   },
   "Termura": {
     "type": "Island",

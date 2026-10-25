@@ -892,26 +892,26 @@
       }
     },
     {
-      "id": "syndria",
-      "name": "Syndria",
-      "kind": "Island",
-      "map": "Syndria",
-      "coat": "content/images/coats/syndria.webp",
-      "file": "lands/realms/syndria.md",
+      "id": "alvarena",
+      "name": "Alvarena",
+      "kind": "Province",
+      "map": "Alvarena",
+      "coat": "content/images/coats/alvarena.webp",
+      "file": "lands/realms/alvarena.md",
       "eras": {
         "after-rogamon": {
           "status": "TODO",
           "ruler": "TODO",
           "capital": "TODO",
           "partOf": "",
-          "summary": "TODO: one of the Splinter Islands."
+          "summary": "TODO: one or two sentences about Alvarena in this era."
         },
         "present": {
           "status": "TODO",
           "ruler": "TODO",
           "capital": "TODO",
           "partOf": "",
-          "summary": "TODO: one of the Splinter Islands."
+          "summary": "TODO: one or two sentences about Alvarena in this era."
         }
       }
     },
@@ -992,6 +992,7 @@
       "name": "Border Fields",
       "kind": "Region",
       "map": "Grenzfelder",
+      "coat": "content/images/coats/border-fields.svg",
       "file": "lands/realms/border-fields.md",
       "eras": {
         "after-rogamon": {
