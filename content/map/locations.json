@@ -216,17 +216,17 @@
       },
       "after-rogamon": {
         "type": "TODO",
-        "region": "TODO",
+        "region": "Altenbrunn",
         "facts": {
-          "Realm": "TODO",
-          "Ruler": "TODO",
+          "Realm": "Altenbrunn",
+          "Ruler": "Lord Wieland Falkenried",
           "Population": "TODO"
         },
         "text": "Capital of the province Altenbrunn. Seat of Lord Wieland Falkenried."
       },
       "present": {
         "type": "TODO",
-        "region": "TODO",
+        "region": "New Expansion",
         "facts": {
           "Realm": "TODO",
           "Ruler": "TODO",
