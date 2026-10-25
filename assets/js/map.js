@@ -423,10 +423,13 @@
     const ev = (lore && infoEra && e.eras && e.eras[infoEra]) || null;    // era part of locations.json
     const eraObj = lore && infoEra ? lore.eraById[infoEra] : null;
 
-    const facts = Object.entries(e.facts || {});
-    if (e.region) facts.unshift(["Region", e.region]);
+    // era facts (and an era "region") replace general ones with the same name
     const eraFacts = Object.entries((ev && ev.facts) || {});
     if (ev && ev.region) eraFacts.unshift(["Region", ev.region]);
+    const eraKeys = new Set(eraFacts.map(([k]) => k));
+    const facts = Object.entries(e.facts || {});
+    if (e.region) facts.unshift(["Region", e.region]);
+    for (let i = facts.length - 1; i >= 0; i--) if (eraKeys.has(facts[i][0])) facts.splice(i, 1);
 
     const chips = lore && lore.eras.length ? `
       <div class="info-eras" role="tablist" aria-label="Era">

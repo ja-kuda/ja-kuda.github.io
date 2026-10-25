@@ -1,24 +1,49 @@
 {
-  "_help": "Key = the name exactly as written on the map. General fields (type, region, facts, image, text, lore) are shown in every era. Under \"eras\" you can add the same fields per era id (before-rogamon, rogamons-reign, after-rogamon, present) – they are shown when that era is selected. Era-specific type/title/image replace the general ones. Fields that still say TODO are hidden on the website – search the file for TODO to find what is left to write. Keys starting with _ (like the section markers) are ignored.",
+  "_help": "Key = the name exactly as written on the map. General fields (type, region, text, image, lore) are the default for every era. Under \"eras\" each era id (before-rogamon, rogamons-reign, after-rogamon, present) has its own type, region, facts (Realm, Ruler, Population …) and text – a filled era field replaces the general one while that era is selected, so a village can become a city and rulers can change. Fields that still say TODO are hidden on the website – search the file for TODO to find what is left to write. Keys starting with _ (like the section markers) are ignored.",
   "_____ PLACES _____": "",
   "Alt Koppenheim": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "Altenbrunn",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "A small town in the outskirts of the Brachtung Mountains. It was nearly destroyed when raiders attacked but could be saved by Lord Albrecht Falkenried."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -26,41 +51,93 @@
   "Alt Rybben": {
     "type": "Ruins",
     "region": "Weißküst",
+    "text": "TODO",
     "eras": {
       "before-rogamon": {
         "type": "City",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "One of the most important cities of Varland – a training ground for weavers and seat of a paladin order."
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Depopulated and destroyed by Rogamon's armies."
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "After Rogamon it was rebuilt but could never again achieve its status."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "The seat of a local lord."
       }
-    },
-    "text": "TODO"
+    }
   },
   "Altnacht": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "Ellaise",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "A small settlement near the Lamdé."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -68,21 +145,46 @@
   "Alumbra": {
     "type": "Port-City",
     "region": "Sommerlichtküste",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Capital of the Sommerlichtküste. A powerful city with a famous port."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -90,21 +192,46 @@
   "Ardahall": {
     "type": "City",
     "region": "Altenbrunn",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Capital of the province Altenbrunn. Seat of Lord Wieland Falkenried."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -112,21 +239,46 @@
   "Baleiras": {
     "type": "Ruined City",
     "region": "Altai",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Destroyed, it is said that there are still powerful artifacts to be found in the ruins."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -134,21 +286,46 @@
   "Balstad": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "Zitterwälder",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Ruled by raiders and vikings this small town marks one of the most northern settlements on the continent."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -159,17 +336,42 @@
     "text": "A city at the foot of – and largely built into – a sheer cliff above the crystal fields of the Scars.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "For some decades even the capital of Varland."
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Spared at first for its crystals – then its entire population was wiped out."
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Slowly resettled; crystal mining resumes. Here the Inquisition is founded."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
         "facts": {
-          "Ruler": "High Inquisitor Horuas"
+          "Realm": "TODO",
+          "Ruler": "High Inquisitor Horuas",
+          "Population": "TODO"
         },
         "text": "Ruled by the Inquisition. All magic is forbidden and punished by the Arcane Guard."
       }
@@ -178,21 +380,46 @@
   "Bornheser Furt": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -200,21 +427,46 @@
   "Brachstrom": {
     "type": "Castle Town",
     "region": "Rotmark",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -225,17 +477,42 @@
     "text": "The great cauldron – a Durag city of rings inside an extinct volcano.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Capital of Bregonien."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
         "facts": {
-          "Ruler": "The Shield Lord"
+          "Realm": "TODO",
+          "Ruler": "The Shield Lord",
+          "Population": "TODO"
         },
         "text": "Capital of the reborn Durag kingdom of Bregonia."
       }
@@ -247,15 +524,43 @@
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "After the undead were pushed back as far as possible into the Expansion, the Castle was used as a border checkpoint until it was overrun again by undead a few years later."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -263,21 +568,46 @@
   "Burg Mirkwood": {
     "type": "Castle",
     "region": "Stillmarsch",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -288,15 +618,43 @@
     "text": "The city where no one stays – inns, taverns and entertainment for everyone passing through.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Business is booming as mercenaries and soldiers spend their last pay before marching north."
       }
     }
@@ -304,21 +662,46 @@
   "Dalley Town": {
     "type": "Port City",
     "region": "Pirates of the Iron Crossing",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -326,21 +709,46 @@
   "Degenfur": {
     "type": "City",
     "region": "Tralien",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -351,15 +759,43 @@
     "text": "A ruined town in the north of the Fields of Silence.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "The golden valley around it becomes the Fields of Silence when Rogamon drains the life and souls of its people."
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Lost to the Undead hordes within the fields of silence."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Avoided by almost everyone."
       }
     }
@@ -367,21 +803,46 @@
   "Drimaquell": {
     "type": "Town",
     "region": "Riewenfall",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -392,15 +853,43 @@
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -408,21 +897,46 @@
   "Durbracht": {
     "type": "Port town",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -430,21 +944,46 @@
   "El Acaria": {
     "type": "Port City",
     "region": "Syndria",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -455,15 +994,43 @@
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -471,21 +1038,46 @@
   "Endahl": {
     "type": "Town",
     "region": "Varland",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -493,21 +1085,46 @@
   "Essrath": {
     "type": "Town",
     "region": "Essrath",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Capital of the region of the same name."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -515,21 +1132,46 @@
   "Feuernacht": {
     "type": "Town",
     "region": "Silbertal",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -537,21 +1179,46 @@
   "Feytor": {
     "type": "Town",
     "region": "Westkliff",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -559,21 +1226,46 @@
   "Finsterturm": {
     "type": "Castle",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -581,21 +1273,46 @@
   "Fuhrwert": {
     "type": "Town",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -603,21 +1320,46 @@
   "Gladenstern": {
     "type": "Town",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -628,17 +1370,42 @@
     "text": "Heavily fortified, imperial and extremely rich, with academies and a university.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Capital of the young Tralian Empire."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
         "facts": {
-          "Ruler": "Emperor Suta"
+          "Realm": "TODO",
+          "Ruler": "Emperor Suta",
+          "Population": "TODO"
         },
         "text": "TODO"
       }
@@ -647,21 +1414,46 @@
   "Grimlicht": {
     "type": "Town",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -669,21 +1461,46 @@
   "Gronlund": {
     "type": "Port town",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -691,21 +1508,46 @@
   "Grubendorf": {
     "type": "Town",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -716,20 +1558,42 @@
     "text": "The capital of Varland, on a height between two arms of the Endwasser, with the king's palace right above the waterfalls. On its temple square every god has a place.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Founded at the same time as Beltheim; after a long rivalry it became the seat of the crown."
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Resisted the necromancer for a long time, but fell through a trick. Generations later a still youthful Rogamon entered its throne room and declared his rule over the whole kingdom."
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
         "facts": {
-          "Ruler": "The kings of Varland"
+          "Realm": "TODO",
+          "Ruler": "The kings of Varland",
+          "Population": "TODO"
         },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
         "facts": {
-          "Ruler": "King Anselm I"
+          "Realm": "TODO",
+          "Ruler": "King Anselm I",
+          "Population": "TODO"
         },
         "text": "All of Varland's military power is gathered around the city while the outer provinces are left to fend for themselves."
       }
@@ -738,21 +1602,46 @@
   "Henkers Krone": {
     "type": "Town",
     "region": "Rotmark",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -760,21 +1649,46 @@
   "Heulerten": {
     "type": "City",
     "region": "Altenbrunn",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -785,15 +1699,43 @@
     "text": "Famous for its harbour inside a huge natural cave and its arena fights; one of the few entrances to the underworld not controlled by the Durag.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Stayed independent longer than most of Varland."
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -801,21 +1743,46 @@
   "Hütjengrim": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -823,21 +1790,46 @@
   "Infona": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -848,15 +1840,43 @@
     "text": "A town on the shore of the Twins.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "After the short silver rush ran dry, the town emptied and became a ghost town."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -864,21 +1884,46 @@
   "Kilrum": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -886,21 +1931,46 @@
   "Kronsall": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -908,21 +1978,46 @@
   "Lakuna": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -930,21 +2025,46 @@
   "Laperre": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -952,21 +2072,46 @@
   "Laubstedt": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -974,21 +2119,46 @@
   "Lessand": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -996,21 +2166,46 @@
   "Leste Bastion": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1018,21 +2213,46 @@
   "Lorschach": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1040,21 +2260,46 @@
   "Lyfja": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1062,21 +2307,46 @@
   "Maibonne": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1084,21 +2354,46 @@
   "Matoga": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1106,21 +2401,46 @@
   "Mistelzing": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1128,21 +2448,46 @@
   "Mondburg": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1150,21 +2495,46 @@
   "Montnau": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1172,21 +2542,46 @@
   "Mudbarg": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1194,21 +2589,46 @@
   "Muldenau": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1216,21 +2636,46 @@
   "Muldenspit": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1238,21 +2683,46 @@
   "Nebeltor": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1260,21 +2730,46 @@
   "New Calaga": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1282,21 +2777,46 @@
   "Nibelung": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1304,43 +2824,93 @@
   "Norvall": {
     "type": "City",
     "text": "Once the city of the gold fields.",
+    "region": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
         "facts": {
-          "Ruler": "King Sigmar of Norvall"
+          "Realm": "TODO",
+          "Ruler": "King Sigmar of Norvall",
+          "Population": "TODO"
         },
         "text": "Capital of a flourishing realm of gold fields that reached far into Triften and the Expansion."
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "**The Shame of Norvall:** facing Rogamon's army, Sigmar had every inhabitant executed and burned so that only ashes would be left for the Necromancer King. His own guard killed him for it."
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
-    },
-    "region": "TODO"
+    }
   },
   "Otoso": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1348,21 +2918,46 @@
   "Passhaus": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1370,21 +2965,46 @@
   "Passwacht": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1392,21 +3012,46 @@
   "Port Lunees": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1414,21 +3059,46 @@
   "Port Stocknau": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1439,16 +3109,43 @@
     "text": "A small town on the source lake of the Endwasser, below a castle on a stone arch.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
         "type": "Castle",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "About twenty years before Rogamon's end, Lord Rabenhorst rebuilds the forgotten castle as the secret base of the Paladins of the Good."
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "An opportunistic lord seizes the castle but is driven out; the lands are held for Rabenhorst until he returns. A town grows to keep training Paladins of the Good."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Also a relay for messages carried by ravens."
       }
     }
@@ -1456,21 +3153,46 @@
   "Radiknau": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1478,21 +3200,46 @@
   "Randbecken": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1500,21 +3247,46 @@
   "Rauchkant": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1522,21 +3294,46 @@
   "Relva": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1544,21 +3341,46 @@
   "Remano": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1566,21 +3388,46 @@
   "Riewenfall": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1588,21 +3435,46 @@
   "Rivenfoot": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1610,21 +3482,46 @@
   "Rocham": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1632,21 +3529,46 @@
   "Rohenburg": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1654,21 +3576,46 @@
   "San Calisa": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1676,21 +3623,46 @@
   "San Mesa": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1698,21 +3670,46 @@
   "San Taro": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1720,21 +3717,46 @@
   "Schardherz": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1742,21 +3764,46 @@
   "Schester": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1764,21 +3811,46 @@
   "Schweinfurt": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1786,21 +3858,46 @@
   "Seelander": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1808,21 +3905,46 @@
   "Sharktown": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1830,21 +3952,46 @@
   "Slaftor": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1852,21 +3999,46 @@
   "Sogaard-Feste": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1874,21 +4046,46 @@
   "Solheim": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1896,21 +4093,46 @@
   "Sommerhall": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1921,15 +4143,43 @@
     "text": "One of the largest cities of Tralien and the training ground of the imperial army.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "The barracks around the city are full – the army is preparing for the offensive."
       }
     }
@@ -1937,21 +4187,46 @@
   "Stammruht": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -1962,15 +4237,43 @@
     "text": "A heavily fortified city at one of the very few crossings of the Blue Arm – the most important fortress on the continent.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Tralian troops trying to take Steilfurt are crushed on the Plains of Decision; a truce follows."
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Its governor is one of the three leaders of the Red-White Alliance. Behind the walls everyone is ready to take up arms."
       }
     }
@@ -1978,21 +4281,46 @@
   "Sturmspitze": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2000,21 +4328,46 @@
   "Sturmwacht": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2022,21 +4375,46 @@
   "Suldorf": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2044,21 +4422,46 @@
   "Sur'Emera": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2066,21 +4469,46 @@
   "Südorf": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2088,21 +4516,46 @@
   "Tanzfurt": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2110,21 +4563,46 @@
   "Taspir": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2132,21 +4610,46 @@
   "Teneria": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2154,21 +4657,46 @@
   "Terano": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2176,21 +4704,46 @@
   "Tiefenstark": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2198,21 +4751,46 @@
   "Tierafni": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2220,22 +4798,46 @@
   "Toralt": {
     "type": "City",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO",
-      "Ruler": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2243,21 +4845,46 @@
   "Trandstein": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2265,21 +4892,46 @@
   "Trostenheim": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2287,21 +4939,46 @@
   "Ur'Bara": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2309,21 +4986,46 @@
   "Vinara": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2331,21 +5033,46 @@
   "Weißstein": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2353,21 +5080,46 @@
   "Westkliff": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2375,21 +5127,46 @@
   "Wildenstein": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }
@@ -2401,24 +5178,43 @@
     "lore": "lore.html#rogamons-reign",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "(Old) Winterglehn – a rich city of the Expansion. One of its lords gathered children with necromantic gifts for cruel experiments; one of them was the boy who would call himself Rogamon."
       },
       "rogamons-reign": {
         "type": "Capital",
+        "region": "TODO",
         "facts": {
-          "Ruler": "King Rogamon"
+          "Realm": "TODO",
+          "Ruler": "King Rogamon",
+          "Population": "TODO"
         },
         "text": "Rogamon takes the city and declares himself king of Winterglehn and of the common people of Varland. From here he rules his realm of the dead."
       },
       "after-rogamon": {
         "type": "Ruins",
-        "text": "Abandoned in year 0. Later rebuilt on the ruins of Old Winterglehn and soon rising to new greatness, fed by fertile soil, rich forests and the treasures still hidden in the ruins.\n\nCentre of trade of the Expansion – and of crime and corruption. Theoretically anyone can get rich here; few do.",
+        "region": "TODO",
         "facts": {
-          "Ruler": "The last Lord of Winterglehn was Arnil Fang, though many would argue that the city was really ruled by Modyi, a shrewd businessman and mob-boss."
-        }
+          "Realm": "TODO",
+          "Ruler": "The last Lord of Winterglehn was Arnil Fang, though many would argue that the city was really ruled by Modyi, a shrewd businessman and mob-boss.",
+          "Population": "TODO"
+        },
+        "text": "Abandoned in year 0. Later rebuilt on the ruins of Old Winterglehn and soon rising to new greatness, fed by fertile soil, rich forests and the treasures still hidden in the ruins.\n\nCentre of trade of the Expansion – and of crime and corruption. Theoretically anyone can get rich here; few do."
       },
       "present": {
         "type": "Ruins",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "Mostly destroyed when Rogamon was brought back to life around year 225. Merchants and guild members who saved their goods now hold great power in the New Expansion."
       }
     }
@@ -2429,15 +5225,43 @@
     "text": "Home of the academy Ars Arkanum. The weave is especially strong here.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "The grandmasters of the academy rule the region, regardless of the king's wishes."
       }
     }
@@ -2448,18 +5272,42 @@
     "text": "A city on both banks of the Siechlauf, joined by a great bridge that is also its market. Beneath it lies the Dark Harbour, a maze of tunnels.",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
         "type": "Capital",
+        "region": "TODO",
         "facts": {
-          "Ruler": "A nameless warlord"
+          "Realm": "TODO",
+          "Ruler": "A nameless warlord",
+          "Population": "TODO"
         },
         "text": "Capital of the New Expansion."
       }
@@ -2468,21 +5316,46 @@
   "Zwillingsquell": {
     "type": "TODO: City / Town / Village / Castle / Ruin",
     "region": "TODO",
-    "facts": {
-      "Population": "TODO"
-    },
     "text": "TODO",
     "eras": {
       "before-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "rogamons-reign": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "after-rogamon": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       },
       "present": {
+        "type": "TODO",
+        "region": "TODO",
+        "facts": {
+          "Realm": "TODO",
+          "Ruler": "TODO",
+          "Population": "TODO"
+        },
         "text": "TODO"
       }
     }

@@ -235,28 +235,31 @@ The symbols from Lionafire are saved as `content/images/gods/<name>.webp`. To ch
 
 ```json
 "Toralt": {
-  "type": "City",
+  "type": "Town",
   "region": "Tralia",
-  "facts": { "Population": "12,000" },
   "image": "content/images/toralt.jpg",
-  "text": "Markdown text …",
-  "lore": "lore.html#world"
+  "text": "Timeless description (Markdown) …",
+  "lore": "lore.html#world",
+  "eras": {
+    "after-rogamon": {
+      "type": "Village",
+      "region": "Tralien",
+      "facts": { "Realm": "Varland", "Ruler": "Lord X", "Population": "300" },
+      "text": "What the place is like in this era …"
+    },
+    "present": {
+      "type": "City",
+      "region": "Stahlmark",
+      "facts": { "Realm": "Tralian Empire", "Ruler": "Governor Y", "Population": "12,000" },
+      "text": "…"
+    }
+  }
 }
 ```
 All fields are optional. Places without an entry show a "No description yet" hint with the exact name to use.
 
-Information for a single era goes under `"eras"` – the same fields again, per era id. The general fields are shown in every era; the era part only when that era is selected:
+**Everything that changes over time goes under `"eras"`** – one block per era id (`before-rogamon`, `rogamons-reign`, `after-rogamon`, `present`) with its own `type`, `region`, `facts` (Realm, Ruler, Population – add any other fact you like) and `text`. The general fields at the top are the **default**: a filled era field replaces the general one with the same name while that era is selected (e.g. the era `type` "City" replaces the general "Town", an era "Region" replaces the general region). The general `text` is shown in every era above the era text. Era fields that still say TODO are hidden, so the general value shows instead.
 
-```json
-"Winterglehn": {
-  "type": "City",
-  "text": "The largest city of the continent …",
-  "eras": {
-    "rogamons-reign": { "type": "Capital", "facts": { "Ruler": "King Rogamon" }, "text": "…" },
-    "present":        { "type": "Ruins", "text": "Destroyed when Rogamon returned …" }
-  }
-}
-```
 Provinces and realms get their per-era information from `content/lore/realms.json` automatically.
 An entry for something that isn't labelled on the map can get a pin by adding `"x"` and `"y"` (map coordinates, 0–1949 / 0–1516).
 - Link straight to a place: `map.html#Toralt`.
