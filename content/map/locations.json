@@ -2383,7 +2383,7 @@
   "Weißstein": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Capital City",
         "province": "Weißküst",
         "facts": {
           "Ruler": "TODO",
@@ -2392,7 +2392,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Capital City",
         "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
@@ -2405,8 +2405,8 @@
   "Westkliff": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Capital City",
+        "province": "Westkliff",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -2414,8 +2414,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port City",
+        "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -2450,7 +2450,7 @@
     "eras": {
       "after-rogamon": {
         "type": "Ruins",
-        "province": "The Expansion",
+        "province": "Expansion",
         "facts": {
           "Ruler": "The last Lord of Winterglehn was Arnil Fang, though many would argue that the city was really ruled by Modyi, a shrewd businessman and mob-boss.",
           "Population": "TODO"
@@ -2460,25 +2460,13 @@
       },
       "present": {
         "type": "Ruins",
-        "province": "The Expansion",
+        "province": "New Expansion",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
         },
         "text": "The largest city of the continent, at the tip of the Expansion's coast where the Salt Road begins.\n\nMostly destroyed when Rogamon was brought back to life around year 225. Merchants and guild members who saved their goods now hold great power in the New Expansion.",
         "lore": "lore.html#rogamons-reign"
-      }
-    },
-    "_older eras": {
-      "before-rogamon": {
-        "text": "(Old) Winterglehn – a rich city of the Expansion. One of its lords gathered children with necromantic gifts for cruel experiments; one of them was the boy who would call himself Rogamon."
-      },
-      "rogamons-reign": {
-        "type": "Capital",
-        "text": "Rogamon takes the city and declares himself king of Winterglehn and of the common people of Varland. From here he rules his realm of the dead.",
-        "facts": {
-          "Ruler": "King Rogamon"
-        }
       }
     }
   },
@@ -2508,7 +2496,7 @@
     "eras": {
       "after-rogamon": {
         "type": "Trade city",
-        "province": "The Expansion",
+        "province": "Expansion",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -2516,10 +2504,10 @@
         "text": "A city on both banks of the Siechlauf, joined by a great bridge that is also its market. Beneath it lies the Dark Harbour, a maze of tunnels."
       },
       "present": {
-        "type": "Capital",
+        "type": "Capital City",
         "province": "The Expansion",
         "facts": {
-          "Ruler": "A nameless warlord",
+          "Ruler": "Modyi",
           "Population": "TODO"
         },
         "text": "A city on both banks of the Siechlauf, joined by a great bridge that is also its market. Beneath it lies the Dark Harbour, a maze of tunnels.\n\nCapital of the New Expansion."
@@ -2529,7 +2517,7 @@
   "Zwillingsquell": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "City",
         "province": "TODO",
         "facts": {
           "Ruler": "TODO",
@@ -2538,7 +2526,7 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Town",
         "province": "TODO",
         "facts": {
           "Ruler": "TODO",
@@ -2708,8 +2696,7 @@
   "Smaragdgärten": {
     "type": "Forest",
     "province": "TODO",
-    "text": "TODO",
-    "image": "content/images/akudia-overview.jpg"
+    "text": "TODO"
   },
   "Sonnenbecken": {
     "type": "Forest",
@@ -2728,97 +2715,97 @@
   },
   "_____ RIVERS AND LAKES _____": "",
   "Blauer Arm": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Bouclaire": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Die Zwillinge": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Eisenstolz": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Endwasser": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Fernaris": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Frostrom": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Gamberi": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Grüner Arm": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Götterauge": {
-    "type": "TODO",
+    "type": "Lake",
     "province": "TODO",
     "text": "TODO"
   },
   "Himmelsfall": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Mondauge": {
-    "type": "TODO",
+    "type": "Lake",
     "province": "TODO",
     "text": "TODO"
   },
   "Mulweiher": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Ohm": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Ostlauf": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Siechlauf": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Sin": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Tintenlauf": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },
   "Trommelstrom": {
-    "type": "TODO",
+    "type": "River",
     "province": "TODO",
     "text": "TODO"
   },

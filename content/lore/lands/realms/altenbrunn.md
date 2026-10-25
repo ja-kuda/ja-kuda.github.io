@@ -1,10 +1,10 @@
 <!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading for each era in which the realm is on the map (see "eras" in realms.json). Lines starting with TODO are hidden on the website. -->
 
-A lake in the **Brachtung**, in the south of Silbertal.
+A small Province in the northwest.
 
 ## After Rogamon
 
-TODO: What Altenbrunn was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
+After Rogamon fell and the undead were mostly driven back, Altenbrunn remained as one of the Provinces closest to the Expansion, the lands where Rogamons influence still remained strong.
 
 <!-- The sections below are about eras in which this realm is not on the map – they are not shown on the website, kept for reference. -->
 
