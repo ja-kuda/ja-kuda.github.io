@@ -1795,7 +1795,7 @@
     "eras": {
       "after-rogamon": {
         "type": "Town",
-        "province": "Speermark",
+        "province": "Stahlmark",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1816,8 +1816,8 @@
   "Seelander": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Rotmark",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1825,8 +1825,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Tralische Eroberung",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1838,8 +1838,8 @@
   "Sharktown": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port Town",
+        "province": "Dominico",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1847,8 +1847,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Port Town",
+        "province": "Dominico",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1860,8 +1860,8 @@
   "Slaftor": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Westkliff",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1869,8 +1869,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Town",
+        "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1882,8 +1882,8 @@
   "Sogaard-Feste": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle",
+        "province": "Hexenwald",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1891,8 +1891,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Castle",
+        "province": "Rot-Weiße Allianz",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1904,8 +1904,8 @@
   "Solheim": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Village",
+        "province": "Zitterwälder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1913,8 +1913,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Village",
+        "province": "Zitterwälder",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1926,8 +1926,8 @@
   "Sommerhall": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Ruined City",
+        "province": "Felder der Stille",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1935,8 +1935,8 @@
         "text": "TODO"
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
-        "province": "TODO",
+        "type": "Ruined City",
+        "province": "Felder der Stille",
         "facts": {
           "Ruler": "TODO",
           "Population": "TODO"
@@ -1948,7 +1948,7 @@
   "Speerstadt": {
     "eras": {
       "after-rogamon": {
-        "type": "City",
+        "type": "Capital City",
         "province": "Stahlmark",
         "facts": {
           "Ruler": "TODO",

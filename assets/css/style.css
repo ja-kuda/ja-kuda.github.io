@@ -530,7 +530,6 @@ body.map-page .site-footer { display: none; }
   background: rgba(18,14,19,.92); color: #fff; border-left: 2px solid var(--crystal); opacity: 0; transition: opacity .12s; white-space: nowrap; }
 .map-tip.show { opacity: 1; }
 @media (hover: none) { .map-tip { display: none; } }
-.map-stage .map-label.has-entry text { text-decoration: underline; }
 .map-pulse { fill: none; stroke: var(--crystal); stroke-width: 1.2; pointer-events: none; animation: ring 1.6s ease-out infinite; transform-box: fill-box; transform-origin: center; }
 @keyframes ring { from { opacity: 1; transform: scale(.4); } to { opacity: 0; transform: scale(2.2); } }
 

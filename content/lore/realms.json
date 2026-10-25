@@ -436,19 +436,19 @@
       }
     },
     {
-      "id": "speermark",
-      "name": "Speermark",
+      "id": "stahlmark",
+      "name": "Stahlmark",
       "kind": "Province",
-      "map": "Speermark",
-      "coat": "content/images/coats/speermark.svg",
-      "file": "lands/realms/speermark.md",
+      "map": "Stahlmark",
+      "coat": "content/images/coats/stahlmark.svg",
+      "file": "lands/realms/stahlmark.md",
       "eras": {
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
           "capital": "TODO",
           "partOf": "",
-          "summary": "TODO: one or two sentences about Speermark in this era.",
+          "summary": "TODO: one or two sentences about Stahlmark in this era.",
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
@@ -872,7 +872,7 @@
       "name": "Summerlight Coast",
       "kind": "Coastal realm",
       "map": "Sommerlichtküste",
-      "coat": "content/images/coats/summerlight-coast.webp",
+      "coat": "content/images/coats/summerlight-coast.svg",
       "file": "lands/realms/summerlight-coast.md",
       "eras": {
         "after-rogamon": {
@@ -896,7 +896,7 @@
       "name": "Alvarena",
       "kind": "Province",
       "map": "Alvarena",
-      "coat": "content/images/coats/alvarena.webp",
+      "coat": "content/images/coats/alvarena.svg",
       "file": "lands/realms/alvarena.md",
       "eras": {
         "after-rogamon": {
@@ -920,7 +920,7 @@
       "name": "Altai",
       "kind": "Realm",
       "map": "Altai",
-      "coat": "content/images/coats/altai.webp",
+      "coat": "content/images/coats/altai.svg",
       "file": "lands/realms/altai.md",
       "eras": {
         "after-rogamon": {
@@ -944,7 +944,7 @@
       "name": "Goldenriff",
       "kind": "Island",
       "map": "Goldenriff",
-      "coat": "content/images/coats/goldenriff.webp",
+      "coat": "content/images/coats/goldenriff.svg",
       "file": "lands/realms/goldenriff.md",
       "eras": {
         "after-rogamon": {
@@ -968,7 +968,7 @@
       "name": "Bolton",
       "kind": "Realm",
       "map": "Bolton",
-      "coat": "content/images/coats/bolton.webp",
+      "coat": "content/images/coats/bolton.svg",
       "file": "lands/realms/bolton.md",
       "eras": {
         "after-rogamon": {
