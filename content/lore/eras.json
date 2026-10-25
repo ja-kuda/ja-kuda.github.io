@@ -1,5 +1,5 @@
 {
-  "_help": "The eras of Akudia, in chronological order. 'id' is used in realms.json and in the headings of the realm texts. 'chapter' is the History section about the era (its id in chapters.json). 'default' is the era shown first. 'mapLayers' (optional) switches map layers on/off when this era is selected, e.g. {\"_06_Provinces\": true}. 'aliases' (optional) lists other heading names that count as this era in the realm texts.",
+  "_help": "The eras of Akudia, in chronological order. 'id' is used in realms.json and in the headings of the realm texts. 'chapter' is the History section about the era (its id in chapters.json). 'default' is the era shown first. 'mapLayers' (optional) switches map layers on/off when this era is selected, e.g. {\"_06_Provinces\": true}. 'aliases' (optional) lists other heading names that count as this era in the realm texts. 'realms': false hides the realm list (sigils) of that era in the Lore. Which eras the map shows is set in content/map/map.json → 'eras'.",
   "default": "after-rogamon",
   "eras": [
     {
@@ -8,8 +8,8 @@
       "short": "Before Rogamon",
       "period": "vKR – before the King's reign",
       "summary": "From the God Wars to the rise of necromancy. Elves, then humans rule Akudia; the continent is divided between the Kingdom of Varland in the north and the Free Alliance of Atania in the south. Children with necromantic gifts begin to be born – and hunted.",
-      "mapLayers": {},
-      "chapter": "before-rogamon"
+      "chapter": "before-rogamon",
+      "realms": false
     },
     {
       "id": "rogamons-reign",
@@ -17,8 +17,8 @@
       "short": "Rogamon's Reign",
       "period": "Ends in year 0 nKR",
       "summary": "Rogamon, the Necromancer King, takes Winterglehn and conquers the continent with his undead armies. Mages are hunted, the old order is swept away – until Lord Rabenhorst and the 13 Faithful end his reign.",
-      "mapLayers": {},
-      "chapter": "rogamons-reign"
+      "chapter": "rogamons-reign",
+      "realms": false
     },
     {
       "id": "after-rogamon",

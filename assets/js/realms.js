@@ -91,9 +91,12 @@
   /* ---------- embed: realms explorer ---------- */
   R.realms = async (el) => {
     const L = await A.data.lore();
+    const mapCfg = await A.loadJSON("content/map/map.json").catch(() => ({}));
+    const onMap = (id) => !mapCfg.eras || id in mapCfg.eras;     // map.json → "eras" lists the eras the map shows
     let era = A.era.get(L);
     const draw = () => {
       const e = L.eraById[era];
+      const showRealms = e.realms !== false;                       // eras.json → "realms": false hides the realm list
       const here = L.realms.filter((r) => inEra(r, era));
       const top = here.filter((r) => { const p = eraData(r, era).partOf; return !p || !inEra(L.realmById[p] || {}, era); });
       el.innerHTML = `
@@ -102,11 +105,11 @@
           <div><div class="eyebrow">${esc(e.period || "Era")}</div><h3>${esc(e.name)}</h3><p>${A.inline(e.summary || "")}</p></div>
           <div class="era-links">
             ${e.chapter ? `<a class="btn small ghost" href="#${e.chapter}">Read the history</a>` : ""}
-            <a class="btn small ghost" href="map.html?era=${era}">Open the map in this era</a>
+            ${onMap(era) ? `<a class="btn small ghost" href="map.html?era=${era}">Open the map in this era</a>` : ""}
           </div>
         </div>
-        <p class="count">${here.length} realm${here.length === 1 ? "" : "s"} in this era</p>
-        ${top.length ? `<div class="realm-grid">${top.map((r) => {
+        ${!showRealms ? "" : `<p class="count">${here.length} realm${here.length === 1 ? "" : "s"} in this era</p>`}
+        ${!showRealms ? "" : top.length ? `<div class="realm-grid">${top.map((r) => {
           const d = eraData(r, era), mem = membersOf(L, r, era);
           return `<button class="realm-card panel facet" data-realm="${r.id}">
             ${coat(r)}

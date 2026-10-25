@@ -1,30 +1,14 @@
 {
-  "_help": "layers: id = layer id in the SVG, label = name of the switch, visible = shown at start, type = makes names clickable, items = shapes/areas makes objects clickable. Layers with the SAME label form one switch. Add \"eras\": [\"present\"] to a layer to show it only in those eras; layers of that switch without \"eras\" are used in all other eras. Example: { \"id\": \"_11_Borders_Present\", \"label\": \"Province borders\", \"visible\": true, \"eras\": [\"present\"] }",
-  "svg": "content/map/Akudia_full_6.svg",
+  "_help": "layers: id = layer id in the SVG, label = name of the switch, visible = shown at start, type = makes names clickable, items = shapes/areas makes objects clickable. Layers with the SAME label form one switch. Add \"eras\": [\"present\"] to a layer to show it only in those eras; layers of that switch without \"eras\" are used in all other eras. The top-level \"eras\" lists the eras the map offers (era id → the year the map shows); other eras (e.g. Before Rogamon) are only in the Lore.",
+  "svg": "content/map/Akudia_full_7.svg",
   "title": "Akudia",
+  "eras": {
+    "after-rogamon": "59 nKR",
+    "present": "235 nKR"
+  },
   "layers": [
     {
-      "id": "_15_Symbols_vKR",
-      "label": "Symbols",
-      "visible": false,
-      "type": "Symbol",
-      "items": "shapes",
-      "eras": [
-        "before-rogamon"
-      ]
-    },
-    {
-      "id": "_14_Symbols_RR",
-      "label": "Symbols",
-      "visible": false,
-      "type": "Symbol",
-      "items": "shapes",
-      "eras": [
-        "rogamons-reign"
-      ]
-    },
-    {
-      "id": "_09_Symbols_nKR",
+      "id": "_09_Symbols_59_nKR",
       "label": "Symbols",
       "visible": false,
       "type": "Symbol",
@@ -34,7 +18,7 @@
       ]
     },
     {
-      "id": "_13_Symbols_Present",
+      "id": "_13_Symbols_235_nKR",
       "label": "Symbols",
       "visible": false,
       "type": "Symbol",
@@ -50,29 +34,7 @@
       "type": "Place"
     },
     {
-      "id": "_17_Provinces_vKR",
-      "label": "Provinces",
-      "visible": false,
-      "type": "Province",
-      "items": "areas",
-      "eras": [
-        "before-rogamon"
-      ],
-      "nameFrom": "_15_Symbols_vKR"
-    },
-    {
-      "id": "_16_Provinces_RR",
-      "label": "Provinces",
-      "visible": false,
-      "type": "Realm",
-      "items": "areas",
-      "eras": [
-        "rogamons-reign"
-      ],
-      "nameFrom": "_14_Symbols_RR"
-    },
-    {
-      "id": "_06_Provinces_nKR",
+      "id": "_06_Provinces_59_nKR",
       "label": "Provinces",
       "visible": false,
       "type": "Province",
@@ -80,10 +42,10 @@
       "eras": [
         "after-rogamon"
       ],
-      "nameFrom": "_09_Symbols_nKR"
+      "nameFrom": "_09_Symbols_59_nKR"
     },
     {
-      "id": "_11_Provinces_Present",
+      "id": "_11_Provinces_235_nKR",
       "label": "Provinces",
       "visible": false,
       "type": "Realm",
@@ -91,7 +53,7 @@
       "eras": [
         "present"
       ],
-      "nameFrom": "_13_Symbols_Present"
+      "nameFrom": "_13_Symbols_235_nKR"
     },
     {
       "id": "_02_Mountains",

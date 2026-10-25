@@ -11,7 +11,8 @@
   const $ = (s, el = document) => el.querySelector(s);
 
   let cfg, entries, svg, stage, viewport;
-  let lore = null, era = null, lastSel = null;   // eras + realms (optional)
+  let lore = null, loreAll = null, era = null, lastSel = null;   // eras + realms (optional); lore = only the map's eras
+  const typeOf = (n) => { const e = entries[n] || {}; return ((e.eras || {})[era] || {}).type || e.type; };
   let infoEra = null;                  // era shown in the info panel (can differ from the map era)
   const groupOn = {};                  // layer switch state, by label
   let W = 1, H = 1;                    // svg size in px
@@ -425,10 +426,10 @@
 
     // era facts (and an era "region") replace general ones with the same name
     const eraFacts = Object.entries((ev && ev.facts) || {});
-    if (ev && ev.region) eraFacts.unshift(["Region", ev.region]);
+    if (ev && (ev.province || ev.region)) eraFacts.unshift(["Province", ev.province || ev.region]);
     const eraKeys = new Set(eraFacts.map(([k]) => k));
     const facts = Object.entries(e.facts || {});
-    if (e.region) facts.unshift(["Region", e.region]);
+    if (e.province || e.region) facts.unshift(["Province", e.province || e.region]);
     for (let i = facts.length - 1; i >= 0; i--) if (eraKeys.has(facts[i][0])) facts.splice(i, 1);
 
     const chips = lore && lore.eras.length ? `
@@ -442,7 +443,7 @@
     const generalText = e.text ? `<div class="md">${A.md(e.text)}</div>` : "";
     const hint = label && label.unnamed
       ? `<p class="empty">This object has no name in the map file yet.<br>Give it an ID (Inkscape: Object properties → ID, Affinity: layer name) and add a description in <code>content/map/locations.json</code> under that name.</p>`
-      : !e.text && !ev && !realm ? `<p class="empty">No description yet.<br>Add one in <code>content/map/locations.json</code> under the name <code>"${A.esc(name)}"</code>.</p>` : "";
+      : !e.text && !ev && !e.eras && !realm ? `<p class="empty">No description yet.<br>Add one in <code>content/map/locations.json</code> under the name <code>"${A.esc(name)}"</code>.</p>` : "";
     const eraPart = ev ? `
       <section class="era-part">
         <span class="era-tag">${A.esc(eraObj.name)}</span>
@@ -483,7 +484,7 @@
     const id = infoEra;
     const eraObj = lore.eraById[id];
     const d = (realm.eras || {})[id];
-    const text = await A.data.realmText(lore, realm);
+    const text = await A.data.realmText(loreAll, realm);
     if (!$("#realm-block") || id !== infoEra) return;
     if (!d) {
       const where = lore.eras.filter((x) => realm.eras && realm.eras[x.id]);
@@ -567,7 +568,7 @@
         .slice(0, 12);
       kb = items.length ? 0 : -1;
       list.innerHTML = items.length
-        ? items.map((l, i) => `<li><button data-i="${i}" class="${i === kb ? "kb" : ""}">${A.esc(l.name)}<small>${A.esc((entries[l.name] || {}).type || l.type)}</small></button></li>`).join("")
+        ? items.map((l, i) => `<li><button data-i="${i}" class="${i === kb ? "kb" : ""}">${A.esc(l.name)}<small>${A.esc(typeOf(l.name) || l.type)}</small></button></li>`).join("")
         : `<li style="padding:8px 10px;color:var(--faint)">No matches</li>`;
       list.classList.remove("hidden");
     };
@@ -657,9 +658,23 @@
       return;
     }
 
+    // the map only offers the eras listed in map.json → "eras" (label = the year the map shows)
+    loreAll = lore;
+    if (lore && cfg.eras) {
+      const keep = lore.eras.filter((x) => x.id in cfg.eras)
+        .map((x) => ({ ...x, name: cfg.eras[x.id] ? `${x.short || x.name} – ${cfg.eras[x.id]}` : x.name }));
+      if (keep.length) lore = { ...lore, eras: keep, eraById: Object.fromEntries(keep.map((x) => [x.id, x])),
+        defaultEra: keep.some((x) => x.id === lore.defaultEra) ? lore.defaultEra : keep[0].id };
+    }
+
     // normalise names in locations.json the same way as labels
+    const noUnderscore = (o) => Object.fromEntries(Object.entries(o || {}).filter(([k]) => !k.startsWith("_")));
     entries = Object.fromEntries(Object.entries(entries).filter(([k]) => !k.startsWith("_"))
-      .map(([k, v]) => [norm(k), A.stripTodo(v)])                       // TODO fields are hidden
+      .map(([k, v]) => [norm(k), A.stripTodo(noUnderscore(v))])         // TODO fields are hidden
+      .map(([k, v]) => {                                                // an era with nothing but a type counts as empty
+        if (v && v.eras) Object.keys(v.eras).forEach((id) => { if (!Object.keys(v.eras[id]).some((f) => f !== "type")) delete v.eras[id]; });
+        return [k, v];
+      })
       .filter(([, v]) => v && Object.keys(v).some((f) => !["type", "eras"].includes(f) || (f === "eras" && Object.keys(v.eras).length))));
 
     fit();
