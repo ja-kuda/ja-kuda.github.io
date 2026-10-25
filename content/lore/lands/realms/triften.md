@@ -1,10 +1,17 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading for each era in which the realm is on the map (see "eras" in realms.json). Lines starting with TODO are hidden on the website. -->
+
 The westernmost of Varland's inner regions: wide plains bordered only by hills and a few groves. Not known for being beautiful or exciting – travellers are advised to keep to the fortified roads and villages so as not to fall prey to the creatures roaming the land. Many farms and villages are heavily fortified.
 
 The only larger town is **Rabenhorst**, on the source lake of the Endwasser, often the only name outsiders know.
 
 > [!note]
 > The PnP notes place Rabenhorst both in Triften and in Weißküst – decide which one fits.
+
+## After Rogamon
+
+After Rabenhorst and his Faithful vanished, an opportunistic lord seized the castle, but was driven out by the people and Rabenhorst's loyal followers. The lands were held for Rabenhorst until he returns, and a town grew around the castle to keep training Paladins of the Good.
+
+<!-- The sections below are about eras in which this realm is not on the map – they are not shown on the website, kept for reference. -->
 
 ## Before Rogamon
 
@@ -13,10 +20,6 @@ Triften once looked completely different: fertile fields, blooming meadows and r
 ## Rogamon's Reign
 
 The land suffered under the dark magic and was robbed of its riches until only an empty husk remained. Misshapen, aggressive creatures made by King Rogamon spread across it. About twenty years before Rogamon's end, **Lord Rabenhorst** rebuilt a forgotten castle here as the secret base of the **Paladins of the Good**.
-
-## After Rogamon
-
-After Rabenhorst and his Faithful vanished, an opportunistic lord seized the castle, but was driven out by the people and Rabenhorst's loyal followers. The lands were held for Rabenhorst until he returns, and a town grew around the castle to keep training Paladins of the Good.
 
 ## Present
 

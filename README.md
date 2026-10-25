@@ -30,7 +30,7 @@ content/       ← EVERYTHING YOU WRITE – edit only here
   system/              rules: chapters.json + one .md file per chapter
   lore/                world: chapters.json + one .md file per chapter
   characters/          builder.json, skills.json, ancestries.json, ambitions.json, talents.json
-  map/                 map.json, locations.json, Akudia_full_8.svg (the map)
+  map/                 map.json, locations.json, Akudia_full_9.svg (the map)
   images/              put your own pictures here
 ```
 
@@ -190,7 +190,7 @@ Useful boxes for lore pages:
   } }
 ```
 
-  **Hide a realm in one era** without deleting its text: put an underscore in front of the era name, e.g. `"_present": { … }`. The realm then doesn't appear in that era (realm list, era icons, map info); remove the underscore to bring it back. Many entries are parked like this at the moment.
+  **Each realm only has entries for the eras in which it is on the map** (its symbol or province is in that era's layer – After Rogamon = 59 nKR, Present = 235 nKR). The realm text in `lands/realms/*.md` has a `## After Rogamon` and/or `## Present` section to match. Older information that no longer shows (e.g. before/during Rogamon) is kept under `"_other eras (not shown)"` in `realms.json` and at the end of the `.md` file below a comment – move it into the History chapters or delete it. To bring a realm into another era, add an entry for that era under `"eras"` and a matching `##` section.
   `partOf` (the id of another realm in the same era) groups realms – e.g. provinces that unified into one kingdom. Extra rows: `"facts": {"Army": "…"}`. A new kingdom that doesn't exist on the map simply gets no `map` value.
 - `content/lore/lands/realms/<id>.md` – the long texts. Text before the first heading is shown in every era; then one `## Era name` heading per era (text in brackets can be left out, e.g. `## After Rogamon` for "After Rogamon (nKR)").
 - The coats of arms in `content/images/coats/` were cut out of the map's Symbols layer. Replace a file to change a coat, or add a new one for a new realm.
@@ -213,7 +213,7 @@ The symbols from Lionafire are saved as `content/images/gods/<name>.webp`. To ch
 
 ## Map
 
-- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_8.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
+- **Replace the map:** save the new SVG into `content/map/` and put its file name into `"svg"` in `map.json` (currently `Akudia_full_9.svg`). Keep the layer names from your graphics program (`02_Mountains`, `08_Locations`, …) – they become the layer switches.
 - **Layers:** `map.json` → `layers`. `id` is the layer id in the SVG (Affinity exports `08_Locations` as `_08_Locations`), `label` is the shown name, `visible` the default, and `type` makes the names in that layer clickable.
 - **Clickable shapes (symbols, provinces):** add `"items": "shapes"` (things drawn on top, like coats of arms) or `"items": "areas"` (large areas like provinces – names and symbols on top of them stay clickable) to a layer in `map.json`. Every object directly inside that layer becomes clickable, with hover highlight and tooltip. Its name is the object's ID (Inkscape: Object properties → ID; Affinity: the layer/object name). Objects without a name can borrow one with `"nameFrom"`: `"nameFrom": "_09_Symbols"` gives each province the name of the symbol lying inside it. A province and its symbol then share one entry in `locations.json`.
 - **Start hidden:** `"visible": false` on a layer.
@@ -253,6 +253,12 @@ The symbols from Lionafire are saved as `content/images/gods/<name>.webp`. To ch
   }
 }
 ```
+**Mountains, forests, rivers & lakes and islands have only one entry** for both eras – no `"eras"`, just `type`, `province`, `text` (and optional `image`, `lore`):
+
+```json
+"Brachtung Mountains": { "type": "Mountains", "province": "Altenbrunn", "text": "…" }
+```
+
 Places without an entry show a "No description yet" hint with the exact name to use.
 
 **Everything is written per era** – one block for `after-rogamon` (the map of 59 nKR) and one for `present` (235 nKR), each with its own `type`, `province`, `facts` (Ruler, Population – add any other fact you like, e.g. `"Garrison": "200"`) and `text`; `image` and `lore` (a "Read more" link) are optional. All fields are optional and fields that still say TODO are hidden. (Fields directly on the entry, outside `"eras"`, still work as a default for both eras.)

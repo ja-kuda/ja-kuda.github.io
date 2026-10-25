@@ -1,4 +1,5 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading for each era in which the realm is on the map (see "eras" in realms.json). Lines starting with TODO are hidden on the website. -->
+
 A moor on the western edge of the Rotmark that makes travel to Weißküst and Triften difficult.
 
 > [!note]
@@ -7,6 +8,8 @@ A moor on the western edge of the Rotmark that makes travel to Weißküst and Tr
 ## After Rogamon
 
 TODO: What Stillmarsch was like after the fall of Rogamon – here the province is a de facto kingdom of its own.
+
+<!-- The sections below are about eras in which this realm is not on the map – they are not shown on the website, kept for reference. -->
 
 ## Present
 

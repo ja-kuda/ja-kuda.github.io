@@ -1,4 +1,5 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading for each era in which the realm is on the map (see "eras" in realms.json). Lines starting with TODO are hidden on the website. -->
+
 An alliance of **Weißküst** and the **Rotmark** for protection against the Tralian invasion. Nominally still part of the Kingdom of Varland – but that bond grows weaker as the royal house of Anselm I refuses its support.
 
 Both Weißküst and the Rotmark agreed to split their provinces into separate domains and to work together for as long as the Empire threatens them. The Alliance is led by the **governors of Westkliff, Weißstein and Steilfurt**, together with a council of generals and commanders; the military controls the lands of the former provinces.

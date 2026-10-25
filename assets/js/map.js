@@ -432,7 +432,8 @@
     if (e.province || e.region) facts.unshift(["Province", e.province || e.region]);
     for (let i = facts.length - 1; i >= 0; i--) if (eraKeys.has(facts[i][0])) facts.splice(i, 1);
 
-    const chips = lore && lore.eras.length ? `
+    // one-entry things (mountains, rivers …) get no era chips
+    const chips = lore && lore.eras.length && (e.eras || realm) ? `
       <div class="info-eras" role="tablist" aria-label="Era">
         ${lore.eras.map((x) => `<button role="tab" data-info-era="${x.id}" aria-selected="${x.id === infoEra}"
           class="${x.id === infoEra ? "on" : ""} ${eraHasInfo(name, realm, x.id) ? "has" : ""} ${x.id === era ? "map-era-chip" : ""}"
@@ -449,7 +450,7 @@
         <span class="era-tag">${A.esc(eraObj.name)}</span>
         ${eraFacts.length ? `<dl class="facts">${eraFacts.map(([k, v]) => `<dt>${A.esc(k)}</dt><dd>${A.inline(String(v))}</dd>`).join("")}</dl>` : ""}
         ${ev.text ? `<div class="md">${A.md(ev.text)}</div>` : ""}
-      </section>` : (lore && !realm && (e.text || e.eras) ? `<p class="empty era-empty"><span class="era-tag">${A.esc(eraObj.name)}</span><br>Nothing recorded for this era yet – add it in <code>locations.json</code> under <code>"eras": { "${infoEra}": { … } }</code>.</p>` : "");
+      </section>` : (lore && !realm && e.eras ? `<p class="empty era-empty"><span class="era-tag">${A.esc(eraObj.name)}</span><br>Nothing recorded for this era yet – add it in <code>locations.json</code> under <code>"eras": { "${infoEra}": { … } }</code>.</p>` : "");
 
     const img = (ev && ev.image) || e.image;
     $("#info-body").innerHTML = `

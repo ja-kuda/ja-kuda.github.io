@@ -1,5 +1,8 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading for each era in which the realm is on the map (see "eras" in realms.json). Lines starting with TODO are hidden on the website. -->
+
 The realm of King Rogamon, the Necromancer King, ruled from **Winterglehn**.
+
+<!-- The sections below are about eras in which this realm is not on the map – they are not shown on the website, kept for reference. -->
 
 ## Rogamon's Reign
 

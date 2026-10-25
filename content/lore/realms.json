@@ -9,16 +9,6 @@
       "coat": "content/images/coats/altenbrunn.svg",
       "file": "lands/realms/altenbrunn.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "",
-          "partOf": "",
-          "summary": ""
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -28,11 +18,16 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
         },
-        "_present": {
+        "present": {
           "status": "Lake",
-          "ruler": "",
-          "capital": "",
           "partOf": "new-expansion",
           "summary": "A lake in the Brachtung, in the south of Silbertal."
         }
@@ -46,16 +41,6 @@
       "coat": "content/images/coats/altland.svg",
       "file": "lands/realms/altland.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "",
-          "partOf": "",
-          "summary": ""
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -65,8 +50,15 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
         },
-        "_present": {
+        "present": {
           "status": "Province of Varland",
           "ruler": "Governed by the crown",
           "capital": "Hammerfall",
@@ -83,16 +75,6 @@
       "coat": "content/images/coats/belt.svg",
       "file": "lands/realms/belt.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "",
-          "partOf": "",
-          "summary": ""
-        },
-        "_rogamons-reign": {
-          "status": "Exterminated",
-          "partOf": "rogamons-realm",
-          "summary": "Spared at first for its crystals – then its entire population was wiped out."
-        },
         "after-rogamon": {
           "status": "Independent Province",
           "ruler": "The Inquisition",
@@ -102,8 +84,15 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "rogamons-reign": {
+          "status": "Exterminated",
+          "partOf": "rogamons-realm",
+          "summary": "Spared at first for its crystals – then its entire population was wiped out."
         },
-        "_present": {
+        "present": {
           "status": "Inquisition territory",
           "ruler": "High Inquisitor Horuas",
           "capital": "Beltheim",
@@ -120,16 +109,6 @@
       "coat": "content/images/coats/champs.svg",
       "file": "lands/realms/champs.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -139,8 +118,20 @@
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
+        },
+        "present": {
           "status": "Imperial city",
           "ruler": "Imperator",
           "capital": "Champ de Soleil",
@@ -174,11 +165,6 @@
       "coat": "content/images/coats/essrath.svg",
       "file": "lands/realms/essrath.md",
       "eras": {
-        "_rogamons-reign": {
-          "status": "Refuge",
-          "partOf": "rogamons-realm",
-          "summary": "Kantor Warren founds a stud farm to protect horses from the undead legions."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -188,8 +174,15 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "rogamons-reign": {
+          "status": "Refuge",
+          "partOf": "rogamons-realm",
+          "summary": "Kantor Warren founds a stud farm to protect horses from the undead legions."
         },
-        "_present": {
+        "present": {
           "status": "Lordship",
           "ruler": "Lord Ludwig Warren",
           "capital": "Essrath",
@@ -206,16 +199,6 @@
       "coat": "content/images/coats/hammerfall.svg",
       "file": "lands/realms/hammerfall.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "Capital of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Fallen",
-          "partOf": "rogamons-realm",
-          "summary": "Resisted for a long time, but fell through a trick of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -225,8 +208,20 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "Capital of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Fallen",
+          "partOf": "rogamons-realm",
+          "summary": "Resisted for a long time, but fell through a trick of the Necromancer King."
+        },
+        "present": {
           "status": "Royal heartland",
           "ruler": "King Anselm I",
           "capital": "Hammerfall",
@@ -243,16 +238,6 @@
       "coat": "content/images/coats/hexenwald.svg",
       "file": "lands/realms/hexenwald.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -262,11 +247,21 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
+        },
+        "present": {
           "status": "Forest",
-          "ruler": "",
-          "capital": "",
           "partOf": "new-expansion",
           "summary": "A dense, cursed forest at the foot of the Silberling, said to be ruled by witches."
         }
@@ -297,16 +292,6 @@
       "coat": "content/images/coats/riewenfall.svg",
       "file": "lands/realms/riewenfall.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -316,11 +301,22 @@
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
+        },
+        "present": {
           "status": "Imperial region",
           "ruler": "Imperial regents",
-          "capital": "",
           "partOf": "tralian-empire",
           "summary": "Central Tralien – densely settled wine and fruit country along the Blue Arm."
         }
@@ -334,16 +330,6 @@
       "coat": "content/images/coats/rotmark.svg",
       "file": "lands/realms/rotmark.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -353,10 +339,21 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
+        },
+        "present": {
           "status": "March",
-          "ruler": "",
           "capital": "Steilfurt",
           "partOf": "red-white-alliance",
           "summary": "Fortified border march facing the Empire across the Blue Arm – Steilfurt's governor sits on the Alliance council."
@@ -371,16 +368,6 @@
       "coat": "content/images/coats/rybben.svg",
       "file": "lands/realms/rybben.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "City",
-          "partOf": "varland",
-          "summary": "Alt-Rybben – one of the most important cities of Varland, home of a small order of paladins."
-        },
-        "_rogamons-reign": {
-          "status": "Destroyed",
-          "partOf": "rogamons-realm",
-          "summary": "Depopulated and destroyed so that no more mages and soldiers could be trained here."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -390,11 +377,21 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "City",
+          "partOf": "varland",
+          "summary": "Alt-Rybben – one of the most important cities of Varland, home of a small order of paladins."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Destroyed",
+          "partOf": "rogamons-realm",
+          "summary": "Depopulated and destroyed so that no more mages and soldiers could be trained here."
+        },
+        "present": {
           "status": "Ruins",
-          "ruler": "",
-          "capital": "",
           "partOf": "red-white-alliance",
           "summary": "The ruins of Alt-Rybben, once a training ground for soldiers and mages, destroyed by Rogamon."
         }
@@ -408,16 +405,6 @@
       "coat": "content/images/coats/silbertal.svg",
       "file": "lands/realms/silbertal.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Scene of several rebellions; occupied and stripped of its silver."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -427,11 +414,22 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Scene of several rebellions; occupied and stripped of its silver."
+        },
+        "present": {
           "status": "Province",
           "ruler": "Many minor lords",
-          "capital": "",
           "partOf": "new-expansion",
           "summary": "A quiet, impoverished valley of farms, abandoned villages and failed silver mines."
         }
@@ -445,16 +443,6 @@
       "coat": "content/images/coats/speermark.svg",
       "file": "lands/realms/speermark.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -464,8 +452,20 @@
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
+        },
+        "present": {
           "status": "Imperial region",
           "ruler": "Imperial regents",
           "capital": "Speerstadt",
@@ -482,16 +482,6 @@
       "coat": "content/images/coats/stillmarsch.svg",
       "file": "lands/realms/stillmarsch.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -501,11 +491,21 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
+        },
+        "present": {
           "status": "Marsh",
-          "ruler": "",
-          "capital": "",
           "partOf": "red-white-alliance",
           "summary": "The moor on the western edge of the Rotmark that makes the way to Weißküst and Triften so hard."
         }
@@ -519,16 +519,6 @@
       "coat": "content/images/coats/tralien.svg",
       "file": "lands/realms/tralien.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "One of the largest provinces of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Under the rule of the Necromancer King."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -538,11 +528,22 @@
           "facts": {
             "Later in this era": "Becomes part of the Tralian Empire"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "One of the largest provinces of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Under the rule of the Necromancer King."
+        },
+        "present": {
           "status": "Imperial heartland",
           "ruler": "Imperial regents",
-          "capital": "",
           "partOf": "tralian-empire",
           "summary": "Once one of the largest provinces of Varland, birthplace of the Tralian movement and the Empire."
         }
@@ -556,16 +557,6 @@
       "coat": "content/images/coats/triften.svg",
       "file": "lands/realms/triften.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A land of rich fields, blooming meadows and fruit plantations."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Drained by dark magic until only an empty husk was left. Lord Rabenhorst rebuilds his castle here as a secret base."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -575,8 +566,20 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A land of rich fields, blooming meadows and fruit plantations."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Drained by dark magic until only an empty husk was left. Lord Rabenhorst rebuilds his castle here as a secret base."
+        },
+        "present": {
           "status": "Province",
           "ruler": "Governed by the crown",
           "capital": "Rabenhorst",
@@ -593,16 +596,6 @@
       "coat": "content/images/coats/weisskuest.svg",
       "file": "lands/realms/weisskuest.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Spared",
-          "partOf": "rogamons-realm",
-          "summary": "One of the few cities Rogamon left completely untouched."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -612,8 +605,20 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Spared",
+          "partOf": "rogamons-realm",
+          "summary": "One of the few cities Rogamon left completely untouched."
+        },
+        "present": {
           "status": "City province",
           "ruler": "Lord Inverlin",
           "capital": "Weißstein",
@@ -630,16 +635,6 @@
       "coat": "content/images/coats/westkliff.svg",
       "file": "lands/realms/westkliff.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Province",
-          "partOf": "varland",
-          "summary": "A province of the great kingdom of Varland."
-        },
-        "_rogamons-reign": {
-          "status": "Besieged",
-          "partOf": "rogamons-realm",
-          "summary": "Attacked again and again and slowly worn down by Rogamon's armies."
-        },
         "after-rogamon": {
           "status": "Independent kingdom",
           "ruler": "TODO",
@@ -649,8 +644,20 @@
           "facts": {
             "Later in this era": "Joins the Kingdom of Varland (around year 90)"
           }
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Province",
+          "partOf": "varland",
+          "summary": "A province of the great kingdom of Varland."
         },
-        "_present": {
+        "rogamons-reign": {
+          "status": "Besieged",
+          "partOf": "rogamons-realm",
+          "summary": "Attacked again and again and slowly worn down by Rogamon's armies."
+        },
+        "present": {
           "status": "City province",
           "ruler": "Lord Mastor Donnfall (military head: Major Klimmfurt)",
           "capital": "Westkliff",
@@ -667,29 +674,29 @@
       "coat": "content/images/coats/varland.svg",
       "file": "lands/realms/varland.md",
       "eras": {
-        "_before-rogamon": {
-          "status": "Great kingdom",
-          "ruler": "",
-          "capital": "Hammerfall",
-          "summary": "The great kingdom of the north, ruled by the arcane nobility – for centuries one of the two great powers of the continent."
-        },
-        "_rogamons-reign": {
-          "status": "Conquered",
-          "partOf": "rogamons-realm",
-          "summary": "Overrun by Rogamon's undead armies."
-        },
-        "_after-rogamon": {
-          "status": "Kingdom (from around year 90)",
-          "ruler": "",
-          "capital": "Hammerfall",
-          "summary": "Several northern provinces join together around year 90 and Varland has a king again; the kingdom as it is known today takes shape."
-        },
         "present": {
           "status": "Shrinking kingdom",
           "ruler": "King Anselm I",
           "capital": "Hammerfall",
           "partOf": "",
           "summary": "A shadow of itself – Anselm has cast off the outer provinces and holds only the heartland."
+        }
+      },
+      "_other eras (not shown)": {
+        "before-rogamon": {
+          "status": "Great kingdom",
+          "capital": "Hammerfall",
+          "summary": "The great kingdom of the north, ruled by the arcane nobility – for centuries one of the two great powers of the continent."
+        },
+        "rogamons-reign": {
+          "status": "Conquered",
+          "partOf": "rogamons-realm",
+          "summary": "Overrun by Rogamon's undead armies."
+        },
+        "after-rogamon": {
+          "status": "Kingdom (from around year 90)",
+          "capital": "Hammerfall",
+          "summary": "Several northern provinces join together around year 90 and Varland has a king again; the kingdom as it is known today takes shape."
         }
       }
     },
@@ -698,25 +705,25 @@
       "name": "Free Alliance of Atania",
       "kind": "Alliance",
       "file": "lands/realms/atania.md",
-      "eras": {
-        "_before-rogamon": {
+      "eras": {},
+      "_other eras (not shown)": {
+        "before-rogamon": {
           "status": "Alliance of city-states",
-          "capital": "",
           "summary": "The realm of the south, governed by several city-states – Varland's only rival for the continent."
         },
-        "_rogamons-reign": {
+        "rogamons-reign": {
           "status": "Conquered",
           "partOf": "rogamons-realm",
           "summary": "Rogamon invades through the Border Fields, but Atania suffers less than Varland."
         },
-        "_after-rogamon": {
+        "after-rogamon": {
           "status": "Alliance of city-states",
           "summary": "The great cities fight over the masterless provinces; order returns within about twenty years.",
           "facts": {
             "Later in this era": "Cedes the Border Fields to the Tralian Empire in exchange for peace."
           }
         },
-        "_present": {
+        "present": {
           "status": "Alliance of city-states",
           "summary": "A brittle peace with the Empire, kept alive mostly by trade."
         }
@@ -727,17 +734,17 @@
       "name": "Rogamon's realm",
       "kind": "Kingdom",
       "file": "lands/realms/rogamons-realm.md",
-      "eras": {
+      "eras": {},
+      "map": "Rogamon",
+      "coat": "content/images/coats/rogamons-realm.svg",
+      "_other eras (not shown)": {
         "rogamons-reign": {
           "status": "Necromantic kingdom",
           "ruler": "King Rogamon",
           "capital": "Winterglehn",
-          "partOf": "",
           "summary": "The realm of the Necromancer King, built on fear and undead armies."
         }
-      },
-      "map": "Rogamon",
-      "coat": "content/images/coats/rogamons-realm.svg"
+      }
     },
     {
       "id": "tralian-empire",
@@ -747,18 +754,20 @@
       "coat": "content/images/coats/tralian-empire.svg",
       "file": "lands/realms/tralian-empire.md",
       "eras": {
-        "_after-rogamon": {
-          "status": "Empire (from around year 20)",
-          "ruler": "Emperors from Idaf the Red onwards",
-          "capital": "Goldzahn",
-          "summary": "Born from the anti-magic Tralian movement around year 20; quickly conquers parts of the centre of the continent."
-        },
         "present": {
           "status": "Empire",
           "ruler": "Emperor Suta",
           "capital": "Goldzahn",
           "partOf": "",
           "summary": "Militaristic and anti-magic – it has launched a great offensive against Varland."
+        }
+      },
+      "_other eras (not shown)": {
+        "after-rogamon": {
+          "status": "Empire (from around year 20)",
+          "ruler": "Emperors from Idaf the Red onwards",
+          "capital": "Goldzahn",
+          "summary": "Born from the anti-magic Tralian movement around year 20; quickly conquers parts of the centre of the continent."
         }
       }
     },
@@ -801,8 +810,9 @@
       "name": "Bregonia",
       "kind": "Kingdom",
       "file": "lands/realms/bregonia.md",
-      "eras": {
-        "_present": {
+      "eras": {},
+      "_other eras (not shown)": {
+        "present": {
           "status": "Durag kingdom",
           "ruler": "The Shield Lord",
           "capital": "Brung",
@@ -815,11 +825,11 @@
       "name": "Splinter Islands",
       "kind": "Islands",
       "file": "lands/realms/splinter-islands.md",
-      "eras": {
-        "_present": {
+      "eras": {},
+      "_other eras (not shown)": {
+        "present": {
           "status": "Contested islands",
           "ruler": "The Ivory League (and many pirates)",
-          "capital": "",
           "summary": "Countless islands in the Evening Sea, fought over by merchant guilds and pirate fleets."
         }
       }
@@ -848,7 +858,7 @@
       "map": "Tralische Eroberung",
       "file": "lands/realms/tralian-conquest.md",
       "eras": {
-        "_present": {
+        "present": {
           "status": "Occupied by the Tralian army",
           "ruler": "Tralian military command",
           "capital": "",
@@ -997,29 +1007,6 @@
           "capital": "TODO",
           "partOf": "",
           "summary": "Officially part of the Tralian Empire, but the Empire's influence barely reaches past the first miles of steppe."
-        }
-      }
-    },
-    {
-      "id": "suncourt-basin",
-      "name": "Suncourt Basin",
-      "kind": "Region",
-      "map": "Sonnenbecken",
-      "file": "lands/realms/suncourt-basin.md",
-      "eras": {
-        "after-rogamon": {
-          "status": "TODO",
-          "ruler": "TODO",
-          "capital": "TODO",
-          "partOf": "",
-          "summary": "TODO: a region of Atania, separated from the Summerlight Coast by the river Gamberi."
-        },
-        "present": {
-          "status": "TODO",
-          "ruler": "TODO",
-          "capital": "TODO",
-          "partOf": "",
-          "summary": "TODO: a region of Atania, separated from the Summerlight Coast by the river Gamberi."
         }
       }
     }

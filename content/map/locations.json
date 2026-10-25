@@ -1,5 +1,5 @@
 {
-  "_help": "Key = the name exactly as written on the map. Everything about a place is written per era under \"eras\": after-rogamon (the map of 59 nKR) and present (the map of 235 nKR). Each era has its own type, province, facts (Ruler, Population – add any other fact you like) and text, so a village can become a city and rulers can change. Optional per era: image, lore (a link). Fields that still say TODO are hidden on the website – search the file for TODO to find what is left to write. Keys starting with _ are ignored (section markers and '_older eras' – notes from before/during Rogamon that the map no longer shows).",
+  "_help": "Key = the name exactly as written on the map. PLACES are written per era under \"eras\": after-rogamon (the map of 59 nKR) and present (the map of 235 nKR), each with its own type, province, facts (Ruler, Population – add any other fact you like) and text, so a village can become a city and rulers can change. Optional per era: image, lore (a link). MOUNTAINS, FORESTS, RIVERS AND LAKES and ISLANDS have only one entry for both eras (type, province, text; optional image, lore) – no \"eras\". Fields that still say TODO are hidden on the website – search the file for TODO to find what is left to write. Keys starting with _ are ignored (section markers and '_older eras' – notes from before/during Rogamon that the map no longer shows).",
   "_____ PLACES _____": "",
   "Alt Koppenheim": {
     "eras": {
@@ -136,7 +136,7 @@
   "Balstad": {
     "eras": {
       "after-rogamon": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Town",
         "province": "Zitterwälder",
         "facts": {
           "Ruler": "TODO",
@@ -145,7 +145,7 @@
         "text": "Ruled by raiders and vikings this small town marks one of the most northern settlements on the continent."
       },
       "present": {
-        "type": "TODO: City / Town / Village / Castle / Ruin",
+        "type": "Town",
         "province": "Zitterwälder",
         "facts": {
           "Ruler": "TODO",
@@ -2550,1046 +2550,378 @@
   },
   "_____ MOUNTAINS _____": "",
   "Brachtung": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Donnerberge": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Drachenhals": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountain range",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountain range",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountain range",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Eisspitzen": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Faust": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Goliath": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Grabeszug": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Grauschuppen": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Grenzberge": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Kesseltop": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Quellstein": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Red Mountains": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Rogamons Rücken": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Schnitter": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Siechberge": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Silberling": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Sinnerzug": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Mountains",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Mountains",
+    "province": "TODO",
+    "text": "TODO"
   },
   "_____ FORESTS _____": "",
   "Blutmoor": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Die lachenden Wälder": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Elle": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Endenwald": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Erdhain": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Hexenwald": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Hohenholz": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Kronenwald": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Lamdé": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Leichtholz": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Mattwald": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Millfell": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Müder Wald": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Sichelforst": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Smaragdgärten": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO",
-        "image": "content/images/akudia-overview.jpg"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO",
-        "image": "content/images/akudia-overview.jpg"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO",
+    "image": "content/images/akudia-overview.jpg"
   },
   "Sonnenbecken": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Stillmarsch": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Zitterwälder": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Forest",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Forest",
+    "province": "TODO",
+    "text": "TODO"
   },
   "_____ RIVERS AND LAKES _____": "",
   "Blauer Arm": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Bouclaire": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Die Zwillinge": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Eisenstolz": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Endwasser": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Fernaris": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Frostrom": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Gamberi": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Grüner Arm": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Götterauge": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Himmelsfall": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Mondauge": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Mulweiher": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Ohm": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Ostlauf": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Siechlauf": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Sin": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Tintenlauf": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Trommelstrom": {
-    "eras": {
-      "after-rogamon": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "TODO: River / Lake",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "TODO",
+    "province": "TODO",
+    "text": "TODO"
   },
   "_____ ISLANDS _____": "",
   "Atikun": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Bregonien": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Dominico": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "Splinter Islands",
-        "text": "TODO",
-        "lore": "lore.html?realm=splinter-islands#realms"
-      },
-      "present": {
-        "type": "Island",
-        "province": "Splinter Islands",
-        "text": "TODO",
-        "lore": "lore.html?realm=splinter-islands#realms"
-      }
-    }
+    "type": "Island",
+    "province": "Splinter Islands",
+    "text": "TODO",
+    "lore": "lore.html?realm=splinter-islands#realms"
   },
   "Falkeninsel": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Goldenriff": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Hammerhead Island": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Insel Dolbien": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Invierno": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Irons Crossing": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Isla Calavera": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Isla Severita": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Nordbank": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Orubus": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Ruballah Island": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Saciras": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Sirenas Atoll": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Sorath": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Syndria": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Termura": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   },
   "Turalaga": {
-    "eras": {
-      "after-rogamon": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      },
-      "present": {
-        "type": "Island",
-        "province": "TODO",
-        "text": "TODO"
-      }
-    }
+    "type": "Island",
+    "province": "TODO",
+    "text": "TODO"
   }
 }

@@ -1,7 +1,10 @@
-<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading per era. Lines starting with TODO are hidden on the website. -->
+<!-- Text before the first era heading is shown in every era. Then one '## <era name>' heading for each era in which the realm is on the map (see "eras" in realms.json). Lines starting with TODO are hidden on the website. -->
+
 The **Free Alliance of Atania** – often simply Atania or the Alliance – is the realm in the south. It was never ruled by a royal house but by several city-states, with many areas governing themselves, which made its people content and loyal. Groups that tried to break away were usually stopped by the city-states, or soon realised they could only survive as part of the Alliance.
 
 Its city-states employ the **Gold Chains**, a league of mercenary companies serving the Sea Lords of the Summerlight Coast. The **Stone Wanderer** is one of its legends – see [Legends](#legends).
+
+<!-- The sections below are about eras in which this realm is not on the map – they are not shown on the website, kept for reference. -->
 
 ## Before Rogamon
 
