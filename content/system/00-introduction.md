@@ -7,8 +7,8 @@ The rules stay light where they can and go deeper where it matters: the story co
 > [!glance] At a glance
 > | | |
 > |---|---|
-> | **Dice** | Only d8 – every **5 or more** is a success |
-> | **Core roll** | One check per uncertain action, read on a scale of **conflict** and **effect** |
+> | **Dice** | Roll a pool of d8, increase or decrease some of them to d10 or d6 |
+> | **Core roll** | A single check per action, read on a scale of **conflict** and **effect** |
 > | **Characters** | Built around an **ambition**, with skills, talents, traits and personal arcs |
 > | **Magic** | Freeform weaving with threads, fixed static spells and necromancy |
 > | **Health** | Wounds in four levels instead of hit points |
@@ -20,7 +20,7 @@ The rules stay light where they can and go deeper where it matters: the story co
 
 - **Characters with a drive.** Every character has an [ambition](#ambition) – a single idea that sums up what they live for. Acting on it earns **resolve**, which lets you reroll checks or fuel talents.
 - **Personal stories.** [Arcs](#arcs) give each character their own quest next to the group's adventure.
-- **Outcomes with shades of grey.** A roll rarely just succeeds or fails. You often get what you want – at a price.
+- **Outcomes with shades of grey.** A roll rarely just succeeds or fails. You often get what you want only at a price.
 - **Magic that pushes back.** Freeform magic can do almost anything, but every thread you pull thins the fabric of reality, and the weaver pays for it.
 - **Tough, lasting consequences.** Wounds weigh on your checks, and facing death is a dramatic choice, not just a number dropping to zero.
 
@@ -36,10 +36,10 @@ The [scale](#position) at a glance:
 |:-:|:-:|:-:|
 | **+Conflict · −Effect** | **Conflict · Effect** | **−Conflict · +Effect** |
 
-Players can negotiate their position – take a bigger risk for more effect, or play it safe and give up some of it.
+Players can negotiate their position and take a bigger risk for more effect, or play it safe and give up some of it.
 
 > [!tip] Magic works the same way
-> A [spell check](#arcane-weaving) uses the same scale. Instead of a skill, the weaver spends **[threads](#threads)** for dice – and the more threads they pull, the harsher the feedback.
+> A [spell check](#arcane-weaving) uses the same scale. Instead of a skill, the weaver spends **[threads](#threads)** for dice. The more threads they pull, the harsher the feedback.
 
 ## Why Ambition
 
