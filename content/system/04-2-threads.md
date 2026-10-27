@@ -23,15 +23,21 @@ The number of dice in a spell check equals **1 + the number of threads pulled + 
 
 Conflict from freeform magic mainly shows as so-called **feedback**, which strikes back at the mage and endangers them, as well as through influence on the surroundings or side effects of the spell itself.
 
-## Overloading
+## Feedback of a spell & arcane scars
 
-Characters can pull threads beyond their maximum and overload themselves.
+Conflict from casting freeform magic shows not only in the effects of the spell itself (e.g. an unexpected side effect, a larger or smaller area, additional effects and so on), but also in consequences that affect the mage and reality itself.
 
-The threads are then used as normal to add more dice to the check, but regardless of the check's result, conflict is added in the form of an **arcane scar**.
+The more threads are pulled for a spell, the greater the impact on the weaver and on the fabric of reality.
 
-The more severe the conflict, the more severe the scar's effect.
+This can show as temporary or permanent effects – up to arcane scars:
 
-After a character receives an arcane scar, they cannot regenerate or use threads until the next rest.
+> [!rule] Feedback by threads pulled
+> | Threads pulled | Feedback |
+> |---|---|
+> | **0–3** | None |
+> | **4–6** | + Consequences |
+> | **7–8** | ++ Consequences |
+> | **9+** | +++ Consequences **and an arcane scar** |
 
 Arcane scars mark the character as an arcane weaver and always depend on the arcane element used.
 
