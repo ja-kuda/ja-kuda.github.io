@@ -3,8 +3,9 @@
   "title": "System",
   "eyebrow": "Rules",
   "icon": "assets/img/icons/system.png",
-  "intro": "The rules of Ambition – checks, characters, magic and everything in between.",
+  "intro": "The rules of Ambition – checks, characters, magic and everything in between. Start with the introduction and go as deep as you like.",
   "chapters": [
+    { "title": "Introduction", "id": "introduction", "file": "00-introduction.md" },
     {
       "title": "Characters", "id": "characters", "file": "02-characters.md",
       "sections": [

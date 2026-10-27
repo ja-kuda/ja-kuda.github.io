@@ -175,7 +175,7 @@
       }
 
       // Table
-      if (/^\|.*\|\s*$/.test(line) && i + 1 < lines.length && /^\|?\s*:?-{2,}/.test(lines[i + 1])) {
+      if (/^\|.*\|\s*$/.test(line) && i + 1 < lines.length && /^\|?\s*:?-+:?\s*(\||$)/.test(lines[i + 1])) {
         const row = (l) => l.trim().replace(/^\||\|$/g, "").split("|").map((c) => c.trim());
         const head = row(line);
         const aligns = row(lines[i + 1]).map((c) => (/^:-+:$/.test(c) ? "center" : /-+:$/.test(c) ? "right" : ""));
